@@ -48,7 +48,7 @@ export default {
 									<h1 class="pt-3">
 										<img src="/assets/img/logos/clihc2023.svg" height="55" alt=""
 											style="position: relative; top: -2px;"><br>
-										CLIHC 2023
+										CLIHC 2026
 									</h1>
 									<p class="lead mt-3">
 										{{ $t("jumbotron.conference") }}
@@ -56,7 +56,7 @@ export default {
 									<p class="lead mt-2">
 										<strong>
 											{{ $t("jumbotron.date") }} <br>
-											Puebla, México<br>
+											Aracaju, Brazil<br>
 										</strong>
 									</p>
 									<p class="lead pt-2">

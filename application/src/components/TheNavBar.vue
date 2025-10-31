@@ -22,7 +22,7 @@
 							title="Ninth Mexican International Conference on Human-Computer Interaction" data-placement="bottom"
 							tabindex="0">
 							<img src="/assets/img/logos/clihc2023.svg" height="25" alt="CLIHC Logo">
-							CLIHC 2023
+							CLIHC 2026
 						</a>
 						<button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
 							data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"

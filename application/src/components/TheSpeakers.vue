@@ -46,10 +46,13 @@ export default {
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-9">                    
+                <div class="col-lg-9">
+                    {{ $t("soon.speakers") }}
+                    <!--
                     <template v-if="contentComponent">
                         <component :is="contentComponent" />
                     </template>
+                    -->
                 </div>
             </div>
         </div>

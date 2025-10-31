@@ -16,7 +16,7 @@ const router = createRouter({
           name: 'home',
           component: HomeView, 
           meta: {
-            title: "CLIHC 2023 - A LAIHC conference",
+            title: "CLIHC 2026 - A LAIHC conference",
           },
         },        
         {
@@ -24,7 +24,7 @@ const router = createRouter({
           name: 'call-for-participation',
           component: () => import('../views/CallsView.vue'), 
           meta: {
-            title: "CLIHC 2023 - Call for participation",
+            title: "CLIHC 2026 - Call for participation",
           },
         },
         /*Begin: Nuevos */
@@ -33,7 +33,7 @@ const router = createRouter({
           name: 'call-for-papers',
           component: () => import('../views/CallsForPapersView.vue'), 
           meta: {
-            title: "CLIHC 2023 - Call for papers",
+            title: "CLIHC 2026 - Call for papers",
           },
         },
         {
@@ -41,7 +41,7 @@ const router = createRouter({
           name: 'call-for-posters',
           component: () => import('../views/CallsForPostersView.vue'), 
           meta: {
-            title: "CLIHC 2023 - Call for poster track",
+            title: "CLIHC 2026 - Call for poster track",
           },
         },
         {
@@ -49,7 +49,7 @@ const router = createRouter({
           name: 'call-for-workshops-and-tutorials',
           component: () => import('../views/CallsForWorkshopsAndTutorialsView.vue'), 
           meta: {
-            title: "CLIHC 2023 - Call for poster track",
+            title: "CLIHC 2026 - Call for poster track",
           },
         },
         {
@@ -57,7 +57,7 @@ const router = createRouter({
           name: 'student-design-competition',
           component: () => import('../views/CallsForCompetitionView.vue'), 
           meta: {
-            title: "CLIHC 2023 - Call for poster track",
+            title: "CLIHC 2026 - Call for poster track",
           },
         },
         {
@@ -65,7 +65,7 @@ const router = createRouter({
           name: 'graduate-colloquium',
           component: () => import('../views/CallsForColloquiumView.vue'), 
           meta: {
-            title: "CLIHC 2023 - Call for poster track",
+            title: "CLIHC 2026 - Call for poster track",
           },
         },
         /*End: Nuevos */      
@@ -74,7 +74,7 @@ const router = createRouter({
           name: 'accessibility-recommendations-for-authors',
           component: () => import('../views/AccessibilityForAuthorsView.vue'), 
           meta: {
-            title: "CLIHC 2023 - Accessibility recommendations for authors",
+            title: "CLIHC 2026 - Accessibility recommendations for authors",
           },
         },
         {
@@ -82,7 +82,7 @@ const router = createRouter({
           name: 'organizers',
           component: () => import('../views/OrganizersView.vue'), 
           meta: {
-            title: "CLIHC 2023 - Organizers",
+            title: "CLIHC 2026 - Organizers",
           },
         },
         {
@@ -90,7 +90,7 @@ const router = createRouter({
           name: 'schedule',
           component: () => import('../views/ScheduleView.vue'), 
           meta: {
-            title: "CLIHC 2023 - Schedule",
+            title: "CLIHC 2026 - Schedule",
           },
         },    
         {
@@ -98,7 +98,7 @@ const router = createRouter({
           name: 'keynote-speakers',
           component: () => import('../views/SpeakersView.vue'), 
           meta: {
-            title: "CLIHC 2023 - Keynote speakers",
+            title: "CLIHC 2026 - Keynote speakers",
           },
         },
         {
@@ -106,7 +106,7 @@ const router = createRouter({
           name: 'accepted-papers',
           component: () => import('../views/AcceptedPapersView.vue'), 
           meta: {
-            title: "CLIHC 2023 - Schedule",
+            title: "CLIHC 2026 - Schedule",
           },
         },    
         {
@@ -114,7 +114,7 @@ const router = createRouter({
           name: 'getting-started',
           component: () => import('../views/GettingStartedView.vue'), 
           meta: {
-            title: "CLIHC 2023 - Getting started",
+            title: "CLIHC 2026 - Getting started",
           },
         },
         {
@@ -122,7 +122,7 @@ const router = createRouter({
           name: 'registration',
           component: () => import('../views/RegistrationView.vue'), 
           meta: {
-            title: "CLIHC 2023 - Registration",
+            title: "CLIHC 2026 - Registration",
           },
         },
         {
@@ -130,7 +130,7 @@ const router = createRouter({
           name: 'accessibility-FAQ',
           component: () => import('../views/AccessibilityFAQView.vue'), 
           meta: {
-            title: "CLIHC 2023 - Accessibility FAQs",
+            title: "CLIHC 2026 - Accessibility FAQs",
           },
         },        
         {
@@ -138,7 +138,7 @@ const router = createRouter({
           name: 'videoArchives',
           component: () => import('../views/VideoArchivesView.vue'), 
           meta: {
-            title: "CLIHC 2023 - Video archives",
+            title: "CLIHC 2026 - Video archives",
           },
         }
       ]

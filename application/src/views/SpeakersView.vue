@@ -54,7 +54,7 @@ export default {
       <div class="row">
         <div class="row justify-content-center my-3">
           <div class="col-lg-8">
-
+            <!--
             <ol class="list-group list-group-numbered">
               <li class="list-group-item d-flex justify-content-between align-items-start">
                 <div class="ms-2 me-auto">
@@ -96,11 +96,12 @@ export default {
                 </div>
               </li>
             </ol>
-
+          
             <template v-if="contentComponent">
                 <component :is="contentComponent" />
             </template>
-
+            -->
+            {{ $t("soon.speakers") }} 
           </div>
         </div>
       </div>

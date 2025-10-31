@@ -34,22 +34,12 @@
 						<table class="table table-striped">
 							<tbody>
 								<tr>
-									<th scope="row">
-										<RouterLink :to="Tr.i18nRoute({ name: 'call-for-participation'})" class="uline">
-											{{ $t("about.call") }}
-										</RouterLink>								
-									</th>
-									<td><span class="text-bold">{{ $t("about.closed") }}</span></td>
+									<th scope="row">{{ $t("about.call") }}</th>
+									<td>{{ $t("nav.pending") }}</td>
 								</tr>
 								<tr>
-									<th scope="row">
-										<RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
-												class="uline"
-											>
-											{{ $t("about.registration") }}
-										</RouterLink>										
-									</th>
-									<td><span class="text-bold text-primary text-gradient">{{ $t("about.open") }}</span></td>
+									<th scope="row">{{ $t("about.registration") }}</th>
+									<td>{{ $t("nav.pending") }}</td>
 								</tr>
 								<tr>
 									<th scope="row">{{ $t("about.proceedings") }}</th>

@@ -47,13 +47,13 @@
         "back_to_top": "Volver arriba"
     },
     "jumbotron":{
-        "conference": "XI Conferencia Latinoamericana de Interacción Humano-Computadora.",
-        "date": "30, 31 de octubre y 1 de noviembre",
+        "conference": "XII Conferencia Latinoamericana de Interacción Humano-Computadora.",
+        "date": "Del 6 al 8 de mayo de 2026",
         "button": "Tarifas e registro"
     },
     "about":{
         "about_title": "Acerca de CLIHC",
-        "about_text": "La Conferencia Latinoamericana de Interacción Humano-Computadora (CLIHC) es gestionada por la Comunidad Latinoamericana de HCI de SIGCHI (LAIHC). CLIHC es una conferencia destacada que reúne a las comunidades de investigación de HCI de América Latina e internacionales para discutir e intercambiar ideas, métodos, enfoques y técnicas para diseñar experiencias de usuario interactivas, fomentando el intercambio intercultural y la cooperación entre personas con diferentes antecedentes y necesidades. Esta conferencia tiene su origen en Río de Janeiro en 2003 (Brasil), con ediciones posteriores en Cuernavaca en 2005 (México), Río de Janeiro en 2007 (Brasil), Mérida en 2009 (México), Porto de Galinhas en 2011 (Brasil), Guanacaste en 2013 (Costa Rica), Córdoba en 2015 (Argentina), Antigua en 2017 (Guatemala) y Ciudad de Panamá en 2019 (Panamá), y la Conferencia Virtual en 2021 (en línea).",
+        "about_text": "La Conferencia Latinoamericana de Interacción Humano-Computadora (CLIHC) es organizada por la Comunidad Latinoamericana de Interacción Humano-Computadora de SIGCHI (LAIHC). CLIHC es una conferencia de primer nivel que reúne a las comunidades de investigación en IHC de América Latina y del mundo para discutir e intercambiar ideas, métodos, enfoques y técnicas para el diseño de experiencias de usuario interactivas. Asimismo, promueve el intercambio intercultural y la cooperación entre personas con diferentes contextos y necesidades. Esta conferencia tuvo su origen en Río de Janeiro en 2003 (Brasil), con ediciones posteriores en Cuernavaca 2005 (México), Río de Janeiro 2007 (Brasil), Mérida 2009 (México), Porto de Galinhas 2011 (Brasil), Guanacaste 2013 (Costa Rica), Córdoba 2015 (Argentina), Antigua 2017 (Guatemala), Ciudad de Panamá 2019 (Panamá), Conferencia Virtual 2021 (en línea) y Puebla 2023 (México).",
         "call": "Convocatoria de participación",
         "registration": "Llamada a registro",
         "proceedings": "Memorias",
@@ -127,5 +127,8 @@
         "graduate_colloquium": "Coloquio de Graduados",
         "workshops_and_tutorials": "Talleres y Tutoriales",
         "student_design_competition": "Competencia de Diseño Estudiantil"
+    },
+    "soon": {
+        "speakers": "Próximos ponentes serán anunciados pronto."
     }
 }

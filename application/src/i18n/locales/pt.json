@@ -47,13 +47,13 @@
         "back_to_top": "Voltar ao topo da página"
     },
     "jumbotron":{
-        "conference": "XI Conferência Latino-Americana de Interação Humano-Computador",
-        "date": "30, 31 de outubro e 1 de novembro",
+        "conference": "XXII Conferência Latino-Americana de Interação Humano–Computador",
+        "date": "De 6 a 8 de maio de 2026",
         "button": "Registrar-se agora"
     },
     "about":{
         "about_title": "Sobre o CLIHC",
-        "about_text": "A Conferência Latino-Americana de Interação Humano-Computador (CLIHC) é gerenciada pela Comunidade Latino-Americana de HCI do SIGCHI (LAIHC). A CLIHC é uma conferência de destaque que reúne as comunidades de pesquisa de HCI da América Latina e internacional para discutir e trocar ideias, métodos, abordagens e técnicas para projetar experiências de usuário interativas, incentivando o intercâmbio intercultural e a cooperação entre pessoas com diferentes origens e necessidades. Esta conferência teve sua origem no Rio de Janeiro em 2003 (Brasil), com edições subsequentes em Cuernavaca em 2005 (México), Rio de Janeiro em 2007 (Brasil), Mérida em 2009 (México), Porto de Galinhas em 2011 (Brasil), Guanacaste em 2013 (Costa Rica), Córdoba em 2015 (Argentina), Antigua em 2017 (Guatemala), Cidade do Panamá em 2019 (Panamá) e Conferência Virtual em 2021 (Online).",
+        "about_text": "A Conferência Latino-Americana de Interação Humano-Computador (CLIHC) é organizada pela Comunidade Latino-Americana de Interação Humano-Computador da SIGCHI (LAIHC). O CLIHC é uma conferência de destaque que reúne as comunidades de pesquisa em IHC da América Latina e do mundo para discutir e trocar ideias, métodos, abordagens e técnicas para o design de experiências interativas de usuário. Também incentiva o intercâmbio intercultural e a cooperação entre pessoas com diferentes origens e necessidades. Esta conferência teve sua origem no Rio de Janeiro em 2003 (Brasil), com edições seguintes em Cuernavaca 2005 (México), Rio de Janeiro 2007 (Brasil), Mérida 2009 (México), Porto de Galinhas 2011 (Brasil), Guanacaste 2013 (Costa Rica), Córdoba 2015 (Argentina), Antigua 2017 (Guatemala), Cidade do Panamá 2019 (Panamá), Conferência Virtual 2021 (on-line) e Puebla 2023 (México).",
         "call": "Chamada para participação",
         "registration": "Chamada para registro",
         "proceedings": "Proceedings",
@@ -127,5 +127,8 @@
         "graduate_colloquium": "Colóquio de Graduação",
         "workshops_and_tutorials": "Workshops e Tutoriais",
         "student_design_competition": "Competição de Design Estudantil"
+    },
+    "soon": {
+        "speakers": "Próximos palestrantes serão anunciados em breve."
     }
 }

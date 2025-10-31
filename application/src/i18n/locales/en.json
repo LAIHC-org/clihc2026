@@ -47,13 +47,13 @@
         "back_to_top": "Back to top of page"
     },
     "jumbotron":{
-        "conference": "XI Latin American Conference on Human Computer Interaction",
-        "date": "October 30th, 31st, and November 1st",
+        "conference": "XII Latin American Conference on Human–Computer Interaction",
+        "date": "May 6th–8th, 2026",
         "button": "Rates & registration"
     },
     "about":{
         "about_title": "About CLIHC",
-        "about_text": "The Latin American Conference on Human-Computer Interaction (CLIHC) is managed by the SIGCHI Latin American HCI Community (LAIHC). CLIHC is a premier conference that brings together the Latin American and international HCI research communities to discuss and exchange ideas, methods, approaches, and techniques for designing interactive user experiences and encourages intercultural exchange and cooperation between people with different backgrounds and needs. This conference has its origin in Rio de Janeiro 2003 (Brazil), following editions in Cuernavaca 2005 (Mexico), Rio de Janeiro 2007 (Brazil), Merida 2009 (Mexico), Porto de Galinhas 2011 (Brazil), Guanacaste 2013 (Costa Rica), Córdoba 2015 (Argentina), Antigua 2017 (Guatemala), and Panama City 2019 (Panama) and Virtual Conference 2021 (Online).",
+        "about_text": "The Latin American Conference on Human-Computer Interaction (CLIHC) is managed by the SIGCHI Latin American HCI Community (LAIHC). CLIHC is a premier conference that brings together the Latin American and international HCI research communities to discuss and exchange ideas, methods, approaches, and techniques for designing interactive user experiences and encourages intercultural exchange and cooperation between people with different backgrounds and needs. This conference has its origin in Rio de Janeiro 2003 (Brazil), following editions in Cuernavaca 2005 (Mexico), Rio de Janeiro 2007 (Brazil), Merida 2009 (Mexico), Porto de Galinhas 2011 (Brazil), Guanacaste 2013 (Costa Rica), Córdoba 2015 (Argentina), Antigua 2017 (Guatemala), Panama City 2019 (Panama), Virtual Conference 2021 (Online), and Puebla 2023 (México).",
         "call": "Call for participation",
         "registration": "Registration call",
         "proceedings": "Proceedings",
@@ -127,5 +127,8 @@
         "graduate_colloquium": "Graduate Colloquium",
         "workshops_and_tutorials": "Workshops and Tutorials",
         "student_design_competition": "Student Design Competition"
+    },
+    "soon": {
+        "speakers": "Upcoming speakers will be announced soon."
     }
 }
