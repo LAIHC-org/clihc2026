@@ -20,9 +20,9 @@
         "cpt_message": "Fecha límite: 11 de agosto de 2023 EXTENDIDA",
         "cwt": "Convocatoria de talleres y tutoriales",
         "cwt_message": "Fecha límite: 11 de agosto de 2023 EXTENDIDA",
-        "sdc": "Competencia de diseño para estudiantes",
+        "sdc": "Competencia de diseño estudiantil",
         "sdc_message": "Fecha límite: 11 de agosto de 2023 EXTENDIDA",
-        "cgc": "Coloquio de graduados",
+        "cgc": "Coloquio de posgrado",
         "cgc_message": "Fecha límite: 11 de agosto de 2023 EXTENDIDA",
         "accessibility_for_autors": "Recomendaciones de accesibilidad para autores",
         "accessibility_for_autors_message": "Ayúdanos a maximizar la experiencia para todos",
@@ -58,7 +58,8 @@
         "registration": "Llamada a registro",
         "proceedings": "Memorias",
         "open": "Abierta",
-        "closed": "Cerrada"
+        "closed": "Cerrada",
+        "upcoming": "Proximamente"
     },
     "organizers": {
         "title": "Organizadores",
@@ -73,10 +74,10 @@
         "local_chairs_description": "Responsables de supervisar los arreglos locales y la logística de la conferencia.",
         "program_chairs_title": "Responsables del programa",
         "program_chairs_description": "Responsables del programa de la conferencia y del proceso de selección de papers.",
-        "student_design_competition_title": "Responsables de la competencia de diseño para estudiantes",
-        "student_design_competition_description": "Encargados de organizar la competencia de diseño para estudiantes.",
-        "graduate_colloquium_chairs_title": "Responsables del coloquio de graduados",
-        "graduate_colloquium_chairs_description": "Supervisan la organización del track del coloquio de graduados.",
+        "student_design_competition_title": "Responsables de la competencia de diseño estudiantil",
+        "student_design_competition_description": "Encargados de organizar la competencia de diseño estudiantil.",
+        "graduate_colloquium_chairs_title": "Responsables del coloquio de posgrado",
+        "graduate_colloquium_chairs_description": "Supervisan la organización del track del coloquio de posgrado.",
         "workshops_and_tutorials_chairs_title": "Responsables de talleres y tutoriales",
         "workshops_and_tutorials_chairs_description": "Responsables de coordinar y supervisar las sesiones de talleres y tutoriales.",
         "posters_chairs_title": "Responsables de pósteres",
@@ -106,8 +107,8 @@
         "cfp": "Convocatoria de trabajos",
         "cpt": "Convocatoria de pósteres",
         "cwt": "Convocatoria de talleres y tutoriales",
-        "sdc": "Competencia de diseño para estudiantes",
-        "cgc": "Coloquio de graduados"
+        "sdc": "Competencia de diseño estudiantil",
+        "cgc": "Coloquio de posgrado"
     },
     "register": {
         "register_button": "Registra tu comprobante de pago"
@@ -115,16 +116,20 @@
     "home": {
         "keynotes":"Ponentes principales",
         "keynotes_message": "El programa de la conferencia incluye destacados ponentes de la comunidad internacional de IHC.",
-        "sponsors": "Agradecimiento especial",
+        "sponsors": "Patrocinadores",
         "sponsors_message": "Queremos agradecer a nuestros patrocinadores.",
         "virtual_venues": "Sedes virtuales",
-        "virtual_venues_message": "Universidades que participan como Sedes virtuales en el CLIHC 2023."        
+        "virtual_venues_message": "Universidades que participan como Sedes virtuales en el CLIHC 2023.",
+        "organization": "Organización",
+        "organization_message": "Esta edición es organizada por las siguientes instituciones.",
+        "coordination": "Coordinación del Programa",
+        "coordination_message": "El programa académico es coordinado por representantes de las siguientes instituciones."
     },
     "accepted_papers": {
         "title": "Artículos aceptados",
         "full_and_short_papers": "Artículos completos y resúmenes",
         "posters": "Pósters",
-        "graduate_colloquium": "Coloquio de Graduados",
+        "graduate_colloquium": "Coloquio de posgrado",
         "workshops_and_tutorials": "Talleres y Tutoriales",
         "student_design_competition": "Competencia de Diseño Estudiantil"
     },

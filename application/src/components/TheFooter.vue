@@ -129,14 +129,14 @@
                                     {{ $t("nav.accessibility_faqs") }}
                                 </RouterLink>
                             </li>
-                            -->                                                        
                             <li class="nav-item">
                                 <RouterLink class="nav-link uline" :to="Tr.i18nRoute({ name: 'accepted-papers' })">
                                     {{ $t("nav.accepted_papers") }}
                                 </RouterLink>
-                            </li>                            
+                            </li>
+                            -->
                             <li class="nav-item">
-                                <RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
+                                <RouterLink :to="Tr.i18nRoute({ name: 'schedule' })" 
                                     class="nav-link uline"
                                 >
                                     {{ $t("nav.schedule") }}

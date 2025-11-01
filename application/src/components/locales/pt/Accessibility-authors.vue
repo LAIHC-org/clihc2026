@@ -1,10 +1,10 @@
 <template>
+    <!--
     <p>
         Comprometemo-nos a fornecer um ambiente inclusivo e maximizar a experiência para todos. Como principais produtores
         de informações, encorajamos todos os participantes a seguir nossas recomendações de acessibilidade.
     </p>
 
-    <!-- Language recommendations-->
     <h2 id="language-recommendations">Recomendações de Idioma</h2>
 
     <p>
@@ -19,9 +19,7 @@
             href="https://cs.uiowa.edu/people/kyle-rector">Kyle Rector</a> para comunicar melhor sua mensagem a todos os
         membros da audiência.
     </p>
-    <!-- end Language recommendations -->
 
-    <!-- Accessible document author recommendations -->
     <h2 id="accessible-document-author-recommendations">Recomendações para a Criação de Documentos Acessíveis</h2>
 
     <p>
@@ -85,9 +83,7 @@
             href="https://wiki.documentfoundation.org/Accessibility/Creating_Accessible_LibreOffice_Files">como criar
             arquivos acessíveis no LibreOffice</a>.
     </p>
-    <!-- end Accessible document author recommendations -->
 
-    <!-- Accessible slide author recommendations -->
     <h2 id="accessible-slide-author-recommendations">Recomendações para a Criação de Slides Acessíveis</h2>
     <p>
         Suas apresentações estarão disponíveis como parte dos produtos digitais gerados na CLIHC 2023, portanto, é possível
@@ -132,9 +128,7 @@
             href="https://wiki.documentfoundation.org/Accessibility/Creating_Accessible_LibreOffice_Files">como criar
             arquivos acessíveis no LibreOffice.</a>.
     </p>
-    <!-- end Accessible slide author recommendations -->
 
-    <!-- Accessible video author recommendations -->
     <h2 id="accessible-video-author-recommendations">Recomendações para a Criação de Vídeos Acessíveis</h2>
 
     <p>
@@ -146,14 +140,15 @@
     formatos de arquivos de legenda fechada ou formatos de arquivo de legenda) <a class="uline"
         href="https://www.facebook.com/help/261764017354370">e usá-lo para fazer upload no mesmo vídeo publicado como um
         vídeo no Facebook</a>.
-</p>
-<p>
-    Lembre-se de:
-</p>
-<ol>
-    <li><strong>Utilizar legendas</strong>: recomenda-se concisão.</li>
-    <li><strong>Utilizar linguagem simples</strong>, sempre que possível.</li>
-    <li>Identificar o arquivo .SRT específico para esse vídeo, para uso futuro.</li>
-</ol>
-
-<!-- end Accessible video author recommendations --></template>    
+    </p>
+    <p>
+        Lembre-se de:
+    </p>
+    <ol>
+        <li><strong>Utilizar legendas</strong>: recomenda-se concisão.</li>
+        <li><strong>Utilizar linguagem simples</strong>, sempre que possível.</li>
+        <li>Identificar o arquivo .SRT específico para esse vídeo, para uso futuro.</li>
+    </ol>
+    -->
+    <p class="mt-6 text-center">As Recomendações de Acessibilidade para Autores estarão disponíveis em breve.</p>
+</template>

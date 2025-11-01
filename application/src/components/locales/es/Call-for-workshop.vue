@@ -16,6 +16,7 @@ export default {
 </script>
 
 <template>
+    <!--
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
@@ -184,4 +185,6 @@ export default {
             </OrganizerItem>
         </div>
     </div>
+    -->
+    <p class="mt-6 text-center">La convocatoria de talleres y tutoriales será anunciada próximamente.</p>
 </template>

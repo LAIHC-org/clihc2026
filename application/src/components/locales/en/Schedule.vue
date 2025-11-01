@@ -9,6 +9,7 @@ export default {
 </script>
 
 <template>
+    <!--
     <ol class="list-group list-group-numbered">
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
@@ -75,17 +76,6 @@ export default {
                         Keynote by <strong>Claudia Lopez</strong> "Towards inter-disciplinary approaches to re-imagine AI"<br>
                         <strong>Federico Santa María Technical University (UTFSM), Chile</strong>
                     </p>
-                    <!--
-                    <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#claudiaLopez"
-                        role="button" aria-expanded="false" aria-controls="claudiaLopez">Abstract</a>
-                    <div class="collapse" id="claudiaLopez">
-                        <div class="card card-body">
-                            <p>
-                                Abstract
-                            </p>
-                        </div>
-                    </div>
-                    -->
                 </td>
             </tr>
             <tr>
@@ -103,17 +93,6 @@ export default {
                         Keynote by <strong>Phillipe Palanque </strong> "Past, Present and Future in Modeling User Tasks"<br>
                         <strong>University of Toulouse 3, France</strong>
                     </p>
-                    <!--
-                    <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#phillipePalenque"
-                        role="button" aria-expanded="false" aria-controls="phillipePalenque">Abstract</a>
-                    <div class="collapse" id="phillipePalenque">
-                        <div class="card card-body">
-                            <p>
-                                Abstract
-                            </p>
-                        </div>
-                    </div>
-                    -->
                 </td>
             </tr>
             <tr>
@@ -608,5 +587,6 @@ export default {
             </tr>
         </tbody>
     </table>    
-        
+    -->
+    <p class="mt-5 text-center">The detailed schedule will be available soon.</p>
 </template>

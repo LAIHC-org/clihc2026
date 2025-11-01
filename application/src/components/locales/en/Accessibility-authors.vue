@@ -1,11 +1,11 @@
 <template>
+    <!--
     <p>
         We are committed to providing an inclusive environment and maximizing the experience for
         everyone. As the primary producers of information, we encourage all participants to follow our
         accessibility recommendations.
     </p>
 
-    <!-- Language recommendations-->
     <h2 id="language-recommendations">Language Recommendations</h2>
 
     <p>
@@ -21,9 +21,7 @@
             href="https://cs.uiowa.edu/people/kyle-rector">Kyle Rector</a> to better communicate your
         message to all audience members.
     </p>
-    <!-- end Language recommendations -->
 
-    <!-- Accessible document author recommendations -->
     <h2 id="accessible-document-author-recommendations">Accessible Document Author Recommendations
     </h2>
 
@@ -99,9 +97,7 @@
             href="https://wiki.documentfoundation.org/Accessibility/Creating_Accessible_LibreOffice_Files">how
             to create accessible LibreOffice files</a>.
     </p>
-    <!-- end Accessible document author recommendations -->
 
-    <!-- Accessible slide author recommendations -->
     <h2 id="accessible-slide-author-recommendations">Accessible Slide Author Recommendations</h2>
     <p>
         Your presentations will be available as part of the digital products generated at
@@ -154,9 +150,7 @@
             href="https://wiki.documentfoundation.org/Accessibility/Creating_Accessible_LibreOffice_Files">how
             to create accessible LibreOffice files</a>.
     </p>
-    <!-- end Accessible slide author recommendations -->
 
-    <!-- Accessible video author recommendations -->
     <h2 id="accessible-video-author-recommendations">Accessible Video Author Recommendations</h2>
 
     <p>
@@ -180,6 +174,6 @@
         <li><strong>Use simple language</strong>, as possible.</li>
         <li>Identify the .SRT file for that particular video, for further use.</li>
     </ol>
-
-    <!-- end Accessible video author recommendations -->
+    -->
+    <p class="mt-6 text-center">The Accessibility Recommendations for Authors will be available soon.</p>
 </template>    

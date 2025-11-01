@@ -58,7 +58,8 @@
         "registration": "Registration call",
         "proceedings": "Proceedings",
         "open": "Open",
-        "closed": "Closed"
+        "closed": "Closed",
+        "upcoming": "Upcoming"
     },
     "organizers": {
         "title": "Organizers",
@@ -115,10 +116,15 @@
     "home": {
         "keynotes": "Keynote speakers",
         "keynotes_message": "The conference program includes great speakers from the international HCI community.",
-        "sponsors": "Special Thanks",
+        "sponsors": "Sponsors",
         "sponsors_message": "We want to thank to our sponsors.",
         "virtual_venues": "Virtual Venues",
-        "virtual_venues_message": "Universities participating as Virtual Venues in CLIHC 2023."
+        "virtual_venues_message": "Universities participating as Virtual Venues in CLIHC 2023.",
+        "organization": "Organization",
+        "organization_message": "This edition is organized by the following institutions.",
+        "coordination": "Coordination of Program",
+        "coordination_message": "The academic program is coordinated by representatives from the following institutions."
+
     },
     "accepted_papers": {
         "title": "Accepted Papers",

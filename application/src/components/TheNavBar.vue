@@ -64,7 +64,7 @@
 															{{ $t("nav.cfp") }}
 														</span>
 														<i18n path="nav.cfp_message" tag="span" class="text-sm text-dark">
-															{{ $t("about.closed") }}
+															{{ $t("about.upcoming") }}
 														</i18n>
 													</div>
 												</div>
@@ -81,7 +81,7 @@
 															{{ $t("nav.cpt") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("about.closed") }}
+															{{ $t("about.upcoming") }}
 														</span>
 													</div>
 												</div>
@@ -98,7 +98,7 @@
 															{{ $t("nav.cwt") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("about.closed") }}
+															{{ $t("about.upcoming") }}
 														</span>
 													</div>
 												</div>
@@ -115,7 +115,7 @@
 															{{ $t("nav.sdc") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("about.closed") }}
+															{{ $t("about.upcoming") }}
 														</span>
 													</div>
 												</div>
@@ -132,7 +132,7 @@
 															{{ $t("nav.cgc") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("about.closed") }}
+															{{ $t("about.upcoming") }}
 														</span>
 													</div>
 												</div>
@@ -149,7 +149,7 @@
 															{{ $t("nav.accessibility_for_autors") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.accessibility_for_autors_message") }}
+															{{ $t("about.upcoming") }}
 														</span>
 													</div>
 												</div>
@@ -179,7 +179,7 @@
 															{{ $t("nav.getting_started") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.getting_started_message") }}
+															{{ $t("about.upcoming") }}
 														</span>
 													</div>
 												</div>
@@ -196,7 +196,7 @@
 															{{ $t("nav.rates_and_registration") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.rates_and_registration_message") }}
+															{{ $t("about.upcoming") }}
 														</span>														
 													</div>
 												</div>
@@ -244,7 +244,7 @@
 															{{ $t("nav.schedule") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.schedule_message") }}
+															{{ $t("about.upcoming") }}
 														</span>
 													</div>
 												</div>												
@@ -259,12 +259,13 @@
 															{{ $t("nav.keynotes") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.keynotes_message") }}
+															{{ $t("about.upcoming") }}
 														</span>
 													</div>
 												</div>
 											</RouterLink>
 										</li>
+										<!--
 										<li>
 											<RouterLink class="dropdown-item border-radius-md" :to="Tr.i18nRoute({ name: 'accepted-papers' })">
 												<div class="d-flex">
@@ -277,6 +278,7 @@
 												</div>
 											</RouterLink>
 										</li>
+										-->
 									</ul>
 								</li>
 								<!--

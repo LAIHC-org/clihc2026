@@ -9,6 +9,7 @@ export default {
 </script>
 
 <template>
+	<!--
 	<p>
 		Welcome to the XI Latin American Conference on Human-Computer Interaction (CLIHC 2023). We are pleased to welcome
 		you to this outstanding event that brings together research communities in HCI from Latin America and around the
@@ -29,43 +30,6 @@ export default {
 				payments with or without an invoice.
 			</div>
 		</li>
-		<!--
-		<li class="list-group-item d-flex justify-content-between align-items-start">
-			<div class="ms-2 me-auto">
-				<div class="fw-bold">
-					<RouterLink :to="Tr.i18nRoute({ name: 'getting-started', hash: '#accommodation' })"
-						class="uline">
-						Accommodation:
-					</RouterLink>
-				</div>
-				Discover lodging options in Puebla, Mexico, to make your stay at the conference comfortable and enjoyable.
-				We will provide information on nearby hotels and recommendations.
-			</div>
-		</li>
-		<li class="list-group-item d-flex justify-content-between align-items-start">
-			<div class="ms-2 me-auto">
-				<div class="fw-bold">
-					<RouterLink :to="Tr.i18nRoute({ name: 'getting-started', hash: '#how-to-get-there' })"
-						class="uline">
-						How to Get There:
-					</RouterLink>
-				</div>
-				Get clear directions and details on how to reach the conference venues, both at BUAP (Benemérita Universidad
-				Autónoma de Puebla) and Tec de Monterrey, Campus Puebla.
-			</div>
-		</li>
-		<li class="list-group-item d-flex justify-content-between align-items-start">
-			<div class="ms-2 me-auto">
-				<div class="fw-bold">
-					<RouterLink :to="Tr.i18nRoute({ name: 'getting-started', hash: '#frequently-asked-questions' })"
-						class="uline">
-						Frequently Asked Questions:
-					</RouterLink>
-				</div>
-				Find answers to the most common questions you may have about your participation in the conference.
-			</div>
-		</li>
-		-->
 	</ol>
 
 	<h2 id="rates-and-registration" class="mt-5 h3">Registration and Payment:</h2>
@@ -101,22 +65,7 @@ export default {
 			Be sure to send all the necessary information to generate the invoices in a timely manner. Additionally,
 			<strong>please note that payment for conference registration is a prerequisite for enrolling in tutorials and
 				workshops, and it must be done separately.</strong></p>
-</div>
-
-<!--
-<h2 id="accommodation" class="mt-5 h3">Accommodation:</h2>
-<p>
-	Pending
-</p>
-
-<h2 id="how-to-get-there" class="mt-5 h3">How to Get There:</h2>
-<p>
-	Pending
-</p>
-
-<h2 id="frequently-asked-questions" class="mt-5 h3">Frequently Asked Questions:</h2>
-<p>
-	Pending
-</p>
--->
+	</div>
+	-->
+	<p class="mt-5 text-center">The Getting Started guide will be available soon.</p>
 </template>
