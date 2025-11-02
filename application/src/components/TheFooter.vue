@@ -11,12 +11,11 @@
 
 <template>
     <footer class="footer pt-3 mt-5">
-        <hr class="horizontal dark mb-5">
-        <div class="container">
+        <div class="container mt-3">
             <div class=" row">
-                <div class="col-md-3 mb-4 ms-auto">
+                <div class="col-md-3 mb-4 ms-auto">                    
                     <div>
-                        <h2 class="text-gradient text-primary font-weight-bolder fs-5">{{ $t("nav.sitemap") }}</h2>
+                        <h2 class="text-gradient text-secondary font-weight-bolder fs-5">{{ $t("nav.sitemap") }}</h2>
                     </div>
                     <div>
                         <ul class="d-flex flex-row ms-n3 nav">
@@ -34,11 +33,12 @@
                             </li>
                         </ul>
                     </div>
+                    <a href="https://www.laihc.org/"><img src="/assets/img/logos/laihc-blanco.svg" alt="LaIHC" class="mt-2" height="50" /></a>
                 </div>
                 
                 <div class="col-sm-4 col-md-3 mb-4">
                     <div>
-                        <h3 class="text-gradient text-primary text-sm">{{ $t("nav.about_title") }}</h3>
+                        <h3 class="text-gradient text-secondary text-sm">{{ $t("nav.about_title") }}</h3>
                         <ul class="flex-column ms-n3 nav">
                             <li class="nav-item">
                                 <RouterLink :to="Tr.i18nRoute({ name: 'home', hash: '#about_clihc'})" class="nav-link uline">
@@ -66,7 +66,7 @@
                 
                 <div class="col-sm-4 col-md-3 mb-4">
                     <div>
-                        <h3 class="text-gradient text-primary text-sm">{{ $t("nav.for_authors_title") }}</h3>
+                        <h3 class="text-gradient text-secondary text-sm">{{ $t("nav.for_authors_title") }}</h3>
                         <ul class="flex-column ms-n3 nav">
                             <li class="nav-item">
                                 <RouterLink :to="Tr.i18nRoute({ name: 'call-for-papers' })" class="nav-link uline">
@@ -103,9 +103,9 @@
                     </div>
                 </div>
 
-                <div class="col-sm-4 col-md-3 mb-4">
+                <div class="col-sm-4 col-md-3 mb-1">
                     <div>
-                        <h3 class="text-gradient text-primary text-sm">{{ $t("nav.for_attendees_title") }}</h3>
+                        <h3 class="text-gradient text-secondary text-sm">{{ $t("nav.for_attendees_title") }}</h3>
                         <ul class="flex-column ms-n3 nav">
                             <li class="nav-item">
                                 <RouterLink :to="Tr.i18nRoute({ name: 'getting-started' })" 

@@ -18,6 +18,9 @@ nav.scrolled li.nav-item:not(.active) a, nav.scrolled a.navbar-brand {
 .text-gradient.text-primary {
     background-image: linear-gradient(310deg, #a4352d 0%, #D85A28 100%);
 }
+.text-gradient.text-secondary {
+    background-image: linear-gradient(310deg, #F9B204 0%, #d57500 100%);
+}
 
 h1, .h1, .h1, h2, .h2, .h2, h3, .h3, .h3, h4, .h4, .h4, h5, .h5, .h5, h6, .h6, .h6 {
     color: #0F273E;
@@ -41,4 +44,13 @@ h1, .h1, .h1, h2, .h2, .h2, h3, .h3, .h3, h4, .h4, .h4, h5, .h5, .h5, h6, .h6, .
 .logo-laihc {
     width: 100px;
     margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #0F273E;
+    color: #F6F5F2;
+}
+
+.footer .nav-link, .footer a {
+    color: #F6F5F2 !important;
 }
