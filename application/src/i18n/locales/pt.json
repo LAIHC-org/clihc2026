@@ -43,7 +43,7 @@
         "accepted_papers": "Artigos aceitos",
         "accepted_papers_message": "",        
         "pending": "Pendente",
-        "copyright": "© 2023 Conferência Latino-Americana de Interação Humano-Computador, uma conferência da LAIHC.",
+        "copyright": "© 2026 Conferência Latino-Americana de Interação Humano-Computador, uma conferência da LAIHC.",
         "back_to_top": "Voltar ao topo da página"
     },
     "jumbotron":{
@@ -63,7 +63,7 @@
     },
     "organizers": {
         "title": "Organizadores",
-        "intro": "O objetivo principal da Conferência Latino-Americana de Interação Humano-Computador (CLIHC) 2023 é promover a colaboração, discussão e troca de conhecimentos entre pesquisadores de HCI internacionais e latino-americanos. A conferência tem como objetivo promover o design e desenvolvimento de inteligência artificial centrados no ser humano e culturalmente conscientes, fornecendo uma plataforma para a apresentação e discussão de novas ideias, métodos e técnicas para o design de experiências interativas para o usuário. A conferência será realizada em Puebla, México, e é organizada por um grupo diversificado de especialistas da América Latina e de outras regiões.",
+        "intro": "O objetivo principal da Conferência Latino-Americana de Interação Humano-Computador (CLIHC) 2026 é promover a colaboração, discussão e troca de conhecimentos entre pesquisadores de HCI internacionais e latino-americanos. A conferência tem como objetivo promover o design e desenvolvimento de inteligência artificial centrados no ser humano e culturalmente conscientes, fornecendo uma plataforma para a apresentação e discussão de novas ideias, métodos e técnicas para o design de experiências interativas para o usuário. A conferência será realizada em Puebla, México, e é organizada por um grupo diversificado de especialistas da América Latina e de outras regiões.",
         "general_committee_link": "Comitê geral",
         "general_committee_title": "Comitê geral",
         "program_committee_link": "Comitê de programa",
@@ -74,6 +74,10 @@
         "local_chairs_description": "Responsáveis por supervisionar os arranjos locais e a logística da conferência.",
         "program_chairs_title": "Responsáveis pelo programa",
         "program_chairs_description": "Responsáveis pelo programa da conferência e pelo processo de seleção de papers.",
+        "full_papers_cahirs_title": "Responsáveis de artigos completos",
+        "full_papers_cahirs_description": "Responsável(is) pela chamada, diretrizes, gestão da revisão por pares e decisões editoriais finais dos artigos completos.",
+        "short_papers_cahirs_title": "Responsáveis de artigos curtos",
+        "short_papers_cahirs_description": "Responsável(is) pela chamada, diretrizes, gestão da revisão por pares e decisões editoriais finais dos artigos curtos.",
         "student_design_competition_title": "Responsáveis pela competição de design estudantil",
         "student_design_competition_description": "Encarregados de organizar a Competição de Design estudantil.",
         "graduate_colloquium_chairs_title": "Responsáveis pelo colóquio de pós-graduação",
@@ -92,8 +96,13 @@
         "acccessibility_chairs_description" : "Responsáveis por supervisionar medidas abrangentes de acessibilidade durante a conferência.",
         "industry_session_chair_title" : "Responsável pela sessão industrial",
         "industry_session_chair_description" : "Responsável pela sessão industrial",
-        "steering_committee_title": "Comitê diretivo",
-        "steering_committee_description": "Comitê diretivo"
+        "steering_committee_title": "Comitê diretivo LAIHC",
+        "steering_committee_description": "Comitê diretivo Supervisiona e orienta as atividades estratégicas da comunidade LAIHC e da conferência CLIHC.",
+        "diversity_and_inclusion_chairs_title": "Coordenação de Diversidade, Equidade e Inclusão",
+        "diversity_and_inclusion_chairs_description": "Promove a inclusão, a equidade e a representação diversa na conferência.",
+        "atalaia_title": "Coordenação do Workshop Uma Tarde em: Atalaia",
+        "atalaia_description": "Organiza e coordena o workshop especial Uma Tarde em: Atalaia, promovendo o intercâmbio local e a colaboração acadêmica."
+
     },
     "accessibility": {
         "title": "Recomendações de acessibilidade para autores",

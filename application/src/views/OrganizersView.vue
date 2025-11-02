@@ -79,18 +79,18 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/marisol.png" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/marisol.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            Marisol Wong-Villacres
+                                            Dr. Jean Clemisson Santos Rosa
                                         </template>
                                         <template #institution>
-                                            ESPOL, EC
+                                            Centro Universitário Maurício de Nassau de Aracaju (UNINASSAU), BR
                                         </template>
                                         <template #email>
                                         </template>
@@ -101,79 +101,18 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/juan.png" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/juan.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            Juan Manuel González Calleros
+                                            Dr. Gilton José Ferreira da Silva
                                         </template>
                                         <template #institution>
-                                            BUAP, MX
-                                        </template>
-                                        <template #email>
-                                        </template>
-                                    </OrganizerItem>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container mt-4 px-5 mt-6" id="program-chairs">
-                    <div class="row">
-                        <div class="col-xl-3">
-                            <div class="position-sticky pb-lg-5 pb-3 ps-2" style="top: 100px">
-                                <h3>{{ $t("organizers.local_chairs_title") }}</h3>
-                                <p class="text-secondary font-weight-normal pe-3">
-                                    {{ $t("organizers.local_chairs_description") }}
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-9">
-                            <div class="row">
-                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
-                                    <OrganizerItem>
-                                        <template #image>
-                                            <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/josefina.png" alt=""
-                                                    class="img-fluid shadow rounded-3">
-                                            </div>
-                                            <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/josefina.png&quot;);">
-                                            </div>
-                                        </template>
-                                        <template #name>
-                                            Josefina Guerrero García
-                                        </template>
-                                        <template #institution>
-                                            BUAP, MX
-                                        </template>
-                                        <template #email>
-                                        </template>
-                                    </OrganizerItem>
-                                </div>
-
-                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
-                                    <OrganizerItem>
-                                        <template #image>
-                                            <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/ivan.png" alt=""
-                                                    class="img-fluid shadow rounded-3">
-                                            </div>
-                                            <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/ivan.png&quot;);">
-                                            </div>
-                                        </template>
-                                        <template #name>
-                                            Iván Olmos Pineda
-                                        </template>
-                                        <template #institution>
-                                            BUAP, MX
+                                            Universidade Federal de Sergipe (UFS), BR
                                         </template>
                                         <template #email>
                                         </template>
@@ -188,9 +127,9 @@ export default {
                     <div class="row">
                         <div class="col-xl-3">
                             <div class="position-sticky pb-lg-5 pb-3 ps-2" style="top: 100px">
-                                <h3>{{ $t("organizers.program_chairs_title") }}</h3>
+                                <h3>{{ $t("organizers.full_papers_cahirs_title") }}</h3>
                                 <p class="text-secondary font-weight-normal pe-3">
-                                    {{ $t("organizers.program_chairs_description") }}
+                                    {{ $t("organizers.full_papers_cahirs_description") }}
                                 </p>
                             </div>
                         </div>
@@ -201,18 +140,18 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/pablo.png" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/pablo.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            Pablo Torres
+                                            Dra. Adriana Lopes Damian
                                         </template>
                                         <template #institution>
-                                            UTPL, EC
+                                            Instituto de Pesquisas Eldorado, BR
                                         </template>
                                         <template #email>
                                         </template>
@@ -223,17 +162,17 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/vanessa.png" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/vanessa.png&quot;);"></div>
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);"></div>
                                         </template>
                                         <template #name>
-                                            Vanessa Agredo Delgado
+                                            Dra. Lizbeth Escobedo
                                         </template>
                                         <template #institution>
-                                            UNICOMFACAUCA, CO
+                                            Universidade de Dalhousie, CA
                                         </template>
                                         <template #email>
                                         </template>
@@ -243,6 +182,189 @@ export default {
                         </div>
                     </div>
                 </div>
+
+                <div class="container mt-4 px-5 mt-6" id="publicity-chairs">
+                    <div class="row">
+                        <div class="col-xl-3">
+                            <div class="position-sticky pb-lg-5 pb-3 ps-2" style="top: 100px">
+                                <h3>{{ $t("organizers.posters_chairs_title") }}</h3>
+                                <p class="text-secondary font-weight-normal pe-3">
+                                    {{ $t("organizers.posters_chairs_description") }}
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-9">
+                            <div class="row">
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                    <OrganizerItem>
+                                        <template #image>
+                                            <div class="d-block blur-shadow-image">
+                                                <img src="/assets/img/nophoto.png" alt=""
+                                                    class="img-fluid shadow rounded-3">
+                                            </div>
+                                            <div class="colored-shadow"
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                            </div>
+                                        </template>
+                                        <template #name>
+                                            Dra. Napoliana Souza
+                                        </template>
+                                        <template #institution>
+                                            Universidade Federal do Amapá (UFAP), BR
+                                        </template>
+                                        <template #email>
+                                        </template>
+                                    </OrganizerItem>
+                                </div>
+
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                    <OrganizerItem>
+                                        <template #image>
+                                            <div class="d-block blur-shadow-image">
+                                                <img src="/assets/img/nophoto.png" alt=""
+                                                    class="img-fluid shadow rounded-3">
+                                            </div>
+                                            <div class="colored-shadow"
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                            </div>
+                                        </template>
+                                        <template #name>
+                                            Dra. Laura Sanely Gaytán Lugo
+                                        </template>
+                                        <template #institution>
+                                            Universidad de Colima (UCOL), MX
+                                        </template>
+                                        <template #email>
+                                        </template>
+                                    </OrganizerItem>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container mt-4 px-5 mt-6" id="publicity-chairs">
+                    <div class="row">
+                        <div class="col-xl-3">
+                            <div class="position-sticky pb-lg-5 pb-3 ps-2" style="top: 100px">
+                                <h3>{{ $t("organizers.workshops_and_tutorials_chairs_title") }}</h3>
+                                <p class="text-secondary font-weight-normal pe-3">
+                                    {{ $t("organizers.workshops_and_tutorials_chairs_description") }}
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-9">
+                            <div class="row">
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                    <OrganizerItem>
+                                        <template #image>
+                                            <div class="d-block blur-shadow-image">
+                                                <img src="/assets/img/nophoto.png" alt=""
+                                                    class="img-fluid shadow rounded-3">
+                                            </div>
+                                            <div class="colored-shadow"
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                            </div>
+                                        </template>
+                                        <template #name>
+                                            Dr. Daniel Domingos Alves
+                                        </template>
+                                        <template #institution>
+                                            Instituto Federal de Mato Grosso (IFMT), BR
+                                        </template>
+                                        <template #email>
+                                        </template>
+                                    </OrganizerItem>
+                                </div>
+
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                    <OrganizerItem>
+                                        <template #image>
+                                            <div class="d-block blur-shadow-image">
+                                                <img src="/assets/img/nophoto.png" alt=""
+                                                    class="img-fluid shadow rounded-3">
+                                            </div>
+                                            <div class="colored-shadow"
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                            </div>
+                                        </template>
+                                        <template #name>
+                                            Dr. Juan Pablo Hourcade
+                                        </template>
+                                        <template #institution>
+                                            University of Iowa (UIOWA), USA
+                                        </template>
+                                        <template #email>
+                                        </template>
+                                    </OrganizerItem>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container mt-4 px-5 mt-6" id="publicity-chairs">
+                    <div class="row">
+                        <div class="col-xl-3">
+                            <div class="position-sticky pb-lg-5 pb-3 ps-2" style="top: 100px">
+                                <h3>{{ $t("organizers.short_papers_cahirs_title") }}</h3>
+                                <p class="text-secondary font-weight-normal pe-3">
+                                    {{ $t("organizers.short_papers_cahirs_description") }}
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-9">
+                            <div class="row">
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                    <OrganizerItem>
+                                        <template #image>
+                                            <div class="d-block blur-shadow-image">
+                                                <img src="/assets/img/nophoto.png" alt=""
+                                                    class="img-fluid shadow rounded-3">
+                                            </div>
+                                            <div class="colored-shadow"
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                            </div>
+                                        </template>
+                                        <template #name>
+                                            Dra. Valéria Argôlo Rosa de Queiroz
+                                        </template>
+                                        <template #institution>
+                                            Universidade Estadual do Sudoeste da Bahia (UESB), BR
+                                        </template>
+                                        <template #email>
+                                        </template>
+                                    </OrganizerItem>
+                                </div>
+
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                    <OrganizerItem>
+                                        <template #image>
+                                            <div class="d-block blur-shadow-image">
+                                                <img src="/assets/img/nophoto.png" alt=""
+                                                    class="img-fluid shadow rounded-3">
+                                            </div>
+                                            <div class="colored-shadow"
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                            </div>
+                                        </template>
+                                        <template #name>
+                                            Dr. Mario A. Moreno Rocha
+                                        </template>
+                                        <template #institution>
+                                            Universidad Tecnológica de la Mixteca (UTM), México
+                                        </template>
+                                        <template #email>
+                                        </template>
+                                    </OrganizerItem>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>                
 
                 <div class="container mt-4 px-5 mt-6" id="registration-chairs">
                     <div class="row">
@@ -261,18 +383,18 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/christian.png" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/christian.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            Christian Sturm
+                                            Dr. Rodrigo Gonzatto
                                         </template>
                                         <template #institution>
-                                            DE
+                                            Pontifícia Universidade Católica do Paraná (PUCPR), BR
                                         </template>
                                         <template #email>
                                         </template>
@@ -283,18 +405,18 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/iyubanit.png" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/iyubanit.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            Iyubanit Rodriguez
+                                            Dr. Carlos Alberto Martínez-Sandoval
                                         </template>
                                         <template #institution>
-                                            CR
+                                            Universidad Tecnológica de la Mixteca (UTM), México
                                         </template>
                                         <template #email>
                                         </template>
@@ -322,18 +444,18 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/huizilopoztli.png" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/huizilopoztli.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            Huizilopoztli Luna Garcia
+                                            Dr. Roberto Pereira
                                         </template>
                                         <template #institution>
-                                            UAZ, MX
+                                            UFPR, BR    
                                         </template>
                                         <template #email>
                                         </template>
@@ -344,18 +466,18 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/carolina.png" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/carolina.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            Carolina Fuentes
+                                            Dra. Claudia López Moncada
                                         </template>
                                         <template #institution>
-                                            Cardiff University, UK
+                                            Universidad Técnica Federico Santa María (UTFSM)
                                         </template>
                                         <template #email>
                                         </template>
@@ -366,13 +488,13 @@ export default {
                     </div>
                 </div>
 
-                <div class="container mt-4 px-5 mt-6" id="publicity-chairs">
+                <div class="container mt-4 px-5 mt-6" id="registration-chairs">
                     <div class="row">
                         <div class="col-xl-3">
                             <div class="position-sticky pb-lg-5 pb-3 ps-2" style="top: 100px">
-                                <h3>{{ $t("organizers.workshops_and_tutorials_chairs_title") }}</h3>
+                                <h3>{{ $t("organizers.diversity_and_inclusion_chairs_title") }}</h3>
                                 <p class="text-secondary font-weight-normal pe-3">
-                                    {{ $t("organizers.workshops_and_tutorials_chairs_description") }}
+                                    {{ $t("organizers.diversity_and_inclusion_chairs_description") }}
                                 </p>
                             </div>
                         </div>
@@ -383,18 +505,18 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/cesar.png" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/cesar.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            César Collazos
+                                            Dr. Diego Zabot
                                         </template>
                                         <template #institution>
-                                            U. Cauca, CO
+                                            Universidade Federal da Bahia (UFBA), BR
                                         </template>
                                         <template #email>
                                         </template>
@@ -405,18 +527,101 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/luciana.png" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/luciana.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            Luciana Sá Brito
+                                            MSc. Daniela Cardoso Tavares
                                         </template>
                                         <template #institution>
-                                            Universidade Federal do Rio de Janeiro, Brasil
+                                            Universidade Federal do Rio de Janeiro (UFRJ)
+                                        </template>
+                                        <template #email>
+                                        </template>
+                                    </OrganizerItem>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container mt-4 px-5 mt-6" id="registration-chairs">
+                    <div class="row">
+                        <div class="col-xl-3">
+                            <div class="position-sticky pb-lg-5 pb-3 ps-2" style="top: 100px">
+                                <h3>{{ $t("organizers.volunteer_students_chair_title") }}</h3>
+                                <p class="text-secondary font-weight-normal pe-3">
+                                    {{ $t("organizers.volunteer_students_chair_description") }}
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-9">
+                            <div class="row">
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                    <OrganizerItem>
+                                        <template #image>
+                                            <div class="d-block blur-shadow-image">
+                                                <img src="/assets/img/nophoto.png" alt=""
+                                                    class="img-fluid shadow rounded-3">
+                                            </div>
+                                            <div class="colored-shadow"
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                            </div>
+                                        </template>
+                                        <template #name>
+                                            Ms. Sergio Santana
+                                        </template>
+                                        <template #institution>
+                                            Centro Universitário Maurício de Nassau de Aracaju (UNINASSAU), BR
+                                        </template>
+                                        <template #email>
+                                        </template>
+                                    </OrganizerItem>
+                                </div>
+
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                    <OrganizerItem>
+                                        <template #image>
+                                            <div class="d-block blur-shadow-image">
+                                                <img src="/assets/img/nophoto.png" alt=""
+                                                    class="img-fluid shadow rounded-3">
+                                            </div>
+                                            <div class="colored-shadow"
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                            </div>
+                                        </template>
+                                        <template #name>
+                                            Dra. Cassia Regina D Antonio Rocha da Silva
+                                        </template>
+                                        <template #institution>
+                                            Universidade Tiradentes (UNIT), BR
+                                        </template>
+                                        <template #email>
+                                        </template>
+                                    </OrganizerItem>
+                                </div>
+
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                    <OrganizerItem>
+                                        <template #image>
+                                            <div class="d-block blur-shadow-image">
+                                                <img src="/assets/img/nophoto.png" alt=""
+                                                    class="img-fluid shadow rounded-3">
+                                            </div>
+                                            <div class="colored-shadow"
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                            </div>
+                                        </template>
+                                        <template #name>
+                                            Bruno Alves Reis Nascimento
+                                        </template>
+                                        <template #institution>
+                                            Faculdade de Administração, Negócios e Saúde de Sergipe (Fanese), BR
                                         </template>
                                         <template #email>
                                         </template>
@@ -427,13 +632,13 @@ export default {
                     </div>
                 </div>
 
-                <div class="container mt-4 px-5 mt-6" id="publicity-chairs">
+                <div class="container mt-4 px-5 mt-6" id="registration-chairs">
                     <div class="row">
                         <div class="col-xl-3">
                             <div class="position-sticky pb-lg-5 pb-3 ps-2" style="top: 100px">
-                                <h3>{{ $t("organizers.posters_chairs_title") }}</h3>
+                                <h3>{{ $t("organizers.atalaia_title") }}</h3>
                                 <p class="text-secondary font-weight-normal pe-3">
-                                    {{ $t("organizers.posters_chairs_description") }}
+                                    {{ $t("organizers.atalaia_description") }}
                                 </p>
                             </div>
                         </div>
@@ -444,18 +649,18 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/jaime.png" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/jaime.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            Jaime Muñoz Arteaga
+                                            Dr. Ecivaldo Matos
                                         </template>
                                         <template #institution>
-                                            Universidad Autónoma de Aguascalientes, MX
+                                            Universidade de São Paulo (USP), BR
                                         </template>
                                         <template #email>
                                         </template>
@@ -466,18 +671,40 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/adriana.png" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/adriana.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            Adriana Iñiguez
+                                            Dra. Taciana Pontual
                                         </template>
                                         <template #institution>
-                                            Universidad de Guadalajara, MX
+                                            Universidade Federal Rural de Pernambuco (UFRPE), BR
+                                        </template>
+                                        <template #email>
+                                        </template>
+                                    </OrganizerItem>
+                                </div>
+
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                    <OrganizerItem>
+                                        <template #image>
+                                            <div class="d-block blur-shadow-image">
+                                                <img src="/assets/img/nophoto.png" alt=""
+                                                    class="img-fluid shadow rounded-3">
+                                            </div>
+                                            <div class="colored-shadow"
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                            </div>
+                                        </template>
+                                        <template #name>
+                                            Dr. Gilson Pereira dos Santos Júnior
+                                        </template>
+                                        <template #institution>
+                                            Instituto Federal de Sergipe (IFS), BR
                                         </template>
                                         <template #email>
                                         </template>
@@ -501,28 +728,51 @@ export default {
 
                         <div class="col-xl-9">
                             <div class="row">
-                                <div class="col-md-4 mx-auto mt-md-0 mt-4">
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/fernando.png" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/fernando.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            Juan Fernando Maestre 
+                                            Dr. Rubens Matos
                                         </template>
                                         <template #institution>
-                                            Ecuador - U. Minnesota
+                                            Instituto Federal de Sergipe (IFS)
                                         </template>
                                         <template #email>
                                             
                                         </template>
                                     </OrganizerItem>
                                 </div>
+
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                    <OrganizerItem>
+                                        <template #image>
+                                            <div class="d-block blur-shadow-image">
+                                                <img src="/assets/img/nophoto.png" alt=""
+                                                    class="img-fluid shadow rounded-3">
+                                            </div>
+                                            <div class="colored-shadow"
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                            </div>
+                                        </template>
+                                        <template #name>
+                                            Ludmilla Fernandes Oliveira Galvão
+                                        </template>
+                                        <template #institution>
+                                            Universidade Federal de Mato Grosso, BR
+                                        </template>
+                                        <template #email>
+                                            
+                                        </template>
+                                    </OrganizerItem>
+                                </div>                                
                             </div>
                         </div>
                     </div>
@@ -545,18 +795,18 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/mike.png" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/mike.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            Miguel A. Rodríguez Ortiz
+                                            Ms. Miguel A. Rodríguez-Ortiz
                                         </template>
                                         <template #institution>
-                                            Universidad de Colima, MX
+                                            Universidad de Colima (UCOL), MX
                                         </template>
                                         <template #email>
                                         </template>
@@ -567,125 +817,23 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/arlem.png" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/arlem.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            Arlem Castillo Avila
+                                            Matheus Alves
                                         </template>
                                         <template #institution>
-                                            BUAP, MX
+                                            Universidade Federal de Sergipe (UFS), BR
                                         </template>
                                         <template #email>
                                         </template>
                                     </OrganizerItem>
                                 </div>                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container mt-4 px-5 mt-6" id="accesibility-chairs">
-                    <div class="row">
-                        <div class="col-xl-3">
-                            <div class="position-sticky pb-lg-5 pb-3 ps-2" style="top: 100px">
-                                <h3>{{ $t("organizers.volunteer_students_chair_title") }}</h3>
-                                <p class="text-secondary font-weight-normal pe-3">
-                                    {{ $t("organizers.volunteer_students_chair_description") }}
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-9">
-                            <div class="row">
-                                <div class="col-md-4 mx-auto mt-md-0 mt-4">
-                                    <OrganizerItem>
-                                        <template #image>
-                                            <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/alfredo.png" alt=""
-                                                    class="img-fluid shadow rounded-3">
-                                            </div>
-                                            <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/alfredo.png&quot;);">
-                                            </div>
-                                        </template>
-                                        <template #name>
-                                            Alfredo García Suárez
-                                        </template>
-                                        <template #institution>
-                                            BUAP, MX
-                                        </template>
-                                        <template #email>
-                                            
-                                        </template>
-                                    </OrganizerItem>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container mt-4 px-5 mt-6" id="publicity-chairs">
-                    <div class="row">
-                        <div class="col-xl-3">
-                            <div class="position-sticky pb-lg-5 pb-3 ps-2" style="top: 100px">
-                                <h3>{{ $t("organizers.acccessibility_chairs_title") }}</h3>
-                                <p class="text-secondary font-weight-normal pe-3">
-                                    {{ $t("organizers.acccessibility_chairs_description") }}
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-9">
-                            <div class="row">
-                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
-                                    <OrganizerItem>
-                                        <template #image>
-                                            <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/selene.png" alt=""
-                                                    class="img-fluid shadow rounded-3">
-                                            </div>
-                                            <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/selene.png&quot;);">
-                                            </div>
-                                        </template>
-                                        <template #name>
-                                            Alba Selene Leon Arenas
-                                        </template>
-                                        <template #institution>
-                                            MX
-                                        </template>
-                                        <template #email>
-                                        </template>
-                                    </OrganizerItem>
-                                </div>
-                                                                
-                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
-                                    <OrganizerItem>
-                                        <template #image>
-                                            <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/mike.png" alt=""
-                                                    class="img-fluid shadow rounded-3">
-                                            </div>
-                                            <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/mike.png&quot;);">
-                                            </div>
-                                        </template>
-                                        <template #name>
-                                            Miguel A. Rodríguez Ortiz
-                                        </template>
-                                        <template #institution>
-                                            Universidad de Colima, MX
-                                        </template>
-                                        <template #email>
-                                        </template>
-                                    </OrganizerItem>
-                                </div>
-
                             </div>
                         </div>
                     </div>
@@ -704,22 +852,45 @@ export default {
 
                         <div class="col-xl-9">
                             <div class="row">
-                                <div class="col-md-4 mx-auto mt-md-0 mt-4">
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/victor.png" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/victor.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            Victor Manuel García Luna
+                                            Dr. Victor Flávio de Andrade Araújo
                                         </template>
                                         <template #institution>
-                                            UXPA, MX
+                                            Universidade Tiradentes (UNIT), BR
+                                        </template>
+                                        <template #email>
+                                            
+                                        </template>
+                                    </OrganizerItem>
+                                </div>
+
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                    <OrganizerItem>
+                                        <template #image>
+                                            <div class="d-block blur-shadow-image">
+                                                <img src="/assets/img/nophoto.png" alt=""
+                                                    class="img-fluid shadow rounded-3">
+                                            </div>
+                                            <div class="colored-shadow"
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                            </div>
+                                        </template>
+                                        <template #name>
+                                            Dr. Igor Libertador Silva
+                                        </template>
+                                        <template #institution>
+                                            Universidade Tiradentes (UNIT), BR
                                         </template>
                                         <template #email>
                                             
@@ -749,18 +920,18 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/sanely.jpg" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/sanely.jpg&quot;);">
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            Laura Sanely Gaytán Lugo
+                                            Dra. Soraia S. Prietch
                                         </template>
                                         <template #institution>
-                                            Universidad de Colima, MX
+                                            Benemérita Universidad Autónoma de Puebla (BUAP)
                                         </template>
                                         <template #email>
                                             <!--<a class="uline" href="mailto:tpc.2022@mexihc.org">tpc.2022@mexihc.org</a>-->
@@ -772,47 +943,24 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/yasmin.png" alt=""
+                                                <img src="/assets/img/nophoto.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/yasmin.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            Yazmín Magallanes
+                                            Dr. Pedro Reynolds-Cuellar
                                         </template>
                                         <template #institution>
-                                            UXPA, MX
+                                            Massachusetts Institute of Technology (MIT)
                                         </template>
                                         <template #email>
                                             <!--<a class="uline" href="mailto:tpc.2022@mexihc.org">tpc.2022@mexihc.org</a>-->
                                         </template>
                                     </OrganizerItem>
                                 </div>
-
-                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
-                                    <OrganizerItem>
-                                        <template #image>
-                                            <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/people/soraia.png" alt=""
-                                                    class="img-fluid shadow rounded-3">
-                                            </div>
-                                            <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/soraia.png&quot;);">
-                                            </div>
-                                        </template>
-                                        <template #name>
-                                            Soraia Prietch
-                                        </template>
-                                        <template #institution>
-                                            U. Federal de Rondonópolis, BR
-                                        </template>
-                                        <template #email>
-                                            <!--<a class="uline" href="mailto:tpc.2022@mexihc.org">tpc.2022@mexihc.org</a>-->
-                                        </template>
-                                    </OrganizerItem>
-                                </div>  
 
                             </div>                            
                         </div>
@@ -837,92 +985,22 @@ export default {
                     
                     <h3 class="h4">{{ $t("accepted_papers.student_design_competition") }}</h3>
                     <ul>
-                        <li>Ana Gabriela Sanchez Reyna, Universidad Autónoma de Zacatecas, México</li>
-                        <li>Cesar A. Collazos, Universidad del Cauca, Colombia</li>
-                        <li>Jorge A. Morgan Benita, Universidad Autónoma de Zacatecas, México</li>
-                        <li>Huizilopoztli Luna-García, Universidad Autónoma de Zacatecas, México</li>
-                        <li>Libertad Aguilar, Universidad Autónoma de Aguascalientes, Mexico</li>
-                        <li>Javier Tibau, Escuela Superior Politécnica del Litoral, Ecuador</li>
+                        <li>{{ $t("about.upcoming") }}</li>
                     </ul>
 
                     <h3 class="h4">{{ $t("accepted_papers.workshops_and_tutorials") }}</h3>
                     <ul>
-                        <li>Gustavo Constain</li>
-                        <li>Wilson Sarmiento, Universidad Militar Nueva Granada, Colombia</li>
-                        <li>Freddy Paz, Pontificia Pontificia Universidad Católica del Perú, Peru</li>
-                        <li>Diego Torres, Universidad Nacional de La Plata, Argentina</li>
-                        <li>Valeria Farinazzo, Universidade Presbiteriana Mackenzie, Brasil</li>
-                        <li>Andres Rodriguez, Universidad Nacional de La Plata, Argentina</li>
-                        <li>Jaime Muñoz, Universidad Autónoma de Aguascalientes, México </li>
-                        <li>Patricia Paderewski, Universidad de Granada, España</li>
+                        <li>{{ $t("about.upcoming") }}</li>
                     </ul>
                     
                     <h3 class="h4">{{ $t("accepted_papers.posters") }}</h3>
                     <ul>
-                        <li>María Libertad Aguilar Carlos, Universidad Autónoma de Aguascalientes, México</li>
-                        <li>Julio César Enriquez, Universidad Autónoma de Aguascalientes, México</li>
-                        <li>José Eder Guzmán Mendoza, Universidad Autónoma de Aguascalientes, México</li>
-                        <li>Victor Hugo Menéndez Domínguez, Universidad Autónoma de Yucatán, México</li>
-                        <li>Jaime Muñoz-Arteaga, Universidad Autónoma de Aguascalientes, México</li>
-                        <li>Humberto Muñoz Bautista</li>
-                        <li>Miguel Angel Ortiz Esparza</li>
-                        <li>Pablo Torres Torres Carrion, Universidad Técnica Particular de Loja, Ecuador</li>
-                        <li>César Eduardo Velazquez Amador, Universidad Autónoma de Aguascalientes, México</li>
+                        <li>{{ $t("about.upcoming") }}</li>
                     </ul>
 
                     <h3 class="h4">{{ $t("accepted_papers.full_and_short_papers") }}</h3>
                     <ul>
-                        <li>Yuska Aguiar, Universidadade Federal Da Paraíba, Brazil</li>
-                        <li>Adriana Alvarado Garcia, IBM</li>
-                        <li>Teresita De Jesús Álvarez, Universidad Autónoma de Baja California Sur, México</li>
-                        <li>Eráclito Argolo, Universidade Federal do Maranhão, Brazil</li>
-                        <li>Luis Rodrigo Barba Guamas, Universidad Técnica Particular de Loja, Ecuador</li>
-                        <li>Helton Biscaro, Universidade de São Paulo, Brazil</li>
-                        <li>Luciana Borges, Universidade Federal de Mato Grosso, Brazil</li>
-                        <li>Luciana Brito, Universidade Federal do Rio de Janeiro, Brasil</li>
-                        <li>Héctor Miguel Camarillo-Abad, Universidad de las Américas Puebla, Mexico</li>
-                        <li>Karina Caro, Universidad Autónoma de Baja California, México</li>
-                        <li>Julio César Ponce, Universidad Autónoma de Aguascalientes, México</li>
-                        <li>Joelma Choma, Universidade Federal de São Carlos, Brazil</li>
-                        <li>Cesar Collazos, Universidad del Cauca, Colombia</li>
-                        <li>Heitor Costa, Universidade Federal de Lavras, Brazil</li>
-                        <li>Dagoberto Cruz-Sandoval, University of California San Diego, United States</li>
-                        <li>Ana C. M. T. G. de Oliveira, FATEC Ipiranga, Brasil</li>
-                        <li>Juan Domínguez, Universidad Autónoma del Carmen, México</li>
-                        <li>Victor Domínguez, Universidad Autónoma de Yucatán, Mexico </li>
-                        <li>Nestor Duque, Universidad Nacional de Colombia, Colombia</li>
-                        <li>Silvia Fajardo-Flores, Universidad de Colima, México</li>
-                        <li>Mayara Figueiredo, University of California Irvine, USA</li>
-                        <li>Karina Figueroa, Universidad MIchoacana, Mexico</li>
-                        <li>André Freire, Universidade Federal de Lavras, Brazil</li>
-                        <li>Ludmilla Galvao, Universidade Federal do Paraná, Brazil</li>
-                        <li>Maria Elena García Diaz, Universidad Nacional de Asunción, Paraguay</li>
-                        <li>Cléber Gimenez Corrêa, Universidad Tecnológica Federal de Paraná, Brazil</li>
-                        <li>Yosly Caridad Hernández Bieliukas, Universidad Central de Venezuela, Venezuela</li>
-                        <li>Huizilopoztli Luna-García, Universidad Autónoma de Zacatecas, México</li>
-                        <li>Cristiano Maciel, Universidade Federal de Mato Grosso, Brazil</li>
-                        <li>Gerardo Matturro, Universidad ORT Uruguay, Uruguay</li>
-                        <li>Marcelo Medeiros Eler, Universidade de São Paulo, Brazil</li>
-                        <li>Victoria Meza, Universidad Autónoma de Baja California, México</li>
-                        <li>Carlos Hitoshi Morimoto, Universidade de São Paulo, Brazil</li>
-                        <li>Regina Motz, Universidad de la Republica, Uruguay</li>
-                        <li>Ricardo Nakamura, Universidade de São Paulo, Brazil</li>
-                        <li>Fátima Nunes, Universidade de São Paulo, Brazil</li>
-                        <li>Claudia Perez-Lezama, Tec de Monterrey, Mexico</li>
-                        <li>Monica Perusquía-Hernández, NARA Institute of Science and Technology, Japan</li>
-                        <li>Luis Roberto Ramos Aguiar, Universidad Autónoma de Aguascalientes, México</li>
-                        <li>Pedro Reynolds-Cuéllar, MIT, USA</li>
-                        <li>Kamila Rodrigues, Universidade de São Paulo, Brazil</li>
-                        <li>Germania Rodriguez, Universidad Técnica Particular de Loja, Ecuador</li>
-                        <li>Daniel José Salas Alvarez, Universidad De Córdoba, Colombia</li>
-                        <li>Wilson Javier Sarmiento, Universidad Militar Nueva Granada, Colombia</li>
-                        <li>Lucineide Silva, Universidade Federal de Mato Grosso do Sul, Brazil</li>
-                        <li>Antonio Silva Sprock, Universidad Central de Venezuela, Venezuela</li>
-                        <li>Leandro Soares Guedes, Università della Svizzera italiana, Switzerland</li>
-                        <li>Terezinha Souza, Universidade Federal de Mato Grosso, Brazil</li>
-                        <li>Fernando Urgiles, Universidad Politécnica Salesiana, Ecuador</li>
-                        <li>Rodrigo Zacarias, Universidade Federal do Estado do Rio de Janeiro, Brazil</li>
-                        <li>David Rivas, Escuela Superior Politécnica del Ejército, Ecuador</li>
+                        <li>{{ $t("about.upcoming") }}</li>
                     </ul>
                 <p>
                     <RouterLink :to="Tr.i18nRoute({ name: 'organizers', hash: '#top'})" class="uline">

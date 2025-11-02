@@ -43,13 +43,13 @@
         "accepted_papers": "Accepted papers",
         "accepted_papers_message": "",
         "pending": "Pending",
-        "copyright": "© 2023 Latin American Conference on Human Computer Interaction, a LAIHC conference.",
+        "copyright": "© 2026 Latin American Conference on Human Computer Interaction, a LAIHC conference.",
         "back_to_top": "Back to top of page"
     },
     "jumbotron":{
         "conference": "XII Latin American Conference on Human–Computer Interaction",
         "date": "May 6th–8th, 2026",
-        "button": "Rates & registration"
+        "button": "Call for Participation"
     },
     "about":{
         "about_title": "About CLIHC",
@@ -63,7 +63,7 @@
     },
     "organizers": {
         "title": "Organizers",
-        "intro": "The primary objective of the 2023 Latin American Conference on Human-Computer Interaction (CLIHC) is to foster collaboration, discussion, and knowledge exchange among international and Latin American HCI researchers. The conference aims to promote human-centered and culturally aware artificial intelligence design and development, and provide a platform for the presentation and discussion of new ideas, methods, and techniques for designing interactive user experiences. The conference will be held in Puebla, Mexico, and is organized by a diverse group of experts from Latin America and beyond.",
+        "intro": "The primary objective of the 2026 Latin American Conference on Human-Computer Interaction (CLIHC) is to foster collaboration, discussion, and knowledge exchange among international and Latin American HCI researchers. The conference aims to promote human-centered and culturally aware artificial intelligence design and development, and provide a platform for the presentation and discussion of new ideas, methods, and techniques for designing interactive user experiences. The conference will be held in Puebla, Mexico, and is organized by a diverse group of experts from Latin America and beyond.",
         "general_committee_link": "General committee",
         "general_committee_title": "General Committee",
         "program_committee_link": "Program committee",
@@ -74,6 +74,10 @@
         "local_chairs_description": "Responsible for overseeing local arrangements and logistics for the conference.",
         "program_chairs_title": "Program Chairs",
         "program_chairs_description": "Responsible for the conference program and paper selection process.",
+        "full_papers_cahirs_title": "Full Papers Chairs",
+        "full_papers_cahirs_description": "Responsible for the call, guidelines, peer-review management, and final editorial decisions for full papers.",
+        "short_papers_cahirs_title": "Short Papers Chairs",
+        "short_papers_cahirs_description": "Responsible for the call, guidelines, peer-review management, and final editorial decisions for short papers.",
         "student_design_competition_title": "Student Design Competition Chairs",
         "student_design_competition_description": "In charge of organizing the Student Design Competition.",
         "graduate_colloquium_chairs_title": "Graduate Colloquium Chairs",
@@ -92,8 +96,12 @@
         "acccessibility_chairs_description" : "Responsible for overseeing comprehensive accessibility measures during the conference.",
         "industry_session_chair_title" : "Industry Session Chair",
         "industry_session_chair_description" : "Industry Session Chair",
-        "steering_committee_title": "Steering committee",
-        "steering_committee_description": "Steering committee"
+        "steering_committee_title": "LAIHC Steering committee",
+        "steering_committee_description": "Oversees and guides the strategic activities of the LAIHC community and the CLIHC conference.",
+        "diversity_and_inclusion_chairs_title": "Diversity, Equity and Inclusion Coordination",
+        "diversity_and_inclusion_chairs_description": "Promotes inclusion, equity, and diverse representation within the conference.",
+        "atalaia_title": "Coordination of the Workshop An Afternoon in: Atalaia",
+        "atalaia_description": "Organizes and coordinates the special workshop An Afternoon in: Atalaia, fostering local exchange and academic collaboration."
     },
     "accessibility": {
         "title": "Accessibility Recommendations for Authors",
