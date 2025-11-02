@@ -9,6 +9,7 @@
 </script>
 
 <template>
+	<!--
     <h2 class="">To attend the entire conference</h2>
 
 	<table class="table table-striped">
@@ -136,4 +137,6 @@
             </div>
         </div>
     </section>
+	-->
+	<p class="mt-5 text-center">Information about rates and registration will be available soon.</p>
 </template>

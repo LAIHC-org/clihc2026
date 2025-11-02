@@ -1,30 +1,33 @@
 body {
-    background-color: #F1F7ED;
+    background-color: #F6F5F2;
 }
 .scrolled{
-    background-color: rgba(35, 100, 169, 0.3) !important;
-    background-image: linear-gradient(10deg, rgba(35, 100, 169, 0.8) 30%, rgb(61, 165, 217, 0) 100%);
+    background-color: rgba(92, 132, 101, 0.6) !important;
+    background-image: linear-gradient(10deg, rgba(92, 132, 101, 0.8) 30%, rgb(54, 109, 141, 0.5) 100%);
 }
 
 nav.scrolled li.nav-item:not(.active) a, nav.scrolled a.navbar-brand {
-    color: white;
+    color: #F6F5F2;
 }
 
 .bg-gradient-yellow {
-    background-image: linear-gradient(310deg, #F9B204 0%, #F79101 100%);
-    color: #39384c;
+    background-image: linear-gradient(310deg, #a4352d 0%, #D85A28 100%);
+    color: White;
 }
 
 .text-gradient.text-primary {
+    background-image: linear-gradient(310deg, #a4352d 0%, #D85A28 100%);
+}
+.text-gradient.text-secondary {
     background-image: linear-gradient(310deg, #F9B204 0%, #d57500 100%);
 }
 
 h1, .h1, .h1, h2, .h2, .h2, h3, .h3, .h3, h4, .h4, .h4, h5, .h5, .h5, h6, .h6, .h6 {
-    color: #39384c;
+    color: #0F273E;
 }
 
 .text-dark {
-    color: #39384c !important;
+    color: #0F273E !important;
 }
 
 .alert-warning {
@@ -36,4 +39,18 @@ h1, .h1, .h1, h2, .h2, .h2, h3, .h3, .h3, h4, .h4, .h4, h5, .h5, .h5, h6, .h6, .
 
 .active{
     font-weight: bolder !important;
+}
+
+.logo-laihc {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #0F273E;
+    color: #F6F5F2;
+}
+
+.footer .nav-link, .footer a {
+    color: #F6F5F2 !important;
 }

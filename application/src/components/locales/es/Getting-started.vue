@@ -9,6 +9,7 @@ export default {
 </script>
 
 <template>
+	<!--
 	<p>
 		Bienvenidos al XI Congreso Latinoamericano de Interacción Humano-Computadora (CLIHC 2023). Nos complace darles la
 		bienvenida a este destacado evento que reúne a comunidades de investigación de HCI de América Latina e
@@ -29,43 +30,6 @@ export default {
 				pagos con o sin factura.
 			</div>
 		</li>
-		<!--
-		<li class="list-group-item d-flex justify-content-between align-items-start">
-			<div class="ms-2 me-auto">
-				<div class="fw-bold">
-					<RouterLink :to="Tr.i18nRoute({ name: 'getting-started', hash: '#accommodation' })"
-						class="uline">
-						Hospedaje:
-					</RouterLink>
-				</div>
-				Descubra opciones de alojamiento en Puebla, México, para que su estancia en la conferencia sea cómoda y
-				agradable. Proporcionaremos información sobre hoteles cercanos y recomendaciones.
-			</div>
-		</li>
-		<li class="list-group-item d-flex justify-content-between align-items-start">
-			<div class="ms-2 me-auto">
-				<div class="fw-bold">
-					<RouterLink :to="Tr.i18nRoute({ name: 'getting-started', hash: '#how-to-get-there' })"
-						class="uline">
-						Cómo Llegar:
-					</RouterLink>
-				</div>
-				Obtenga indicaciones claras y detalles sobre cómo llegar a los sitios de la conferencia, tanto en la BUAP
-				(Benemérita Universidad Autónoma de Puebla) como en el Tec de Monterrey, Campus Puebla.
-			</div>
-		</li>
-		<li class="list-group-item d-flex justify-content-between align-items-start">
-			<div class="ms-2 me-auto">
-				<div class="fw-bold">
-					<RouterLink :to="Tr.i18nRoute({ name: 'getting-started', hash: '#frequently-asked-questions' })"
-						class="uline">
-						Preguntas Frecuentes:
-					</RouterLink>
-				</div>
-				Encuentre respuestas a las preguntas más comunes que pueda tener sobre su participación en la conferencia.
-			</div>
-		</li>
-		-->
 	</ol>
 
 	<h2 id="rates-and-registration" class="mt-5 h3">Registro y Pago</h2>
@@ -98,21 +62,6 @@ export default {
 			cuenta que <strong>el pago del registro a la conferencia es un requisito previo para la inscripción en tutoriales y
 			talleres, y debe realizarse por separado.</strong></p>
 	</div>
-
-<!--
-	<h2 id="accommodation" class="mt-5 h3">Hospedaje</h2>
-<p>
-	Pendiente
-</p>
-
-<h2 id="how-to-get-there" class="mt-5 h3">Cómo Llegar</h2>
-<p>
-	Pendiente
-</p>
-
-<h2 id="frequently-asked-questions" class="mt-5 h3">Preguntas Frecuentes</h2>
-<p>
-	Pendiente
-</p>
--->
+	-->
+	<p class="mt-5 text-center">La guía de Primeros Pasos estará disponible pronto.</p>
 </template>

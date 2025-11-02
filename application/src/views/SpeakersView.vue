@@ -101,7 +101,7 @@ export default {
                 <component :is="contentComponent" />
             </template>
             -->
-            {{ $t("soon.speakers") }} 
+            <p class="mt-5 text-center">{{ $t("soon.speakers") }} </p>
           </div>
         </div>
       </div>

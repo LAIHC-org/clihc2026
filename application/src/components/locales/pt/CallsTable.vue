@@ -17,7 +17,7 @@
                     Chamada de trabalhos (CFP)
                 </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Prazo de envio:</strong>  <del>3 de julho PRORROGADO</del><strong class="text-danger"> Fechada</strong><br>
+            <strong class="text-primary text-gradient">Prazo de envio:</strong>  Em breve<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -27,7 +27,7 @@
                     Chamada para sessão de pôsteres (CPT)
                 </RouterLink>                
             </div>
-            <strong class="text-primary text-gradient">Prazo de envio:</strong><del>11 de Agosto PRORROGADO</del><strong class="text-danger"> Fechada</strong><br>
+            <strong class="text-primary text-gradient">Prazo de envio:</strong> Em breve<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -37,7 +37,7 @@
                 Chamada para workshops e tutoriais (CWT)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> <del>11 de Agosto PRORROGADO</del><strong class="text-danger"> Fechada</strong><br>
+            <strong class="text-primary text-gradient">Prazo de envio:</strong> Em breve<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -47,7 +47,7 @@
                 Competição de design estudantil (SDC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> <del>11 de Agosto PRORROGADO</del><strong class="text-danger"> Fechada</strong><br>
+            <strong class="text-primary text-gradient">Prazo de envio:</strong> Em breve<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -57,7 +57,7 @@
                 Colóquio de pós-graduação (GC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> <del>11 de Agosto PRORROGADO</del><strong class="text-danger"> Fechada</strong><br>
+            <strong class="text-primary text-gradient">Prazo de envio:</strong> Em breve<br>
         </div>
         </li>
     </ol>    
