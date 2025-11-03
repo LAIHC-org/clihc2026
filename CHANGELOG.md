@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2026.1.0.2] - 2025-11-03
+
+### Fixed
+
+- Unify CTA text in Jumbotron across English, Spanish and Portuguese
+
 ## [2026.1.0.1] - 2025-11-02
 
 ### Added
