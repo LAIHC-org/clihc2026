@@ -3,6 +3,7 @@ import SpeakerLargeItem from '@/components/SpeakerLargeItem.vue'
 </script>
 
 <template>
+    <!--
     <SpeakerLargeItem>
         <template #image>
             <img id="roberto-martinez" class="img border-radius-lg w-100 position-relative z-index-2"
@@ -106,14 +107,16 @@ import SpeakerLargeItem from '@/components/SpeakerLargeItem.vue'
             departamento de Confiabilidad de Software y Sistemas en el IRIT (Laboratorio de Investigación en Ciencias de la
             Computación de Toulouse). Durante muchos años, ha participado en proyectos de investigación en el área de
             Sistemas de Comando y Control en múltiples dominios, incluyendo drones, interfaces multimodales para cabinas
-        militares, sistemas de segmento terrestre en salas de control de satélites, estaciones de control de tráfico
-        aéreo, seguridad de vuelo para plataformas de lanzamiento y más. En la aviación civil, trabajó en problemas de
-        especificación y certificación de nuevas cabinas interactivas (que deben cumplir con la norma de especificación
-        ARINC 661) de aviones grandes como el Airbus A350, con un enfoque reciente en interacciones multitáctiles. En
-        todos estos dominios, el modelado conjunto del comportamiento del sistema interactivo y las tareas del usuario
-        fue un aspecto clave para evaluar y garantizar la compatibilidad entre el trabajo de los operadores y las
-        herramientas proporcionadas para realizar este trabajo. Ha editado y coeditado más de veinte libros o actas de
-        conferencias y ha coautorado más de 200 publicaciones arbitradas en conferencias y revistas internacionales. Es
-        miembro de la Academia CHI de ACM SIGCHI y presidente de la Asamblea Técnica de IFIP.
-    </p>
-</SpeakerLargeItem></template>
+            militares, sistemas de segmento terrestre en salas de control de satélites, estaciones de control de tráfico
+            aéreo, seguridad de vuelo para plataformas de lanzamiento y más. En la aviación civil, trabajó en problemas de
+            especificación y certificación de nuevas cabinas interactivas (que deben cumplir con la norma de especificación
+            ARINC 661) de aviones grandes como el Airbus A350, con un enfoque reciente en interacciones multitáctiles. En
+            todos estos dominios, el modelado conjunto del comportamiento del sistema interactivo y las tareas del usuario
+            fue un aspecto clave para evaluar y garantizar la compatibilidad entre el trabajo de los operadores y las
+            herramientas proporcionadas para realizar este trabajo. Ha editado y coeditado más de veinte libros o actas de
+            conferencias y ha coautorado más de 200 publicaciones arbitradas en conferencias y revistas internacionales. Es
+            miembro de la Academia CHI de ACM SIGCHI y presidente de la Asamblea Técnica de IFIP.
+        </p>
+    </SpeakerLargeItem>
+    -->
+</template>

@@ -79,11 +79,11 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
+                                                <img src="/assets/img/people/jean.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/people/jean.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
@@ -101,11 +101,11 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
+                                                <img src="/assets/img/people/gilton.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/people/gilton.png  &quot;);">
                                             </div>
                                         </template>
                                         <template #name>
@@ -222,11 +222,11 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
+                                                <img src="/assets/img/people/sanely.jpg" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/people/sanely.jpg&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
@@ -631,7 +631,7 @@ export default {
                         </div>
                     </div>
                 </div>
-
+                <!--
                 <div class="container mt-4 px-5 mt-6" id="registration-chairs">
                     <div class="row">
                         <div class="col-xl-3">
@@ -691,7 +691,8 @@ export default {
                             </div>
                         </div>
                     </div>
-                </div>                
+                </div>
+                -->
 
                 <div class="container mt-4 px-5 mt-6" id="accesibility-chairs">
                     <div class="row">
@@ -773,11 +774,11 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
+                                                <img src="/assets/img/people/mike.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/people/mike.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
@@ -898,11 +899,11 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
+                                                <img src="/assets/img/people/soraia.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/people/soraia.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
