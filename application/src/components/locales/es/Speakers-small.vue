@@ -16,6 +16,7 @@ export default {
 
 <template>
     <div class="row mb-4">
+        <!--
         <SpeakerItem>
             <template #image>
                 <img src="/assets/img/people/roberto.png" alt="" class="img-fluid shadow rounded-3">
@@ -87,5 +88,7 @@ export default {
             Control, incluyendo drones, interfaces militares multimodales y seguridad en la aviación. Con valiosas
             contribuciones a la investigación, es miembro de la Academia CHI de ACM SIGCHI y preside la Asamblea Técnica de
             la IFIP.
-    </SpeakerItem>
-</div></template>
+        </SpeakerItem>
+        -->
+    </div>
+</template>
