@@ -1,0 +1,1 @@
+import{O as e}from"./OrganizerItem-bm0JNGk0.js";import{_ as o,c as r,o as t,T as s}from"./index-C3AR5u9B.js";const n={components:{OrganizerItem:e},setup(){return{Tr:s}}},a={class:"mt-6 text-center"};function c(p,l,_,m,f,i){return t(),r("p",a,"The Call for Papers will be announced soon.")}const x=o(n,[["render",c]]);export{x as default};
