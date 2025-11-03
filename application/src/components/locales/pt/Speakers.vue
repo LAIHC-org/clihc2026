@@ -117,5 +117,4 @@ import SpeakerLargeItem from '@/components/SpeakerLargeItem.vue'
         </p>
     </SpeakerLargeItem>
     -->
-    
 </template>
