@@ -1,0 +1,1 @@
+import{O as e}from"./OrganizerItem-BTXV_u2q.js";import{_ as t,c as a,o,T as r}from"./index-BhVn2s1I.js";const s={components:{OrganizerItem:e},setup(){return{Tr:r}}},n={class:"mt-6 text-center"};function c(p,i,m,_,d,l){return o(),a("p",n,"A chamada para a Competição de Design Estudantil será anunciada em breve.")}const x=t(s,[["render",c]]);export{x as default};

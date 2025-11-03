@@ -1,0 +1,1 @@
+import{O as e}from"./OrganizerItem-BTXV_u2q.js";import{_ as r,c as t,o as a,T as s}from"./index-BhVn2s1I.js";const o={components:{OrganizerItem:e},setup(){return{Tr:s}}},n={class:"mt-6 text-center"};function c(p,m,_,d,i,l){return a(),t("p",n,"A chamada de trabalhos será anunciada em breve.")}const h=r(o,[["render",c]]);export{h as default};
