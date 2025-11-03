@@ -38,7 +38,7 @@ npm run dev
 Para Producción:
 
 ``` bash
-npm run build
+npm run deploy
 ```
 
 ---
@@ -52,7 +52,7 @@ El sitio se publica automáticamente mediante la rama `gh-pages`.
 1. Asegúrate de estar en el directorio raíz del proyecto:
 
    ```bash
-   cd laihc-website
+   cd application
    ```
 
 2. Ejecuta el siguiente comando:
@@ -68,7 +68,7 @@ El sitio se publica automáticamente mediante la rama `gh-pages`.
 
 3. Una vez desplegado, el sitio estará disponible en:
 
-   📍 [https://laihc-org.github.io/laihc/](https://laihc-org.github.io/laihc/)
+   📍 [https://clihc2026.laihc.org/](https://clihc2026.laihc.org/)
 
 > Asegúrate de que en la configuración del repositorio, en **Settings > Pages**, esté seleccionada la rama `gh-pages` como fuente del sitio.
 
