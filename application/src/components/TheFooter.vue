@@ -153,7 +153,7 @@
                             {{ $t("nav.copyright") }}
                         </p>
                         <p class="my-0  text-sm">
-                            <a class="uline" href="CHANGELOG.md">v2023.1.0.13</a>
+                            <a class="uline" href="CHANGELOG.md">v2026.1.0.1</a>
                         </p>
                     </div>
                 </div>

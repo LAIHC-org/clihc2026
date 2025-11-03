@@ -7,9 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2026.0.0.1] - 2025-11-02
+## [2026.1.0.1] - 2025-11-02
 
 ### Added
 
 - Landing page content
 - Organizers page
+- Replace the down arrow in dropdown menus (navbar)
