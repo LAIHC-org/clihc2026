@@ -679,28 +679,6 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dra. Taciana Pontual
-                                        </template>
-                                        <template #institution>
-                                            Universidade Federal Rural de Pernambuco (UFRPE), BR
-                                        </template>
-                                        <template #email>
-                                        </template>
-                                    </OrganizerItem>
-                                </div>
-
-                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
-                                    <OrganizerItem>
-                                        <template #image>
-                                            <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
-                                                    class="img-fluid shadow rounded-3">
-                                            </div>
-                                            <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
-                                            </div>
-                                        </template>
-                                        <template #name>
                                             Dr. Gilson Pereira dos Santos Júnior
                                         </template>
                                         <template #institution>
