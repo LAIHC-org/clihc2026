@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2026.1.0.4] - 2025-11-03
+
+### Changed
+
+- update Organizers list and add some photos
+
 ## [2026.1.0.3] - 2025-11-03
 
 ### Fixed
