@@ -1,8 +1,8 @@
-# CLIHC Versión 2023.1.0.13
+# CLIHC Versión 2026.1.0.0
 
-## Sitio web para el CLIHC 2023
+## Sitio web para el CLIHC 2026
 
-Sitio [web de difusión de CLIHC 2023](https://clihc2021.laihc.org/) organizado por la [SIGCHI Latin American HCI Community (LAIHC)](http://www.laihc.org/).
+Sitio [web de difusión de CLIHC 2026](https://clihc2026.laihc.org/) organizado por la [Latin American HCI Community (LAIHC)](http://www.laihc.org/).
 
 ### Technology used
 
@@ -10,7 +10,7 @@ Sitio [web de difusión de CLIHC 2023](https://clihc2021.laihc.org/) organizado 
 
 ### What is this repository for?
 
-* Llevar el control del desarrollo del sitio CLIHC 2023
+* Llevar el control del desarrollo del sitio CLIHC 2026
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 * [Flujo de trabajo de Gitflow](https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow)
 * [A successful Git branching model (original)](https://nvie.com/posts/a-successful-git-branching-model/)
@@ -39,8 +39,37 @@ Para Producción:
 
 ``` bash
 npm run build
-cp ../documentation/.htaccess dist/.htaccess
-cp ../CHANGELOG.md dist/CHANGELOG.md
 ```
 
-Sincronizar la carpeta `clihc/application/dist` en VSCode con la [extensión SFTP](https://github.com/liximomo/vscode-sftp). Para su configuración revisar el archivo `clihc/.vscode/sftp.json`.
+---
+
+## 🚀 Despliegue en GitHub Pages
+
+El sitio se publica automáticamente mediante la rama `gh-pages`.
+
+### 📦 Compilar y desplegar
+
+1. Asegúrate de estar en el directorio raíz del proyecto:
+
+   ```bash
+   cd laihc-website
+   ```
+
+2. Ejecuta el siguiente comando:
+
+   ```bash
+   npm run deploy
+   ```
+
+   Esto:
+
+   * Compila el sitio (`npm run build`)
+   * Publica el contenido de `dist/` en la rama `gh-pages` usando [gh-pages](https://www.npmjs.com/package/gh-pages)
+
+3. Una vez desplegado, el sitio estará disponible en:
+
+   📍 [https://laihc-org.github.io/laihc/](https://laihc-org.github.io/laihc/)
+
+> Asegúrate de que en la configuración del repositorio, en **Settings > Pages**, esté seleccionada la rama `gh-pages` como fuente del sitio.
+
+---
