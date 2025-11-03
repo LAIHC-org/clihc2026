@@ -105,7 +105,7 @@ export default {
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/people/gilton.png  &quot;);">
+                                                style="background-image: url(&quot;./assets/img/people/gilton.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
@@ -294,7 +294,7 @@ export default {
                                             Dr. Juan Pablo Hourcade
                                         </template>
                                         <template #institution>
-                                            University of Iowa (UIOWA), USA
+                                            University of Iowa (UIOWA), US
                                         </template>
                                         <template #email>
                                         </template>
@@ -355,7 +355,7 @@ export default {
                                             Dr. Mario A. Moreno Rocha
                                         </template>
                                         <template #institution>
-                                            Universidad Tecnológica de la Mixteca (UTM), México
+                                            Universidad Tecnológica de la Mixteca (UTM), MX
                                         </template>
                                         <template #email>
                                         </template>
@@ -416,7 +416,7 @@ export default {
                                             Dr. Carlos Alberto Martínez-Sandoval
                                         </template>
                                         <template #institution>
-                                            Universidad Tecnológica de la Mixteca (UTM), México
+                                            Universidad Tecnológica de la Mixteca (UTM), MX
                                         </template>
                                         <template #email>
                                         </template>
@@ -477,7 +477,7 @@ export default {
                                             Dra. Claudia López Moncada
                                         </template>
                                         <template #institution>
-                                            Universidad Técnica Federico Santa María (UTFSM)
+                                            Universidad Técnica Federico Santa María (UTFSM), CL
                                         </template>
                                         <template #email>
                                         </template>
@@ -538,7 +538,7 @@ export default {
                                             MSc. Daniela Cardoso Tavares
                                         </template>
                                         <template #institution>
-                                            Universidade Federal do Rio de Janeiro (UFRJ)
+                                            Universidade Federal do Rio de Janeiro (UFRJ), BR
                                         </template>
                                         <template #email>
                                         </template>
@@ -722,7 +722,7 @@ export default {
                                             Dr. Rubens Matos
                                         </template>
                                         <template #institution>
-                                            Instituto Federal de Sergipe (IFS)
+                                            Instituto Federal de Sergipe (IFS), BR
                                         </template>
                                         <template #email>
                                             
@@ -910,7 +910,7 @@ export default {
                                             Dra. Soraia S. Prietch
                                         </template>
                                         <template #institution>
-                                            Benemérita Universidad Autónoma de Puebla (BUAP)
+                                            Benemérita Universidad Autónoma de Puebla (BUAP), MX
                                         </template>
                                         <template #email>
                                             <!--<a class="uline" href="mailto:tpc.2022@mexihc.org">tpc.2022@mexihc.org</a>-->
@@ -933,7 +933,7 @@ export default {
                                             Dr. Pedro Reynolds-Cuellar
                                         </template>
                                         <template #institution>
-                                            Massachusetts Institute of Technology (MIT)
+                                            Massachusetts Institute of Technology (MIT), US
                                         </template>
                                         <template #email>
                                             <!--<a class="uline" href="mailto:tpc.2022@mexihc.org">tpc.2022@mexihc.org</a>-->
