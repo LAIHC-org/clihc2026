@@ -3,6 +3,7 @@ import SpeakerLargeItem from '@/components/SpeakerLargeItem.vue'
 </script>
 
 <template>
+    <!--
     <SpeakerLargeItem>
         <template #image>
             <img id="roberto-martinez" class="img border-radius-lg w-100 position-relative z-index-2"
@@ -105,13 +106,15 @@ import SpeakerLargeItem from '@/components/SpeakerLargeItem.vue'
             Toulouse). Por muitos anos, ele esteve envolvido em projetos de pesquisa na área de Sistemas de Comando e
             Controle em múltiplos domínios, incluindo drones, interfaces multimodais para cockpits militares, sistemas de
             segmento terrestre em salas de controle de satélites, estações de controle de tráfego aéreo, segurança de voo
-        para plataformas de lançamento e muito mais. Na aviação civil, trabalhou em questões de especificação e
-        certificação de novos cockpits interativos (que precisam estar em conformidade com a especificação padrão ARINC
-        661) de grandes aeronaves, como o Airbus A350, com um foco recente em interações multitouch. Em todos esses
-        domínios, a modelagem conjunta do comportamento do sistema interativo e das tarefas do usuário foi um
-        aspecto-chave para avaliar e garantir a compatibilidade entre o trabalho dos operadores e as ferramentas
-        fornecidas para realizar esse trabalho. Ele editou e coeditou mais de vinte livros ou atas de conferências e
-        coautorou mais de 200 publicações arbitradas em conferências e revistas internacionais. Ele é membro da Academia
-        CHI da ACM SIGCHI e presidente da Assembleia Técnica da IFIP.
-    </p>
-</SpeakerLargeItem></template>
+            para plataformas de lançamento e muito mais. Na aviação civil, trabalhou em questões de especificação e
+            certificação de novos cockpits interativos (que precisam estar em conformidade com a especificação padrão ARINC
+            661) de grandes aeronaves, como o Airbus A350, com um foco recente em interações multitouch. Em todos esses
+            domínios, a modelagem conjunta do comportamento do sistema interativo e das tarefas do usuário foi um
+            aspecto-chave para avaliar e garantir a compatibilidade entre o trabalho dos operadores e as ferramentas
+            fornecidas para realizar esse trabalho. Ele editou e coeditou mais de vinte livros ou atas de conferências e
+            coautorou mais de 200 publicações arbitradas em conferências e revistas internacionais. Ele é membro da Academia
+            CHI da ACM SIGCHI e presidente da Assembleia Técnica da IFIP.
+        </p>
+    </SpeakerLargeItem>
+    -->
+</template>

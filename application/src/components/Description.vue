@@ -42,7 +42,9 @@ export default {
             <div class="container py-7 postion-relative z-index-2 position-relative">
                 <div class="row">
                     <div class="col-md-7 mx-auto text-center">
-                        
+                        <a href="http://www.laihc.org/" class="uline lightLink">
+                          <img src="/assets/img/logos/laihc-blanco.svg" alt="LaIHC" class="logo-laihc">
+                        </a>
                         <template v-if="currentComponent">
                             <component :is="currentComponent" />
                         </template>                        
@@ -51,11 +53,13 @@ export default {
                         <a href="./schedule" class="btn bg-gradient-yellow btn-round btn-lg">Schedule</a>
                         <a href="./video-archives" class="btn bg-gradient-yellow btn-round btn-lg">Video archives</a>
                         -->
+                        <!--
                         <RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
 												class="btn btn-lg  bg-gradient-yellow  btn-round"
                           >
                           {{ $t("jumbotron.button") }}
                         </RouterLink>           
+                        -->
                     </div>
                 </div>
             </div>

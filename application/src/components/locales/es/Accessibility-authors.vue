@@ -1,10 +1,10 @@
 <template>
+    <!--
     <p>
         Nos comprometemos a proporcionar un entorno inclusivo y maximizar la experiencia para todos. Como principales
         productores de información, alentamos a todos los participantes a seguir nuestras recomendaciones de accesibilidad.
     </p>
 
-    <!-- Language recommendations-->
     <h2 id="language-recommendations">Recomendaciones de Lenguaje</h2>
 
     <p>
@@ -19,9 +19,7 @@
             href="https://cs.uiowa.edu/people/kyle-rector">Kyle Rector</a> para comunicar mejor su mensaje a todos los
         miembros del público.
     </p>
-    <!-- end Language recommendations -->
 
-    <!-- Accessible document author recommendations -->
     <h2 id="accessible-document-author-recommendations">Recomendaciones para la Creación de Documentos Accesibles</h2>
 
     <p>
@@ -87,9 +85,7 @@
             href="https://wiki.documentfoundation.org/Accessibility/Creating_Accessible_LibreOffice_Files">cómo crear
             archivos accesibles en LibreOffice</a>.
     </p>
-    <!-- end Accessible document author recommendations -->
 
-    <!-- Accessible slide author recommendations -->
     <h2 id="accessible-slide-author-recommendations">Recomendaciones para la Creación de Diapositivas Accesibles</h2>
     <p>
         Sus presentaciones estarán disponibles como parte de los productos digitales generados en CLIHC 2023, por lo tanto,
@@ -134,9 +130,7 @@
             href="https://wiki.documentfoundation.org/Accessibility/Creating_Accessible_LibreOffice_Files">cómo crear
             archivos accesibles en LibreOffice</a>.
     </p>
-    <!-- end Accessible slide author recommendations -->
 
-    <!-- Accessible video author recommendations -->
     <h2 id="accessible-video-author-recommendations">Recomendaciones para la Creación de Videos Accesibles</h2>
 
     <p>
@@ -157,5 +151,6 @@
         <li><strong>Utilizar un lenguaje sencillo</strong>, en la medida de lo posible.</li>
         <li>Identificar el archivo .SRT específico para ese video, para su uso posterior.</li>
     </ol>
-
-<!-- end Accessible video author recommendations --></template>    
+    -->
+    <p class="mt-6 text-center">Las Recomendaciones de Accesibilidad para Autores estarán disponibles pronto.</p>
+</template>    

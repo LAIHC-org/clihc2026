@@ -67,45 +67,17 @@ export default {
 
                         <SponsorItem>
                             <template #image>
-                                <img src="/assets/img/sponsors/skye.png" alt="" class="img-fluid shadow rounded-3">
+                                <img src="/assets/img/sponsors/fapitec_se.png" alt="Fundação de Apoio à Pesquisa e à Inovação Tecnológica do Estado de Sergipe (FAPITEC/SE)" class="img-fluid shadow rounded-3">
                             </template>
                             <template #image-shadow>
                                 <div class="colored-shadow"
-                                    style="background-image: url(&quot;./assets/img/sponsors/skye.png&quot;);">
+                                    style="background-image: url(&quot;./assets/img/sponsors/fapitec_se.png&quot;);">
                                 </div>
                             </template>                                
                             <template #name>
-                                <a class="uline" href="https://en.skye.group/">Skye Group</a>
+                                <a class="uline" href="https://fapitec.se.gov.br/">FAPITEC/SE</a>
                             </template>
                         </SponsorItem> 
-
-                        <SponsorItem>
-                            <template #image>
-                                <img src="/assets/img/sponsors/sperientia.png" alt="" class="img-fluid shadow rounded-3">
-                            </template>
-                            <template #image-shadow>
-                                <div class="colored-shadow"
-                                    style="background-image: url(&quot;./assets/img/sponsors/sperientia.png&quot;);">
-                                </div>
-                            </template>                                
-                            <template #name>
-                                <a class="uline" href="https://www.sperientia.com/">Sperientia [studio+lab] <sup>&#174;</sup></a>
-                            </template>
-                        </SponsorItem>
-
-                        <SponsorItem>
-                            <template #image>
-                                <img src="/assets/img/sponsors/cocktail.png" alt="" class="img-fluid shadow rounded-3">
-                            </template>
-                            <template #image-shadow>
-                                <div class="colored-shadow"
-                                    style="background-image: url(&quot;./assets/img/sponsors/cocktail.png&quot;);">
-                                </div>
-                            </template>                                
-                            <template #name>
-                                <a class="uline" href="https://the-cocktail.com/">The Cocktail</a>
-                            </template>
-                        </SponsorItem>                        
 
                     </div>
                 </div>

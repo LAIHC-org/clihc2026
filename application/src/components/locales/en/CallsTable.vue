@@ -17,7 +17,7 @@
                     Call for papers (CFP)
                 </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Deadline for submission:</strong> <del>July 3rd EXTENDED</del><strong class="text-danger"> Closed</strong><br>
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> Upcoming<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -27,7 +27,7 @@
                     Call for poster track (CPT)
                 </RouterLink>                
             </div>
-            <strong class="text-primary text-gradient">Deadline for submission:</strong> <del>August 11th EXTENDED</del><strong class="text-danger"> Closed</strong><br>
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> Upcoming<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -37,7 +37,7 @@
                 Call for workshops and tutorial (CWT)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Deadline for submission:</strong> <del>August 11th EXTENDED</del><strong class="text-danger"> Closed</strong><br>
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> Upcoming<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -47,7 +47,7 @@
                 Student design competition (SDC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Deadline for submission:</strong> <del>August 11th EXTENDED</del><strong class="text-danger"> Closed</strong><br>
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> Upcoming<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -57,7 +57,7 @@
                 Graduate Colloquium (GC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Deadline for submission:</strong> <del>August 11th EXTENDED</del><strong class="text-danger"> Closed</strong><br>
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> Upcoming<br>
         </div>
         </li>
     </ol>    

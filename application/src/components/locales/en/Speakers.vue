@@ -3,6 +3,7 @@ import SpeakerLargeItem from '@/components/SpeakerLargeItem.vue'
 </script>
 
 <template>
+    <!--
     <SpeakerLargeItem>
         <template #image>
             <img id="roberto-martinez" class="img border-radius-lg w-100 position-relative z-index-2"
@@ -104,12 +105,14 @@ import SpeakerLargeItem from '@/components/SpeakerLargeItem.vue'
             many years, he has been involved in research projects in the area of Command and Control Systems in multiple
             domains, including drones, multimodal interfaces for military cockpits, ground segment systems in satellite
             control rooms, Air Traffic Control workstations, Flight safety for launchpads, and more. In civil aviation, he
-        worked on the specification and certification issues of new interactive cockpits (that have to be compliant with
-        the ARINC 661 specification standard) of large airplanes such as the Airbus A350, with a recent focus on
-        multi-touch interactions. In all these domains, the joint modeling of the interactive system behavior and user
-        tasks was a key aspect to assess and ensure compatibility between operators’ work and the tools provided to them
-        to perform this work. He has edited and co-edited more than twenty books or conference proceedings and
-        co-authored more than 200 refereed publications in international conferences and journals. He is a member of ACM
-        SIGCHI CHI Academy and chair of the IFIP Technical Assembly.
-    </p>
-</SpeakerLargeItem></template>
+            worked on the specification and certification issues of new interactive cockpits (that have to be compliant with
+            the ARINC 661 specification standard) of large airplanes such as the Airbus A350, with a recent focus on
+            multi-touch interactions. In all these domains, the joint modeling of the interactive system behavior and user
+            tasks was a key aspect to assess and ensure compatibility between operators’ work and the tools provided to them
+            to perform this work. He has edited and co-edited more than twenty books or conference proceedings and
+            co-authored more than 200 refereed publications in international conferences and journals. He is a member of ACM
+            SIGCHI CHI Academy and chair of the IFIP Technical Assembly.
+        </p>
+    </SpeakerLargeItem>
+    -->
+</template>

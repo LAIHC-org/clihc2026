@@ -16,6 +16,7 @@ export default {
 
 <template>
     <div class="row mb-4">
+        <!--
         <SpeakerItem>
             <template #image>
                 <img src="/assets/img/people/roberto.png" alt="" class="img-fluid shadow rounded-3">
@@ -84,5 +85,6 @@ export default {
             including drones, multimodal military interfaces, and aviation safety. With extensive research contributions,
             he's an ACM SIGCHI CHI Academy member and chairs the IFIP Technical Assembly.
         </SpeakerItem>
+        -->
     </div>
 </template>

@@ -16,6 +16,7 @@ export default {
 </script>
 
 <template>
+    <!--
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
@@ -206,6 +207,9 @@ export default {
                 </template>
                 <template #email>
                 </template>
-        </OrganizerItem>
+            </OrganizerItem>
+        </div>
     </div>
-</div></template>
+    -->
+    <p class="mt-6 text-center">La convocatoria para el Coloquio de Posgrado será anunciada próximamente.</p>
+</template>

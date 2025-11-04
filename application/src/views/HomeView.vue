@@ -2,9 +2,10 @@
 import TheJumbotron from '@/components/Jumbotron.vue'
 import TheAboutSection from '@/components/AboutSection.vue'
 import TheSpeakers from '@/components/TheSpeakers.vue'
-import TheDescription from '@/components/Description.vue'
 import TheSpetialThanks from '@/components/SpetialThanks.vue'
-import TheVirtualVenues from '@/components/VirtualVenues.vue'
+import TheDescription from '@/components/Description.vue'
+import TheOrganization from '@/components/TheOrganization.vue'
+import TheCoordinationOfProgram from '@/components/TheCoordinationOfProgram.vue'
 import TheSupport from '@/components/Support.vue'
 </script>
 
@@ -12,8 +13,10 @@ import TheSupport from '@/components/Support.vue'
   <TheJumbotron />
   <TheAboutSection />
   <TheSpeakers />
-  <TheDescription />
   <TheSpetialThanks />
+  <TheDescription />
+  <TheOrganization />
+  <TheCoordinationOfProgram />
   <!-- TheVirtualVenues /> -->
   <!-- <TheSupport /> -->
 </template>

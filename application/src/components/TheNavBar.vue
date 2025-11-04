@@ -64,7 +64,7 @@
 															{{ $t("nav.cfp") }}
 														</span>
 														<i18n path="nav.cfp_message" tag="span" class="text-sm text-dark">
-															{{ $t("about.closed") }}
+															{{ $t("about.upcoming") }}
 														</i18n>
 													</div>
 												</div>
@@ -81,7 +81,7 @@
 															{{ $t("nav.cpt") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("about.closed") }}
+															{{ $t("about.upcoming") }}
 														</span>
 													</div>
 												</div>
@@ -98,7 +98,7 @@
 															{{ $t("nav.cwt") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("about.closed") }}
+															{{ $t("about.upcoming") }}
 														</span>
 													</div>
 												</div>
@@ -115,7 +115,7 @@
 															{{ $t("nav.sdc") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("about.closed") }}
+															{{ $t("about.upcoming") }}
 														</span>
 													</div>
 												</div>
@@ -132,7 +132,7 @@
 															{{ $t("nav.cgc") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("about.closed") }}
+															{{ $t("about.upcoming") }}
 														</span>
 													</div>
 												</div>
@@ -149,7 +149,7 @@
 															{{ $t("nav.accessibility_for_autors") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.accessibility_for_autors_message") }}
+															{{ $t("about.upcoming") }}
 														</span>
 													</div>
 												</div>
@@ -162,9 +162,8 @@
 									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="#"
 										id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
 										aria-expanded="false">
-										{{ $t("nav.for_attendees") }}
-										<img src="/assets/img/down-arrow-dark.svg"
-											class="arrow ms-1" alt="">
+										{{ $t("nav.for_attendees") }} 
+										&nbsp;<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="currentColor" d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"/></svg>
 									</a>
 									<ul class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg"
 										aria-labelledby="navbarDropdown2">
@@ -179,7 +178,7 @@
 															{{ $t("nav.getting_started") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.getting_started_message") }}
+															{{ $t("about.upcoming") }}
 														</span>
 													</div>
 												</div>
@@ -196,7 +195,7 @@
 															{{ $t("nav.rates_and_registration") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.rates_and_registration_message") }}
+															{{ $t("about.upcoming") }}
 														</span>														
 													</div>
 												</div>
@@ -229,7 +228,7 @@
 										aria-expanded="false"
 									>
 										{{ $t("nav.program") }}
-										<img src="/assets/img/down-arrow-dark.svg" class="arrow ms-1" alt="">
+										&nbsp;<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="currentColor" d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"/></svg>
 									</RouterLink>
 									<ul class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg"
 										aria-labelledby="navbarDropdown3">
@@ -244,7 +243,7 @@
 															{{ $t("nav.schedule") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.schedule_message") }}
+															{{ $t("about.upcoming") }}
 														</span>
 													</div>
 												</div>												
@@ -259,12 +258,13 @@
 															{{ $t("nav.keynotes") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.keynotes_message") }}
+															{{ $t("about.upcoming") }}
 														</span>
 													</div>
 												</div>
 											</RouterLink>
 										</li>
+										<!--
 										<li>
 											<RouterLink class="dropdown-item border-radius-md" :to="Tr.i18nRoute({ name: 'accepted-papers' })">
 												<div class="d-flex">
@@ -277,6 +277,7 @@
 												</div>
 											</RouterLink>
 										</li>
+										-->
 									</ul>
 								</li>
 								<!--

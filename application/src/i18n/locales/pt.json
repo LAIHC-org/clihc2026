@@ -20,7 +20,7 @@
         "cpt_message": "Prazo: 11 de agosto de 2023 PRORROGADA",
         "cwt": "Chamada para workshops e tutoriais",
         "cwt_message": "Prazo: 11 de agosto de 2023 PRORROGADA",
-        "sdc": "Competição de design para estudantes",
+        "sdc": "Competição de design estudantil",
         "sdc_message": "Prazo: 11 de agosto de 2023 PRORROGADA",
         "cgc": "Colóquio de pós-graduação",
         "cgc_message": "Prazo: 11 de agosto de 2023 PRORROGADA",
@@ -43,13 +43,13 @@
         "accepted_papers": "Artigos aceitos",
         "accepted_papers_message": "",        
         "pending": "Pendente",
-        "copyright": "© 2023 Conferência Latino-Americana de Interação Humano-Computador, uma conferência da LAIHC.",
+        "copyright": "© 2026 Conferência Latino-Americana de Interação Humano-Computador, uma conferência da LAIHC.",
         "back_to_top": "Voltar ao topo da página"
     },
     "jumbotron":{
         "conference": "XXII Conferência Latino-Americana de Interação Humano–Computador",
         "date": "De 6 a 8 de maio de 2026",
-        "button": "Registrar-se agora"
+        "button": "Chamada para participação"
     },
     "about":{
         "about_title": "Sobre o CLIHC",
@@ -58,41 +58,51 @@
         "registration": "Chamada para registro",
         "proceedings": "Proceedings",
         "open": "Aberta",
-        "closed": "Fechada"
+        "closed": "Fechada",
+        "upcoming": "Em breve"
     },
     "organizers": {
         "title": "Organizadores",
-        "intro": "O objetivo principal da Conferência Latino-Americana de Interação Humano-Computador (CLIHC) 2023 é promover a colaboração, discussão e troca de conhecimentos entre pesquisadores de HCI internacionais e latino-americanos. A conferência tem como objetivo promover o design e desenvolvimento de inteligência artificial centrados no ser humano e culturalmente conscientes, fornecendo uma plataforma para a apresentação e discussão de novas ideias, métodos e técnicas para o design de experiências interativas para o usuário. A conferência será realizada em Puebla, México, e é organizada por um grupo diversificado de especialistas da América Latina e de outras regiões.",
+        "intro": "O objetivo principal da Conferência Latino-Americana de Interação Humano-Computador (CLIHC) 2026 é promover a colaboração, discussão e troca de conhecimentos entre pesquisadores de HCI internacionais e latino-americanos. A conferência tem como objetivo promover o design e desenvolvimento de inteligência artificial centrados no ser humano e culturalmente conscientes, fornecendo uma plataforma para a apresentação e discussão de novas ideias, métodos e técnicas para o design de experiências interativas para o usuário. A conferência será realizada em Puebla, México, e é organizada por um grupo diversificado de especialistas da América Latina e de outras regiões.",
         "general_committee_link": "Comitê geral",
         "general_committee_title": "Comitê geral",
         "program_committee_link": "Comitê de programa",
         "program_committee_title": "Comitê de programa",
-        "conference_chairs_title": "Responsáveis pela conferência",
+        "conference_chairs_title": "Coordenação Geral da Conferência",
         "conference_chairs_description": "Liderando a organização e coordenação do programa e atividades da conferência.",
         "local_chairs_title": "Responsáveis locais",
         "local_chairs_description": "Responsáveis por supervisionar os arranjos locais e a logística da conferência.",
         "program_chairs_title": "Responsáveis pelo programa",
         "program_chairs_description": "Responsáveis pelo programa da conferência e pelo processo de seleção de papers.",
-        "student_design_competition_title": "Responsáveis pela competição de design para estudantes",
-        "student_design_competition_description": "Encarregados de organizar a Competição de Design para Estudantes.",
-        "graduate_colloquium_chairs_title": "Responsáveis pelo colóquio de pós-graduação",
+        "full_papers_cahirs_title": "Coordenação de Artigos Completos",
+        "full_papers_cahirs_description": "Responsável(is) pela chamada, diretrizes, gestão da revisão por pares e decisões editoriais finais dos artigos completos.",
+        "short_papers_cahirs_title": "Coordenação de Artigos Curtos",
+        "short_papers_cahirs_description": "Responsável(is) pela chamada, diretrizes, gestão da revisão por pares e decisões editoriais finais dos artigos curtos.",
+        "student_design_competition_title": "Coordenação da Competição de Design Estudantil",
+        "student_design_competition_description": "Encarregados de organizar a Competição de Design estudantil.",
+        "graduate_colloquium_chairs_title": "Coordenação do Colóquio de Pós-Graduação",
         "graduate_colloquium_chairs_description": "Supervisiona a organização do track do colóquio de pós-graduação.",
-        "workshops_and_tutorials_chairs_title": "Responsáveis por workshops e tutoriais",
+        "workshops_and_tutorials_chairs_title": "Coordenação de Workshops e Tutoriais",
         "workshops_and_tutorials_chairs_description": "Responsáveis por coordenar e supervisionar as sessões de workshops e tutoriais.",
-        "posters_chairs_title": "Responsáveis por pôsteres",
+        "posters_chairs_title": "Coordenação de Pôsteres",
         "posters_chairs_description": "Responsáveis por supervisionar todos os aspectos relacionados à sessão de pôsteres.",
-        "publicity_chair_title": "Responsável por publicidade",
+        "publicity_chair_title": "Coordenação de Publicidade",
         "publicity_chair_description": "Responsável por gerenciar e promover a publicidade e as atividades de divulgação da conferência.",
-        "web_chairs_title": "Responsáveis pelo site",
+        "web_chairs_title": "Coordenação do Sítio Web",
         "web_chairs_description": "Responsáveis pelo design, desenvolvimento e manutenção do site da conferência.",
-        "volunteer_students_chair_title": "Responsável por estudantes voluntários",
+        "volunteer_students_chair_title": "Coordenação de Estudantes Voluntários",
         "volunteer_students_chair_description": "Encarregado de gerenciar e coordenar estudantes voluntários para a conferência.",
         "acccessibility_chairs_title" : "Responsáveis por acessibilidade",
         "acccessibility_chairs_description" : "Responsáveis por supervisionar medidas abrangentes de acessibilidade durante a conferência.",
-        "industry_session_chair_title" : "Responsável pela sessão industrial",
+        "industry_session_chair_title" : "Coordenação das Sessões da Indústria",
         "industry_session_chair_description" : "Responsável pela sessão industrial",
-        "steering_committee_title": "Comitê diretivo",
-        "steering_committee_description": "Comitê diretivo"
+        "steering_committee_title": "Comitê Diretivo da LAIHC",
+        "steering_committee_description": "Comitê diretivo Supervisiona e orienta as atividades estratégicas da comunidade LAIHC e da conferência CLIHC.",
+        "diversity_and_inclusion_chairs_title": "Coordenação de Diversidade, Equidade e Inclusão",
+        "diversity_and_inclusion_chairs_description": "Promove a inclusão, a equidade e a representação diversa na conferência.",
+        "atalaia_title": "Coordenação do Workshop “Uma Tarde em: Atalaia”",
+        "atalaia_description": "Organiza e coordena o workshop especial Uma Tarde em: Atalaia, promovendo o intercâmbio local e a colaboração acadêmica."
+
     },
     "accessibility": {
         "title": "Recomendações de acessibilidade para autores",
@@ -106,7 +116,7 @@
         "cfp": "Chamada de trabalhos",
         "cpt": "Chamada para pôsteres",
         "cwt": "Chamada para workshops e tutoriais",
-        "sdc": "Competição de design para estudantes",
+        "sdc": "Competição de design estudantil",
         "cgc": "Colóquio de pós-graduação"
     },
     "register": {
@@ -115,16 +125,20 @@
     "home": {
         "keynotes":"Palestrantes principais",
         "keynotes_message": "O programa da conferência inclui excelentes palestrantes da comunidade internacional de IHC.",
-        "sponsors": "Agradecimento Especial",
+        "sponsors": "Patrocinadores",
         "sponsors_message": "Queremos agradecer aos nossos patrocinadores.",
         "virtual_venues": "Sedes Virtuais",
-        "virtual_venues_message": "Universidades que participam como Sedes Virtuais no CLIHC 2023."
+        "virtual_venues_message": "Universidades que participam como Sedes Virtuais no CLIHC 2023.",
+        "organization": "Organización",
+        "organization_message": "Esta edição é organizada pelas seguintes instituições.",
+        "coordination": "Coordenação do Programa",
+        "coordination_message": "O programa acadêmico é coordenado por representantes das seguintes instituições."
     },
     "accepted_papers": {
         "title": "Artigos Aceitos",
         "full_and_short_papers": "Artigos Completos e Resumos",
         "posters": "Pôsteres",
-        "graduate_colloquium": "Colóquio de Graduação",
+        "graduate_colloquium": "Colóquio de pos-graduação",
         "workshops_and_tutorials": "Workshops e Tutoriais",
         "student_design_competition": "Competição de Design Estudantil"
     },
