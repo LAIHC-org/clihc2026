@@ -1,1 +1,0 @@
-import{S as e}from"./SpeakerItem-Bc-kRo-7.js";import{_ as s,c as o,o as r,T as t}from"./index-DebMuXfg.js";const a={components:{SpeakerItem:e},setup(){return{Tr:t}}},c={class:"row mb-4"};function n(p,_,m,f,i,l){return r(),o("div",c)}const k=s(a,[["render",n]]);export{k as default};
