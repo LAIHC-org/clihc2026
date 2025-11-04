@@ -895,7 +895,7 @@ export default {
                         <div class="col-xl-9">
                             <div class="row p-0">
 
-                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                <div class="col-md-4 mx-auto mt-md-0 mt-4">
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
@@ -910,14 +910,15 @@ export default {
                                             Dra. Soraia S. Prietch
                                         </template>
                                         <template #institution>
-                                            Benemérita Universidad Autónoma de Puebla (BUAP), MX
+                                            Universidade Federal de Rondonópolis, BR<br>
+                                            Benemérita Universidad Autónoma de Puebla, MX
                                         </template>
                                         <template #email>
-                                            <!--<a class="uline" href="mailto:tpc.2022@mexihc.org">tpc.2022@mexihc.org</a>-->
                                         </template>
                                     </OrganizerItem>
                                 </div>
 
+                                <!--
                                 <div class="col-md-4 ms-auto mt-md-0 mt-4">
                                     <OrganizerItem>
                                         <template #image>
@@ -936,11 +937,10 @@ export default {
                                             Massachusetts Institute of Technology (MIT), US
                                         </template>
                                         <template #email>
-                                            <!--<a class="uline" href="mailto:tpc.2022@mexihc.org">tpc.2022@mexihc.org</a>-->
                                         </template>
                                     </OrganizerItem>
                                 </div>
-
+                                -->
                             </div>                            
                         </div>
                     </div>
