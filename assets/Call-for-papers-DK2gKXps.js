@@ -1,0 +1,1 @@
+import{O as t}from"./OrganizerItem-Dw5yjmz8.js";import{_ as e,c as o,o as r,T as a}from"./index-DebMuXfg.js";const s={components:{OrganizerItem:t},setup(){return{Tr:a}}},n={class:"mt-6 text-center"};function c(p,_,i,m,f,l){return r(),o("p",n,"La convocatoria de trabajos se anunciará pronto.")}const x=e(s,[["render",c]]);export{x as default};

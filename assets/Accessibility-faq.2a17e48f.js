@@ -1,0 +1,1 @@
+import{_ as e,T as r}from"./index.e8b980fe.js";const s={setup(){return{Tr:r}}};function t(a,c,n,i,o,_){return" Perguntas frequentes sobre Accesibilidad "}var u=e(s,[["render",t]]);export{u as default};
