@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2026.1.0.7] - 2026-01-05
+
+### Added
+
+- Adds Call por Papers (Full Papers only)
+
 ## [2026.1.0.6] - 2025-12-14
 
 ### Added
