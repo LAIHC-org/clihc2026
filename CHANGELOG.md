@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2026.1.0.9] - 2026-01-13
+
+### Added
+
+- Added photo for Ludmilla Fernandes Oliveira Galvão and centered her organizer card.
+- Added accessibility labels for language selector and social links.
+
+### Changed
+
+- Updated navbar scroll behavior and dropdown styling for improved contrast.
+- Improved mobile menu wrapping for long labels.
+- Aligned attendee dropdown trigger with other nav items for consistency.
+
 ## [2026.1.0.8] - 2026-01-05
 
 ### Added
