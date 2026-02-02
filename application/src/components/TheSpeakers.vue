@@ -1,35 +1,13 @@
-<script>
-import { shallowRef, watch, defineAsyncComponent } from 'vue'
+<script setup>
 import { useI18n } from 'vue-i18n'
+import SpeakersSmall from './Speakers-small.vue';
 
 export default {
+  components: {
+    SpeakersSmall
+  },
   setup() {
-  
-    const { locale } = useI18n()
-    const contentComponent = shallowRef(null)
-
-    const loadComponents = async (newLocale) => {
-      contentComponent.value = await getContentForLocale(newLocale)
-    }
-
-    watch(locale, loadComponents, { immediate: true })
-
-    async function getContentForLocale(locale) {
-      switch (locale) {
-        case 'en':
-          return defineAsyncComponent(() => import('@/components/locales/en/Speakers-small.vue'))
-        case 'es':
-          return defineAsyncComponent(() => import('@/components/locales/es/Speakers-small.vue'))
-        case 'pt':
-          return defineAsyncComponent(() => import('@/components/locales/pt/Speakers-small.vue'))
-        default:
-          return null
-      }
-    }
-
-    return {
-      contentComponent,
-    }
+    return {}
   }
 }
 </script>
@@ -49,9 +27,7 @@ export default {
                 <div class="col-lg-9">
                     {{ $t("soon.speakers") }}
                     <!--
-                    <template v-if="contentComponent">
-                        <component :is="contentComponent" />
-                    </template>
+                    <SpeakersSmall />
                     -->
                 </div>
             </div>

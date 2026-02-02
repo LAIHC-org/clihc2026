@@ -1,44 +1,8 @@
-<script>
+<script setup>
 import TheHeader from '@/components/Header.vue';
+import CallForColloquium from '@/components/Call-for-coloquium.vue';
 
 import Tr from '@/i18n/translation'
-
-import { shallowRef, watch, defineAsyncComponent } from 'vue'
-import { useI18n } from 'vue-i18n'
-
-export default {
-  components: {
-    TheHeader
-  },
-  setup() {
-    const { locale } = useI18n()
-    const Component = shallowRef(null)
-
-    const loadComponents = async (newLocale) => {
-      Component.value = await getCfpForLocale(newLocale)
-    }
-
-    watch(locale, loadComponents, { immediate: true })
-
-    async function getCfpForLocale(locale) {
-      switch (locale) {
-        case 'en':
-          return defineAsyncComponent(() => import('@/components/locales/en/Call-for-coloquium.vue'))
-        case 'es':
-          return defineAsyncComponent(() => import('@/components/locales/es/Call-for-coloquium.vue'))
-        case 'pt':
-          return defineAsyncComponent(() => import('@/components/locales/pt/Call-for-coloquium.vue'))
-        default:
-          return null
-      }
-    }
-
-    return {
-      Component,
-      Tr
-    }
-  }
-}
 </script>
 
 <template>
@@ -55,9 +19,7 @@ export default {
           <div class="col-lg-8">
 
             <!-- call for posters-->
-            <template v-if="Component">
-              <component :is="Component" />
-            </template>
+            <CallForColloquium />
 
           </div>
         </div>

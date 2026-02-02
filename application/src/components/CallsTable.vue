@@ -14,51 +14,51 @@
         <div class="ms-2 me-auto">
             <div class="fw-bold">
                 <RouterLink :to="Tr.i18nRoute({ name: 'call-for-papers' })" class="uline">
-                    Chamada de trabalhos (CFP)
+                    {{ $t('calls.cfp_title') }}
                 </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Submissão de resumos:</strong> 23 de fevereiro<br>
-            <strong class="text-primary text-gradient">Submissão de artigos:</strong> 1 de março<br>
+            <strong class="text-primary text-gradient">{{ $t('calls.cfp_abstract') }}</strong> {{ $t('about.upcoming') }}<br>
+            <strong class="text-primary text-gradient">{{ $t('calls.cfp_paper') }}</strong> {{ $t('about.upcoming') }}<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
             <div class="fw-bold">
-                <RouterLink :to="Tr.i18nRoute({ name: 'call-for-posters' })" class="uline">
-                    Chamada para sessão de pôsteres (CPT)
+                <RouterLink :to="Tr.i18nRoute({ name: 'call-for-posters', hash: '#cpt-call'})" class="uline">
+                    {{ $t('calls.cpt_title') }}
                 </RouterLink>                
             </div>
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> Em breve<br>
+            <strong class="text-primary text-gradient">{{ $t('calls.deadline') }}</strong> {{ $t('about.upcoming') }}<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
             <div class="fw-bold">
             <RouterLink :to="Tr.i18nRoute({ name: 'call-for-workshops-and-tutorials', hash: '#cwt-call'})" class="uline">
-                Chamada para workshops e tutoriais (CWT)
+                {{ $t('calls.cwt_title') }}
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> Em breve<br>
+            <strong class="text-primary text-gradient">{{ $t('calls.deadline') }}</strong> {{ $t('about.upcoming') }}<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
             <div class="fw-bold">
             <RouterLink :to="Tr.i18nRoute({ name: 'student-design-competition', hash: '#sdc-call'})" class="uline">
-                Competição de design estudantil (SDC)
+                {{ $t('calls.sdc_title') }}
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> Em breve<br>
+            <strong class="text-primary text-gradient">{{ $t('calls.deadline') }}</strong> {{ $t('about.upcoming') }}<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
             <div class="fw-bold">
             <RouterLink :to="Tr.i18nRoute({ name: 'graduate-colloquium', hash: '#cgc-call'})" class="uline">
-                Colóquio de pós-graduação (GC)
+                {{ $t('calls.cgc_title') }}
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> Em breve<br>
+            <strong class="text-primary text-gradient">{{ $t('calls.deadline') }}</strong> {{ $t('about.upcoming') }}<br>
         </div>
         </li>
     </ol>    

@@ -1,52 +1,9 @@
-<script>
+<script setup>
 import TheHeader from "@/components/Header.vue";
 import OrganizerItem from "@/components/OrganizerItem.vue";
+import AccessibilityAuthors from "@/components/Accessibility-authors.vue";
 
 import Tr from "@/i18n/translation";
-
-import { shallowRef, watch, defineAsyncComponent } from "vue";
-import { useI18n } from "vue-i18n";
-
-export default {
-    components: {
-        TheHeader,
-        OrganizerItem,
-    },
-    setup() {
-        const { locale } = useI18n();
-        const currentComponent = shallowRef(null);
-
-        const loadComponent = async (newLocale) => {
-            currentComponent.value = await getComponentForLocale(newLocale);
-        };
-
-        watch(locale, loadComponent, { immediate: true });
-
-        async function getComponentForLocale(locale) {
-            switch (locale) {
-                case "en":
-                    return defineAsyncComponent(() =>
-                        import("@/components/locales/en/Accessibility-authors.vue")
-                    );
-                case "es":
-                    return defineAsyncComponent(() =>
-                        import("@/components/locales/es/Accessibility-authors.vue")
-                    );
-                case "pt":
-                    return defineAsyncComponent(() =>
-                        import("@/components/locales/pt/Accessibility-authors.vue")
-                    );
-                default:
-                    return null;
-            }
-        }
-
-        return {
-            currentComponent,
-            Tr,
-        };
-    },
-};
 </script>
 
 <template>
@@ -102,9 +59,7 @@ export default {
                         </ol>
 |                        -->
 
-                        <template v-if="currentComponent">
-                            <component :is="currentComponent" />
-                        </template>
+                        <AccessibilityAuthors />
 
                         <!--
                         <h3 class="my-4">{{ $t("organizers.acccessibility_chairs_title") }}</h3>

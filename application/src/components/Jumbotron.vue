@@ -1,37 +1,12 @@
 <script>
-import { shallowRef, watch, defineAsyncComponent, computed } from "vue";
+import { computed } from "vue";
 import { useI18n } from "vue-i18n";
 import Tr from "@/i18n/translation";
+import Message from "@/components/Message.vue";
 
 export default {
     setup() {
         const { locale } = useI18n();
-        const currentComponent = shallowRef(null);
-
-        const loadComponent = async (newLocale) => {
-            currentComponent.value = await getComponentForLocale(newLocale);
-        };
-
-        watch(locale, loadComponent, { immediate: true });
-
-        async function getComponentForLocale(locale) {
-            switch (locale) {
-                case "en":
-                    return defineAsyncComponent(() =>
-                        import("@/components/locales/en/Message.vue")
-                    );
-                case "es":
-                    return defineAsyncComponent(() =>
-                        import("@/components/locales/es/Message.vue")
-                    );
-                case "pt":
-                    return defineAsyncComponent(() =>
-                        import("@/components/locales/pt/Message.vue")
-                    );
-                default:
-                    return null;
-            }
-        }
 
         // 🔹 LOGO SEGÚN IDIOMA
         const logoSrc = computed(() => {
@@ -47,11 +22,13 @@ export default {
         });
 
         return {
-            currentComponent,
             logoSrc,
             Tr,
         };
     },
+    components: {
+        Message
+    }
 };
 </script>
 
@@ -102,9 +79,7 @@ export default {
                                     </RouterLink>
 
                                     <!--
-										<template v-if="currentComponent">
-											<component :is="currentComponent" />
-										</template>
+										<Message />
 										-->
                                 </p>
                             </div>

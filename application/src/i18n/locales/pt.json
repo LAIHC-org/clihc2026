@@ -31,13 +31,25 @@
         "getting_started_title": "Primeiros Passos",
         "getting_started": "Primeiros passos",
         "getting_started_message": "Tudo o que você precisa saber para participar da conferência.",
+        "getting_started": {
+            "soon": "O guia de Primeiros Passos estará disponível em breve."
+        },
         "rates_and_registration_title": "Taxas e Registro",
         "rates_and_registration": "Taxas e registro",
         "rates_and_registration_message": "Primeiro passo para participar",
+        "rates": {
+            "soon": "As informações sobre taxas e registro estarão disponíveis em breve."
+        },
         "accessibility_faqs": "Perguntas frequentes sobre acessibilidade",
+        "accessibility_faq": {
+            "title": "Perguntas frequentes sobre acessibilidade"
+        },
         "program": "Programa",
         "schedule": "Agenda do Evento",
         "schedule_message": "Revise a agenda da conferência",
+        "schedule": {
+            "soon": "As informações sobre o programa estarão disponíveis em breve."
+        },
         "keynotes": "Palestrantes principais",
         "keynotes_message": "Da comunidade internacional de IHC",
         "accepted_papers": "Artigos aceitos",
@@ -94,6 +106,9 @@
         "volunteer_students_chair_description": "Encarregado de gerenciar e coordenar estudantes voluntários para a conferência.",
         "acccessibility_chairs_title" : "Responsáveis por acessibilidade",
         "acccessibility_chairs_description" : "Responsáveis por supervisionar medidas abrangentes de acessibilidade durante a conferência.",
+        "accessibility_authors": {
+            "soon": "As Recomendações de Acessibilidade para Autores estarão disponíveis em breve."
+        },
         "industry_session_chair_title" : "Coordenação das Sessões da Indústria",
         "industry_session_chair_description" : "Responsável pela sessão industrial",
         "steering_committee_title": "Comitê Geral de Articulação",
@@ -117,7 +132,67 @@
         "cpt": "Chamada para pôsteres",
         "cwt": "Chamada para workshops e tutoriais",
         "sdc": "Competição de design estudantil",
-        "cgc": "Colóquio de pós-graduação"
+        "cgc": "Colóquio de pós-graduação",
+        "cfp_title": "Chamada de trabalhos (CFP)",
+        "cfp_abstract": "Submissão de resumos:",
+        "cfp_paper": "Submissão de artigos:",
+        "cpt_title": "Chamada para sessão de pôsteres (CPT)",
+        "deadline": "Prazo de envio:",
+        "cwt_title": "Chamada para workshops e tutoriais (CWT)",
+        "sdc_title": "Competição de design estudantil (SDC)",
+        "cgc_title": "Colóquio de pós-graduação (GC)",
+        "upcoming": "Em breve",
+        "coloquium_soon": "A chamada para o Colóquio de Pós-Graduação será anunciada em breve.",
+        "competition_soon": "A chamada para a Competição de Design Estudantil será anunciada em breve.",
+        "papers": {
+            "submission_deadline": "Prazo para submissão:",
+            "see_all_dates": "Ver todas as datas importantes",
+            "introduction_p1": "A <a href=\"https://clihc2026.laihc.org/\" class=\"uline\">XII Conferência Latino-Americana de Interação Humano-Computador (CLIHC 2026)</a> tem como objetivo oferecer um fórum de alto nível que reúna as comunidades latino-americana e internacional de pesquisa em Interação Humano-Computador (IHC), para discutir e compartilhar ideias, métodos, abordagens e técnicas para o projeto, implementação e avaliação de experiências interativas do usuário. De acordo com edições anteriores, acreditamos que a IHC deve fomentar a produção de tecnologia que possa ser utilizada e beneficiar o maior número possível de pessoas, promovendo o intercâmbio intercultural e a cooperação entre pessoas com diferentes contextos e necessidades.",
+            "introduction_p2": "Neste ano, a CLIHC 2026 ocorrerá em duas cidades, Aracaju/Brasil e Oaxaca/México. No entanto, a <strong>apresentação dos artigos completos ocorrerá exclusivamente na cidade satélite de Aracaju, Brasil</strong>. No momento, estão abertas submissões na seguinte categoria:",
+            "bullet_point_1": "Artigos completos",
+            "introduction_p3": "Os autores são convidados a preparar e submeter artigos que relatem projetos de pesquisa, designs inovadores, estudos com usuários, modelos de interação, estudos de campo, estudos de caso, entre outros. Acadêmicos, pesquisadores, profissionais da indústria, bem como estudantes de graduação e pós-graduação, são bem-vindos a participar do processo de seleção por revisão por pares dos trabalhos que serão apresentados na conferência, de 06 a 08 de maio de 2026.",
+            "topics_title": "Os temas das submissões podem abranger todos os aspectos da IHC, incluindo, mas não se limitando a:",
+            "topic_1": "Computação afetiva",
+            "topic_2": "Interação cérebro-computador (BCI)",
+            "topic_3": "CSCW e computação social",
+            "topic_4": "Métodos de design",
+            "topic_5": "Educação e IHC",
+            "topic_6": "Interação incorporada",
+            "topic_7": "IHC para o desenvolvimento (HCI4D)",
+            "topic_8": "Saúde e IHC",
+            "topic_9": "IHC e Inteligência Artificial (por exemplo, IA centrada no ser humano e design de interação; interação humano-IA; IHC em sistemas baseados em IA; experiência do usuário e design para sistemas de IA; IHC responsável e ética para aplicações de IA; Inteligência Artificial Explicável – XAI)",
+            "topic_10": "IHC na sociedade",
+            "topic_11": "Inclusão e acessibilidade",
+            "topic_12": "Interfaces de usuário inovadoras",
+            "topic_13": "Avaliação da interação",
+            "topic_14": "Interfaces e interação em jogos",
+            "topic_15": "Computação móvel",
+            "topic_16": "Percepção e visualização",
+            "topic_17": "Interação humano-robô e telepresença",
+            "topic_18": "Experiência do usuário (UX) e usabilidade",
+            "topic_19": "Propriedade intelectual e IHC",
+            "submission_dates_title": "Submissão e datas importantes",
+            "submission_dates_p1": "Todos os manuscritos devem ser submetidos completamente anonimizados. Por favor, considere um público internacional: evite termos locais e utilize o sistema internacional de unidades. Além disso, considere seguir as <a target=\"_blank\" href=\"https://clihc2023.laihc.org/en/accessibility-recommendations-for-authors\" class=\"uline\" rel=\"noopener noreferrer\">diretrizes de acessibilidade (edição CLIHC 2023, abre em nova aba)</a>.",
+            "important_dates_title": "Datas importantes (Artigos completos)",
+            "abstract_submission": "Submissão de resumos:",
+            "paper_submission": "Submissão de artigos:",
+            "notification": "Notificação:",
+            "camera_ready": "Versão final (camera ready):",
+            "event": "Evento: 06 – 08 de maio",
+            "deadlines_aoe": "Os prazos se encerram à meia-noite AoE (Anywhere on Earth).",
+            "ethics_code_title": "Código de ética",
+            "ethics_code_p1": "Seguimos o <a href=\"https://www.acm.org/code-of-ethics\" class=\"uline\">Código de Ética da ACM</a>. Esperamos que todas as submissões, pesquisas subjacentes e o comportamento durante o processo de revisão e a conferência estejam em conformidade com os princípios e responsabilidades estabelecidos pelo código.",
+            "submission_process_title": "Processo de submissão",
+            "submission_process_p1": "As submissões de artigos completos devem ser realizadas por meio do <a href=\"https://jems3.sbc.org.br/events/510\" class=\"uline\">Sistema JEMS3</a> (Journal and Event Management System): <a href=\"https://jems3.sbc.org.br/events/510\" class=\"uline\">https://jems3.sbc.org.br/events/510</a>",
+            "submission_process_p2": "O formato de submissão a ser utilizado seguirá o modelo da Sociedade Brasileira de Computação. Os autores podem optar por trabalhar em um dos seguintes formatos:",
+            "submission_process_word_latex": "<a href=\"https://www.sbc.org.br/wp-content/uploads/2024/07/modelosparapublicaodeartigos.zip\" class=\"uline\">Microsoft Word e LaTeX (recomendado)</a>",
+            "submission_process_overleaf": "<a href=\"https://www.overleaf.com/latex/templates/sbc-conferences-template-updated-sbc-template-dot-sty-v2017/pyhttxftxjqn\" class=\"uline\">Overleaf</a>",
+            "submission_categories_title": "Categorias de submissão",
+            "full_papers_title": "Artigos completos (15 páginas)",
+            "full_papers_p1": "Projetos de pesquisa que tenham alcançado um estágio maduro e apresentem uma contribuição original ao estado da arte são bem-vindos na categoria de artigos completos. As submissões devem ser relevantes para o tema da conferência e não podem ter sido publicadas nem estar sob avaliação em outra conferência ou revista. O limite máximo é de <strong>15 páginas, incluindo referências</strong>, e os artigos devem ser escritos em inglês, português ou espanhol.",
+            "full_papers_p2": "Os artigos serão avaliados por pelo menos dois revisores em um processo de dupla anonimização. Os trabalhos submetidos devem estar anonimizados, incluindo referências a trabalhos anteriores dos próprios autores.",
+            "full_papers_p3": "Estamos trabalhando para garantir que os artigos aceitos sejam publicados na SBC OpenLib (SOL), a biblioteca digital mantida pela Sociedade Brasileira de Computação (SBC). Além disso, os melhores artigos serão recomendados para submissão de uma versão estendida e publicação em uma edição especial que está sendo negociada com uma revista de prestígio na área de IHC ou Ciência da Computação."
+        }
     },
     "register": {
         "register_button": "Registre seu comprovante de pagamento"
@@ -146,5 +221,12 @@
     },
     "soon": {
         "speakers": "Próximos palestrantes serão anunciados em breve."
+    },
+    "description": {
+        "text": "convida você a se juntar ao CLIHC, o principal fórum para pesquisadores e profissionais de HCI na América Latina."
+    },
+    "message": {
+        "attention": "Atenção a todos os interessados em participar do CLIHC 2023!",
+        "deadline": "Queremos informar que estendemos o prazo de recebimento dos trabalhos até <strong>11 de agosto.</strong>"
     }
 }

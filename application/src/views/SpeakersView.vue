@@ -1,45 +1,8 @@
-<script>
+<script setup>
 import TheHeader from '@/components/Header.vue';
+import Speakers from '@/components/Speakers.vue';
 
 import Tr from '@/i18n/translation'
-
-import { shallowRef, watch, defineAsyncComponent } from 'vue'
-import { useI18n } from 'vue-i18n'
-
-export default {
-  components: {
-    TheHeader
-  },
-  setup() {
-  
-    const { locale } = useI18n()
-    const contentComponent = shallowRef(null)
-
-    const loadComponents = async (newLocale) => {
-      contentComponent.value = await getContentForLocale(newLocale)
-    }
-
-    watch(locale, loadComponents, { immediate: true })
-
-    async function getContentForLocale(locale) {
-      switch (locale) {
-        case 'en':
-          return defineAsyncComponent(() => import('@/components/locales/en/Speakers.vue'))
-        case 'es':
-          return defineAsyncComponent(() => import('@/components/locales/es/Speakers.vue'))
-        case 'pt':
-          return defineAsyncComponent(() => import('@/components/locales/pt/Speakers.vue'))
-        default:
-          return null
-      }
-    }
-
-    return {
-      contentComponent,
-      Tr
-    }
-  }
-}
 </script>
 
 <template>
@@ -97,9 +60,7 @@ export default {
               </li>
             </ol>
           
-            <template v-if="contentComponent">
-                <component :is="contentComponent" />
-            </template>
+            <Speakers />
             -->
             <p class="mt-5 text-center">{{ $t("soon.speakers") }} </p>
           </div>

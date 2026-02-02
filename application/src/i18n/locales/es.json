@@ -31,13 +31,25 @@
         "getting_started_title": "Primeros pasos",
         "getting_started": "Primeros pasos",
         "getting_started_message": "Todo lo que necesitas saber para asistir a la conferencia",
+        "getting_started": {
+            "soon": "La guía de Primeros Pasos estará disponible pronto."
+        },
         "rates_and_registration_title": "Tarifas y registro",
         "rates_and_registration": "Tarifas y registro",
         "rates_and_registration_message": "Primer paso para asistir.",
+        "rates": {
+            "soon": "La información sobre tarifas y registro estará disponible pronto."
+        },
         "accessibility_faqs": "Preguntas frecuentes sobre accesibilidad",
+        "accessibility_faq": {
+            "title": "Perguntas frequentes sobre Accesibilidad"
+        },
         "program": "Programa",
         "schedule": "Agenda del evento",
         "schedule_message": "Revisa la agenda de la conferencia",
+        "schedule": {
+            "soon": "La información sobre el programa estará disponible pronto."
+        },
         "keynotes": "Ponentes principales",
         "keynotes_message": "De la comunidad internacional de IHC",
         "accepted_papers": "Artículos aceptados",
@@ -94,6 +106,9 @@
         "volunteer_students_chair_description": "Encargado de gestionar y coordinar a los estudiantes voluntarios para la conferencia.",
         "acccessibility_chairs_title" : "Responsables de accesibilidad",
         "acccessibility_chairs_description" : "Responsables de supervisar medidas integrales de accesibilidad durante la conferencia.",
+        "accessibility_authors": {
+            "soon": "Las Recomendaciones de Accesibilidad para Autores estarán disponibles pronto."
+        },
         "industry_session_chair_title" : "Coordinación de las Sesiones de Industria",
         "industry_session_chair_description" : "Responsable de la sesión industrial",
         "steering_committee_title": "Comité General de Articulación",
@@ -116,7 +131,67 @@
         "cpt": "Convocatoria de pósteres",
         "cwt": "Convocatoria de talleres y tutoriales",
         "sdc": "Competencia de diseño estudiantil",
-        "cgc": "Coloquio de posgrado"
+        "cgc": "Coloquio de posgrado",
+        "cfp_title": "Convocatoria de trabajos (CFP)",
+        "cfp_abstract": "Envío de resúmenes:",
+        "cfp_paper": "Envío de artículos:",
+        "cpt_title": "Convocatoria de pósteres (CPT)",
+        "deadline": "Fecha límite de envío:",
+        "cwt_title": "Convocatoria de talleres y tutoriales (CWT)",
+        "sdc_title": "Competencia de diseño para estudiantes (SDC)",
+        "cgc_title": "Coloquio de graduados (GC)",
+        "upcoming": "Proximamente",
+        "coloquium_soon": "La convocatoria para el Coloquio de Posgrado será anunciada próximamente.",
+        "competition_soon": "La convocatoria para la Competencia de Diseño Estudiantil será anunciada próximamente.",
+        "papers": {
+            "submission_deadline": "Fecha límite de envío:",
+            "see_all_dates": "Ver todas las fechas importantes",
+            "introduction_p1": "La <a href=\"https://clihc2026.laihc.org/\" class=\"uline\">XII Conferencia Latinoamericana de Interacción Humano-Computadora (CLIHC 2026)</a> tiene como objetivo ofrecer un foro de primer nivel que reúna a las comunidades latinoamericana e internacional de investigación en Interacción Humano-Computadora (HCI), para discutir y compartir ideas, métodos, enfoques y técnicas para el diseño, implementación y evaluación de experiencias interactivas de usuario. De acuerdo con ediciones anteriores, creemos que la HCI debe fomentar la producción de tecnología que pueda ser utilizada y beneficiar al mayor número posible de personas, promoviendo el intercambio intercultural y la cooperación entre personas con diferentes contextos y necesidades.",
+            "introduction_p2": "Este año, CLIHC 2026 se llevará a cabo en dos ciudades, Aracaju/Brasil y Oaxaca/México. Sin embargo, la <strong>presentación de los artículos completos se realizará únicamente en la ciudad satélite de Aracaju, Brasil</strong>. Por el momento, se reciben envíos en la siguiente categoría:",
+            "bullet_point_1": "Artículos completos",
+            "introduction_p3": "Se invita a los autores a preparar y enviar artículos que reporten proyectos de investigación, diseños innovadores, estudios de usuarios, modelos de interacción, estudios de campo, estudios de caso, entre otros. Académicos, investigadores, profesionales de la industria, así como estudiantes de licenciatura y posgrado, son bienvenidos a participar en el proceso de selección por revisión por pares de los trabajos que serán presentados en la conferencia, del 06 al 08 de mayo de 2026.",
+            "topics_title": "Los temas de los envíos pueden abarcar todos los aspectos de la HCI, incluyendo, pero no limitándose a:",
+            "topic_1": "Computación afectiva",
+            "topic_2": "Interacción cerebro-computadora (BCI)",
+            "topic_3": "CSCW y computación social",
+            "topic_4": "Métodos de diseño",
+            "topic_5": "Educación y HCI",
+            "topic_6": "Interacción corporizada",
+            "topic_7": "HCI para el desarrollo (HCI4D)",
+            "topic_8": "Salud y HCI",
+            "topic_9": "HCI e Inteligencia Artificial (por ejemplo, IA centrada en el ser humano y diseño de interacción; interacción humano-IA; HCI en sistemas impulsados por IA; experiencia de usuario y diseño para sistemas de IA; HCI responsable y ética para aplicaciones de IA; Inteligencia Artificial Explicable - XAI)",
+            "topic_10": "HCI en la sociedad",
+            "topic_11": "Inclusión y accesibilidad",
+            "topic_12": "Interfaces de usuario innovadoras",
+            "topic_13": "Evaluación de la interacción",
+            "topic_14": "Interfaces e interacción en videojuegos",
+            "topic_15": "Computación móvil",
+            "topic_16": "Percepción y visualización",
+            "topic_17": "Interacción humano-robot y telepresencia",
+            "topic_18": "Experiencia de usuario (UX) y usabilidad",
+            "topic_19": "Propiedad intelectual y HCI",
+            "submission_dates_title": "Envío y fechas importantes",
+            "submission_dates_p1": "Todos los manuscritos deben enviarse completamente anonimizados. Por favor, considere una audiencia internacional: evite términos locales y utilice el sistema internacional de unidades. Además, considere seguir las <a target=\"_blank\" href=\"https://clihc2023.laihc.org/en/accessibility-recommendations-for-authors\" class=\"uline\" rel=\"noopener noreferrer\">pautas de accesibilidad (edición CLIHC 2023, se abre en una nueva pestaña)</a>.",
+            "important_dates_title": "Fechas importantes (Artículos completos)",
+            "abstract_submission": "Envío de resúmenes:",
+            "paper_submission": "Envío de artículos:",
+            "notification": "Notificación:",
+            "camera_ready": "Versión final (camera ready):",
+            "event": "Evento: 06 – 08 de mayo",
+            "deadlines_aoe": "Las fechas límite son a medianoche AoE (Anywhere on Earth).",
+            "ethics_code_title": "Código de ética",
+            "ethics_code_p1": "Nos regimos por el <a href=\"https://www.acm.org/code-of-ethics\" class=\"uline\">Código de Ética de la ACM</a>. Esperamos que todos los envíos, la investigación subyacente y el comportamiento durante el proceso de revisión y la conferencia cumplan con los principios y responsabilidades establecidos por dicho código.",
+            "submission_process_title": "Proceso de envío",
+            "submission_process_p1": "Los envíos de artículos completos deben realizarse a través del <a href=\"https://jems3.sbc.org.br/events/510\" class=\"uline\">Sistema JEMS3</a> (Journal and Event Management System): <a href=\"https://jems3.sbc.org.br/events/510\" class=\"uline\">https://jems3.sbc.org.br/events/510</a>",
+            "submission_process_p2": "El formato de envío a utilizar seguirá la plantilla de la Sociedad Brasileña de Computación. Los autores pueden elegir trabajar en uno de los siguientes formatos:",
+            "submission_process_word_latex": "<a href=\"https://www.sbc.org.br/wp-content/uploads/2024/07/modelosparapublicaodeartigos.zip\" class=\"uline\">Microsoft Word y LaTeX (recomendado)</a>",
+            "submission_process_overleaf": "<a href=\"https://www.overleaf.com/latex/templates/sbc-conferences-template-updated-sbc-template-dot-sty-v2017/pyhttxftxjqn\" class=\"uline\">Overleaf</a>",
+            "submission_categories_title": "Categorías de envío",
+            "full_papers_title": "Artículos completos (15 páginas)",
+            "full_papers_p1": "Los proyectos de investigación que hayan alcanzado una etapa madura y presenten una contribución original al estado del arte son bienvenidos a enviar trabajos en la categoría de artículos completos. Los envíos deben ser relevantes para la temática de la conferencia y no deben haber sido publicados ni estar bajo revisión en otra conferencia o revista. La extensión máxima es de <strong>15 páginas, incluidas las referencias</strong>, y los artículos deben estar escritos en inglés, portugués o español.",
+            "full_papers_p2": "Los artículos serán revisados por al menos dos evaluadores en un proceso de doble anonimato. Por favor, tenga en cuenta que los trabajos enviados deben estar anonimizados, incluyendo referencias a trabajos previos de los propios autores.",
+            "full_papers_p3": "Estamos trabajando para asegurar que los artículos aceptados sean publicados en SBC OpenLib (SOL), la biblioteca digital mantenida por la Sociedad Brasileña de Computación (SBC). Además, los mejores artículos serán recomendados para enviar una versión extendida y ser publicados en una edición especial que estamos negociando con una revista prestigiosa de HCI o Ciencias de la Computación."
+        }
     },
     "register": {
         "register_button": "Registra tu comprobante de pago"
@@ -145,5 +220,12 @@
     },
     "soon": {
         "speakers": "Próximos ponentes serán anunciados pronto."
+    },
+    "description": {
+        "text": "te invita a unirte a CLIHC, el foro principal para investigadores y profesionales de HCI en América Latina."
+    },
+    "message": {
+        "attention": "¡Atención a todos los interesados en participar en el CLIHC 2023!",
+        "deadline": "Queremos informarles que hemos ampliado el plazo para la recepción de trabajos hasta el <strong>11 de agosto</strong>."
     }
 }
