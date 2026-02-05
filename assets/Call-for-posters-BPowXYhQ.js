@@ -1,1 +1,0 @@
-import{O as e}from"./OrganizerItem-BTXV_u2q.js";import{_ as o,c as t,o as r,T as s}from"./index-BhVn2s1I.js";const n={components:{OrganizerItem:e},setup(){return{Tr:s}}},a={class:"mt-6 text-center"};function c(p,l,_,m,f,i){return r(),t("p",a,"The Call for Poster Track will be announced soon.")}const T=o(n,[["render",c]]);export{T as default};

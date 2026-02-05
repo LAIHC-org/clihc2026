@@ -1,1 +1,0 @@
-import{O as o}from"./OrganizerItem-BI5O_Q44.js";import{_ as e,c as r,o as t,T as a}from"./index-DMeS4_0M.js";const s={components:{OrganizerItem:o},setup(){return{Tr:a}}},n={class:"mt-6 text-center"};function c(p,i,m,_,l,u){return t(),r("p",n,"La convocatoria para el Coloquio de Posgrado será anunciada próximamente.")}const x=e(s,[["render",c]]);export{x as default};

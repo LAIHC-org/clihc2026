@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2026.1.0.11] - 2026-02-05
+
+### Changed
+
+- Updated About section content across locales to the CLIHC 2026 welcome text and HTML layout.
+- Adjusted the Vite configuration by removing the vue-i18n plugin.
+
+### Fixed
+
+- Rendered About section translation HTML and prevented the i18n build error caused by HTML in locale messages.
+
 ## [2026.1.0.10] - 2026-02-02
 
 ### Added

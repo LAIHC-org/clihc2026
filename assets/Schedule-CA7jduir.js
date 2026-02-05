@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as r,T as o}from"./index-BjPwRtw8.js";const s={setup(){return{Tr:o}}},n={class:"mt-5 text-center"};function a(c,p,_,i,l,d){return t(),r("p",n,"La información sobre el programa estará disponible pronto.")}const m=e(s,[["render",a]]);export{m as default};

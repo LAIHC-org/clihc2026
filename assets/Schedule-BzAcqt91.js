@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as s,T as c}from"./index--o5S2UuR.js";const o={setup(){return{Tr:c}}},a={class:"mt-5 text-center"};function r(n,l,_,p,d,i){return s(),t("p",a,"The detailed schedule will be available soon.")}const f=e(o,[["render",r]]);export{f as default};
