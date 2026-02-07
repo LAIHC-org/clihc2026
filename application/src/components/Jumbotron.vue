@@ -69,7 +69,7 @@ export default {
             <div class="row align-items-center text-center">
 
               <!-- 🇧🇷 BRASIL -->
-              <div class="col-md-4 mb-3 order-2 order-md-1">
+              <div class="col-md-3 mb-3 order-2 order-md-1">
                 <img
                   :src="logoSrc"
                   height="120"
@@ -90,7 +90,7 @@ export default {
 
               <!-- 🌎 CENTRAL -->
               <!--:src="logoSrc" -->
-              <div class="col-md-4 my-3 order-1 order-md-2">
+              <div class="col-md-6 my-3 order-1 order-md-2">
                 <img
                   src="/assets/img/logos/clihc2023.svg"
                   height="120"
@@ -112,7 +112,7 @@ export default {
               </div>
 
               <!-- 🇲🇽 MÉXICO -->
-              <div class="col-md-4 mb-3 order-3 order-md-3">
+              <div class="col-md-3 mb-3 order-3 order-md-3">
                 <img
                   src="/assets/img/logos/clihc2026mx.png"
                   height="120"
