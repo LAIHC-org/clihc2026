@@ -98,6 +98,9 @@
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
 															{{ $t("nav.cfp") }}
 														</span>
+														<span class="text-sm text-dark">
+															{{ $t("nav.cfp_message") }}
+														</span>
 													</div>
 												</div>
 											</RouterLink>											
@@ -111,6 +114,9 @@
 														<span
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
 															{{ $t("nav.cpt") }}
+														</span>
+														<span class="text-sm text-dark">
+															{{ $t("nav.cpt_message") }}
 														</span>
 													</div>
 												</div>
@@ -126,6 +132,9 @@
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
 															{{ $t("nav.cwt") }}
 														</span>
+														<span class="text-sm text-dark">
+															{{ $t("nav.cwt_message") }}
+														</span>
 													</div>
 												</div>
 											</RouterLink>
@@ -140,6 +149,9 @@
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
 															{{ $t("nav.sdc") }}
 														</span>
+														<span class="text-sm text-dark">
+															{{ $t("nav.sdc_message") }}
+														</span>
 													</div>
 												</div>
 											</RouterLink>
@@ -153,6 +165,9 @@
 														<span
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
 															{{ $t("nav.cgc") }}
+														</span>
+														<span class="text-sm text-dark">
+															{{ $t("nav.cgc_message") }}
 														</span>
 													</div>
 												</div>

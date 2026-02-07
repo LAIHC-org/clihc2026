@@ -17,8 +17,8 @@
                     Chamada de trabalhos (CFP)
                 </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Submissão de resumos:</strong> 23 de fevereiro<br>
-            <strong class="text-primary text-gradient">Submissão de artigos:</strong> 1 de março<br>
+            <strong class="text-primary text-gradient">Submissão de resumos:</strong> 23 de fevereiro, 2026<br>
+            <strong class="text-primary text-gradient">Submissão de artigos:</strong> 1 de março, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -28,7 +28,7 @@
                     Chamada para sessão de pôsteres (CPT)
                 </RouterLink>                
             </div>
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> Em breve<br>
+            <strong class="text-primary text-gradient">Prazo de envio:</strong> 5 de abril, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -38,7 +38,7 @@
                 Chamada para workshops e tutoriais (CWT)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> Em breve<br>
+            <strong class="text-primary text-gradient">Prazo de envio:</strong> A ser anunciado em breve<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -48,7 +48,7 @@
                 Competição de design estudantil (SDC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> Em breve<br>
+            <strong class="text-primary text-gradient">Prazo de envio:</strong> 5 de março, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -58,7 +58,7 @@
                 Colóquio de pós-graduação (GC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> Em breve<br>
+            <strong class="text-primary text-gradient">Prazo de envio:</strong> 14 de março, 2026<br>
         </div>
         </li>
     </ol>    
