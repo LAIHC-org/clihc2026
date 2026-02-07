@@ -56,63 +56,85 @@ export default {
 </script>
 
 <template>
-    <!-- Jumbotron -->
-    <header class="header-2">
-        <div
-            class="page-header section-height-100 relative"
-            style="background-image: url('/assets/img/banner-2.png')"
-        >
-            <div class="container">
-                <div class="row">
-                    <div
-                        class="col-lg-8 z-index-2 border-radius-xl mx-auto py-3 mt-7 mb-4 blur shadow-blur"
-                    >
-                        <div class="row">
-                            <div class="col-md-4 text-center">
-                                <h1 class="pt-3">
-                                    <img
-                                        :src="logoSrc"
-                                        height="250"
-                                        alt="CLIHC 2026 logo"
-                                        style="position: relative; top: -2px"
-                                    /><br />
-                                </h1>
-                            </div>
-                            <div class="col-md-8 text-center">
-                                <p class="lead mt-3">
-                                    {{ $t("jumbotron.conference") }}
-                                </p>
-                                <p class="lead mt-2">
-                                    <strong>
-                                        {{ $t("jumbotron.date") }} <br />
-                                        Aracaju, Brazil<br />
-                                    </strong>
-                                </p>
+  <header class="header-2">
+    <div
+      class="page-header section-height-100 relative"
+      style="background-image: url('/assets/img/banner-2.png')"
+    >
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-10 z-index-2 border-radius-xl mx-auto py-4 mt-7 mb-4 blur shadow-blur"
+          >
+            <div class="row align-items-center text-center">
 
-                                <p class="lead pt-2">
-                                    <RouterLink
-                                        :to="
-                                            Tr.i18nRoute({
-                                                name: 'call-for-participation',
-                                            })
-                                        "
-                                        class="btn btn-lg bg-gradient-yellow btn-round"
-                                    >
-                                        {{ $t("jumbotron.button") }}
-                                    </RouterLink>
+              <!-- 🇧🇷 BRASIL -->
+              <div class="col-md-4 mb-3 order-2 order-md-1">
+                <img
+                  :src="logoSrc"
+                  height="120"
+                  alt="CLIHC 2026 logo"
+                  class="mb-3"
+                />
+                <h5 class="fw-bold">Aracaju, Brasil</h5>
+                <p class="small mb-2">6–8 mayo 2026</p>
+                <a
+                  href="https://brazil.clihc2026.laihc.org"
+                  class="btn btn-md bg-gradient-secondary btn-round"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Ver evento
+                </a>
+              </div>
 
-                                    <!--
-										<template v-if="currentComponent">
-											<component :is="currentComponent" />
-										</template>
-										-->
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              <!-- 🌎 CENTRAL -->
+              <!--:src="logoSrc" -->
+              <div class="col-md-4 my-3 order-1 order-md-2">
+                <img
+                  src="/assets/img/logos/clihc2023.svg"
+                  height="120"
+                  alt="CLIHC 2026 logo"
+                  class="mb-3"
+                />
+                <p class="lead mb-2 fw-bold">
+                  {{ $t("jumbotron.central_title") }}
+                </p>
+                <p class="small mb-3">
+                  {{ $t("jumbotron.central_subtitle") }}
+                </p>
+                <RouterLink
+                  :to="Tr.i18nRoute({ name: 'call-for-participation' })"
+                  class="btn btn-lg bg-gradient-yellow btn-round"
+                >
+                  {{ $t("jumbotron.central_button") }}
+                </RouterLink>
+              </div>
+
+              <!-- 🇲🇽 MÉXICO -->
+              <div class="col-md-4 mb-3 order-3 order-md-3">
+                <img
+                  src="/assets/img/logos/clihc2026mx.png"
+                  height="120"
+                  alt="CLIHC 2026 logo"
+                  class="mb-3"
+                />
+                <h5 class="fw-bold">Oaxaca, México</h5>
+                <p class="small mb-2">27–29 mayo 2026</p>
+                <a
+                  href="https://mexico.clihc2026.laihc.org"
+                  class="btn btn-md bg-gradient-secondary btn-round"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Ver evento
+                </a>
+              </div>
+
             </div>
+          </div>
         </div>
-    </header>
-    <!-- End Jumbotron -->
+      </div>
+    </div>
+  </header>
 </template>

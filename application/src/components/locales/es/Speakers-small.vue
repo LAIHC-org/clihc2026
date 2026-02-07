@@ -16,7 +16,7 @@ export default {
 
 <template>
     <div class="row mb-4">
-        <SpeakerItem>
+        <SpeakerItem venue="brazil">
             <template #image>
                 <img
                     src="/assets/img/people/lucianaZaina.png"
@@ -49,7 +49,7 @@ export default {
             </p>
         </SpeakerItem>
 
-        <SpeakerItem>
+        <SpeakerItem venue="brazil">
             <template #image>
                 <img
                     src="/assets/img/people/pedroReynolds.png"

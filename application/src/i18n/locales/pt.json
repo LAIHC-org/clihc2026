@@ -4,6 +4,10 @@
         "es": "Español",
         "pt": "Português"
     },
+    "labels": {
+        "venue_brazil": "Sede Brasil",
+        "venue_mexico": "Sede México"
+    },
     "nav": {
         "sitemap": "Mapa do site",
         "facebook": "Página do Facebook",
@@ -49,7 +53,10 @@
     "jumbotron":{
         "conference": "XII Conferência Latino-Americana de Interação Humano–Computador",
         "date": "De 6 a 8 de maio de 2026",
-        "button": "Chamada para participação"
+        "button": "Chamada para participação",
+        "central_title": "XII Conferência Latino-Americana de Interação Humano-Computador",
+        "central_subtitle": "Uma conferência em formato distribuído, com eventos presenciais na América Latina",
+        "central_button": "Chamadas compartilhadas"
     },
     "about":{
         "about_title": "Bem-vindas e Bem-vindos ao CLIHC 2026!",

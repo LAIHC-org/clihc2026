@@ -65,7 +65,7 @@ export default {
                 <div class="col-lg-9">
                     <div class="row">                      
 
-                        <SponsorItem>
+                        <SponsorItem venue="brazil">
                             <template #image>
                                 <img src="/assets/img/logos/el_dorado.png" alt="Instituto de Pesquisas Eldorado" class="img-fluid shadow rounded-3">
                             </template>
@@ -79,7 +79,7 @@ export default {
                             </template>
                         </SponsorItem>
 
-                        <SponsorItem>
+                        <SponsorItem venue="brazil">
                             <template #image>
                                 <img src="/assets/img/logos/dalhousie.png" alt="Dalhousie University" class="img-fluid shadow rounded-3">
                             </template>
@@ -91,7 +91,21 @@ export default {
                             <template #name>
                                 <a class="uline" href="https://www.dal.ca/">Dalhousie University</a>
                             </template>
-                        </SponsorItem>                         
+                        </SponsorItem>
+                        
+                        <SponsorItem venue="mexico">
+                            <template #image>
+                                <img src="/assets/img/logos/usalab.png" alt="Usalab, Laboratorio de Usabilidad" class="img-fluid shadow rounded-3">
+                            </template>
+                            <template #image-shadow>
+                                <div class="colored-shadow"
+                                    style="background-image: url(&quot;/assets/img/logos/usalab.png&quot;);">
+                                </div>
+                            </template>                                
+                            <template #name>
+                                <a class="uline" href="https://www.utm.mx/usabilidad.html">Usalab, Laboratorio de Usabilidad</a>
+                            </template>
+                        </SponsorItem>
 
                     </div>
                 </div>

@@ -1,3 +1,30 @@
+<script>
+export default {
+    props: {
+        venue: {
+            type: String,
+            default: null,
+            validator(value) {
+                return (
+                    value === null ||
+                    value === undefined ||
+                    value === "brazil" ||
+                    value === "mexico"
+                );
+            },
+        },
+    },
+    computed: {
+        venueLabel() {
+            if (!this.venue) {
+                return "";
+            }
+            return this.$t(`labels.venue_${this.venue}`);
+        },
+    },
+};
+</script>
+
 <template>
     <div class="row">
         <div class="row justify-content-center my-sm-1">
@@ -10,6 +37,13 @@
                                     <slot name="image"></slot>
                                 </div>
                                 <slot name="image-shadow"></slot>
+                                <div
+                                    v-if="venueLabel"
+                                    class="card-ribbon"
+                                    :class="`card-ribbon--${venue}`"
+                                >
+                                    <span class="card-ribbon__text">{{ venueLabel }}</span>
+                                </div>
                             </div>
                             <div class="card-body">
                                 <h2 class="mt-3 h4">
