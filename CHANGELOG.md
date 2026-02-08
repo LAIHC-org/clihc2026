@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2026.1.0.11] - 2026-02-05
+
+### Changed
+
+- Updated About section content across locales to the CLIHC 2026 welcome text and HTML layout.
+- Adjusted the Vite configuration by removing the vue-i18n plugin.
+
+### Fixed
+
+- Rendered About section translation HTML and prevented the i18n build error caused by HTML in locale messages.
+
+## [2026.1.0.10] - 2026-02-02
+
+### Added
+
+- Added organizer and speaker photos (cams, lidianyCerqueira, lucianaZaina, marioMoreno, pedroReynolds, robertoPereira, victorAraujo).
+
+### Changed
+
+- Replaced placeholder content with full call texts for posters, graduate colloquium, and student design competition (EN/ES/PT).
+- Updated call-for-papers content across locales.
+- Published speakers content (lists and profiles) across locales and enabled the speakers section in the UI.
+- Improved hash-link scrolling to wait for target elements before scrolling.
+
 ## [2026.1.0.9] - 2026-01-13
 
 ### Added

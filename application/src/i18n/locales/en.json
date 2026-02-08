@@ -4,6 +4,10 @@
         "es": "Español",
         "pt": "Português"
     },
+    "labels": {
+        "venue_brazil": "Brazil Venue",
+        "venue_mexico": "Mexico Venue"
+    },
     "nav": {
         "sitemap": "Sitemap",
         "facebook": "Facebook page",
@@ -11,19 +15,19 @@
         "about_title": "About This Conference",
         "about": "About CLIHC",
         "home": "Home",
-        "for_authors_title": "For Authors",
-        "for_authors": "For authors",
+        "for_authors_title": "Calls",
+        "for_authors": "Calls",
         "organizers": "Organizers",
         "cfp": "Call for papers",
         "cfp_message": "Abstract deadline: February 23, 2026",
         "cpt": "Call for poster track",
-        "cpt_message": "Deadline: August 11th, 2023 EXTENDED",
+        "cpt_message": "Deadline: April 5, 2026",
         "cwt": "Call for workshops and tutorials",
-        "cwt_message": "Deadline: August 11th, 2023 EXTENDED",
+        "cwt_message": "Deadline: to be announced soon",
         "sdc": "Student design competition",
-        "sdc_message": "Deadline: August 11th, 2023 EXTENDED",
+        "sdc_message": "Deadline: March 5, 2026",
         "cgc": "Graduate colloquium",
-        "cgc_message": "Deadline: August 11th, 2023 EXTENDED",
+        "cgc_message": "Deadline: March 14, 2026",
         "accessibility_for_autors": "Accessibility recommendations for authors",
         "accessibility_for_autors_message": "Help us to maximize the experience for everyone",
         "for_attendees_title": "For Attendees",
@@ -42,6 +46,12 @@
         "keynotes_message": "From de international HCI community",
         "accepted_papers": "Accepted papers",
         "accepted_papers_message": "",
+        "program_structure": "General program structure",
+        "program_brazil": "See program in Brazil",
+        "program_mexico": "See program in Mexico",
+        "choose_venue": "Choose venue",
+        "venue_brazil": "Aracaju, Brazil",
+        "venue_mexico": "Oaxaca, Mexico",
         "pending": "Pending",
         "copyright": "© 2026 Latin American Conference on Human Computer Interaction, a LAIHC conference.",
         "back_to_top": "Back to top of page"
@@ -49,7 +59,10 @@
     "jumbotron":{
         "conference": "XII Latin American Conference on Human–Computer Interaction",
         "date": "May 6th–8th, 2026",
-        "button": "Call for Participation"
+        "button": "Call for Participation",
+        "central_title": "12th Latin American Conference on Human–Computer Interaction",
+        "central_subtitle": "A distributed conference with in-person events across Latin America",
+        "central_button": "Shared Calls for Participation"
     },
     "about":{
         "about_title": "Welcome to CLIHC 2026!",

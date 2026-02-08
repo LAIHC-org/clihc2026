@@ -17,8 +17,8 @@
                     Call for papers (CFP)
                 </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Abstract submission:</strong> February 23<br>
-            <strong class="text-primary text-gradient">Paper submission:</strong> March 1<br>
+            <strong class="text-primary text-gradient">Abstract submission:</strong> February 23, 2026<br>
+            <strong class="text-primary text-gradient">Paper submission:</strong> March 1, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -28,7 +28,7 @@
                     Call for poster track (CPT)
                 </RouterLink>                
             </div>
-            <strong class="text-primary text-gradient">Deadline for submission:</strong> Upcoming<br>
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> April 5, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -38,7 +38,7 @@
                 Call for workshops and tutorial (CWT)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Deadline for submission:</strong> Upcoming<br>
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> To be announced soon<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -48,7 +48,7 @@
                 Student design competition (SDC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Deadline for submission:</strong> Upcoming<br>
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> March 5, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -58,7 +58,7 @@
                 Graduate Colloquium (GC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Deadline for submission:</strong> Upcoming<br>
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> March 14, 2026<br>
         </div>
         </li>
     </ol>    

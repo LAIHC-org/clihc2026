@@ -6,6 +6,22 @@ export default {
     components: {
         SpeakerItem,
     },
+    methods: {
+        speakerHref(venue, hash) {
+            const anchor = hash.startsWith("#") ? hash : `#${hash}`;
+            const path = `/${Tr.currentLocale}/keynote-speakers${anchor}`;
+
+            if (venue === "brazil") {
+                return `https://brazil.clihc2026.laihc.org${path}`;
+            }
+
+            if (venue === "mexico") {
+                return `https://mexico.clihc2026.laihc.org${path}`;
+            }
+
+            return path;
+        },
+    },
     setup() {
         return {
             Tr,
@@ -16,7 +32,7 @@ export default {
 
 <template>
     <div class="row mb-4">
-        <SpeakerItem>
+        <SpeakerItem venue="brazil">
             <template #image>
                 <img
                     src="/assets/img/people/lucianaZaina.png"
@@ -37,18 +53,13 @@ export default {
             research in HCI and Software Engineering.
 
             <p class="mt-2">
-                <RouterLink
-                    :to="
-                        Tr.i18nRoute({ name: 'keynote-speakers', hash: '#luciana-zaina'})
-                    "
-                    class="uline"
-                >
+                <a :href="speakerHref('brazil', 'luciana-zaina')" class="uline">
                     Read more about Dr. Zaina
-                </RouterLink>
+                </a>
             </p>
         </SpeakerItem>
 
-        <SpeakerItem>
+        <SpeakerItem venue="brazil">
             <template #image>
                 <img
                     src="/assets/img/people/pedroReynolds.png"
@@ -68,14 +79,9 @@ export default {
             interdisciplinary background spanning linguistics, robotics, and
             human-centered AI.
             <p class="mt-2">
-                <RouterLink
-                    :to="
-                        Tr.i18nRoute({ name: 'keynote-speakers', hash: '#pedro-reynolds'})
-                    "
-                    class="uline"
-                >
+                <a :href="speakerHref('brazil', 'pedro-reynolds')" class="uline">
                     Read more about Dr. Reynolds-Cuéllar
-                </RouterLink>
+                </a>
             </p>
         </SpeakerItem>
     </div>

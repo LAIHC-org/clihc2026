@@ -17,8 +17,8 @@
                     Convocatoria de trabajos (CFP)
                 </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Envío de resúmenes:</strong> 23 de febrero<br>
-            <strong class="text-primary text-gradient">Envío de artículos:</strong> 1 de marzo<br>
+            <strong class="text-primary text-gradient">Envío de resúmenes:</strong> 23 de febrero, 2026<br>
+            <strong class="text-primary text-gradient">Envío de artículos:</strong> 1 de marzo, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -28,7 +28,7 @@
                     Convocatoria de pósteres (CPT)
                 </RouterLink>                
             </div>
-            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> Proximamente<br>
+            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 5 de abril, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -38,7 +38,7 @@
                 Convocatoria de talleres y tutoriales (CWT)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> Proximamente<br>
+            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> A ser anunciada pronto<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -48,7 +48,7 @@
                 Competencia de diseño para estudiantes (SDC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> Proximamente<br>
+            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 5 de marzo, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -58,7 +58,7 @@
                 Coloquio de graduados (GC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> Proximamente<br>
+            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 14 de marzo, 2026<br>
         </div>
         </li>
     </ol>    

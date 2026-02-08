@@ -4,6 +4,10 @@
         "es": "Español",
         "pt": "Português"
     },
+    "labels": {
+        "venue_brazil": "Sede Brasil",
+        "venue_mexico": "Sede México"
+    },
     "nav": {
         "sitemap": "Mapa do site",
         "facebook": "Página do Facebook",
@@ -11,23 +15,23 @@
         "about_title": "Sobre esta conferência",
         "about": "Sobre o CLIHC",
         "home": "Início",
-        "for_authors_title": "Para autores",
-        "for_authors": "Para autores",
+        "for_authors_title": "Chamadas",
+        "for_authors": "Chamadas",
         "organizers": "Organizadores",
         "cfp": "Chamada de trabalhos",
         "cfp_message": "Prazo (resumos): 23 de fevereiro de 2026",
         "cpt": "Chamada para pôsteres",
-        "cpt_message": "Prazo: 11 de agosto de 2023 PRORROGADA",
+        "cpt_message": "Prazo: 5 de abril de 2026",
         "cwt": "Chamada para workshops e tutoriais",
-        "cwt_message": "Prazo: 11 de agosto de 2023 PRORROGADA",
+        "cwt_message": "Prazo: a ser anunciado em breve",
         "sdc": "Competição de design estudantil",
-        "sdc_message": "Prazo: 11 de agosto de 2023 PRORROGADA",
+        "sdc_message": "Prazo: 5 de março de 2026",
         "cgc": "Colóquio de pós-graduação",
-        "cgc_message": "Prazo: 11 de agosto de 2023 PRORROGADA",
+        "cgc_message": "Prazo: 14 de março de 2026",
         "accessibility_for_autors": "Recomendações de acessibilidade para autores",
         "accessibility_for_autors_message": "Ajude-nos a maximizar a experiência para todos",
-        "for_attendees_title": "Para os participantes",
-        "for_attendees": "Para os participantes",
+        "for_attendees_title": "Para participantes",
+        "for_attendees": "Para participantes",
         "getting_started_title": "Primeiros Passos",
         "getting_started": "Primeiros passos",
         "getting_started_message": "Tudo o que você precisa saber para participar da conferência.",
@@ -42,6 +46,12 @@
         "keynotes_message": "Da comunidade internacional de IHC",
         "accepted_papers": "Artigos aceitos",
         "accepted_papers_message": "",        
+        "program_structure": "Estrutura geral do programa",
+        "program_brazil": "Ver programa no Brasil",
+        "program_mexico": "Ver programa no México",
+        "choose_venue": "Escolher sede",
+        "venue_brazil": "Aracaju, Brasil",
+        "venue_mexico": "Oaxaca, México",
         "pending": "Pendente",
         "copyright": "© 2026 Conferência Latino-Americana de Interação Humano-Computador, uma conferência da LAIHC.",
         "back_to_top": "Voltar ao topo da página"
@@ -49,7 +59,10 @@
     "jumbotron":{
         "conference": "XII Conferência Latino-Americana de Interação Humano–Computador",
         "date": "De 6 a 8 de maio de 2026",
-        "button": "Chamada para participação"
+        "button": "Chamada para participação",
+        "central_title": "XII Conferência Latino-Americana de Interação Humano-Computador",
+        "central_subtitle": "Uma conferência em formato distribuído, com eventos presenciais na América Latina",
+        "central_button": "Chamadas compartilhadas"
     },
     "about":{
         "about_title": "Bem-vindas e Bem-vindos ao CLIHC 2026!",

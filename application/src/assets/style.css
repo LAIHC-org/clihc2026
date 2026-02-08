@@ -97,3 +97,53 @@ h1, .h1, .h1, h2, .h2, .h2, h3, .h3, .h3, h4, .h4, .h4, h5, .h5, .h5, h6, .h6, .
 .footer .nav-link, .footer a {
     color: #F6F5F2 !important;
 }
+
+.card-ribbon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 92px;
+    height: 92px;
+    overflow: hidden;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.card-ribbon__text {
+    position: absolute;
+    top: 18px;
+    left: 29px;
+    height: 22px;
+    line-height: 22px;
+    width: 150px;
+    background: linear-gradient(
+        135deg,
+        var(--ribbon-color, #2f6bd9) 0%,
+        var(--ribbon-color-mid, #2b60c7) 45%,
+        var(--ribbon-color-dark, #1e4fa7) 100%
+    );
+    color: #fff;
+    font-size: 0.56rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    transform: translateX(-50%) rotate(-45deg);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-ribbon--brazil {
+    --ribbon-color: #2f6bd9;
+    --ribbon-color-mid: #2a5cc5;
+    --ribbon-color-dark: #1e4fa7;
+}
+
+.card-ribbon--mexico {
+    --ribbon-color: #2f9b62;
+    --ribbon-color-mid: #278a57;
+    --ribbon-color-dark: #1f6d46;
+}
