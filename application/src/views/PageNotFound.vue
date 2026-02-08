@@ -1,5 +1,6 @@
 <script setup>
 import TheHeader from '@/components/Header.vue'
+import Tr from '@/i18n/translation'
 </script>
 
 <template>
@@ -15,7 +16,9 @@ import TheHeader from '@/components/Header.vue'
                 <div class="col-lg-8 text-center">
                     <h2>Ooops!</h2>
                     <p>Sorry, we can't find that page</p>
-                    <a class="btn bg-gradient-primary btn-round" href="./">Home</a>
+                    <RouterLink :to="Tr.i18nRoute({ name: 'home' })" class="btn bg-gradient-primary btn-round">
+                        Home
+                    </RouterLink>
                 </div>
             </div>
         </div>

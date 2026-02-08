@@ -65,7 +65,7 @@ export default {
                 <div class="col-lg-9">
                     <div class="row">                      
 
-                        <SponsorItem>
+                        <SponsorItem venue="brazil">
                             <template #image>
                                 <img src="/assets/img/sponsors/fapitec_se.png" alt="Fundação de Apoio à Pesquisa e à Inovação Tecnológica do Estado de Sergipe (FAPITEC/SE)" class="img-fluid shadow rounded-3">
                             </template>
@@ -76,6 +76,52 @@ export default {
                             </template>                                
                             <template #name>
                                 <a class="uline" href="https://fapitec.se.gov.br/">FAPITEC/SE</a>
+                            </template>
+                        </SponsorItem>
+
+                                                <SponsorItem venue="mexico">
+                            <template #image>
+                                <img
+                                    src="/assets/img/sponsors/occe.png"
+                                    alt="Conselho Nacional de Ciencia y Tecnologia"
+                                    class="img-fluid shadow rounded-3"
+                                />
+                            </template>
+                            <template #image-shadow>
+                                <div
+                                    class="colored-shadow"
+                                    style="
+                                        background-image: url('/assets/img/sponsors/occe.png');
+                                    "
+                                ></div>
+                            </template>
+                            <template #name>
+                                <a class="uline" href="https://www.oaxaca.gob.mx/occe/"
+                                    >Oficina de Convenciones, Congresos y Eventos de Oaxaca</a
+                                >
+                            </template>
+                        </SponsorItem>
+
+                                                <SponsorItem venue="mexico">
+                            <template #image>
+                                <img
+                                    src="/assets/img/sponsors/educacion.png"
+                                    alt="Conselho Nacional de Ciencia y Tecnologia"
+                                    class="img-fluid shadow rounded-3"
+                                />
+                            </template>
+                            <template #image-shadow>
+                                <div
+                                    class="colored-shadow"
+                                    style="
+                                        background-image: url('/assets/img/sponsors/educacion.png');
+                                    "
+                                ></div>
+                            </template>
+                            <template #name>
+                                <a class="uline" href="https://www.oaxaca.gob.mx/sep/"
+                                    >Secretaría de Educación Pública del Estado de Oaxaca</a
+                                >
                             </template>
                         </SponsorItem>
                         

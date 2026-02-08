@@ -24,28 +24,34 @@ export default {
                     </div>
                 </div>
 
-                <SponsorItem>
-                    <template #image>
-                        <img
-                            src="/assets/img/sponsors/sbc_br.png"
-                            alt="Sociedade Brasileira de Computação"
-                            class="img-fluid shadow rounded-3"
-                        />
-                    </template>
-                    <template #image-shadow>
-                        <div
-                            class="colored-shadow"
-                            style="
-                                background-image: url('/assets/img/sponsors/sbc_br.png');
-                            "
-                        ></div>
-                    </template>
-                    <template #name>
-                        <a class="uline" href="https://www.sbc.org.br/"
-                            >Sociedade Brasileira de Computação</a
-                        >
-                    </template>
-                </SponsorItem>
+                <div class="col-lg-9">
+                    <div class="row">
+
+                        <SponsorItem venue="brazil">
+                            <template #image>
+                                <img
+                                    src="/assets/img/sponsors/sbc_br.png"
+                                    alt="Sociedade Brasileira de Computação"
+                                    class="img-fluid shadow rounded-3"
+                                />
+                            </template>
+                            <template #image-shadow>
+                                <div
+                                    class="colored-shadow"
+                                    style="
+                                        background-image: url('/assets/img/sponsors/sbc_br.png');
+                                    "
+                                ></div>
+                            </template>
+                            <template #name>
+                                <a class="uline" href="https://www.sbc.org.br/"
+                                    >Sociedade Brasileira de Computação</a
+                                >
+                            </template>
+                        </SponsorItem>
+                        
+                    </div>
+                </div>
                 
             </div>
         </div>
