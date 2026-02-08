@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2026.2.0.0] - 2026-02-07
+
+### Added
+
+- Added the Program Structure page with localized content (EN/ES/PT) and a new route.
+- Added venue ribbons for speakers, sponsors, and related cards to distinguish Brazil/Mexico content.
+- Added new venue/sponsor logos (CLIHC Mexico, UTM, USALab, Educación, OCCE) and refreshed the hero banner asset.
+
+### Changed
+
+- Redesigned the Jumbotron to highlight the Brazil and Mexico events with dedicated CTAs plus a central CFP call to action.
+- Reworked the navbar information architecture with program structure + venue schedule links, a venue chooser, and updated call-for-participation messaging.
+- Updated call tables and speakers summaries with concrete 2026 deadlines and refreshed content across locales.
+
+### Fixed
+
+- Switched internal navigation to i18n-aware `RouterLink` routes to respect the configured base URL (navbar, 404, video archives).
+
 ## [2026.1.0.11] - 2026-02-05
 
 ### Changed
