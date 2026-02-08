@@ -14,11 +14,11 @@ import TheSupport from '@/components/Support.vue'
   <TheJumbotron />
   <TheAboutSection />
   <TheSpeakers />
-  <TheSpetialThanks />
   <TheDescription />
   <TheOrganization />
   <TheCoordinationOfProgram />
   <TheSupporters />
+  <TheSpetialThanks />
   <!-- TheVirtualVenues /> -->
   <!-- <TheSupport /> -->
 </template>

@@ -26,7 +26,7 @@ export default {
                 <div class="col-lg-9">
                     <div class="row">                      
 
-                        <SponsorItem>
+                        <SponsorItem venue="brazil">
                             <template #image>
                                 <img src="/assets/img/logos/uninassau.png" alt="Centro Universitário Maurício de Nassau" class="img-fluid shadow rounded-3">
                             </template>
@@ -40,7 +40,7 @@ export default {
                             </template>
                         </SponsorItem> 
 
-                        <SponsorItem>
+                        <SponsorItem venue="brazil">
                             <template #image>
                                 <img src="/assets/img/logos/ufs.png" alt="Universidade Federal de Sergipe" class="img-fluid shadow rounded-3">
                             </template>
@@ -51,6 +51,20 @@ export default {
                             </template>                                
                             <template #name>
                                 <a class="uline" href="https://www.ufs.br/">Universidade Federal de Sergipe</a>
+                            </template>
+                        </SponsorItem>
+
+                        <SponsorItem venue="mexico">
+                            <template #image>
+                                <img src="/assets/img/logos/utm.png" alt="Universidad Tecnológica de la Mixteca" class="img-fluid shadow rounded-3">
+                            </template>
+                            <template #image-shadow>
+                                <div class="colored-shadow"
+                                    style="background-image: url(&quot;/assets/img/logos/utm.png&quot;);">
+                                </div>
+                            </template>                                
+                            <template #name>
+                                <a class="uline" href="https://www.utm.mx/web/">Universidad Tecnológica de la Mixteca</a>
                             </template>
                         </SponsorItem>
                     </div>

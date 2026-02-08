@@ -94,6 +94,14 @@ const router = createRouter({
           },
         },    
         {
+          path: 'program-structure',
+          name: 'program-structure',
+          component: () => import('../views/ProgramStructureView.vue'), 
+          meta: {
+            title: "CLIHC 2026 - Program Structure",
+          },
+        },    
+        {
           path: 'keynote-speakers',
           name: 'keynote-speakers',
           component: () => import('../views/SpeakersView.vue'), 

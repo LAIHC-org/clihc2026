@@ -1,5 +1,6 @@
 <script setup>
 import TheHeader from '@/components/Header.vue'
+import Tr from '@/i18n/translation'
 </script>
 
 <template>
@@ -17,27 +18,36 @@ import TheHeader from '@/components/Header.vue'
                         <li class="list-group-item d-flex justify-content-between align-items-start">
                             <div class="ms-2 me-auto">
                                 <div class="fw-bold">
-                                    <a href="./video-archives#wednesday" class="uline">
+                                    <RouterLink
+                                        :to="Tr.i18nRoute({ name: 'videoArchives', hash: '#wednesday' })"
+                                        class="uline"
+                                    >
                                         Wednesday, November 16th, 2022
-                                    </a>
+                                    </RouterLink>
                                 </div>
                             </div>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-start">
                             <div class="ms-2 me-auto">
                                 <div class="fw-bold">
-                                    <a href="./video-archives#thursday" class="uline">
+                                    <RouterLink
+                                        :to="Tr.i18nRoute({ name: 'videoArchives', hash: '#thursday' })"
+                                        class="uline"
+                                    >
                                         Thursday, November 17th, 2022
-                                    </a>
+                                    </RouterLink>
                                 </div>
                             </div>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-start">
                             <div class="ms-2 me-auto">
                                 <div class="fw-bold">
-                                    <a href="./video-archives#friday" class="uline">
+                                    <RouterLink
+                                        :to="Tr.i18nRoute({ name: 'videoArchives', hash: '#friday' })"
+                                        class="uline"
+                                    >
                                         Friday, November 18th, 2022
-                                    </a>
+                                    </RouterLink>
                                 </div>
                             </div>
                         </li>
