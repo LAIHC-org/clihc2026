@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as s,T as r}from"./index-DMeS4_0M.js";const o={setup(){return{Tr:r}}},n={class:"mt-5 text-center"};function a(c,i,p,_,f,d){return s(),e("p",n,"La información sobre tarifas y registro estará disponible pronto.")}const m=t(o,[["render",a]]);export{m as default};
