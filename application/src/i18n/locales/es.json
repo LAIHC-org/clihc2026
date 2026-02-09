@@ -45,7 +45,7 @@
         "keynotes": "Ponentes principales",
         "keynotes_message": "De la comunidad internacional de IHC",
         "accepted_papers": "Artículos aceptados",
-        "accepted_papers_message": "",        
+        "accepted_papers_message": "",
         "program_structure": "Estructura general del programa",
         "program_brazil": "Ver programa en Brasil",
         "program_mexico": "Ver programa en México",
@@ -54,9 +54,9 @@
         "venue_mexico": "Oaxaca, México",
         "pending": "Pendiente",
         "copyright": "© 2026 Conferencia Latinoamericana de Interacción Humano-Computadora, una conferencia de LAIHC.",
-        "back_to_top": "Volver arriba" 
+        "back_to_top": "Volver arriba"
     },
-    "jumbotron":{
+    "jumbotron": {
         "conference": "XII Conferencia Latinoamericana de Interacción Humano-Computadora.",
         "date": "Del 6 al 8 de mayo de 2026",
         "button": "Convocatoria de participación",
@@ -64,7 +64,7 @@
         "central_subtitle": "Una conferencia en formato distribuido, con eventos presenciales en América Latina",
         "central_button": "Convocatorias compartidas"
     },
-    "about":{
+    "about": {
         "about_title": "¡Bienvenidas y Bienvenidos a CLIHC 2026!",
         "about_text": "<p>Les damos una cordial bienvenida al sitio oficial de la <strong>XII Conferencia Latinoamericana de Interacción Humano-Computadora (CLIHC 2026)</strong>. Este espacio está dirigido a todas las personas interesadas en participar como ponentes, autoras y autores, asistentes, colaboradoras y colaboradores, y/o patrocinadoras y patrocinadores en el encuentro más importante dentro del ámbito de la Interacción Humano-Computadora (HCI) en América Latina.</p><p>En 2026, CLIHC se celebrará en un <strong>formato distribuido</strong>, con dos eventos satélite presenciales que reflejan la diversidad, riqueza y pluralidad de nuestras comunidades académicas y profesionales:</p><ul><li>En <strong>Aracaju, estado de Sergipe, en Brasil</strong>, bajo el liderazgo del Dr. Jean Clemisson Santos Rosa y del Dr. Gilton José Ferreira da Silva.</li><li>En la <strong>Ciudad de Oaxaca, estado de Oaxaca, en México</strong>, bajo el liderazgo del Mtro. Carlos Alberto Martínez Sandoval y del Dr. Mario Alberto Moreno Rocha.</li></ul><p>Cada sede contará con su propio equipo de coordinación general local, un programa diseñado específicamente para su contexto y con fechas de realización particulares. Algunos <em>tracks</em> serán compartidos entre ambas sedes, mientras que otras han sido definidas de manera independiente, permitiendo que quienes lo deseen puedan participar y disfrutar de ambos eventos.</p><p>Con el objetivo de asegurar una integración efectiva entre los equipos y garantizar una experiencia coherente e inclusiva en CLIHC 2026, se conformó un <strong>Comité General de Articulación</strong>, que ha trabajado de manera cercana con las coordinaciones locales. Este comité cuenta con la facilitación de la Dra. Soraia Silva Prietch y del Dr. Pedro Reynolds-Cuéllar.</p><p>Los/Las invitamos a explorar este sitio web para conocer las fechas clave, las convocatorias vigentes y las diversas formas de participación. Será un placer contar con su presencia y contribución dentro de nuestro <strong>CLIHC 2026</strong>.</p>",
         "call": "Convocatoria de participación",
@@ -105,10 +105,10 @@
         "web_chairs_description": "Responsables del diseño, desarrollo y mantenimiento del sitio web de la conferencia.",
         "volunteer_students_chair_title": "Coordinación de Estudiantes Voluntarios",
         "volunteer_students_chair_description": "Encargado de gestionar y coordinar a los estudiantes voluntarios para la conferencia.",
-        "acccessibility_chairs_title" : "Responsables de accesibilidad",
-        "acccessibility_chairs_description" : "Responsables de supervisar medidas integrales de accesibilidad durante la conferencia.",
-        "industry_session_chair_title" : "Coordinación de las Sesiones de Industria",
-        "industry_session_chair_description" : "Responsable de la sesión industrial",
+        "acccessibility_chairs_title": "Responsables de accesibilidad",
+        "acccessibility_chairs_description": "Responsables de supervisar medidas integrales de accesibilidad durante la conferencia.",
+        "industry_session_chair_title": "Coordinación de las Sesiones de Industria",
+        "industry_session_chair_description": "Responsable de la sesión industrial",
         "steering_committee_title": "Comité General de Articulación",
         "steering_committee_description": "Supervisa y orienta las actividades estratégicas de la comunidad LAIHC y de la conferencia CLIHC.",
         "diversity_and_inclusion_chairs_title": "Coordinación de Diversidad, Equidad e Inclusión",
@@ -135,7 +135,7 @@
         "register_button": "Registra tu comprobante de pago"
     },
     "home": {
-        "keynotes":"Ponentes principales",
+        "keynotes": "Ponentes principales",
         "keynotes_message": "El programa de la conferencia incluye destacados ponentes de la comunidad internacional de IHC.",
         "sponsors": "Patrocinadores",
         "sponsors_message": "Queremos agradecer a nuestros patrocinadores.",
@@ -158,5 +158,18 @@
     },
     "soon": {
         "speakers": "Próximos ponentes serán anunciados pronto."
+    },
+    "breadcrumbs": {
+        "root": "CLIHC 2026",
+        "aria_label": "Ruta de navegación",
+        "site": {
+            "central": "Central",
+            "mexico": "México",
+            "brazil": "Brasil"
+        },
+        "pages": {
+            "video_archives": "Archivos de video",
+            "not_found": "Página no encontrada"
+        }
     }
 }

@@ -56,7 +56,7 @@
         "copyright": "© 2026 Latin American Conference on Human Computer Interaction, a LAIHC conference.",
         "back_to_top": "Back to top of page"
     },
-    "jumbotron":{
+    "jumbotron": {
         "conference": "XII Latin American Conference on Human–Computer Interaction",
         "date": "May 6th–8th, 2026",
         "button": "Call for Participation",
@@ -64,9 +64,9 @@
         "central_subtitle": "A distributed conference with in-person events across Latin America",
         "central_button": "Shared Calls for Participation"
     },
-    "about":{
+    "about": {
         "about_title": "Welcome to CLIHC 2026!",
-        "about_text": "<p>We warmly welcome you to the official website of the <strong>12th Latin American Conference on Human-Computer Interaction (CLIHC 2026)</strong>. This space is intended for everyone interested in participating as speakers, authors, attendees, collaborators, and/or sponsors in the most important meeting within the field of Human-Computer Interaction (HCI) in Latin America.</p><p>In 2026, CLIHC will be held in a <strong>distributed format</strong>, with two in-person satellite events that reflect the diversity, richness, and plurality of our academic and professional communities:</p><ul><li>In <strong>Aracaju, state of Sergipe, Brazil</strong>, under the leadership of Dr. Jean Clemisson Santos Rosa and Dr. Gilton José Ferreira da Silva.</li><li>In the <strong>City of Oaxaca, state of Oaxaca, Mexico</strong>, under the leadership of Mtro. Carlos Alberto Martínez Sandoval and Dr. Mario Alberto Moreno Rocha.</li></ul><p>Each venue will have its own local general coordination team, a program specifically designed for its context, and particular event dates. Some <em>tracks</em> will be shared between both venues, while others have been independently defined, allowing participants to engage in and enjoy both events.</p><p>To ensure effective integration between teams and to guarantee a coherent and inclusive experience at CLIHC 2026, a <strong>General Articulation Committee</strong> was established, working closely with the local coordination teams. This committee is facilitated by Dr. Soraia Silva Prietch and Dr. Pedro Reynolds-Cuéllar.</p><p>We invite you to explore this website to learn about key dates, active calls, and the different ways to participate. It will be a pleasure to have your presence and contribution at <strong>CLIHC 2026</strong>.</p>",        
+        "about_text": "<p>We warmly welcome you to the official website of the <strong>12th Latin American Conference on Human-Computer Interaction (CLIHC 2026)</strong>. This space is intended for everyone interested in participating as speakers, authors, attendees, collaborators, and/or sponsors in the most important meeting within the field of Human-Computer Interaction (HCI) in Latin America.</p><p>In 2026, CLIHC will be held in a <strong>distributed format</strong>, with two in-person satellite events that reflect the diversity, richness, and plurality of our academic and professional communities:</p><ul><li>In <strong>Aracaju, state of Sergipe, Brazil</strong>, under the leadership of Dr. Jean Clemisson Santos Rosa and Dr. Gilton José Ferreira da Silva.</li><li>In the <strong>City of Oaxaca, state of Oaxaca, Mexico</strong>, under the leadership of Mtro. Carlos Alberto Martínez Sandoval and Dr. Mario Alberto Moreno Rocha.</li></ul><p>Each venue will have its own local general coordination team, a program specifically designed for its context, and particular event dates. Some <em>tracks</em> will be shared between both venues, while others have been independently defined, allowing participants to engage in and enjoy both events.</p><p>To ensure effective integration between teams and to guarantee a coherent and inclusive experience at CLIHC 2026, a <strong>General Articulation Committee</strong> was established, working closely with the local coordination teams. This committee is facilitated by Dr. Soraia Silva Prietch and Dr. Pedro Reynolds-Cuéllar.</p><p>We invite you to explore this website to learn about key dates, active calls, and the different ways to participate. It will be a pleasure to have your presence and contribution at <strong>CLIHC 2026</strong>.</p>",
         "call": "Call for participation",
         "registration": "Registration call",
         "proceedings": "Proceedings",
@@ -105,10 +105,10 @@
         "web_chairs_description": "Responsible for the design, development, and maintenance of the conference website.",
         "volunteer_students_chair_title": "Student Volunteers Chairs",
         "volunteer_students_chair_description": "In charge of managing and coordinating volunteer students for the conference.",
-        "acccessibility_chairs_title" : "Accessibility Chairs",
-        "acccessibility_chairs_description" : "Responsible for overseeing comprehensive accessibility measures during the conference.",
-        "industry_session_chair_title" : "Industry Session Chairs",
-        "industry_session_chair_description" : "Industry Session Chair",
+        "acccessibility_chairs_title": "Accessibility Chairs",
+        "acccessibility_chairs_description": "Responsible for overseeing comprehensive accessibility measures during the conference.",
+        "industry_session_chair_title": "Industry Session Chairs",
+        "industry_session_chair_description": "Industry Session Chair",
         "steering_committee_title": "General Articulation Committee",
         "steering_committee_description": "Oversees and guides the strategic activities of the LAIHC community and the CLIHC conference.",
         "diversity_and_inclusion_chairs_title": "Diversity, Equity and Inclusion Chairs",
@@ -147,7 +147,6 @@
         "coordination_message": "The academic program is coordinated by representatives from the following institutions.",
         "supporters": "Supported by",
         "supporters_message": "This conference is made thanks to the support of the following institutions."
-
     },
     "accepted_papers": {
         "title": "Accepted Papers",
@@ -159,5 +158,18 @@
     },
     "soon": {
         "speakers": "Upcoming speakers will be announced soon."
+    },
+    "breadcrumbs": {
+        "root": "CLIHC 2026",
+        "aria_label": "Breadcrumb",
+        "site": {
+            "central": "Central",
+            "mexico": "Mexico",
+            "brazil": "Brazil"
+        },
+        "pages": {
+            "video_archives": "Video archives",
+            "not_found": "Page not found"
+        }
     }
 }

@@ -48,6 +48,8 @@ export default {
         </template>
     </TheHeader>
 
+    <BreadcrumbsNav />
+
     <section class="">
         <div class="container">
             <div class="row justify-content-center my-3">
