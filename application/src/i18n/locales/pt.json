@@ -20,10 +20,12 @@
         "organizers": "Organizadores",
         "cfp": "Chamada de trabalhos",
         "cfp_message": "Prazo (resumos): 23 de fevereiro de 2026",
+        "csp": "Chamada de artigos curtos",
+        "csp_message": "Prazo (resumos): 2 de março de 2026",
         "cpt": "Chamada para pôsteres",
         "cpt_message": "Prazo: 5 de abril de 2026",
         "cwt": "Chamada para workshops e tutoriais",
-        "cwt_message": "Prazo: a ser anunciado em breve",
+        "cwt_message": "Prazo: 9 de março de 2026",
         "sdc": "Competição de design estudantil",
         "sdc_message": "Prazo: 5 de março de 2026",
         "cgc": "Colóquio de pós-graduação",
@@ -45,7 +47,7 @@
         "keynotes": "Palestrantes principais",
         "keynotes_message": "Da comunidade internacional de IHC",
         "accepted_papers": "Artigos aceitos",
-        "accepted_papers_message": "",        
+        "accepted_papers_message": "",
         "program_structure": "Estrutura geral do programa",
         "program_brazil": "Ver programa no Brasil",
         "program_mexico": "Ver programa no México",
@@ -56,7 +58,7 @@
         "copyright": "© 2026 Conferência Latino-Americana de Interação Humano-Computador, uma conferência da LAIHC.",
         "back_to_top": "Voltar ao topo da página"
     },
-    "jumbotron":{
+    "jumbotron": {
         "conference": "XII Conferência Latino-Americana de Interação Humano–Computador",
         "date": "De 6 a 8 de maio de 2026",
         "button": "Chamada para participação",
@@ -64,9 +66,10 @@
         "central_subtitle": "Uma conferência em formato distribuído, com eventos presenciais na América Latina",
         "central_button": "Chamadas compartilhadas"
     },
-    "about":{
+    "about": {
         "about_title": "Bem-vindas e Bem-vindos ao CLIHC 2026!",
-        "about_text": "<p>Damos uma cordial boas-vindas ao site oficial da <strong>XII Conferência Latino-Americana de Interação Humano-Computador (CLIHC 2026)</strong>. Este espaço é destinado a todas as pessoas interessadas em participar como palestrantes, autoras e autores, participantes, colaboradoras e colaboradores, e/ou patrocinadoras e patrocinadores no encontro mais importante no âmbito da Interação Humano-Computador (IHC) na América Latina.</p><p>Em 2026, o CLIHC será realizado em um <strong>formato distribuído</strong>, com dois eventos satélite presenciais que refletem a diversidade, riqueza e pluralidade de nossas comunidades acadêmicas e profissionais:</p><ul><li>Em <strong>Aracaju, estado de Sergipe, no Brasil</strong>, sob a liderança do Dr. Jean Clemisson Santos Rosa e do Dr. Gilton José Ferreira da Silva.</li><li>Na <strong>Cidade de Oaxaca, estado de Oaxaca, no México</strong>, sob a liderança do Mtro. Carlos Alberto Martínez Sandoval e do Dr. Mario Alberto Moreno Rocha.</li></ul><p>Cada sede contará com sua própria equipe de coordenação geral local, um programa desenvolvido especificamente para seu contexto e com datas de realização particulares. Alguns <em>tracks</em> serão compartilhados entre ambas as sedes, enquanto outros foram definidos de forma independente, permitindo que quem desejar possa participar e desfrutar de ambos os eventos.</p><p>Com o objetivo de assegurar uma integração efetiva entre as equipes e garantir uma experiência coerente e inclusiva no CLIHC 2026, foi constituído um <strong>Comitê Geral de Articulação</strong>, que trabalhou de forma próxima com as coordenações locais. Este comitê conta com a facilitação da Dra. Soraia Silva Prietch e do Dr. Pedro Reynolds-Cuéllar.</p><p>Convidamos você a explorar este site para conhecer as datas importantes, as chamadas vigentes e as diversas formas de participação. Será um prazer contar com sua presença e contribuição em nosso <strong>CLIHC 2026</strong>.</p>",        "call": "Chamada para participação",
+        "about_text": "<p>Damos uma cordial boas-vindas ao site oficial da <strong>XII Conferência Latino-Americana de Interação Humano-Computador (CLIHC 2026)</strong>. Este espaço é destinado a todas as pessoas interessadas em participar como palestrantes, autoras e autores, participantes, colaboradoras e colaboradores, e/ou patrocinadoras e patrocinadores no encontro mais importante no âmbito da Interação Humano-Computador (IHC) na América Latina.</p><p>Em 2026, o CLIHC será realizado em um <strong>formato distribuído</strong>, com dois eventos satélite presenciais que refletem a diversidade, riqueza e pluralidade de nossas comunidades acadêmicas e profissionais:</p><ul><li>Em <strong>Aracaju, estado de Sergipe, no Brasil</strong>, sob a liderança do Dr. Jean Clemisson Santos Rosa e do Dr. Gilton José Ferreira da Silva.</li><li>Na <strong>Cidade de Oaxaca, estado de Oaxaca, no México</strong>, sob a liderança do Mtro. Carlos Alberto Martínez Sandoval e do Dr. Mario Alberto Moreno Rocha.</li></ul><p>Cada sede contará com sua própria equipe de coordenação geral local, um programa desenvolvido especificamente para seu contexto e com datas de realização particulares. Alguns <em>tracks</em> serão compartilhados entre ambas as sedes, enquanto outros foram definidos de forma independente, permitindo que quem desejar possa participar e desfrutar de ambos os eventos.</p><p>Com o objetivo de assegurar uma integração efetiva entre as equipes e garantir uma experiência coerente e inclusiva no CLIHC 2026, foi constituído um <strong>Comitê Geral de Articulação</strong>, que trabalhou de forma próxima com as coordenações locais. Este comitê conta com a facilitação da Dra. Soraia Silva Prietch e do Dr. Pedro Reynolds-Cuéllar.</p><p>Convidamos você a explorar este site para conhecer as datas importantes, as chamadas vigentes e as diversas formas de participação. Será um prazer contar com sua presença e contribuição em nosso <strong>CLIHC 2026</strong>.</p>",
+        "call": "Chamada para participação",
         "registration": "Chamada para registro",
         "proceedings": "Proceedings",
         "open": "Aberta",
@@ -104,17 +107,16 @@
         "web_chairs_description": "Responsáveis pelo design, desenvolvimento e manutenção do site da conferência.",
         "volunteer_students_chair_title": "Coordenação de Estudantes Voluntários",
         "volunteer_students_chair_description": "Encarregado de gerenciar e coordenar estudantes voluntários para a conferência.",
-        "acccessibility_chairs_title" : "Responsáveis por acessibilidade",
-        "acccessibility_chairs_description" : "Responsáveis por supervisionar medidas abrangentes de acessibilidade durante a conferência.",
-        "industry_session_chair_title" : "Coordenação das Sessões da Indústria",
-        "industry_session_chair_description" : "Responsável pela sessão industrial",
+        "acccessibility_chairs_title": "Responsáveis por acessibilidade",
+        "acccessibility_chairs_description": "Responsáveis por supervisionar medidas abrangentes de acessibilidade durante a conferência.",
+        "industry_session_chair_title": "Coordenação das Sessões da Indústria",
+        "industry_session_chair_description": "Responsável pela sessão industrial",
         "steering_committee_title": "Comitê Geral de Articulação",
         "steering_committee_description": "Comitê diretivo Supervisiona e orienta as atividades estratégicas da comunidade LAIHC e da conferência CLIHC.",
         "diversity_and_inclusion_chairs_title": "Coordenação de Diversidade, Equidade e Inclusão",
         "diversity_and_inclusion_chairs_description": "Promove a inclusão, a equidade e a representação diversa na conferência.",
         "atalaia_title": "Coordenação do Workshop “Uma Tarde em: Atalaia”",
         "atalaia_description": "Organiza e coordena o workshop especial Uma Tarde em: Atalaia, promovendo o intercâmbio local e a colaboração acadêmica."
-
     },
     "accessibility": {
         "title": "Recomendações de acessibilidade para autores",
@@ -126,6 +128,7 @@
     "calls": {
         "title": "Convocatória de participação",
         "cfp": "Chamada de trabalhos",
+        "csp": "Chamada de artigos curtos",
         "cpt": "Chamada para pôsteres",
         "cwt": "Chamada para workshops e tutoriais",
         "sdc": "Competição de design estudantil",
@@ -135,7 +138,7 @@
         "register_button": "Registre seu comprovante de pagamento"
     },
     "home": {
-        "keynotes":"Palestrantes principais",
+        "keynotes": "Palestrantes principais",
         "keynotes_message": "O programa da conferência inclui excelentes palestrantes da comunidade internacional de IHC.",
         "sponsors": "Patrocinadores",
         "sponsors_message": "Queremos agradecer aos nossos patrocinadores.",
@@ -158,5 +161,18 @@
     },
     "soon": {
         "speakers": "Próximos palestrantes serão anunciados em breve."
+    },
+    "breadcrumbs": {
+        "root": "CLIHC 2026",
+        "aria_label": "Trilha de navegação",
+        "site": {
+            "central": "Central",
+            "mexico": "México",
+            "brazil": "Brasil"
+        },
+        "pages": {
+            "video_archives": "Arquivos de vídeo",
+            "not_found": "Página não encontrada"
+        }
     }
 }

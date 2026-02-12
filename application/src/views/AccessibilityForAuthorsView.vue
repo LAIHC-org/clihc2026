@@ -56,6 +56,8 @@ export default {
         </template>
     </TheHeader>
 
+    <BreadcrumbsNav />
+
     <section>
         <div class="container">
             <div class="row">

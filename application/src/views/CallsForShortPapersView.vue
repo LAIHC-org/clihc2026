@@ -8,33 +8,33 @@ import { useI18n } from 'vue-i18n'
 
 export default {
   components: {
-    TheHeader,
+    TheHeader
   },
   setup() {
     const { locale } = useI18n()
-    const tableComponent = shallowRef(null)
+    const Component = shallowRef(null)
 
     const loadComponents = async (newLocale) => {
-      tableComponent.value = await getTableForLocale(newLocale)
+      Component.value = await getCfpForLocale(newLocale)
     }
 
     watch(locale, loadComponents, { immediate: true })
 
-    async function getTableForLocale(locale) {
+    async function getCfpForLocale(locale) {
       switch (locale) {
         case 'en':
-          return defineAsyncComponent(() => import('@/components/locales/en/CallsTable.vue'))
+          return defineAsyncComponent(() => import('@/components/locales/en/Call-for-short-papers.vue'))
         case 'es':
-          return defineAsyncComponent(() => import('@/components/locales/es/CallsTable.vue'))
+          return defineAsyncComponent(() => import('@/components/locales/es/Call-for-short-papers.vue'))
         case 'pt':
-          return defineAsyncComponent(() => import('@/components/locales/pt/CallsTable.vue'))
+          return defineAsyncComponent(() => import('@/components/locales/pt/Call-for-short-papers.vue'))
         default:
           return null
       }
     }
 
     return {
-      tableComponent,
+      Component,
       Tr
     }
   }
@@ -44,7 +44,7 @@ export default {
 <template>
   <TheHeader>
     <template #page-name>
-      {{ $t("calls.title") }}
+      {{ $t("calls.csp") }}
     </template>
   </TheHeader>
 
@@ -53,11 +53,11 @@ export default {
   <section>
     <div class="container">
       <div class="row">
-        <div class="row justify-content-center mt-5">
+        <div class="row justify-content-center my-3">
           <div class="col-lg-8">
 
-            <template v-if="tableComponent">
-              <component :is="tableComponent" />
+            <template v-if="Component">
+              <component :is="Component" />
             </template>
 
           </div>

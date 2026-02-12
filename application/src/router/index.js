@@ -37,6 +37,14 @@ const router = createRouter({
           },
         },
         {
+          path: 'call-for-short-papers',
+          name: 'call-for-short-papers',
+          component: () => import('../views/CallsForShortPapersView.vue'),
+          meta: {
+            title: "CLIHC 2026 - Call for short papers",
+          },
+        },
+        {
           path: 'call-for-posters',
           name: 'call-for-posters',
           component: () => import('../views/CallsForPostersView.vue'), 

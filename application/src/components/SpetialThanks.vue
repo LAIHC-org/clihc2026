@@ -79,11 +79,11 @@ export default {
                             </template>
                         </SponsorItem>
 
-                                                <SponsorItem venue="mexico">
+                        <SponsorItem venue="mexico">
                             <template #image>
                                 <img
                                     src="/assets/img/sponsors/occe.png"
-                                    alt="Conselho Nacional de Ciencia y Tecnologia"
+                                    alt="Oficina de Convenciones, Congresos y Eventos de Oaxaca"
                                     class="img-fluid shadow rounded-3"
                                 />
                             </template>
@@ -106,7 +106,7 @@ export default {
                             <template #image>
                                 <img
                                     src="/assets/img/sponsors/educacion.png"
-                                    alt="Conselho Nacional de Ciencia y Tecnologia"
+                                    alt="Secretaría de Educación Pública del Estado de Oaxaca"
                                     class="img-fluid shadow rounded-3"
                                 />
                             </template>

@@ -106,6 +106,23 @@
 											</RouterLink>											
 										</li>
 										<li>
+											<RouterLink :to="Tr.i18nRoute({ name: 'call-for-short-papers' })" 
+												class="dropdown-item border-radius-md"
+											>
+												<div class="d-flex">
+													<div>
+														<span
+															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+															{{ $t("nav.csp") }}
+														</span>
+														<span class="text-sm text-dark">
+															{{ $t("nav.csp_message") }}
+														</span>
+													</div>
+												</div>
+											</RouterLink>											
+										</li>
+										<li>
 											<RouterLink :to="Tr.i18nRoute({ name: 'call-for-posters' })" 
 												class="dropdown-item border-radius-md"
 											>
