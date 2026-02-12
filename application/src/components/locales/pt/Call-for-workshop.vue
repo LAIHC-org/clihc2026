@@ -16,131 +16,164 @@ export default {
 </script>
 
 <template>
-    <!--
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
-        <div class="ms-2 me-auto">
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> <del>31 de julho</del> <del>11 de agosto PRORROGADA</del> <strong class="text-danger"> {{ $t("about.closed") }}</strong><br>
-            <RouterLink :to="Tr.i18nRoute({ name: 'call-for-workshops-and-tutorials', hash: '#cwt-dates'})" class="uline">
-                Veja todas as datas importantes
-            </RouterLink>            
-        </div>
+            <div class="ms-2 me-auto">
+                <strong class="text-primary text-gradient">Prazo de envio:</strong>
+                <strong class="text-danger"> 9 de março, 2026</strong><br />
+                <RouterLink
+                    :to="Tr.i18nRoute({ name: 'call-for-workshops-and-tutorials', hash: '#cwt-dates' })"
+                    class="uline"
+                >
+                    Veja todas as datas importantes
+                </RouterLink>
+            </div>
         </li>
     </ol>
 
-    <p>
-        Os tutoriais e workshops do CLIHC são apresentações aprofundadas de tópicos fundamentais ou de ponta apresentados
-        por pesquisadores ou praticantes no campo de IHC. Os tutoriais e workshops capacitam os participantes a aprender
-        novas habilidades e oferecem possibilidades de conhecer novas pessoas e discutir tópicos de interesse comum. O
-        escopo para tutoriais e workshops é amplo e inclui tópicos como novas tecnologias, abordagens e metodologias de
-        pesquisa, práticas de design, insights de usuários/consumidores, investigações em novos
-        serviços/aplicações/interfaces, estatísticas e muito mais. Realidade Virtual ou Aumentada, computação vestível e, de
-        forma geral, aplicações com tecnologia em movimento são altamente recomendadas.
-    </p>
-    <p>
-        Um tutorial ou workshop deve focar em seu tópico em detalhes e incluir referências para os artigos ou materiais
-        "obrigatórios" dentro de seu domínio. Abordagens participativas, nas quais os participantes do tutorial se envolvem
-        ativamente em exercícios, são bem-vindas, mas não obrigatórias. O público esperado terá variação em termos de
-        conhecimento prévio, mas consistirá principalmente de pesquisadores, estudantes de doutorado, praticantes e
-        educadores. Submissões de propostas de tutoriais e workshops por membros da indústria também são bem-vindas.
-    </p>
-    <p>
-        O tema geral da conferência em 2023 é Cultura e Inteligência Artificial, portanto, convidamos tutoriais e workshops
-        a discutirem aspectos éticos em seus trabalhos, como parte das definições de problemas, design de sistemas, design
-        de experimentos, adoção de instrumentos e métricas e conclusões.
+    <p id="cwt-call">
+        Chamada para Workshops e Tutoriais
     </p>
 
-    <h3 id="cwt-dates">Datas Importantes</h3>
+    <p>
+        A XII Conferência Latino-Americana de Interação Humano-Computador (CLIHC 2026)
+        convida a comunidade acadêmica, pesquisadores, profissionais da indústria, educadores
+        e estudantes a submeter propostas de Workshops e Tutoriais.
+    </p>
+
+    <p>
+        Os Workshops e Tutoriais do CLIHC são espaços para exploração aprofundada,
+        experimentação, compartilhamento de experiências e construção coletiva de conhecimento
+        em temas fundamentais e emergentes em Interação Humano-Computador (IHC). Essas atividades
+        permitem que participantes desenvolvam novas habilidades, explorem métodos, técnicas e
+        ferramentas, e promovam intercâmbio intercultural e cooperação entre diferentes comunidades.
+    </p>
+
+    <p>
+        Workshops e Tutoriais no CLIHC 2026 serão realizados presencialmente em Aracaju (Brasil)
+        e Oaxaca (México). Os proponentes devem planejar suas atividades para participação presencial
+        e interação com os participantes.
+    </p>
+
+    <h3>Escopo e temas de interesse</h3>
+    <p>O escopo de Workshops e Tutoriais é amplo e inclui, mas não se limita a:</p>
     <ul>
-        <li>Prazo de submissão: <del>31 de julho</del> 11 de agosto PRORROGADA</li>
-        <li>Notificação: 28 de agosto</li>
-        <li>Versão final: 14 de setembro</li>
-        <li>Evento: 30 a 31 de outubro, 1 de novembro</li>
+        <li>Abordagens, métodos e técnicas de design em IHC</li>
+        <li>Avaliação da interação e da experiência do usuário</li>
+        <li>Critérios de qualidade em uso, como experiência do usuário (UX), usabilidade, acessibilidade e comunicabilidade</li>
+        <li>Inclusão, acessibilidade e IHC para diversidade</li>
+        <li>
+            IHC e Inteligência Artificial (por exemplo, IA centrada no ser humano e design de interação;
+            interação humano-IA; IHC em sistemas baseados em IA; experiência do usuário e design para sistemas de IA;
+            IHC responsável e ética para aplicações de IA; inteligência artificial explicável - XAI)
+        </li>
+        <li>Educação em IHC e ensino de tecnologias interativas</li>
+        <li>CSCW, computação social e práticas colaborativas</li>
+        <li>Visualização de informação e percepção</li>
+        <li>Interfaces inovadoras, jogos e mídia interativa</li>
+        <li>Computação móvel, vestível, ubíqua e incorporada</li>
+        <li>Realidade Virtual, Aumentada e Mista</li>
+        <li>Saúde, bem-estar e tecnologias assistivas</li>
     </ul>
 
-    <h3>Plataforma de Submissão</h3>
-
     <p>
-        Todos os materiais devem ser submetidos eletronicamente para o <a
-            href="https://easychair.org/conferences/?conf=clihc2023" class="uline">Sistema de Conferências EasyChair</a>, na
-        trilha de Workshops e Tutoriais, até a data limite.
+        Abordagens participativas, práticas e interativas são fortemente encorajadas, embora
+        não sejam obrigatórias. Submissões da indústria são bem-vindas.
     </p>
 
-    <h3>Formato e Extensão da Submissão</h3>
+    <h3>Tipos de submissão</h3>
 
+    <h4>Workshops</h4>
+    <p>
+        Atividades interativas e colaborativas voltadas à discussão, experimentação, co-criação
+        ou consolidação de temas de pesquisa ou prática em IHC. Workshops podem incluir suas próprias
+        chamadas para submissão de trabalhos, sendo a organização e a seleção responsabilidade dos proponentes.
+    </p>
+
+    <h4>Tutoriais</h4>
+    <p>
+        Apresentações estruturadas e aprofundadas sobre um tema específico, com foco no desenvolvimento
+        de habilidades, transferência de conhecimento e capacitação dos participantes. Tutoriais devem incluir
+        referências e materiais essenciais relevantes ao domínio abordado.
+    </p>
+
+    <h3>Idiomas aceitos</h3>
+    <p>As propostas podem ser submetidas em português, espanhol ou inglês.</p>
+
+    <h3>Conteúdo da proposta</h3>
+    <p>Cada proposta de Workshop ou Tutorial deve incluir as seguintes informações:</p>
     <ul>
+        <li>Título da atividade</li>
+        <li>Tipo de submissão (Workshop ou Tutorial)</li>
+        <li>Duração recomendada (mínimo de uma hora e máximo de quatro horas e meia)</li>
+        <li>Objetivos de aprendizagem</li>
+        <li>Público-alvo</li>
         <li>
-            O formato de submissão a ser utilizado para cada categoria seguirá o <a
-                href="https://www.acm.org/publications/proceedings-template" class="uline">novo formato de Artigo Mestre da
-                ACM</a>. Os autores podem optar por trabalhar em um dos seguintes formatos:
-            <ul>
-                <li>Microsoft Word</li>
-                <li>LaTeX (recomendado)</li>
-            </ul>
+            O(s) idioma(s) em que o workshop ou tutorial será conduzido (por exemplo, português, espanhol, inglês),
+            considerando o local da conferência
+        </li>
+        <li>Tópicos a serem abordados e nível de profundidade</li>
+        <li>
+            Metodologia e formato da atividade (por exemplo, expositivo, participativo, prático),
+            indicando explicitamente se a atividade requer o uso de laboratório de informática
         </li>
         <li>
-            Máximo de 4 páginas (excluindo referências)
+            Infraestrutura e requisitos técnicos, se aplicável, indicando se é necessário laboratório de informática,
+            requisitos de sistema operacional, software a ser instalado, número estimado de computadores necessários
+            e visão geral dos materiais a serem fornecidos aos participantes
         </li>
         <li>
-            O CLIHC aceita submissões em espanhol, inglês e português, mas somente as submissões em inglês podem ser
-            publicadas no ACM DL e somente as submissões em espanhol e inglês podem ser publicadas na revista AMEXIHC.
-        </li>
-        <li>
-            <a href="http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-pdf-author-guide/"
-                class="uline">Guia para Submissões Acessíveis</a>
+            Breve biografia dos proponentes/instrutores (em arquivo separado de até duas páginas,
+            não contabilizadas no limite de páginas)
         </li>
     </ul>
 
-    <h3>Informações Rápidas</h3>
     <p>
-        O CLIHC 2023 será realizado presencialmente (com participação híbrida) de 30 de outubro a 1 de novembro de 2023 em
-        Puebla, México. A apresentação pode ser feita presencialmente ou remotamente. Pelo menos um autor deve se registrar
-        para a conferência, seja virtualmente ou presencialmente.
+        Workshops e Tutoriais no CLIHC 2026 devem ser realizados presencialmente em Aracaju (Brasil) e Oaxaca (México).
+        As propostas devem ser desenhadas para execução presencial, e é exigida a presença física dos
+        proponentes/instrutores.
     </p>
 
-    <h3>Preparando a Submissão</h3>
-    <p>Em sua proposta, inclua:</p>
+    <h3>Processo de submissão</h3>
+    <p>
+        Todas as propostas devem ser submetidas eletronicamente por meio do JEMS3 (Journal and Event Management System)
+        da Sociedade Brasileira de Computação (SBC):
+        <a href="https://jems3.sbc.org.br/events/510" class="uline">https://jems3.sbc.org.br/events/510</a>
+    </p>
+    <p>Haverá uma trilha específica para Workshops e Tutoriais no sistema.</p>
+    <p>O formato de submissão deve seguir o template da SBC. Os autores podem escolher um dos seguintes formatos:</p>
     <ul>
-        <li>O título do tutorial ou workshop</li>
-        <li>Duração recomendada do tutorial ou workshop (pelo menos uma hora, no máximo três horas)</li>
-        <li>Objetivos de aprendizagem do tutorial ou workshop</li>
-        <li>Público-alvo do tutorial ou workshop</li>
-        <li>Os tópicos abordados e a profundidade com que serão abordados</li>
-        <li>Visão geral dos materiais fornecidos aos participantes</li>
-        <li>Breve biografia do(s) instrutor(es)</li>
-        <li>Informações sobre o modelo de entrega do tutorial (por exemplo, presencial ou híbrido). A presença física do(s)
-            apresentador(es) do tutorial/workshop é altamente recomendada.</li>
+        <li>Microsoft Word e LaTeX (recomendado)</li>
+        <li>Overleaf</li>
     </ul>
+    <p>Extensão máxima: quatro (4) páginas, incluindo referências.</p>
+    <p>As submissões não são anônimas; os nomes e afiliações devem constar no arquivo submetido.</p>
 
-    <h3>Processo de Seleção</h3>
+    <h3>Processo de avaliação</h3>
     <p>
-        O tutorial e o workshop serão revisados por um comitê que decidirá a aceitação final. Após a aceitação da submissão,
-        caberá aos autores do workshop 1) divulgar o evento (workshop ou tutorial) por meio de sua mídia escolhida (por
-        exemplo, um site, Twitter), 2) gerenciar o processo de aceitação de submissões e seleção dos participantes e 3) se
-        for desejável que os artigos de posição sejam publicados nos anais da ACM ou na revista AMEXIHC, será necessário que
-        os autores do workshop proponham um comitê de programa.
+        As propostas serão avaliadas por um Comitê de Workshops e Tutoriais, que decidirá a aceitação final.
+        Após a aceitação, os proponentes de Workshops e Tutoriais serão responsáveis por:
     </p>
-
-    <h3>Anonimato</h3>
-    <p>
-        As submissões de tutoriais e workshops não são anônimas, ou seja, os instrutores não removem seus nomes e afiliações
-        dos materiais de submissão.
-    </p>
+    <ul>
+        <li>Promover a atividade por meio de seus canais institucionais e redes sociais</li>
+        <li>Realizar a atividade durante a conferência</li>
+        <li>No caso de Workshops com submissões próprias, gerir o processo de seleção de participantes</li>
+    </ul>
 
     <h3>Publicação</h3>
     <p>
-        As propostas de tutoriais e workshops aceitas podem escolher uma das seguintes mídias de publicação:
+        As propostas aceitas poderão ser publicadas nos anais da conferência, de acordo com as diretrizes editoriais
+        vigentes do CLIHC 2026 e da SBC. Informações adicionais sobre publicação serão anunciadas oportunamente.
     </p>
 
+    <h3 id="cwt-dates">Datas importantes</h3>
     <ul>
-        <li>Anais da Conferência publicados no ACM DL. Somente submissões em inglês podem ser publicadas nesta mídia. Se sua
-            submissão foi aceita em espanhol ou português e deseja publicar aqui, será necessário traduzir sua submissão
-            original para o inglês. </li>
-        <li><a href="http://aihc.amexihc.org/index.php/aihc" class="uline">Avances en Interacción Humano-Computadora</a>.
-                Somente submissões em espanhol ou inglês podem ser publicadas nesta mídia. Se sua submissão foi aceita em
-                português e deseja publicar aqui, será necessário traduzir sua submissão original para o espanhol ou inglês.
-        </li>
+        <li>Submissão de propostas: <strong class="text-danger">9 de março, 2026</strong></li>
+        <li>Notificação de aceitação: 30 de março, 2026</li>
+        <li>Versão final (camera ready): 12 de abril, 2026</li>
+        <li>Datas da conferência: 6 - 8 de maio, 2026</li>
     </ul>
+    <p>Todos os prazos são às 11:59 PM AoE (Anywhere on Earth).</p>
 
     <h3 class="my-4">{{ $t("organizers.workshops_and_tutorials_chairs_title") }}</h3>
     <div class="row">
@@ -148,19 +181,22 @@ export default {
             <OrganizerItem>
                 <template #image>
                     <div class="d-block blur-shadow-image">
-                        <img src="/assets/img/people/cesar.png" alt="Cesar" class="img-fluid shadow rounded-3">
+                        <img
+                            src="/assets/img/people/danielDomingos.jpg"
+                            alt="Daniel Domingos Alves"
+                            class="img-fluid shadow rounded-3"
+                        />
                     </div>
-                    <div class="colored-shadow" style="background-image: url(&quot;/assets/img/people/cesar.png&quot;);">
-                    </div>
+                    <div
+                        class="colored-shadow"
+                        style="background-image: url('/assets/img/people/danielDomingos.jpg')"
+                    ></div>
                 </template>
-                <template #name>
-                    César Collazos
-                </template>
+                <template #name> Daniel Domingos Alves </template>
                 <template #institution>
-                    U. Cauca, CO
+                    Instituto Federal de Mato Grosso (IFMT), BR
                 </template>
-                <template #email>
-                </template>
+                <template #email> </template>
             </OrganizerItem>
         </div>
 
@@ -168,22 +204,23 @@ export default {
             <OrganizerItem>
                 <template #image>
                     <div class="d-block blur-shadow-image">
-                        <img src="/assets/img/people/luciana.png" alt="Luciana" class="img-fluid shadow rounded-3">
+                        <img
+                            src="/assets/img/people/jpOurcade.jpg"
+                            alt="Juan Pablo Hourcade"
+                            class="img-fluid shadow rounded-3"
+                        />
                     </div>
-                    <div class="colored-shadow" style="background-image: url(&quot;/assets/img/people/luciana.png&quot;);">
-                    </div>
+                    <div
+                        class="colored-shadow"
+                        style="background-image: url('/assets/img/people/jpOurcade.jpg')"
+                    ></div>
                 </template>
-                <template #name>
-                    Luciana Sá Brito
-                </template>
+                <template #name> Juan Pablo Hourcade </template>
                 <template #institution>
-                    Universidade Federal do Rio de Janeiro, Brasil
+                    University of Iowa (UIOWA), US
                 </template>
-                <template #email>
-                </template>
+                <template #email> </template>
             </OrganizerItem>
         </div>
     </div>
-    -->
-    <p class="mt-6 text-center">A chamada para workshops e tutoriais será anunciada em breve.</p>
 </template>

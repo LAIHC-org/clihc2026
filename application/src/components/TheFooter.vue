@@ -60,6 +60,11 @@
                                 </RouterLink>
                             </li>                            
                             <li class="nav-item">
+                                <RouterLink :to="Tr.i18nRoute({ name: 'call-for-short-papers' })" class="nav-link uline">
+                                    {{ $t("nav.csp") }}
+                                </RouterLink>
+                            </li>
+                            <li class="nav-item">
                                 <RouterLink :to="Tr.i18nRoute({ name: 'call-for-posters' })" class="nav-link uline">
                                     {{ $t("nav.cpt") }}
                                 </RouterLink>                                
