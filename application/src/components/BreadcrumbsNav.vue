@@ -16,6 +16,7 @@ const NAV_GROUP_LANDING_ROUTE = {
 const ROUTE_BREADCRUMB_CONFIG = {
   'call-for-participation': { parentKey: 'nav.for_authors', currentKey: 'calls.title' },
   'call-for-papers': { parentKey: 'nav.for_authors', currentKey: 'nav.cfp' },
+  'call-for-short-papers': { parentKey: 'nav.for_authors', currentKey: 'nav.csp' },
   'call-for-posters': { parentKey: 'nav.for_authors', currentKey: 'nav.cpt' },
   'call-for-workshops-and-tutorials': { parentKey: 'nav.for_authors', currentKey: 'nav.cwt' },
   'student-design-competition': { parentKey: 'nav.for_authors', currentKey: 'nav.sdc' },

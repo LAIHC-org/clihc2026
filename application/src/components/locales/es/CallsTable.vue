@@ -24,6 +24,17 @@
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
             <div class="fw-bold">
+                <RouterLink :to="Tr.i18nRoute({ name: 'call-for-short-papers', hash: '#csp-call'})" class="uline">
+                    Convocatoria de artículos cortos (CSP)
+                </RouterLink>
+            </div>
+            <strong class="text-primary text-gradient">Envío de resúmenes:</strong> 2 de marzo, 2026<br>
+            <strong class="text-primary text-gradient">Envío de artículos:</strong> 9 de marzo, 2026<br>
+        </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <div class="fw-bold">
                 <RouterLink :to="Tr.i18nRoute({ name: 'call-for-posters'})" class="uline">
                     Convocatoria de pósteres (CPT)
                 </RouterLink>                
@@ -38,7 +49,7 @@
                 Convocatoria de talleres y tutoriales (CWT)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> A ser anunciada pronto<br>
+            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 9 de marzo, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">

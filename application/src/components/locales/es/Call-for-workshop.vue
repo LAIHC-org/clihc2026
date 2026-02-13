@@ -16,132 +16,166 @@ export default {
 </script>
 
 <template>
-    <!--
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
-        <div class="ms-2 me-auto">
-            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> <del>31 de julio</del> <del>11 de agosto EXTENDIDA</del> <strong class="text-danger"> {{ $t("about.closed") }}</strong><br>
-            <RouterLink :to="Tr.i18nRoute({ name: 'call-for-workshops-and-tutorials', hash: '#cwt-dates'})" class="uline">
-                Ver todas las fechas importantes
-            </RouterLink>            
-        </div>
+            <div class="ms-2 me-auto">
+                <strong class="text-primary text-gradient">Fecha límite de envío:</strong>
+                <strong class="text-danger"> 9 de marzo, 2026</strong><br />
+                <RouterLink
+                    :to="Tr.i18nRoute({ name: 'call-for-workshops-and-tutorials', hash: '#cwt-dates' })"
+                    class="uline"
+                >
+                    Ver todas las fechas importantes
+                </RouterLink>
+            </div>
         </li>
     </ol>
 
-    <p>
-        Los talleres y tutoriales de CLIHC son presentaciones en profundidad sobre temas fundamentales o de vanguardia
-        presentados por investigadores o profesionales en el campo de la Interacción Humano-Computadora (HCI, por sus siglas
-        en inglés). Los talleres y tutoriales brindan a los participantes la oportunidad de adquirir nuevas habilidades y
-        ofrecen posibilidades de conocer nuevas personas y discutir temas de interés compartido. El alcance de los talleres
-        y tutoriales es amplio e incluye temas como nuevas tecnologías, enfoques y metodologías de investigación, prácticas
-        de diseño, conocimientos sobre usuarios/consumidores, investigaciones sobre nuevos
-        servicios/aplicaciones/interfaces, estadísticas y mucho más. Se recomienda encarecidamente la inclusión de realidad
-        virtual o aumentada, computación portátil y aplicaciones en general con tecnología móvil en mente.
-    </p>
-    <p>
-        Un taller o tutorial debe centrarse en su tema en detalle e incluir referencias a los artículos o materiales
-        "imprescindibles" dentro de su dominio. Se da la bienvenida a un enfoque participativo en el que los participantes
-        del tutorial participen activamente en ejercicios, aunque no es obligatorio. La audiencia esperada variará en
-        términos de conocimientos previos, pero estará compuesta principalmente por investigadores, estudiantes de
-        doctorado, profesionales y educadores. También se reciben propuestas de talleres y tutoriales de miembros de la
-        industria.
-    </p>
-    <p>
-        El tema general de la conferencia en 2023 es Cultura e Inteligencia Artificial, por lo que invitamos a los talleres
-        y tutoriales a discutir aspectos éticos en su trabajo, como parte de sus definiciones de problemas, diseño de
-        sistemas, diseño de experimentos, adopción de instrumentos y métricas, y conclusiones.
+    <p id="cwt-call">
+        Convocatoria de Talleres y Tutoriales
     </p>
 
-    <h3 id="cwt-dates">Fechas Importantes</h3>
+    <p>
+        La XII Conferencia Latinoamericana de Interacción Humano-Computadora (CLIHC 2026)
+        invita a la comunidad académica, investigadores, profesionales de la industria,
+        educadores y estudiantes a enviar propuestas de Talleres y Tutoriales.
+    </p>
+
+    <p>
+        Los Talleres y Tutoriales de CLIHC son espacios para la exploración en profundidad,
+        la experimentación, el intercambio de experiencias y la construcción colectiva de
+        conocimiento en temas fundamentales y emergentes en Interacción Humano-Computadora (HCI).
+        Estas actividades permiten a los participantes desarrollar nuevas habilidades, explorar
+        métodos, técnicas y herramientas, y fomentar el intercambio intercultural y la cooperación
+        entre distintas comunidades.
+    </p>
+
+    <p>
+        Los Talleres y Tutoriales en CLIHC 2026 se realizarán de forma presencial en Aracaju (Brasil)
+        y Oaxaca (México). Los proponentes deben diseñar sus actividades para la participación presencial
+        y la interacción con los asistentes.
+    </p>
+
+    <h3>Alcance y temas de interés</h3>
+    <p>El alcance de los Talleres y Tutoriales es amplio e incluye, pero no se limita a:</p>
     <ul>
-        <li>Fecha límite de envío: <del>31 de julio</del> 11 de agosto EXTENDIDA</li>
-        <li>nNotificación: 28 de agosto</li>
-        <li>Versión final: 14 de septiembre</li>
-        <li>Evento 30 a 31 de octubre, 1 de noviembre</li>
+        <li>Enfoques, métodos y técnicas de diseño en HCI</li>
+        <li>Evaluación de la interacción y de la experiencia de usuario</li>
+        <li>Criterios de calidad en uso, como experiencia de usuario (UX), usabilidad, accesibilidad y comunicabilidad</li>
+        <li>Inclusión, accesibilidad e HCI para la diversidad</li>
+        <li>
+            HCI e Inteligencia Artificial (por ejemplo, IA centrada en el ser humano y diseño de interacción;
+            interacción humano-IA; HCI en sistemas basados en IA; experiencia de usuario y diseño para sistemas de IA;
+            HCI responsable y ética para aplicaciones de IA; inteligencia artificial explicable - XAI)
+        </li>
+        <li>Educación en HCI y enseñanza de tecnologías interactivas</li>
+        <li>CSCW, computación social y prácticas colaborativas</li>
+        <li>Visualización de información y percepción</li>
+        <li>Interfaces innovadoras, juegos y medios interactivos</li>
+        <li>Computación móvil, vestible, ubicua y corporizada</li>
+        <li>Realidad Virtual, Aumentada y Mixta</li>
+        <li>Salud, bienestar y tecnologías asistivas</li>
     </ul>
 
-    <h3>Plataforma de Envío</h3>
-
     <p>
-        Todos los materiales deben ser enviados electrónicamente al <a
-            href="https://easychair.org/conferences/?conf=clihc2023" class="uline">Sistema de Conferencias EasyChair</a>, en
-        la sección de Talleres y Tutoriales, antes de la fecha límite.
+        Se fomentan enfoques participativos, prácticos e interactivos, aunque no son obligatorios.
+        Se reciben propuestas de la industria.
     </p>
 
-    <h3>Formato y Extensión de la Submisión</h3>
+    <h3>Tipos de envío</h3>
 
+    <h4>Talleres</h4>
+    <p>
+        Actividades interactivas y colaborativas orientadas a la discusión, experimentación,
+        co-creación o consolidación de temas de investigación o práctica en HCI. Los talleres
+        pueden incluir sus propias convocatorias de envío de trabajos, siendo la organización y
+        selección responsabilidad de los proponentes.
+    </p>
+
+    <h4>Tutoriales</h4>
+    <p>
+        Presentaciones estructuradas y en profundidad sobre un tema específico, enfocadas en el
+        desarrollo de habilidades, la transferencia de conocimiento y la formación de participantes.
+        Los tutoriales deben incluir referencias y materiales esenciales relevantes para el dominio cubierto.
+    </p>
+
+    <h3>Idiomas aceptados</h3>
+    <p>Las propuestas pueden enviarse en portugués, español o inglés.</p>
+
+    <h3>Contenido de la propuesta</h3>
+    <p>Cada propuesta de Taller o Tutorial debe incluir la siguiente información:</p>
     <ul>
+        <li>Título de la actividad</li>
+        <li>Tipo de envío (Taller o Tutorial)</li>
+        <li>Duración recomendada (mínimo de una hora y máximo de cuatro horas y media)</li>
+        <li>Objetivos de aprendizaje</li>
+        <li>Público objetivo</li>
         <li>
-            El formato de envío a utilizar para cada categoría seguirá el <a
-                href="https://www.acm.org/publications/proceedings-template" class="uline">nuevo formato de Artículo Maestro
-                de ACM</a>. Los autores pueden optar por trabajar en uno de los siguientes formatos:
-            <ul>
-                <li>Microsoft Word</li>
-                <li>LaTeX (recomendado)</li>
-            </ul>
+            Idioma(s) en el que se desarrollará el taller o tutorial (por ejemplo, portugués, español, inglés),
+            considerando la sede de la conferencia
+        </li>
+        <li>Temas a cubrir y nivel de profundidad</li>
+        <li>
+            Metodología y formato de la actividad (por ejemplo, basado en exposición, participativo, práctico),
+            indicando explícitamente si la actividad requiere el uso de laboratorio de cómputo
         </li>
         <li>
-            Máximo 4 páginas (excluyendo referencias)
+            Infraestructura y requisitos técnicos, si corresponde, indicando si se requiere laboratorio de cómputo,
+            requisitos de sistema operativo, software a instalar, número estimado de computadoras necesarias y materiales
+            que se proveerán a los participantes
         </li>
         <li>
-            CLIHC acepta submisiones en español, inglés y portugués, pero solo las submisiones en inglés pueden ser
-            publicadas en ACM DL y solo las submisiones en español e inglés pueden ser publicadas en la revista AMEXIHC.
-        </li>
-        <li>
-            <a href="http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-pdf-author-guide/"
-                class="uline">Guía para Submisiones Accesibles</a>
+            Breve biografía de los proponentes/instructores (en archivo separado de hasta dos páginas,
+            no contabilizadas en el límite de páginas)
         </li>
     </ul>
 
-    <h3>Información Rápida</h3>
     <p>
-        CLICH 2023 se llevará a cabo en persona (con participación híbrida) del 30 de octubre al 1 de noviembre de 2023 en
-        Puebla, México. La presentación puede realizarse en persona o de forma remota. Al menos un autor debe registrarse
-        para la conferencia, ya sea virtual o presencialmente.
+        Los Talleres y Tutoriales de CLIHC 2026 se esperan en modalidad presencial en Aracaju (Brasil) y Oaxaca (México).
+        Las propuestas deben diseñarse para su realización presencial, y se requiere la presencia física de los
+        proponentes/instructores.
     </p>
 
-    <h3>Preparación de la Submisión</h3>
-    <p>En su propuesta, por favor incluya:</p>
+    <h3>Proceso de envío</h3>
+    <p>
+        Todas las propuestas deben enviarse electrónicamente a través de JEMS3 (Journal and Event Management System)
+        de la Sociedad Brasileña de Computación (SBC):
+        <a href="https://jems3.sbc.org.br/events/510" class="uline">https://jems3.sbc.org.br/events/510</a>
+    </p>
+    <p>Habrá un track específico para Talleres y Tutoriales dentro del sistema.</p>
+    <p>El formato de envío debe seguir la plantilla de la SBC. Los autores pueden elegir uno de los siguientes formatos:</p>
     <ul>
-        <li>El título del taller o tutorial</li>
-        <li>Duración recomendada del taller o tutorial (mínimo una hora, máximo tres horas)</li>
-        <li>Objetivos de aprendizaje del taller o tutorial</li>
-        <li>La audiencia(s) a la que está dirigido el taller o tutorial</li>
-        <li>Los temas tratados y la profundidad con la que se abordarán</li>
-        <li>Resumen de los materiales proporcionados a los participantes</li>
-        <li>Una breve biografía del instructor o los instructores</li>
-        <li>Información sobre el modelo de entrega del taller (por ejemplo, presencial o híbrido). Se recomienda
-            encarecidamente la asistencia presencial del presentador del taller o tutorial.</li>
+        <li>Microsoft Word y LaTeX (recomendado)</li>
+        <li>Overleaf</li>
     </ul>
+    <p>Extensión máxima: cuatro (4) páginas, incluyendo referencias.</p>
+    <p>Las propuestas no son anónimas; los nombres y afiliaciones deben aparecer en el archivo enviado.</p>
 
-    <h3>Proceso de Selección</h3>
+    <h3>Proceso de revisión</h3>
     <p>
-        Los talleres y tutoriales serán revisados por un comité que decidirá su aceptación final. Una vez aceptada la
-        propuesta, será responsabilidad de los autores del taller o tutorial 1) promocionar el evento a través de los medios
-        elegidos (por ejemplo, un sitio web, Twitter), 2) gestionar el proceso de aceptación de submisiones y selección de
-        participantes, y 3) si se desea que los documentos de posición sean publicados en las actas de ACM o en la revista
-        AMEXIHC, los autores del taller o tutorial deberán proponer un comité de programa.
+        Las propuestas serán evaluadas por un Comité de Talleres y Tutoriales, que decidirá la aceptación final.
+        Después de la aceptación, los proponentes de Talleres y Tutoriales serán responsables de:
     </p>
-
-    <h3>Anonimato</h3>
-    <p>
-        Las submisiones de talleres y tutoriales no se envían de forma anónima, es decir, los instructores no eliminan sus
-        nombres y afiliaciones de los materiales de envío.
-    </p>
+    <ul>
+        <li>Promover la actividad a través de sus canales institucionales y redes sociales</li>
+        <li>Realizar la actividad durante la conferencia</li>
+        <li>En el caso de talleres con envíos propios, gestionar el proceso de selección de participantes</li>
+    </ul>
 
     <h3>Publicación</h3>
     <p>
-        Las propuestas de talleres y tutoriales aceptadas pueden elegir una de las siguientes opciones de publicación:
+        Las propuestas aceptadas pueden publicarse en las actas de la conferencia, de acuerdo con las directrices
+        editoriales vigentes de CLIHC 2026 y la SBC. La información adicional de publicación se anunciará oportunamente.
     </p>
 
+    <h3 id="cwt-dates">Fechas importantes</h3>
     <ul>
-        <li>Actas de la Conferencia publicadas en ACM DL. Solo las submisiones en inglés pueden ser publicadas en esta
-            opción. Si su submisión fue aceptada en español o portugués y desea publicar aquí, deberá traducir su submisión
-            original al inglés. </li>
-        <li><a href="http://aihc.amexihc.org/index.php/aihc" class="uline">Avances en Interacción Humano-Computadora.</a>
-            Solo las submisiones en español o inglés pueden ser publicadas en esta opción. Si su submisión fue aceptada en
-            portugués y desea publicar aquí, deberá traducir su submisión original al español o inglés.</li>
+        <li>Envío de propuestas: <strong class="text-danger">9 de marzo, 2026</strong></li>
+        <li>Notificación de aceptación: 30 de marzo, 2026</li>
+        <li>Versión final (camera ready): 12 de abril, 2026</li>
+        <li>Fechas de la conferencia: 6 - 8 de mayo, 2026</li>
     </ul>
+    <p>Todas las fechas límite son a las 11:59 PM AoE (Anywhere on Earth).</p>
 
     <h3 class="my-4">{{ $t("organizers.workshops_and_tutorials_chairs_title") }}</h3>
     <div class="row">
@@ -149,19 +183,22 @@ export default {
             <OrganizerItem>
                 <template #image>
                     <div class="d-block blur-shadow-image">
-                        <img src="/assets/img/people/cesar.png" alt="Cesar" class="img-fluid shadow rounded-3">
+                        <img
+                            src="/assets/img/people/danielDomingos.jpg"
+                            alt="Daniel Domingos Alves"
+                            class="img-fluid shadow rounded-3"
+                        />
                     </div>
-                    <div class="colored-shadow" style="background-image: url(&quot;/assets/img/people/cesar.png&quot;);">
-                    </div>
+                    <div
+                        class="colored-shadow"
+                        style="background-image: url('/assets/img/people/danielDomingos.jpg')"
+                    ></div>
                 </template>
-                <template #name>
-                    César Collazos
-                </template>
+                <template #name> Daniel Domingos Alves </template>
                 <template #institution>
-                    U. Cauca, CO
+                    Instituto Federal de Mato Grosso (IFMT), BR
                 </template>
-                <template #email>
-                </template>
+                <template #email> </template>
             </OrganizerItem>
         </div>
 
@@ -169,22 +206,23 @@ export default {
             <OrganizerItem>
                 <template #image>
                     <div class="d-block blur-shadow-image">
-                        <img src="/assets/img/people/luciana.png" alt="Luciana" class="img-fluid shadow rounded-3">
+                        <img
+                            src="/assets/img/people/jpOurcade.jpg"
+                            alt="Juan Pablo Hourcade"
+                            class="img-fluid shadow rounded-3"
+                        />
                     </div>
-                    <div class="colored-shadow" style="background-image: url(&quot;/assets/img/people/luciana.png&quot;);">
-                    </div>
+                    <div
+                        class="colored-shadow"
+                        style="background-image: url('/assets/img/people/jpOurcade.jpg')"
+                    ></div>
                 </template>
-                <template #name>
-                    Luciana Sá Brito
-                </template>
+                <template #name> Juan Pablo Hourcade </template>
                 <template #institution>
-                    Universidade Federal do Rio de Janeiro, Brasil
+                    University of Iowa (UIOWA), US
                 </template>
-                <template #email>
-                </template>
+                <template #email> </template>
             </OrganizerItem>
         </div>
     </div>
-    -->
-    <p class="mt-6 text-center">La convocatoria de talleres y tutoriales será anunciada próximamente.</p>
 </template>

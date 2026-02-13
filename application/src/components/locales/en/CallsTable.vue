@@ -24,6 +24,17 @@
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
             <div class="fw-bold">
+                <RouterLink :to="Tr.i18nRoute({ name: 'call-for-short-papers', hash: '#csp-call'})" class="uline">
+                    Call for short papers (CSP)
+                </RouterLink>
+            </div>
+            <strong class="text-primary text-gradient">Abstract submission:</strong> March 2, 2026<br>
+            <strong class="text-primary text-gradient">Paper submission:</strong> March 9, 2026<br>
+        </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <div class="fw-bold">
                 <RouterLink :to="Tr.i18nRoute({ name: 'call-for-posters', hash: '#cpt-call'})" class="uline">
                     Call for poster track (CPT)
                 </RouterLink>                
@@ -35,10 +46,10 @@
         <div class="ms-2 me-auto">
             <div class="fw-bold">
             <RouterLink :to="Tr.i18nRoute({ name: 'call-for-workshops-and-tutorials', hash: '#cwt-call'})" class="uline">
-                Call for workshops and tutorial (CWT)
+                Call for workshops and tutorials (CWT)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Deadline for submission:</strong> To be announced soon<br>
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> March 9, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">

@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2026.2.0.1] - 2026-02-12
+
+### Added
+
+- Added the Short Papers call with localized content (EN/ES/PT) plus a new route and view.
+- Added Short Papers links to the calls navbar dropdown, footer, and calls table, including key dates.
+
+### Changed
+
+- Published the Workshops and Tutorials call content (EN/ES/PT) with organizer cards and updated call table dates.
+- Updated navigation labels and call metadata to include Short Papers and refreshed Workshops/Tutorials deadlines.
+
 ## [2026.2.0.0] - 2026-02-07
 
 ### Added
