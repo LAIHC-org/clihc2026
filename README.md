@@ -1,4 +1,4 @@
-# CLIHC Versión 2026.2.0.0
+# CLIHC Versión 2026.2.0.1
 
 ## Sitio web para el CLIHC 2026
 
