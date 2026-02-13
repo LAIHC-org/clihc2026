@@ -1,1 +1,0 @@
-import{O as e}from"./OrganizerItem-ADWeJx4L.js";import{_ as o,c as t,o as r,T as n}from"./index-7DGJER9j.js";const s={components:{OrganizerItem:e},setup(){return{Tr:n}}},a={class:"mt-6 text-center"};function c(l,p,u,m,_,i){return r(),t("p",a,"The Call for the Graduate Colloquium will be announced soon.")}const h=o(s,[["render",c]]);export{h as default};

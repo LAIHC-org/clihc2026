@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r,T as o}from"./index-Cm9dSbi8.js";const s={setup(){return{Tr:o}}},n={class:"mt-5 text-center"};function a(c,p,_,i,l,d){return r(),t("p",n,"La información sobre el programa estará disponible pronto.")}const m=e(s,[["render",a]]);export{m as default};

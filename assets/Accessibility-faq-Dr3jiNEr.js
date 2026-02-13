@@ -1,1 +1,0 @@
-import{_ as e,T as s}from"./index-yt2CPUV0.js";const r={setup(){return{Tr:s}}};function t(c,n,a,o,i,_){return" Perguntas frequentes sobre Accesibilidad "}const u=e(r,[["render",t]]);export{u as default};

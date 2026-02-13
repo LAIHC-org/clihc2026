@@ -1,1 +1,0 @@
-import{_ as e,c as s,o as c}from"./index-Cm9dSbi8.js";const t={},o={class:"mt-6 text-center"};function n(r,a){return c(),s("p",o,"Las Recomendaciones de Accesibilidad para Autores estarán disponibles pronto.")}const _=e(t,[["render",n]]);export{_ as default};

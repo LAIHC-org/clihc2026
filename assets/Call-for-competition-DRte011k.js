@@ -1,1 +1,0 @@
-import{O as e}from"./OrganizerItem-BTXV_u2q.js";import{_ as t,c as a,o,T as r}from"./index-BhVn2s1I.js";const n={components:{OrganizerItem:e},setup(){return{Tr:r}}},s={class:"mt-6 text-center"};function c(i,p,m,_,l,d){return o(),a("p",s,"La convocatoria para la Competencia de Diseño Estudiantil será anunciada próximamente.")}const x=t(n,[["render",c]]);export{x as default};
