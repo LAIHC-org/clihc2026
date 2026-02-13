@@ -64,7 +64,12 @@
         "button": "Convocatoria de participación",
         "central_title": "XII Conferencia Latinoamericana de Interacción Humano-Computadora",
         "central_subtitle": "Una conferencia en formato distribuido, con eventos presenciales en América Latina",
-        "central_button": "Convocatorias compartidas"
+        "central_button": "Convocatorias compartidas",
+        "event_button": "Ver evento",
+        "brazil_venue": "Aracaju, Brasil",
+        "brazil_date": "6–8 mayo 2026",
+        "mexico_venue": "Oaxaca, México",
+        "mexico_date": "27–29 mayo 2026"
     },
     "about": {
         "about_title": "¡Bienvenidas y Bienvenidos a CLIHC 2026!",

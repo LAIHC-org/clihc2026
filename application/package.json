@@ -1,6 +1,6 @@
 {
   "name": "clihc2026",
-  "version": "2026.2.0.1",
+  "version": "2026.2.0.2",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
