@@ -76,15 +76,15 @@ export default {
                   alt="CLIHC 2026 logo"
                   class="mb-3"
                 />
-                <h5 class="fw-bold">Aracaju, Brasil</h5>
-                <p class="small mb-2">6–8 mayo 2026</p>
+                <h5 class="fw-bold">{{ $t("jumbotron.brazil_venue") }}</h5>
+                <p class="small mb-2">{{ $t("jumbotron.brazil_date") }}</p>
                 <a
                   href="https://brazil.clihc2026.laihc.org"
                   class="btn btn-md bg-gradient-secondary btn-round"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  Ver evento
+                  {{ $t("jumbotron.event_button") }}
                 </a>
               </div>
 
@@ -119,15 +119,15 @@ export default {
                   alt="CLIHC 2026 logo"
                   class="mb-3"
                 />
-                <h5 class="fw-bold">Oaxaca, México</h5>
-                <p class="small mb-2">27–29 mayo 2026</p>
+                <h5 class="fw-bold">{{ $t("jumbotron.mexico_venue") }}</h5>
+                <p class="small mb-2">{{ $t("jumbotron.mexico_date") }}</p>
                 <a
                   href="https://mexico.clihc2026.laihc.org"
                   class="btn btn-md bg-gradient-secondary btn-round"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  Ver evento
+                  {{ $t("jumbotron.event_button") }}
                 </a>
               </div>
 
