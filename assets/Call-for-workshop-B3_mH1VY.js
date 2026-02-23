@@ -1,1 +1,0 @@
-import{O as o}from"./OrganizerItem-D0RK9gwd.js";import{_ as e,o as r,c as s,T as t}from"./index-BjPwRtw8.js";const n={components:{OrganizerItem:o},setup(){return{Tr:t}}},a={class:"mt-6 text-center"};function c(p,l,_,i,m,f){return r(),s("p",a,"The Call for Workshops and Tutorials will be announced soon.")}const h=e(n,[["render",c]]);export{h as default};

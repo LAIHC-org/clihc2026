@@ -1,0 +1,1 @@
+var s="/clihc2023/assets/img/people/roberto.png",p="/clihc2023/assets/img/people/marisol2.png",a="/clihc2023/assets/img/people/claudia.png",i="/clihc2023/assets/img/people/philippe.png";export{s as _,p as a,a as b,i as c};

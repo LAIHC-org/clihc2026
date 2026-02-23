@@ -1,0 +1,1 @@
+import{_ as e,T as s}from"./index-CNENwofG.js";const r={setup(){return{Tr:s}}};function t(a,n,c,o,i,_){return" Perguntas frequentes sobre acessibilidade "}const u=e(r,[["render",t]]);export{u as default};

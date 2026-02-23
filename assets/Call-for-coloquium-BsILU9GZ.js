@@ -1,0 +1,1 @@
+import{O as e}from"./OrganizerItem-CLN8v247.js";import{_ as o,c as a,o as r,T as t}from"./index-BcqU5kcj.js";const s={components:{OrganizerItem:e},setup(){return{Tr:t}}},n={class:"mt-6 text-center"};function c(p,m,u,_,i,d){return r(),a("p",n,"A chamada para o Colóquio de Pós-Graduação será anunciada em breve.")}const x=o(s,[["render",c]]);export{x as default};
