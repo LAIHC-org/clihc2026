@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2026.2.0.3] - 2026-02-23
+
+### Changed
+
+- Updated CFP dates across locales (EN/ES/PT): abstract/resumen/resumo submission moved from February 23 to March 1, and full paper/article/artigo submission moved from March 1 to March 8.
+- Updated the same CFP deadline values in the Call for Papers pages, calls table, and navigation CFP message metadata (`cfp_message`).
+
 ## [2026.2.0.2] - 2026-02-13
 
 ### Fixed
