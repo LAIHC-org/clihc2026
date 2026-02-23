@@ -17,8 +17,8 @@
                     Convocatoria de trabajos (CFP)
                 </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Envío de resúmenes:</strong> 23 de febrero, 2026<br>
-            <strong class="text-primary text-gradient">Envío de artículos:</strong> 1 de marzo, 2026<br>
+            <strong class="text-primary text-gradient">Envío de resúmenes:</strong> 1 de marzo, 2026<br>
+            <strong class="text-primary text-gradient">Envío de artículos:</strong> 8 de marzo, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
