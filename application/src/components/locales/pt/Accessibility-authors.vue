@@ -1,154 +1,205 @@
 <template>
-    <!--
     <p>
-        Comprometemo-nos a fornecer um ambiente inclusivo e maximizar a experiência para todos. Como principais produtores
-        de informações, encorajamos todos os participantes a seguir nossas recomendações de acessibilidade.
-    </p>
-
-    <h2 id="language-recommendations">Recomendações de Idioma</h2>
-
-    <p>
-        A comunicação eficaz de ideias de pesquisa por meio da escrita é um aspecto crucial de nossa conferência. Convidamos
-        você a ler o <a class="uline"
-            href="http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-writing-guide/">Guia de Escrita
-            Acessível</a> e o <a class="uline"
-            href="http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/">Guia de
-            Apresentação Acessível</a> publicados pela <a class="uline" href="http://www.sigaccess.org/">ACM SIGACCESS</a>.
-        Esses guias fornecem recomendações atualizadas para escrever e apresentar na comunidade acadêmica de acessibilidade,
-        além de nove diretrizes para preparar uma apresentação em uma conferência por <a class="uline"
-            href="https://cs.uiowa.edu/people/kyle-rector">Kyle Rector</a> para comunicar melhor sua mensagem a todos os
-        membros da audiência.
-    </p>
-
-    <h2 id="accessible-document-author-recommendations">Recomendações para a Criação de Documentos Acessíveis</h2>
-
-    <p>
-        Documentos acessíveis devem ser projetados levando em consideração alternativas de percepção e interação para
-        garantir a compreensão de todos os leitores. Se você usa o Microsoft Word, recomendamos seguir <a class="uline"
-            href="https://support.microsoft.com/en-us/office/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d">o
-            guia para tornar seu documento acessível</a>. Alternativamente, o Google Docs publicou <a class="uline"
-            href="https://support.google.com/docs/answer/6199477?hl=en">dicas sobre como tornar seu documento ou
-            apresentação mais acessível</a>.
+        As orientações deste documento inspiram-se nas diretrizes de acessibilidade da ACM SIGACCESS,
+        referência internacional na promoção de práticas inclusivas em publicações científicas.
     </p>
     <p>
-        Como mínimo, sugerimos:
-    </p>
-
-    <ol>
-        <li>
-            <strong>Utilizar estilos de cabeçalho incorporados</strong> para melhorar a navegaçãos: isso ajuda as pessoas
-            que usam <a class="uline" href="https://en.wikipedia.org/wiki/Screen_reader">leitores de tela</a> a realizar uma
-            leitura ativa.
-        </li>
-        <li>
-            <strong>Utilizar texto significativo para links:</strong> isso melhora a navegação e a legibilidade; evite links
-            como "clique aqui".
-        </li>
-        <li>
-            <strong>Adicionar texto alternativo às imagens:</strong> isso ajuda pessoas que usam leitores de tela a perceber
-            o conteúdo visual; ele deve ser conciso.
-        </li>
-        <li>
-            <strong>Em geral, evite o uso de tabelas, se possível</strong>. Mas se precisar usá-las:
-            <ol type="a">
-                <li>
-                    <strong>Adicione texto alternativo e descrição às tabelas:</strong> isso ajuda pessoas que usam
-                    leitores de tela a entender o que é importante na tabela; deve ser específico e conciso.
-                </li>
-                <li>
-                    <strong>Use tabelas apenas para informações tabulares</strong>, não como estrutura do documento. Além
-                    disso, você deve configurar o cabeçalho da tabela para aparecer nas páginas subsequentes.
-                </li>
-            </ol>
-        </li>
-        <li>
-            <strong>Adicionar legendas para figuras e tabelas.</strong>.
-        </li>
-        <li>
-            <strong>Utilizar linguagem simples</strong>, sempre que possível.
-        </li>
-    </ol>
-
-    <p>
-        A Adobe publicou
-        <a class="uline" href="https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html">como criar e
-            verificar a acessibilidade de PDFs com o Acrobat Pro</a>e um microsite onde você pode encontrar <a class="uline"
-            href="https://adobe.lookbookhq.com/acrobataccessibility">Gravações de Webinar e Materiais sobre a criação de
-            PDFs acessíveis</a> que também podem ser úteis.
-    </p>
-
-    <p>
-        Além disso, a Apple tem algumas <a class="uline" href="https://support.apple.com/en-my/HT210563">recomendações sobre
-            acessibilidade para Pages, Numbers ou Keynote</a>, e como opção de código aberto, aqui está <a class="uline"
-            href="https://wiki.documentfoundation.org/Accessibility/Creating_Accessible_LibreOffice_Files">como criar
-            arquivos acessíveis no LibreOffice</a>.
-    </p>
-
-    <h2 id="accessible-slide-author-recommendations">Recomendações para a Criação de Slides Acessíveis</h2>
-    <p>
-        Suas apresentações estarão disponíveis como parte dos produtos digitais gerados na CLIHC 2023, portanto, é possível
-        que as pessoas que as lerem usem um leitor de tela, por isso recomendamos que você consulte <a class="uline"
-            href="http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/">o Guia de
-            Apresentação Acessível</a>, publicado pela <a class="uline" href="http://www.sigaccess.org/">ACM SIGACCESS</a>,
-        e como <a class="uline"
-            href="https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25">tornar
-            suas apresentações do Microsoft PowerPoint acessíveis para pessoas com deficiência</a>. Se você trabalha com o
-        Google Slides, eles publicaram <a class="uline" href="https://support.google.com/docs/answer/6199477?hl=en">como
-            tornar seu documento ou apresentação mais acessível</a>.
+        A partir dessas diretrizes, a CLIHC 2026 reúne e adapta boas práticas de escrita, formatação e
+        apresentação com o objetivo de apoiar autores, palestrantes e organizadores na produção de materiais
+        mais acessíveis, legíveis e comunicáveis, considerando a diversidade de leitores, tecnologias
+        assistivas e contextos de uso.
     </p>
     <p>
-        Como práticas mínimas de acessibilidade, você pode:
-    </p>
-    <ol>
-        <li>
-            <strong>Dar a cada slide um título único.</strong> Faça isso usando a caixa de título incorporada dos modelos de
-            slide pré-definidos.
-        </li>
-        <li>
-            <strong>Adicionar texto alternativo às imagens ou marcá-las como imagens decorativas:</strong> isso ajuda
-            pessoas que usam leitores de tela a perceber o conteúdo visual; deve ser conciso.
-        </li>
-        <li>
-            <strong>Destacar elementos-chave</strong> nas imagens: adicionar marcas além das cores ajuda pessoas com
-            daltonismo.
-        </li>
-        <li>
-            <strong>Evitar o uso de tabelas, se possível.</strong>
-        </li>
-        <li>
-            Consultar o <strong><a class="uline"
-                    href="http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/">Guia de
-                    Apresentação Acessível.</a></strong>.
-        </li>
-    </ol>
-
-    <p>
-        Além disso, a Apple tem algumas <a class="uline" href="https://support.apple.com/en-my/HT210563">ecomendações sobre
-            acessibilidade para Pages, Numbers ou Keynote</a>, e como opção de código aberto, aqui está <a class="uline"
-            href="https://wiki.documentfoundation.org/Accessibility/Creating_Accessible_LibreOffice_Files">como criar
-            arquivos acessíveis no LibreOffice.</a>.
+        As orientações aqui descritas não devem ser interpretadas como exigências rígidas, mas como boas
+        práticas de comunicação científica, alinhadas aos valores de acessibilidade, usabilidade e inclusão
+        defendidos pela comunidade de Interação Humano-Computador.
     </p>
 
-    <h2 id="accessible-video-author-recommendations">Recomendações para a Criação de Vídeos Acessíveis</h2>
+    <h3>Considerações gerais de acessibilidade para textos, apresentações e vídeos</h3>
+    <p>As recomendações a seguir aplicam-se, de forma geral, à produção de textos, apresentações e vídeos:</p>
+    <ul>
+        <li>Utilize linguagem clara e objetiva, evitando sentenças excessivamente longas ou construções sintáticas muito complexas.</li>
+        <li>Considere leitores e espectadores não nativos do idioma.</li>
+        <li>Evite expressões excessivamente coloquiais, regionalismos ou jargões sem explicação.</li>
+        <li>Não utilize cores como único recurso para transmitir informações importantes.</li>
+        <li>Garanta contraste adequado entre texto, imagens e fundo.</li>
+        <li>Prefira fontes simples, legíveis e em tamanho adequado.</li>
+        <li>Sempre que possível, complemente informações visuais com descrições textuais ou verbais.</li>
+    </ul>
 
+    <h3>Recomendações de Acessibilidade para Trabalhos Submetidos</h3>
     <p>
-        Se você precisar publicar um vídeo, <strong>sugerimos que você gere legendas</strong>: isso pode ajudar pessoas com
-        deficiência auditiva. <a class="uline" href="https://support.google.com/youtube/answer/2734796?hl=en">Você pode
-            criar legendas automaticamente no YouTube</a> e, em seguida, editá-las para usar uma linguagem mais simples, se
-        possível. Depois de criar suas legendas, você pode fazer o download do <a class="uline"
-            href="https://es.wikipedia.org/wiki/SubRip">arquivo .SRT</a> ("SubRip Subtitle", um dos tipos mais comuns de
-    formatos de arquivos de legenda fechada ou formatos de arquivo de legenda) <a class="uline"
-        href="https://www.facebook.com/help/261764017354370">e usá-lo para fazer upload no mesmo vídeo publicado como um
-        vídeo no Facebook</a>.
+        Este guia reúne boas práticas de escrita acessível inspiradas em referências como o Guia de Escrita
+        Acessível da ACM SIGACCESS e materiais de apoio para Microsoft Word, Microsoft Word e Latex,
+        LibreOffice, Google Docs, Apple iWork e para a criação de um PDF acessível.
     </p>
     <p>
-        Lembre-se de:
+        As recomendações a seguir são inspiradas em boas práticas adotadas em eventos da área de Interação
+        Humano-Computador e têm como objetivo apoiar as pessoas autoras da CLIHC 2026 na preparação de
+        artigos mais acessíveis, legíveis e inclusivos.
     </p>
-    <ol>
-        <li><strong>Utilizar legendas</strong>: recomenda-se concisão.</li>
-        <li><strong>Utilizar linguagem simples</strong>, sempre que possível.</li>
-        <li>Identificar o arquivo .SRT específico para esse vídeo, para uso futuro.</li>
-    </ol>
-    -->
-    <p class="mt-6 text-center">As Recomendações de Acessibilidade para Autores estarão disponíveis em breve.</p>
+
+    <h4>1. Organização do Texto</h4>
+    <ul>
+        <li>Estruture o artigo com títulos e subtítulos bem definidos, aplicando os estilos de título do editor de textos (por exemplo, Título 1, Título 2, Título 3), de modo a preservar a hierarquia lógica das seções.</li>
+        <li>Defina siglas e abreviações na primeira vez em que aparecem no texto.</li>
+        <li>Evite referências espaciais ambíguas, como “na figura acima” ou “como mostrado ao lado”.</li>
+    </ul>
+
+    <h4>2. Figuras, Gráficos e Tabelas</h4>
+    <ul>
+        <li>Todas as figuras, gráficos e tabelas devem possuir legendas descritivas, que expliquem seu conteúdo de forma compreensível.</li>
+        <li>Inclua texto alternativo nas imagens, descrevendo os elementos essenciais de forma concisa e objetiva.</li>
+        <li>Evite transmitir informações exclusivamente por cores.</li>
+        <li>Garanta contraste adequado entre fundo e elementos gráficos.</li>
+    </ul>
+    <p>Em gráficos:</p>
+    <ul>
+        <li>rotule claramente os eixos;</li>
+        <li>evite textos muito pequenos;</li>
+        <li>prefira padrões ou marcas visuais além de cores.</li>
+    </ul>
+
+    <h4>3. Uso de Cores e Tipografia</h4>
+    <ul>
+        <li>Evite combinações problemáticas para pessoas com daltonismo (ex.: vermelho e verde).</li>
+        <li>Evite textos longos em itálico ou em letras maiúsculas.</li>
+    </ul>
+
+    <h4>4. Fórmulas, Algoritmos e Código</h4>
+    <ul>
+        <li>Sempre que possível, acompanhe fórmulas matemáticas de uma descrição textual.</li>
+        <li>Em algoritmos e pseudocódigos use indentação clara, explique símbolos e variáveis, descreva a lógica geral em linguagem natural.</li>
+        <li>Evite imagens ou capturas de tela contendo código ou fórmulas.</li>
+    </ul>
+
+    <h4>5. PDFs e Leitura Assistiva</h4>
+    <ul>
+        <li>Garanta que o PDF final permita seleção de texto (evite documentos escaneados).</li>
+        <li>Verifique a ordem de leitura do documento.</li>
+        <li>Sempre que possível, teste o artigo com ferramentas de leitura assistiva.</li>
+    </ul>
+
+    <h3>Recomendações de Acessibilidade para Apresentações</h3>
+    <p>
+        As recomendações a seguir são inspiradas nas boas práticas adotadas em eventos da área de Interação
+        Humano-Computador, no Guia de apresentação acessível da ACM SIGACCESS e materiais de apoio para
+        Microsoft PowerPoint, LibreOffice, Google Docs, Apple iWork.
+    </p>
+
+    <h4>1. Slides (conteúdo visual)</h4>
+    <ul>
+        <li>Evite excesso de informação em um único slide.</li>
+        <li>Prefira frases curtas, palavras-chave e listas simples.</li>
+        <li>Mantenha uma estrutura visual consistente ao longo dos slides.</li>
+        <li>Use títulos claros em todos os slides.</li>
+    </ul>
+
+    <h4>2. Figuras, gráficos e diagramas</h4>
+    <ul>
+        <li>Sempre que possível, explique verbalmente o conteúdo das figuras durante a apresentação.</li>
+        <li>Evite gráficos muito complexos ou com excesso de detalhes.</li>
+        <li>Destaque verbalmente os pontos principais do gráfico (tendências, comparações, conclusões).</li>
+    </ul>
+    <p>
+        Regra prática: se alguém não estiver vendo bem o slide, ainda assim deve entender a ideia principal
+        pelo que você diz.
+    </p>
+
+    <h4>3. Apresentação oral</h4>
+    <ul>
+        <li>Fale de forma clara, em ritmo moderado.</li>
+        <li>Evite ler o texto exatamente como está no slide.</li>
+        <li>Evite apontar apenas com gestos (“aqui”, “ali”) sem explicação verbal.</li>
+    </ul>
+
+    <h4>4. Arquivos disponibilizados ao público</h4>
+    <ul>
+        <li>Sempre que possível, disponibilize os slides em PDF acessível.</li>
+        <li>Evite slides exportados como imagens sem texto selecionável.</li>
+        <li>Garanta que o conteúdo possa ser lido de forma linear.</li>
+    </ul>
+
+    <h4>5. Interação com o público</h4>
+    <ul>
+        <li>Repita perguntas feitas pela plateia antes de responder.</li>
+        <li>Ao mediar discussões, dê tempo para que todos possam acompanhar.</li>
+        <li>Em apresentações online, verbalize ações como troca de slides ou abertura de vídeos.</li>
+    </ul>
+
+    <h3>Recomendações de Acessibilidade para Vídeos</h3>
+    <p>
+        Estas recomendações aplicam-se a vídeos gravados previamente ou exibidos durante apresentações
+        presenciais e online.
+    </p>
+
+    <h4>1. Legendas</h4>
+    <ul>
+        <li>Inclua legendas sincronizadas sempre que possível.</li>
+        <li>Indique sons relevantes, como [música], [aplausos] ou [risos].</li>
+        <li>Ao carregar o vídeo em plataformas como o YouTube, é possível gerar legendas automaticamente; recomenda-se revisar e corrigir o conteúdo antes da publicação.</li>
+    </ul>
+
+    <h4>2. Áudio e Narração</h4>
+    <ul>
+        <li>Garanta boa qualidade de áudio.</li>
+        <li>Evite sobreposição de falas, músicas ou efeitos sonoros.</li>
+        <li>Descreva verbalmente informações visuais importantes.</li>
+    </ul>
+
+    <h4>3. Conteúdo Visual e Movimento</h4>
+    <ul>
+        <li>Evite textos muito pequenos ou exibidos por pouco tempo.</li>
+        <li>Use animações, transições e efeitos visuais com moderação.</li>
+        <li>Evite elementos piscantes, intermitentes ou com movimentos muito rápidos.</li>
+        <li>Dê tempo suficiente para que o público compreenda textos e imagens exibidos na tela.</li>
+    </ul>
+
+    <h4>4. Formato e Distribuição</h4>
+    <ul>
+        <li>Utilize formatos amplamente compatíveis com tecnologias assistivas.</li>
+        <li>Sempre que possível, ofereça uma descrição textual ou roteiro do vídeo.</li>
+        <li>Verifique se os controles de reprodução (play, pausa, volume) são acessíveis.</li>
+    </ul>
+
+    <h3>Linguagem Inclusiva, Gênero e Raça</h3>
+    <p>
+        As recomendações desta seção articulam princípios de acessibilidade, inclusão e equidade adotados
+        internacionalmente na área de Interação Humano-Computador, em diálogo com diretrizes brasileiras
+        voltadas à promoção de uma comunicação científica ética, respeitosa e socialmente responsável.
+    </p>
+    <p>
+        No âmbito internacional, o Accessible Writing Guide, mantido pela ACM SIGACCESS, destaca que escolhas
+        linguísticas podem reforçar ou reduzir vieses relacionados à deficiência, gênero, raça e outros
+        marcadores sociais, recomendando o uso de linguagem clara, precisa, respeitosa e contextualizada, sem
+        a imposição de modelos linguísticos rígidos. Em diálogo com essas orientações, diretrizes brasileiras,
+        como a cartilha Não à discriminação: uma linguagem adequada e inclusiva, elaborada pela Universidade
+        Estadual de Campinas, e as orientações disponíveis no portal gov.br sobre linguagem inclusiva,
+        fundamentadas em princípios constitucionais de igualdade e dignidade humana, reforçam a importância de
+        evitar expressões discriminatórias, estereótipos e generalizações, promovendo representatividade na
+        comunicação acadêmica.
+    </p>
+    <p>
+        Sempre que categorias como gênero, raça ou cor forem utilizadas, recomenda-se que os autores
+        explicitem seus critérios e reconheçam o caráter social, histórico e cultural dessas classificações.
+        A adoção de linguagem inclusiva de gênero e racial, assim como no caso da acessibilidade, não visa
+        impor uma forma única de escrita, mas incentivar reflexão crítica sobre o impacto da linguagem na
+        produção e circulação do conhecimento científico.
+    </p>
+
+    <h3>Considerações Finais</h3>
+    <p>
+        O CLIHC 2026 reconhece que a acessibilidade em artigos, apresentações e vídeos é um processo contínuo
+        de aprimoramento.
+    </p>
+    <p>
+        Pequenos ajustes na forma de comunicar, apresentar e produzir materiais podem ampliar significativamente
+        o acesso, a compreensão e a participação de diferentes públicos, fortalecendo o compromisso da
+        comunidade de Interação Humano-Computador com a inclusão.
+    </p>
+    <p>
+        Sugestões ou dúvidas relacionadas à acessibilidade podem ser encaminhadas à organização do evento
+        [email].
+    </p>
+
 </template>
