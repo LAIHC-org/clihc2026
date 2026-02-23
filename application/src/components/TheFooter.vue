@@ -89,6 +89,11 @@
                                     {{ $t("nav.accessibility_for_autors") }}
                                 </RouterLink>
                             </li>
+                            <li class="nav-item">
+                                <RouterLink :to="Tr.i18nRoute({ name: 'ethics-recommendations-for-authors' })" class="nav-link uline">
+                                    {{ $t("nav.ethics_recommendations") }}
+                                </RouterLink>
+                            </li>
                         </ul>
                     </div>
                 </div>

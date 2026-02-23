@@ -209,6 +209,25 @@
 												</div>
 											</RouterLink>
 										</li>
+										<li>
+											<RouterLink
+												:to="Tr.i18nRoute({ name: 'ethics-recommendations-for-authors' })"
+												class="dropdown-item border-radius-md"
+											>
+												<div class="d-flex">
+													<div>
+														<span
+															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+														>
+															{{ $t("nav.ethics_recommendations") }}
+														</span>
+														<span class="text-sm text-dark">
+															{{ $t("nav.ethics_recommendations_message") }}
+														</span>
+													</div>
+												</div>
+											</RouterLink>
+										</li>
 									</ul>
 								</li>
 								<li class="nav-item dropdown dropdown-hover mx-2">

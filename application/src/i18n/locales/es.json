@@ -32,6 +32,8 @@
         "cgc_message": "Fecha límite: 14 de marzo de 2026",
         "accessibility_for_autors": "Recomendaciones de accesibilidad para autores",
         "accessibility_for_autors_message": "Ayúdanos a maximizar la experiencia para todos",
+        "ethics_recommendations": "Guía ética y uso responsable de IA",
+        "ethics_recommendations_message": "Orientaciones éticas para la preparación de trabajos",
         "for_attendees_title": "Para asistentes",
         "for_attendees": "Para asistentes",
         "getting_started_title": "Primeros pasos",
@@ -129,6 +131,9 @@
         "accessible_document": "Recomendaciones para la creación de documentos accesibles",
         "accessible_slide": "Recomendaciones para la creación de diapositivas accesibles",
         "accessible_video": "Recomendaciones para la creación de videos accesibles"
+    },
+    "ethics": {
+        "title": "Guía de Recomendaciones para Uso Responsable de IA y Ética en la Preparación de Trabajos"
     },
     "calls": {
         "title": "Convocatoria de participación",

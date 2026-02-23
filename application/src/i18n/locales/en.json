@@ -32,6 +32,8 @@
         "cgc_message": "Deadline: March 14, 2026",
         "accessibility_for_autors": "Accessibility recommendations for authors",
         "accessibility_for_autors_message": "Help us to maximize the experience for everyone",
+        "ethics_recommendations": "Ethics and responsible AI recommendations",
+        "ethics_recommendations_message": "Ethical guidance for submission preparation",
         "for_attendees_title": "For Attendees",
         "for_attendees": "For attendees",
         "getting_started_title": "Getting Started",
@@ -129,6 +131,9 @@
         "accessible_document": "Accessible document author recommendations",
         "accessible_slide": "Accessible slide author recommendations",
         "accessible_video": "Accessible video author recommendations"
+    },
+    "ethics": {
+        "title": "Guide to Recommendations for Responsible AI Use and Ethics in Submission Preparation"
     },
     "calls": {
         "title": "Call for Participation",
