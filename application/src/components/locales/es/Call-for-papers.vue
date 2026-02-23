@@ -22,7 +22,7 @@ export default {
                 <strong class="text-primary text-gradient">
                     Fecha límite de envío:
                 </strong>
-                <strong class="text-danger"> 23 de febrero</strong><br />
+                <strong class="text-danger"> 1 de marzo</strong><br />
                 <RouterLink
                     :to="Tr.i18nRoute({ name: 'call-for-papers', hash: '#cpf-dates' })"
                     class="uline"
@@ -121,8 +121,8 @@ export default {
 
     <h4 id="cpf-dates">Fechas importantes (Artículos completos)</h4>
     <ul>
-        <li>Envío de resúmenes: <strong class="text-danger">23 de febrero</strong></li>
-        <li>Envío de artículos: 1 de marzo</li>
+        <li>Envío de resúmenes: <strong class="text-danger">1 de marzo</strong></li>
+        <li>Envío de artículos: 8 de marzo</li>
         <li>Notificación: 30 de marzo</li>
         <li>Versión final (camera ready): 12 de abril</li>
         <li>Evento: 06 – 08 de mayo</li>
