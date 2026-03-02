@@ -531,6 +531,14 @@ export default {
         oficiales del congreso.
     </p>
 
+    <h3>Consultas y comunicación</h3>
+    <p>
+        Para cualquier consulta sobre la participación, los procedimientos de envío, los criterios de elegibilidad u otros aspectos de la Competencia de Diseño Estudiantil (SDC), comuníquese con el comité organizador de la SDC en:<br>
+        <a href="mailto:clihcsdc@gmail.com" class="uline">clihcsdc@gmail.com</a><br>
+        Todas las consultas serán atendidas oportunamente por la Presidencia de la SDC.<br>
+        Invitamos a los equipos y a las personas supervisoras a contactarnos siempre que se necesite una aclaración u orientación adicional.
+    </p>
+
     <h3 class="my-4">{{ $t("organizers.student_design_competition_title") }}</h3>
     <div class="row">
         <div class="col-md-4">

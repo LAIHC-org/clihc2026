@@ -522,6 +522,14 @@ export default {
         oficiais da conferência.
     </p>
 
+    <h3>Perguntas e comunicação</h3>
+    <p>
+        Para quaisquer dúvidas sobre participação, procedimentos de submissão, critérios de elegibilidade ou outros aspectos da Competição de Design Estudantil (SDC), entre em contato com o comitê organizador da SDC em:<br>
+        <a href="mailto:clihcsdc@gmail.com" class="uline">clihcsdc@gmail.com</a><br>
+        Todas as consultas serão respondidas em tempo hábil pela coordenação da SDC.<br>
+        Incentivamos equipes e orientadores(as) a entrar em contato sempre que precisarem de esclarecimentos ou orientações adicionais.
+    </p>
+
     <h3 class="my-4">{{ $t("organizers.student_design_competition_title") }}</h3>
     <div class="row">
         <div class="col-md-4">

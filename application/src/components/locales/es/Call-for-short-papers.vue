@@ -112,7 +112,7 @@ export default {
     <h3>Sistema de envío</h3>
     <p>
         Todos los envíos de Artículos Cortos deben realizarse a través de JEMS3 – Journal and Event Management System:
-        <a href="https://jems3.sbc.org.br/events/510" class="uline">https://jems3.sbc.org.br/events/510</a>
+        <a href="https://jems3.sbc.org.br/events/535" class="uline">https://jems3.sbc.org.br/events/535</a>
     </p>
 
     <h3 id="csp-dates">Fechas importantes</h3>

@@ -111,7 +111,7 @@ export default {
     <h3>Sistema de submissão</h3>
     <p>
         Todas as submissões de Artigos Curtos devem ser feitas pelo JEMS3 – Journal and Event Management System:
-        <a href="https://jems3.sbc.org.br/events/510" class="uline">https://jems3.sbc.org.br/events/510</a>
+        <a href="https://jems3.sbc.org.br/events/535" class="uline">https://jems3.sbc.org.br/events/535</a>
     </p>
 
     <h3 id="csp-dates">Datas importantes</h3>

@@ -113,7 +113,7 @@ export default {
     <h3>Submission System</h3>
     <p>
         All Short Paper submissions must be made through the JEMS3 – Journal and Event Management System:
-        <a href="https://jems3.sbc.org.br/events/510" class="uline">https://jems3.sbc.org.br/events/510</a>
+        <a href="https://jems3.sbc.org.br/events/535" class="uline">https://jems3.sbc.org.br/events/535</a>
     </p>
 
     <h3 id="csp-dates">Important Dates</h3>

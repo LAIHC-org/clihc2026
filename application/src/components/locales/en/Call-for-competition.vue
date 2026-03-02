@@ -523,6 +523,15 @@ export default {
         conference's official channels.
     </p>
 
+    <h3>Inquiries and Communication</h3>
+    <p>
+        For any questions concerning participation, submission procedures, eligibility criteria, or other aspects of the Student Design Competition (SDC), please contact the SDC organizing committee at:<br>
+        <a href="mailto:clihcsdc@gmail.com" class="uline">clihcsdc@gmail.com</a><br>
+        All inquiries will be addressed by the SDC Chairs in a timely manner.<br>
+        We encourage teams and supervisors to contact us whenever clarification or additional guidance is needed.
+    </p>
+
+
     <h3 class="my-4">{{ $t("organizers.student_design_competition_title") }}</h3>
     <div class="row">
         <div class="col-md-4">
