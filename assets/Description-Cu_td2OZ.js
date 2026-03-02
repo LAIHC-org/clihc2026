@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./index-DQfSm1Vx.js";const n={},o={class:"text-white mb-0"};function r(c,s){return t(),a("h3",o,"te invita a unirte a CLIHC, el foro principal para investigadores y profesionales de HCI en América Latina.")}const _=e(n,[["render",r]]);export{_ as default};

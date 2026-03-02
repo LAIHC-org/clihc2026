@@ -1,1 +1,0 @@
-import{O as e}from"./OrganizerItem-BI5O_Q44.js";import{_ as t,c as r,o as s,T as o}from"./index-DMeS4_0M.js";const a={components:{OrganizerItem:e},setup(){return{Tr:o}}},n={class:"mt-6 text-center"};function c(p,m,_,i,d,f){return s(),r("p",n,"La convocatoria de pósteres será anunciada próximamente.")}const x=t(a,[["render",c]]);export{x as default};
