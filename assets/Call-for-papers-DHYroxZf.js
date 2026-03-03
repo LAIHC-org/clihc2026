@@ -1,0 +1,1 @@
+import{O as e}from"./OrganizerItem-BNODB9vm.js";import{_ as r,c as t,o as a,T as s}from"./index-08xHaTKK.js";const o={components:{OrganizerItem:e},setup(){return{Tr:s}}},n={class:"mt-6 text-center"};function c(p,m,_,d,i,l){return a(),t("p",n,"A chamada de trabalhos será anunciada em breve.")}const h=r(o,[["render",c]]);export{h as default};
