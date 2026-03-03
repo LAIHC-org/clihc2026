@@ -59,7 +59,7 @@
                 Competição de design estudantil (SDC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> 5 de março, 2026<br>
+            <strong class="text-primary text-gradient">Prazo de envio:</strong> 13 de março, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">

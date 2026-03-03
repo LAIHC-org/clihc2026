@@ -20,7 +20,7 @@ export default {
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
                 <strong class="text-primary text-gradient">Prazo de submissão:</strong>
-                <strong class="text-danger"> 5 de março de 2026</strong><br />
+                <strong class="text-danger"> 13 de março de 2026</strong><br />
                 <RouterLink
                     :to="Tr.i18nRoute({ name: 'student-design-competition', hash: '#sdc-dates' })"
                     class="uline"
@@ -33,9 +33,9 @@ export default {
 
     <h3 id="sdc-dates">Datas importantes</h3>
     <ul>
-        <li>Prazo de submissão: Quinta-feira, 5 de março de 2026</li>
-        <li>Notificação de aceitação: Sexta-feira, 3 de abril de 2026</li>
-        <li>Prazo para versão final (camera-ready): Sexta-feira, 17 de abril de 2026</li>
+        <li>Prazo de submissão: Sexta-feira, 13 de março de 2026</li>
+        <li>Notificação de aceitação: Sexta-feira, 10 de abril de 2026</li>
+        <li>Prazo para versão final (camera-ready): Sexta-feira, 24 de abril de 2026</li>
         <li>Evento: 6-9 de maio de 2026, Brasil; 27-29 de maio de 2026, México</li>
     </ul>
     <p>Todos os prazos expiram à meia-noite AoE (Anywhere on Earth).</p>
@@ -241,7 +241,7 @@ export default {
         Todas as submissões devem ser realizadas por meio da plataforma JEMS (Sociedade
         Brasileira de Computação - SBC).
     </p>
-    <p><strong>Prazo:</strong> Quinta-feira, 5 de março de 2026</p>
+    <p><strong>Prazo:</strong> Sexta-feira, 13 de março de 2026</p>
 
     <p>A submissão inicial deve incluir obrigatoriamente os seguintes materiais:</p>
 

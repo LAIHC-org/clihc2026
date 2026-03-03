@@ -59,7 +59,7 @@
                 Competencia de diseño para estudiantes (SDC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 5 de marzo, 2026<br>
+            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 13 de marzo, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">

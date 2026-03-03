@@ -20,7 +20,7 @@ export default {
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
                 <strong class="text-primary text-gradient">Deadline for submission:</strong>
-                <strong class="text-danger"> March 5, 2026</strong><br />
+                <strong class="text-danger"> March 13, 2026</strong><br />
                 <RouterLink
                     :to="Tr.i18nRoute({ name: 'student-design-competition', hash: '#sdc-dates' })"
                     class="uline"
@@ -33,9 +33,9 @@ export default {
 
     <h3 id="sdc-dates">Important Dates</h3>
     <ul>
-        <li>Submission deadline: Thursday, March 5, 2026</li>
-        <li>Notification of acceptance: Friday, April 3, 2026</li>
-        <li>Camera-ready deadline: Friday, April 17, 2026</li>
+        <li>Submission deadline: Friday, March 13, 2026</li>
+        <li>Notification of acceptance: Friday, April 10, 2026</li>
+        <li>Camera-ready deadline: Friday, April 24, 2026</li>
         <li>Event: May 6-9, Brazil; May 27-29, Mexico</li>
     </ul>
     <p>Deadlines are at midnight AoE (Anywhere on Earth).</p>
@@ -240,7 +240,7 @@ export default {
         All submissions must be made through the JEMS platform (Brazilian Computer
         Society - SBC).
     </p>
-    <p><strong>Deadline:</strong> Thursday, March 5, 2026</p>
+    <p><strong>Deadline:</strong> Friday, March 13, 2026</p>
 
     <p>The initial submission must include all of the following materials:</p>
 

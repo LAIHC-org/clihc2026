@@ -20,7 +20,7 @@ export default {
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
                 <strong class="text-primary text-gradient">Fecha límite de envío:</strong>
-                <strong class="text-danger"> 5 de marzo de 2026</strong><br />
+                <strong class="text-danger"> 13 de marzo de 2026</strong><br />
                 <RouterLink
                     :to="Tr.i18nRoute({ name: 'student-design-competition', hash: '#sdc-dates' })"
                     class="uline"
@@ -33,9 +33,9 @@ export default {
 
     <h3 id="sdc-dates">Fechas importantes</h3>
     <ul>
-        <li>Fecha límite de envío: Jueves 5 de marzo de 2026</li>
-        <li>Notificación de aceptación: Viernes 3 de abril de 2026</li>
-        <li>Fecha límite de versión final (camera-ready): Viernes 17 de abril de 2026</li>
+        <li>Fecha límite de envío: Viernes 13 de marzo de 2026</li>
+        <li>Notificación de aceptación: Viernes 10 de abril de 2026</li>
+        <li>Fecha límite de versión final (camera-ready): Viernes 24 de abril de 2026</li>
         <li>Evento: 6-9 de mayo de 2026, Brasil; 27-29 de mayo de 2026, México</li>
     </ul>
     <p>Todas las fechas límite son a medianoche AoE (Anywhere on Earth).</p>
@@ -244,7 +244,7 @@ export default {
         Todos los envíos deberán realizarse a través de la plataforma JEMS (Sociedad
         Brasileña de Computación - SBC).
     </p>
-    <p><strong>Fecha límite:</strong> Jueves 5 de marzo de 2026</p>
+    <p><strong>Fecha límite:</strong> Viernes 13 de marzo de 2026</p>
 
     <p>El envío inicial deberá incluir obligatoriamente los siguientes materiales:</p>
 
