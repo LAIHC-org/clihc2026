@@ -28,8 +28,8 @@
                     Chamada de artigos curtos (CSP)
                 </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Submissão de resumos:</strong> 2 de março, 2026<br>
-            <strong class="text-primary text-gradient">Submissão de artigos:</strong> 9 de março, 2026<br>
+            <strong class="text-primary text-gradient">Submissão de resumos:</strong> 9 de março, 2026<br>
+            <strong class="text-primary text-gradient">Submissão de artigos:</strong> 16 de março, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">

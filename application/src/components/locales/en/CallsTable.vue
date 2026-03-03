@@ -28,8 +28,8 @@
                     Call for short papers (CSP)
                 </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Abstract submission:</strong> March 2, 2026<br>
-            <strong class="text-primary text-gradient">Paper submission:</strong> March 9, 2026<br>
+            <strong class="text-primary text-gradient">Abstract submission:</strong> March 9, 2026<br>
+            <strong class="text-primary text-gradient">Paper submission:</strong> March 16, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">

@@ -28,8 +28,8 @@
                     Convocatoria de artículos cortos (CSP)
                 </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Envío de resúmenes:</strong> 2 de marzo, 2026<br>
-            <strong class="text-primary text-gradient">Envío de artículos:</strong> 9 de marzo, 2026<br>
+            <strong class="text-primary text-gradient">Envío de resúmenes:</strong> 9 de marzo, 2026<br>
+            <strong class="text-primary text-gradient">Envío de artículos:</strong> 16 de marzo, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">

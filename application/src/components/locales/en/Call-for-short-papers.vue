@@ -20,9 +20,9 @@ export default {
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
                 <strong class="text-primary text-gradient">Abstract submission:</strong>
-                <strong class="text-danger"> March 2, 2026</strong><br />
-                <strong class="text-primary text-gradient">Paper submission:</strong>
                 <strong class="text-danger"> March 9, 2026</strong><br />
+                <strong class="text-primary text-gradient">Paper submission:</strong>
+                <strong class="text-danger"> March 16, 2026</strong><br />
                 <RouterLink
                     :to="Tr.i18nRoute({ name: 'call-for-short-papers', hash: '#csp-dates' })"
                     class="uline"
@@ -119,8 +119,8 @@ export default {
     <h3 id="csp-dates">Important Dates</h3>
     <p>All deadlines are Anywhere on Earth (AoE), 23:59hrs.</p>
     <ul>
-        <li>Abstract submission deadline: March 2, 2026</li>
-        <li>Paper submission deadline: <strong class="text-danger">March 9, 2026</strong></li>
+        <li>Abstract submission deadline: March 9, 2026</li>
+        <li>Paper submission deadline: <strong class="text-danger">March 16, 2026</strong></li>
         <li>Notification of acceptance: March 30, 2026</li>
         <li>Camera-ready deadline: April 12, 2026</li>
         <li>Conference dates: May 6–8, 2026</li>
