@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./index-Kf-hLPbp.js";const o={},c={class:"text-white mb-0"};function n(s,i){return r(),t("h3",c,"Invites You to Join CLIHC, the Premier Forum for HCI Researchers and Practitioners in Latin America.")}const _=e(o,[["render",n]]);export{_ as default};
