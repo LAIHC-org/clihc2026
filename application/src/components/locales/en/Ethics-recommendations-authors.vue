@@ -23,7 +23,10 @@
         When using pre-existing content (text, data, images) as input to AI tools, authors must ensure they
         have the necessary permissions from copyright holders. Any use of copyrighted material for training or
         as input to LLMs requires explicit permission, and this information must be mentioned in the
-        submission (RESPECT Conference, ACM).
+        submission (see
+        <a class="uline" href="https://respect.acm.org/2026/index.php/policies-on-generative-ai-llms-and-related-tools/">RESPECT Conference 2026</a>
+        and
+        <a class="uline" href="https://www.acm.org/publications/policies/frequently-asked-questions?utm_source=chatgpt.com">ACM Publications Policies</a>).
     </p>
 
     <h3>3. Scientific Integrity and Avoiding Plagiarism</h3>
@@ -48,8 +51,11 @@
     <p>
         It is important to highlight that not all Latin American countries have clearly defined legislation or
         procedures for ethically conducting research with human participants in areas outside health (for
-        example, Brazil 2016 and Brazil 2024). Therefore, reviewers should consider this context when
-        evaluating assigned submissions.
+        example,
+        <a class="uline" href="https://www.gov.br/conselho-nacional-de-saude/pt-br/atos-normativos/resolucoes/2016/resolucao-no-510.pdf">Brazil 2016</a>
+        and
+        <a class="uline" href="https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14874.htm">Brazil 2024</a>).
+        Therefore, reviewers should consider this context when evaluating assigned submissions.
     </p>
     <p>
         This does not mean ethical issues should be ignored. On the contrary, it is a valuable opportunity to

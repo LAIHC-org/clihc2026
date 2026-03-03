@@ -202,4 +202,60 @@
         [email].
     </p>
 
+    <h3>Referências</h3>
+    <ul>
+        <li><a class="uline" href="http://www.sigaccess.org/">http://www.sigaccess.org/</a></li>
+        <li>
+            <a class="uline" href="http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-writing-guide/">
+                http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-writing-guide/
+            </a>
+        </li>
+        <li>
+            <a class="uline" href="https://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-writing-guide/">
+                https://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-writing-guide/
+            </a>
+        </li>
+        <li>
+            <a class="uline" href="http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/">
+                http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/
+            </a>
+        </li>
+        <li>
+            <a class="uline" href="https://sigchi.org/resources/guides-for-authors/accessibility/">
+                https://sigchi.org/resources/guides-for-authors/accessibility/
+            </a>
+        </li>
+        <li>
+            <a class="uline" href="https://support.microsoft.com/en-us/office/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d">
+                https://support.microsoft.com/en-us/office/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d
+            </a>
+        </li>
+        <li>
+            <a class="uline" href="https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25">
+                https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25
+            </a>
+        </li>
+        <li>
+            <a class="uline" href="https://support.google.com/docs/answer/6199477?hl=en">
+                https://support.google.com/docs/answer/6199477?hl=en
+            </a>
+        </li>
+        <li><a class="uline" href="https://support.apple.com/en-my/HT210563">https://support.apple.com/en-my/HT210563</a></li>
+        <li>
+            <a class="uline" href="https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html">
+                https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html
+            </a>
+        </li>
+        <li>
+            <a class="uline" href="https://wiki.documentfoundation.org/Accessibility/Creating_Accessible_LibreOffice_Files">
+                https://wiki.documentfoundation.org/Accessibility/Creating_Accessible_LibreOffice_Files
+            </a>
+        </li>
+        <li>
+            <a class="uline" href="https://www.gov.br/gestao/pt-br/assuntos/gestaoeinovacao/inovacao-governamental-carreiras-transversais/inovacao-governamental/gestao-de-carreiras/lins/linguagem-inclusiva?utm_source=chatgpt.com">
+                https://www.gov.br/gestao/pt-br/assuntos/gestaoeinovacao/inovacao-governamental-carreiras-transversais/inovacao-governamental/gestao-de-carreiras/lins/linguagem-inclusiva?utm_source=chatgpt.com
+            </a>
+        </li>
+    </ul>
+
 </template>

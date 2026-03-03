@@ -24,7 +24,10 @@
         Al usar contenido preexistente (texto, datos, imágenes) como entrada para herramientas de IA, autoras y
         autores deben asegurar que tienen los permisos necesarios de las personas o entidades titulares de
         derechos de autor. Cualquier uso de material protegido por derechos para entrenamiento o entrada en
-        LLMs exige permiso explícito y esa información debe mencionarse en el trabajo (RESPECT Conference, ACM).
+        LLMs exige permiso explícito y esa información debe mencionarse en el trabajo (ver
+        <a class="uline" href="https://respect.acm.org/2026/index.php/policies-on-generative-ai-llms-and-related-tools/">RESPECT Conference 2026</a>
+        y
+        <a class="uline" href="https://www.acm.org/publications/policies/frequently-asked-questions?utm_source=chatgpt.com">ACM Publications Policies</a>).
     </p>
 
     <h3>3. Integridad Científica y Evitar Plagio</h3>
@@ -50,8 +53,11 @@
     <p>
         Es importante destacar que no todos los países de América Latina cuentan con legislaciones o
         procedimientos claramente definidos para la conducción ética de investigaciones con seres humanos en
-        áreas fuera de la salud (por ejemplo, Brasil 2016 y Brasil 2024). Por ello, las personas revisoras
-        deben considerar este contexto al evaluar los trabajos asignados.
+        áreas fuera de la salud (por ejemplo,
+        <a class="uline" href="https://www.gov.br/conselho-nacional-de-saude/pt-br/atos-normativos/resolucoes/2016/resolucao-no-510.pdf">Brasil 2016</a>
+        y
+        <a class="uline" href="https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14874.htm">Brasil 2024</a>).
+        Por ello, las personas revisoras deben considerar este contexto al evaluar los trabajos asignados.
     </p>
     <p>
         Esto no significa que las cuestiones éticas deban ignorarse. Por el contrario, representa una
