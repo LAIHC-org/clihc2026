@@ -22,7 +22,7 @@ export default {
                 <strong class="text-primary text-gradient">Abstract submission:</strong>
                 <strong class="text-danger"> March 9, 2026</strong><br />
                 <strong class="text-primary text-gradient">Paper submission:</strong>
-                <strong class="text-danger"> March 16, 2026</strong><br />
+                <strong class="text-danger"> March 9, 2026</strong><br />
                 <RouterLink
                     :to="Tr.i18nRoute({ name: 'call-for-short-papers', hash: '#csp-dates' })"
                     class="uline"
@@ -120,7 +120,7 @@ export default {
     <p>All deadlines are Anywhere on Earth (AoE), 23:59hrs.</p>
     <ul>
         <li>Abstract submission deadline: March 9, 2026</li>
-        <li>Paper submission deadline: <strong class="text-danger">March 16, 2026</strong></li>
+        <li>Paper submission deadline: <strong class="text-danger">March 9, 2026</strong></li>
         <li>Notification of acceptance: March 30, 2026</li>
         <li>Camera-ready deadline: April 12, 2026</li>
         <li>Conference dates: May 6–8, 2026</li>

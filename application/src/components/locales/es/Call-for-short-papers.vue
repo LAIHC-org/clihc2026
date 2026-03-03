@@ -22,7 +22,7 @@ export default {
                 <strong class="text-primary text-gradient">Envío de resúmenes:</strong>
                 <strong class="text-danger"> 9 de marzo, 2026</strong><br />
                 <strong class="text-primary text-gradient">Envío de artículos:</strong>
-                <strong class="text-danger"> 16 de marzo, 2026</strong><br />
+                <strong class="text-danger"> 9 de marzo, 2026</strong><br />
                 <RouterLink
                     :to="Tr.i18nRoute({ name: 'call-for-short-papers', hash: '#csp-dates' })"
                     class="uline"
@@ -119,7 +119,7 @@ export default {
     <p>Todas las fechas límite son Anywhere on Earth (AoE), 23:59 hrs.</p>
     <ul>
         <li>Fecha límite para envío de resúmenes: 9 de marzo, 2026</li>
-        <li>Fecha límite para envío de artículos: <strong class="text-danger">16 de marzo, 2026</strong></li>
+        <li>Fecha límite para envío de artículos: <strong class="text-danger">9 de marzo, 2026</strong></li>
         <li>Notificación de aceptación: 30 de marzo, 2026</li>
         <li>Fecha límite de versión final (camera ready): 12 de abril, 2026</li>
         <li>Fechas de la conferencia: 6–8 de mayo, 2026</li>
