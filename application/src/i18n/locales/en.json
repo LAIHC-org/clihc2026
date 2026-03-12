@@ -163,6 +163,7 @@
     },
     "accepted_papers": {
         "title": "Accepted Papers",
+        "full_papers": "Full Papers",
         "full_and_short_papers": "Full and Short Papers",
         "posters": "Posters",
         "graduate_colloquium": "Graduate Colloquium",

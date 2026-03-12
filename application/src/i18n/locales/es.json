@@ -163,6 +163,7 @@
     },
     "accepted_papers": {
         "title": "Artículos aceptados",
+        "full_papers": "Artículos completos",
         "full_and_short_papers": "Artículos completos y resúmenes",
         "posters": "Pósters",
         "graduate_colloquium": "Coloquio de posgrado",
