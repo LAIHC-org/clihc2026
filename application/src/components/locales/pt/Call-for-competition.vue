@@ -19,8 +19,9 @@ export default {
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
-                <strong class="text-primary text-gradient">Prazo de submissão:</strong>
-                <strong class="text-danger"> 13 de março de 2026</strong><br />
+                <strong class="text-primary text-gradient">Extensão do prazo de submissão:</strong>
+                <strong class="text-danger"> Segunda-feira, 16 de março de 2026</strong><br />
+                Estendido a partir de sexta-feira, 13 de março de 2026.<br />
                 <RouterLink
                     :to="Tr.i18nRoute({ name: 'student-design-competition', hash: '#sdc-dates' })"
                     class="uline"
@@ -33,7 +34,7 @@ export default {
 
     <h3 id="sdc-dates">Datas importantes</h3>
     <ul>
-        <li>Prazo de submissão: Sexta-feira, 13 de março de 2026</li>
+        <li>Extensão do prazo de submissão: de sexta-feira, 13 de março de 2026 para segunda-feira, 16 de março de 2026</li>
         <li>Notificação de aceitação: Sexta-feira, 10 de abril de 2026</li>
         <li>Prazo para versão final (camera-ready): Sexta-feira, 24 de abril de 2026</li>
         <li>Evento: 6-9 de maio de 2026, Brasil; 27-29 de maio de 2026, México</li>
@@ -67,8 +68,11 @@ export default {
     <h3>O desafio de design: Soluções apropriadas para todos</h3>
     <p>
         As equipes são convidadas a desenvolver propostas de design vinculadas a um ou
-        mais dos 17 Objetivos de Desenvolvimento Sustentável (ODS) definidos pelas
-        Nações Unidas:
+        mais dos 17
+        <a href="https://sdgs.un.org/goals" class="uline"
+            >Objetivos de Desenvolvimento Sustentável (ODS)</a
+        >
+        definidos pelas Nações Unidas:
     </p>
     <ul>
         <li>Erradicação da pobreza</li>
@@ -239,9 +243,12 @@ export default {
     <p><strong>Plataforma de submissão</strong></p>
     <p>
         Todas as submissões devem ser realizadas por meio da plataforma JEMS (Sociedade
-        Brasileira de Computação - SBC).
+        Brasileira de Computação - SBC):
+        <a href="https://jems3.sbc.org.br/events/538" class="uline"
+            >plataforma JEMS</a
+        >
     </p>
-    <p><strong>Prazo:</strong> Sexta-feira, 13 de março de 2026</p>
+    <p><strong>Extensão do prazo:</strong> Segunda-feira, 16 de março de 2026 (estendido a partir de sexta-feira, 13 de março de 2026)</p>
 
     <p>A submissão inicial deve incluir obrigatoriamente os seguintes materiais:</p>
 
@@ -251,8 +258,18 @@ export default {
         <li>Extensão máxima: 5 páginas, incluindo referências.</li>
         <li>
             O formato de submissão seguirá o template da Sociedade Brasileira de
-            Computação. Os autores podem trabalhar em Microsoft Word, LaTeX
-            (recomendado) ou Overleaf.
+            Computação. Os autores podem trabalhar em
+            <a
+                href="https://www.sbc.org.br/wp-content/uploads/2024/07/modelosparapublicaodeartigos.zip"
+                class="uline"
+                >Microsoft Word e LaTeX (recomendado)</a
+            >
+            ou
+            <a
+                href="https://www.overleaf.com/latex/templates/sbc-conferences-template-updated-sbc-template-dot-sty-v2017/pyhttxftxjqn"
+                class="uline"
+                >Overleaf</a
+            >.
         </li>
     </ul>
 
@@ -320,8 +337,13 @@ export default {
         Qualquer conteúdo gerado com o auxílio de um LLM deve ser explicitamente
         reconhecido sempre que essas ferramentas forem utilizadas para fins além da
         simples edição ou revisão do texto original dos autores. Os autores são
-        responsáveis por cumprir a Política de Autoria da ACM e os princípios de
-        transparência acadêmica.
+        responsáveis por cumprir a
+        <a
+            href="https://www.acm.org/publications/policies/new-acm-policy-on-authorship"
+            class="uline"
+            >Política de Autoria da ACM</a
+        >
+        e os princípios de transparência acadêmica.
     </p>
     <p>
         Como parte do processo de submissão, as equipes devem incluir uma declaração
@@ -404,9 +426,20 @@ export default {
     </p>
     <p>
         A versão final do artigo deve seguir rigorosamente os templates oficiais da SBC
-        em Microsoft Word, LaTeX (recomendado) ou Overleaf, conforme indicado nas
-        instruções de submissão. Diretrizes detalhadas para a preparação da versão final
-        serão fornecidas juntamente com a notificação de aceitação.
+        em
+        <a
+            href="https://www.sbc.org.br/wp-content/uploads/2024/07/modelosparapublicaodeartigos.zip"
+            class="uline"
+            >Microsoft Word e LaTeX (recomendado)</a
+        >
+        ou
+        <a
+            href="https://www.overleaf.com/latex/templates/sbc-conferences-template-updated-sbc-template-dot-sty-v2017/pyhttxftxjqn"
+            class="uline"
+            >Overleaf</a
+        >, conforme indicado nas instruções de submissão. Diretrizes detalhadas para a
+        preparação da versão final serão fornecidas juntamente com a notificação de
+        aceitação.
     </p>
     <p>
         Além disso, os autores correspondentes receberão informações sobre inscrição e

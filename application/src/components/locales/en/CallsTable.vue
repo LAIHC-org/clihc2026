@@ -59,7 +59,8 @@
                 Student design competition (SDC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Deadline for submission:</strong> March 13, 2026<br>
+            <strong class="text-primary text-gradient">Submission deadline extension:</strong> March 16, 2026<br>
+            Extended from March 13, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">

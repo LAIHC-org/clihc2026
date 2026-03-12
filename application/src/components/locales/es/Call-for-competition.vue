@@ -19,8 +19,9 @@ export default {
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
-                <strong class="text-primary text-gradient">Fecha límite de envío:</strong>
-                <strong class="text-danger"> 13 de marzo de 2026</strong><br />
+                <strong class="text-primary text-gradient">Extensión de la fecha límite de envío:</strong>
+                <strong class="text-danger"> Lunes 16 de marzo de 2026</strong><br />
+                Extendido desde el viernes 13 de marzo de 2026.<br />
                 <RouterLink
                     :to="Tr.i18nRoute({ name: 'student-design-competition', hash: '#sdc-dates' })"
                     class="uline"
@@ -33,7 +34,7 @@ export default {
 
     <h3 id="sdc-dates">Fechas importantes</h3>
     <ul>
-        <li>Fecha límite de envío: Viernes 13 de marzo de 2026</li>
+        <li>Extensión de la fecha límite de envío: del viernes 13 de marzo de 2026 al lunes 16 de marzo de 2026</li>
         <li>Notificación de aceptación: Viernes 10 de abril de 2026</li>
         <li>Fecha límite de versión final (camera-ready): Viernes 24 de abril de 2026</li>
         <li>Evento: 6-9 de mayo de 2026, Brasil; 27-29 de mayo de 2026, México</li>
@@ -67,8 +68,11 @@ export default {
     <h3>El reto de diseño: Soluciones apropiadas para todos</h3>
     <p>
         Se invita a los equipos a desarrollar propuestas de diseño vinculadas a uno o
-        más de los 17 Objetivos de Desarrollo Sostenible (ODS) definidos por la
-        Organización de las Naciones Unidas:
+        más de los 17
+        <a href="https://sdgs.un.org/goals" class="uline"
+            >Objetivos de Desarrollo Sostenible (ODS)</a
+        >
+        definidos por la Organización de las Naciones Unidas:
     </p>
     <ul>
         <li>Fin de la pobreza</li>
@@ -242,9 +246,12 @@ export default {
     <p><strong>Plataforma de envío</strong></p>
     <p>
         Todos los envíos deberán realizarse a través de la plataforma JEMS (Sociedad
-        Brasileña de Computación - SBC).
+        Brasileña de Computación - SBC):
+        <a href="https://jems3.sbc.org.br/events/538" class="uline"
+            >plataforma JEMS</a
+        >
     </p>
-    <p><strong>Fecha límite:</strong> Viernes 13 de marzo de 2026</p>
+    <p><strong>Extensión de la fecha límite:</strong> Lunes 16 de marzo de 2026 (extendida desde el viernes 13 de marzo de 2026)</p>
 
     <p>El envío inicial deberá incluir obligatoriamente los siguientes materiales:</p>
 
@@ -254,8 +261,18 @@ export default {
         <li>Extensión máxima: 5 páginas, incluyendo referencias.</li>
         <li>
             El formato de envío seguirá la plantilla de la Sociedad Brasileña de
-            Computación. Los autores pueden trabajar en Microsoft Word, LaTeX
-            (recomendado) u Overleaf.
+            Computación. Los autores pueden trabajar en
+            <a
+                href="https://www.sbc.org.br/wp-content/uploads/2024/07/modelosparapublicaodeartigos.zip"
+                class="uline"
+                >Microsoft Word y LaTeX (recomendado)</a
+            >
+            u
+            <a
+                href="https://www.overleaf.com/latex/templates/sbc-conferences-template-updated-sbc-template-dot-sty-v2017/pyhttxftxjqn"
+                class="uline"
+                >Overleaf</a
+            >.
         </li>
     </ul>
 
@@ -323,8 +340,13 @@ export default {
         Cualquier contenido generado con la asistencia de un LLM debe ser explícitamente
         reconocido cuando estas herramientas se utilicen para fines más allá de la
         edición básica o corrección del texto original de los autores. Los autores son
-        responsables de revisar y cumplir con la Política de Autoría de ACM y con los
-        principios de transparencia académica.
+        responsables de revisar y cumplir con la
+        <a
+            href="https://www.acm.org/publications/policies/new-acm-policy-on-authorship"
+            class="uline"
+            >Política de Autoría de ACM</a
+        >
+        y con los principios de transparencia académica.
     </p>
     <p>
         Como parte del proceso de envío, los equipos deben incluir una declaración
@@ -411,9 +433,20 @@ export default {
     </p>
     <p>
         La versión final del artículo deberá seguir estrictamente las plantillas
-        oficiales de la SBC en Microsoft Word, LaTeX (recomendado) u Overleaf, conforme
-        a las instrucciones de envío. Las directrices detalladas para la preparación de
-        la versión final se proporcionarán junto con la notificación de aceptación.
+        oficiales de la SBC en
+        <a
+            href="https://www.sbc.org.br/wp-content/uploads/2024/07/modelosparapublicaodeartigos.zip"
+            class="uline"
+            >Microsoft Word y LaTeX (recomendado)</a
+        >
+        u
+        <a
+            href="https://www.overleaf.com/latex/templates/sbc-conferences-template-updated-sbc-template-dot-sty-v2017/pyhttxftxjqn"
+            class="uline"
+            >Overleaf</a
+        >, conforme a las instrucciones de envío. Las directrices detalladas para la
+        preparación de la versión final se proporcionarán junto con la notificación de
+        aceptación.
     </p>
     <p>
         Adicionalmente, los autores correspondientes recibirán información sobre el
