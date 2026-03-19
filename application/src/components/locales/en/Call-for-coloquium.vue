@@ -19,8 +19,9 @@ export default {
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
-                <strong class="text-primary text-gradient">Deadline for submission:</strong>
-                <strong class="text-danger"> March 14, 2026</strong><br />
+                <strong class="text-primary text-gradient">Submission deadline extension:</strong>
+                <strong class="text-danger"> March 28, 2026</strong><br />
+                Extended from March 14, 2026.<br />
                 <RouterLink
                     :to="Tr.i18nRoute({ name: 'graduate-colloquium', hash: '#cgc-dates' })"
                     class="uline"
@@ -174,7 +175,7 @@ export default {
 
     <h3 id="cgc-dates">Important dates (GC)</h3>
     <ul>
-        <li>Submission of GC proposals: <strong class="text-danger">March 14, 2026</strong></li>
+        <li>Submission deadline extension for GC proposals: from March 14, 2026 to March 28, 2026</li>
         <li>Notification: March 30, 2026</li>
         <li>Camera-ready submission: April 12, 2026</li>
         <li>Graduate Colloquium: TBD, in May 2026</li>

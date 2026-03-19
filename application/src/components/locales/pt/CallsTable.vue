@@ -70,7 +70,8 @@
                 Colóquio de pós-graduação (GC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> 14 de março, 2026<br>
+            <strong class="text-primary text-gradient">Extensão do prazo de envio:</strong> 28 de março de 2026<br>
+            Estendido a partir de 14 de março de 2026<br>
         </div>
         </li>
     </ol>    

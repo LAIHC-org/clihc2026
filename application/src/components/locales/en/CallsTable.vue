@@ -70,7 +70,8 @@
                 Graduate Colloquium (GC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Deadline for submission:</strong> March 14, 2026<br>
+            <strong class="text-primary text-gradient">Submission deadline extension:</strong> March 28, 2026<br>
+            Extended from March 14, 2026<br>
         </div>
         </li>
     </ol>    
