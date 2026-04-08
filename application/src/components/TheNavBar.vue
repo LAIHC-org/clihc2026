@@ -258,6 +258,21 @@
 											</RouterLink>
 										</li>
 										<li>
+											<RouterLink :to="Tr.i18nRoute({ name: 'keynote-speakers' })" class="dropdown-item border-radius-md">
+												<div class="d-flex">
+													<div>
+														<span
+															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+															{{ $t("nav.keynotes") }}
+														</span>
+														<span class="text-sm text-dark">
+															{{ $t("nav.keynotes_message") }}
+														</span>
+													</div>
+												</div>
+											</RouterLink>
+										</li>
+										<li>
 											<a :href="scheduleHref('brazil')" class="dropdown-item border-radius-md">
 												<div class="d-flex">
 													<div>

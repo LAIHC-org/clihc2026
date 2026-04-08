@@ -86,5 +86,32 @@ export default {
                 </a>
             </p>
         </SpeakerItem>
+
+        <SpeakerItem venue="brazil">
+            <template #image>
+                <img
+                    src="/assets/img/people/annBlandford.png"
+                    alt="Ann Blandford"
+                    class="img-fluid shadow rounded-3"
+                />
+            </template>
+            <template #image-shadow>
+                <div
+                    class="colored-shadow"
+                    style="background-image: url('/assets/img/people/annBlandford.png')"
+                ></div>
+            </template>
+            <template #name> Dra. Ann Blandford </template>
+
+            Es Profesora de Interacción Humano-Computadora en el University College London
+            (UCL), con contribuciones pioneras en diseño centrado en las personas y
+            evaluación de sistemas interactivos.
+
+            <p class="mt-2">
+                <a :href="speakerHref('brazil', 'ann-blandford')" class="uline">
+                    Leer más sobre la Dra. Blandford
+                </a>
+            </p>
+        </SpeakerItem>
     </div>
 </template>

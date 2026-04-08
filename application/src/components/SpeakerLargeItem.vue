@@ -49,6 +49,9 @@ export default {
                                 <h2 class="mt-3 h4">
                                     <slot name="name"></slot>
                                 </h2>
+                                <p v-if="$slots.subtitle" class="text-sm text-dark mb-0 opacity-7">
+                                    <slot name="subtitle"></slot>
+                                </p>
                             </div>
                         </div>                        
                     </div>
