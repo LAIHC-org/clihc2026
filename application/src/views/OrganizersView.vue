@@ -776,7 +776,7 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt="Placeholder portrait"
+                                                <img src="/assets/img/people/MatheusAlves.png" alt="Placeholder portrait"
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
