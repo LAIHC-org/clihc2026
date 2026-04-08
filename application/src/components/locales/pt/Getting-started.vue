@@ -30,7 +30,7 @@ export default {
 
 	<h2 id="rates-and-registration" class="mt-5 h3">Inscrição e Pagamento:</h2>
 	<div>
-		<p>Para participar da conferência, o primeiro passo é o processo de pagamento e inscrição. Recomendamos verificar as informações relacionadas a  <RouterLink :to="Tr.i18nRoute({ name: 'registration' })" class="uline">{{ $t("nav.rates_and_registration") }}</RouterLink>, onde você encontrará detalhes sobre diferentes tarifas com base nas opções de participação, bem como custos de oficinas e informações de inscrição para autores.</p>
+		<p>Para participar da conferência, o primeiro passo é o processo de pagamento e inscrição. Acesse a página de <a :href="'https://brazil.clihc2026.laihc.org/' + $i18n.locale + '/registration'" class="uline">Inscrições Brasil</a> ou <a :href="'https://mexico.clihc2026.laihc.org/' + $i18n.locale + '/registration'" class="uline">Inscrições México</a>, onde você encontrará detalhes sobre diferentes tarifas com base nas opções de participação, bem como custos de oficinas e informações de inscrição para autores.</p>
 
 		<h3 class="h4">Instruções de Pagamento:</h3>
 

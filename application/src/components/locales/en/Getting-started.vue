@@ -35,8 +35,7 @@ export default {
 	<h2 id="rates-and-registration" class="mt-5 h3">Registration and Payment:</h2>
 	<div>
 		<p>To attend the conference, the first step is the payment and registration process. We recommend checking the
-			information related to <RouterLink :to="Tr.i18nRoute({ name: 'registration' })" class="uline">{{
-				$t("nav.rates_and_registration") }}</RouterLink>,, where you will find details on different rates based on
+			information on the <a :href="'https://brazil.clihc2026.laihc.org/' + $i18n.locale + '/registration'" class="uline">Registration Brazil</a> or <a :href="'https://mexico.clihc2026.laihc.org/' + $i18n.locale + '/registration'" class="uline">Registration Mexico</a> pages, where you will find details on different rates based on
 			participation options, as well as workshop costs and author registration information.</p>
 
 		<h3 class="h4">Payment Instructions:</h3>

@@ -134,14 +134,6 @@ const router = createRouter({
           },
         },
         {
-          path: 'registration',
-          name: 'registration',
-          component: () => import('../views/RegistrationView.vue'), 
-          meta: {
-            title: "CLIHC 2026 - Registration",
-          },
-        },
-        {
           path: 'accessibility-FAQ',
           name: 'accessibility-FAQ',
           component: () => import('../views/AccessibilityFAQView.vue'), 

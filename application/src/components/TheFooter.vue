@@ -98,9 +98,14 @@
                                 </RouterLink>
                             </li>                      
                             <li class="nav-item">
-                                <RouterLink :to="Tr.i18nRoute({ name: 'registration' })" class="nav-link uline">
-                                    {{ $t("nav.rates_and_registration") }}
-                                </RouterLink>
+                                <a :href="'https://brazil.clihc2026.laihc.org/' + $i18n.locale + '/registration'" class="nav-link uline">
+                                    {{ $t("nav.registration_brazil") }}
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a :href="'https://mexico.clihc2026.laihc.org/' + $i18n.locale + '/registration'" class="nav-link uline">
+                                    {{ $t("nav.registration_mexico") }}
+                                </a>
                             </li>
                         </ul>
                     </div>

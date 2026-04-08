@@ -28,7 +28,7 @@ const ROUTE_BREADCRUMB_CONFIG = {
   'keynote-speakers': { currentKey: 'nav.keynotes' },
   'accepted-papers': { currentKey: 'nav.accepted_papers' },
   'getting-started': { parentKey: 'nav.for_attendees', currentKey: 'nav.getting_started' },
-  registration: { parentKey: 'nav.for_attendees', currentKey: 'nav.rates_and_registration' },
+  registration: { parentKey: 'nav.for_attendees', currentKey: 'nav.registration' },
   'accessibility-FAQ': { currentKey: 'nav.accessibility_faqs' },
   videoArchives: { currentKey: 'breadcrumbs.pages.video_archives' },
   'not-found': { currentKey: 'breadcrumbs.pages.not_found' },

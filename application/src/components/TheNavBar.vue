@@ -43,6 +43,13 @@
 						: "https://mexico.clihc2026.laihc.org";
 				return `${base}/${Tr.currentLocale}/schedule`;
 			},
+			registrationHref(venue) {
+				const base =
+					venue === "brazil"
+						? "https://brazil.clihc2026.laihc.org"
+						: "https://mexico.clihc2026.laihc.org";
+				return `${base}/${Tr.currentLocale}/registration`;
+			},
 			venueHref(venue) {
 				return venue === "brazil"
 					? "https://brazil.clihc2026.laihc.org"
@@ -216,19 +223,41 @@
 												</div>
 											</RouterLink>
 										</li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown dropdown-hover mx-2">
+									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+										id="navbarDropdownReg"
+										role="button"
+										data-bs-toggle="dropdown"
+										aria-expanded="false"
+									>
+										{{ $t("nav.registration") }}
+										&nbsp;<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="currentColor" d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"/></svg>
+									</a>
+									<ul class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg"
+										aria-labelledby="navbarDropdownReg">
 										<li>
-											<RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
-												class="dropdown-item border-radius-md"
-											>											
+											<a :href="registrationHref('brazil')" class="dropdown-item border-radius-md">
 												<div class="d-flex">
 													<div>
-														<span
-															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-															{{ $t("nav.rates_and_registration") }}
+														<span class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+															{{ $t("nav.registration_brazil") }}
 														</span>
 													</div>
 												</div>
-											</RouterLink>
+											</a>
+										</li>
+										<li>
+											<a :href="registrationHref('mexico')" class="dropdown-item border-radius-md">
+												<div class="d-flex">
+													<div>
+														<span class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+															{{ $t("nav.registration_mexico") }}
+														</span>
+													</div>
+												</div>
+											</a>
 										</li>
 									</ul>
 								</li>
