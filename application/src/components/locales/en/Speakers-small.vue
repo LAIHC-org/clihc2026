@@ -84,6 +84,33 @@ export default {
                 </a>
             </p>
         </SpeakerItem>
+
+        <SpeakerItem venue="brazil">
+            <template #image>
+                <img
+                    src="/assets/img/people/annBlandford.png"
+                    alt="Ann Blandford"
+                    class="img-fluid shadow rounded-3"
+                />
+            </template>
+            <template #image-shadow>
+                <div
+                    class="colored-shadow"
+                    style="background-image: url('/assets/img/people/annBlandford.png')"
+                ></div>
+            </template>
+            <template #name> Prof. Ann Blandford </template>
+
+            She is Professor of Human-Computer Interaction at University College London
+            (UCL), with pioneering contributions to human-centered design and evaluation
+            of interactive systems.
+
+            <p class="mt-2">
+                <a :href="speakerHref('brazil', 'ann-blandford')" class="uline">
+                    Read more about Prof. Blandford
+                </a>
+            </p>
+        </SpeakerItem>
     </div>
     <!--
     <div class="row">

@@ -6,6 +6,37 @@ import SpeakerLargeItem from "@/components/SpeakerLargeItem.vue";
     <SpeakerLargeItem>
         <template #image>
             <img
+                id="ann-blandford"
+                class="img border-radius-lg w-100 position-relative z-index-2"
+                src="/assets/img/people/annBlandford.png"
+                alt="Ann Blandford"
+            />
+        </template>
+        <template #image-shadow>
+            <div
+                class="colored-shadow"
+                style="background-image: url('/assets/img/people/annBlandford.png')"
+            ></div>
+        </template>
+        <template #name> Dra. Ann Blandford </template>
+        <template #subtitle> ACM Distinguished Speaker Program </template>
+
+        <p>
+            Es Profesora de Interacción Humano-Computador en el University College
+            London (UCL). Se especializa en factores humanos para tecnologías de salud
+            digital. Ha liderado proyectos nacionales sobre el diseño de dispositivos
+            médicos interactivos para usabilidad y seguridad, y ha colaborado con
+            clínicos, ingenieros y socios de la industria en el diseño y evaluación de
+            tecnologías de salud interactivas para uso de clínicos, pacientes y apoyo
+            al cuidado compartido. Es Fellow de la British Computer Society y miembro
+            del UK Computing Research Committee. Es receptora del premio IFIP TC13
+            Pioneer y miembro de la ACM CHI Academy.
+        </p>
+    </SpeakerLargeItem>
+
+    <SpeakerLargeItem>
+        <template #image>
+            <img
                 id="luciana-zaina"
                 class="img border-radius-lg w-100 position-relative z-index-2"
                 src="/assets/img/people/lucianaZaina.png"
@@ -19,6 +50,7 @@ import SpeakerLargeItem from "@/components/SpeakerLargeItem.vue";
             ></div>
         </template>
         <template #name> Dra. Luciana Zaina </template>
+        <template #subtitle> Profesora Titular en UFSCar, Brasil · CNPq Fellow DT-2 </template>
 
         <p>
             Es Profesora Titular en el Departamento de Computación de la Universidad
@@ -57,6 +89,7 @@ import SpeakerLargeItem from "@/components/SpeakerLargeItem.vue";
             ></div>
         </template>
         <template #name> Dr. Pedro Reynolds-Cuéllar </template>
+        <template #subtitle> Investigador Científico en Robotics and AI Institute (RAI) </template>
 
         <p>
             Es Investigador Científico en el Robotics and AI Institute (RAI), donde
