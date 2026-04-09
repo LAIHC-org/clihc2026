@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as s,T as r}from"./index-DsMwbamK.js";const o={setup(){return{Tr:r}}},n={class:"mt-5 text-center"};function a(c,i,p,_,f,d){return e(),s("p",n,"La información sobre tarifas y registro estará disponible pronto.")}const m=t(o,[["render",a]]);export{m as default};

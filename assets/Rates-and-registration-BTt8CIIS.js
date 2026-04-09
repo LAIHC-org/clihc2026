@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as t,T as r}from"./index-CO7W6bcV.js";const o={setup(){return{Tr:r}}},a={class:"mt-5 text-center"};function n(c,i,p,_,f,d){return s(),t("p",a,"As informações sobre tarifas e registro estarão disponíveis em breve.")}const u=e(o,[["render",n]]);export{u as default};

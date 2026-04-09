@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as r}from"./index-rCLf6f2x.js";const o={},c={class:"text-white mb-0"};function n(s,i){return t(),r("h3",c,"Invites You to Join CLIHC, the Premier Forum for HCI Researchers and Practitioners in Latin America.")}const _=e(o,[["render",n]]);export{_ as default};

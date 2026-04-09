@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as s,T as c}from"./index-DsMwbamK.js";const o={setup(){return{Tr:c}}},a={class:"mt-5 text-center"};function r(n,l,_,p,d,i){return t(),s("p",a,"The detailed schedule will be available soon.")}const f=e(o,[["render",r]]);export{f as default};
