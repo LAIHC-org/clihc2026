@@ -19,19 +19,21 @@
         "for_authors": "Calls",
         "organizers": "Organizers",
         "cfp": "Call for papers",
-        "cfp_message": "Abstract deadline: March 1, 2026",
+        "cfp_message": "Abstract/Paper deadlines: March 9, 2026",
         "csp": "Call for short papers",
-        "csp_message": "Abstract deadline: March 2, 2026",
+        "csp_message": "Abstract/Paper deadlines: March 9, 2026",
         "cpt": "Call for poster track",
         "cpt_message": "Deadline: April 5, 2026",
         "cwt": "Call for workshops and tutorials",
         "cwt_message": "Deadline: March 9, 2026",
         "sdc": "Student design competition",
-        "sdc_message": "Deadline: March 5, 2026",
+        "sdc_message": "Deadline extension: March 16, 2026",
         "cgc": "Graduate colloquium",
-        "cgc_message": "Deadline: March 14, 2026",
+        "cgc_message": "Deadline extension: March 28, 2026",
         "accessibility_for_autors": "Accessibility recommendations for authors",
         "accessibility_for_autors_message": "Help us to maximize the experience for everyone",
+        "ethics_recommendations": "Ethics and responsible AI recommendations",
+        "ethics_recommendations_message": "Ethical guidance for submission preparation",
         "for_attendees_title": "For Attendees",
         "for_attendees": "For attendees",
         "getting_started_title": "Getting Started",
@@ -124,11 +126,14 @@
         "atalaia_description": "Organizes and coordinates the special workshop An Afternoon in: Atalaia, fostering local exchange and academic collaboration."
     },
     "accessibility": {
-        "title": "Accessibility Recommendations for Authors",
+        "title": "Accessibility recommendations for authors",
         "language_recommendations": "Language recommendations",
         "accessible_document": "Accessible document author recommendations",
         "accessible_slide": "Accessible slide author recommendations",
         "accessible_video": "Accessible video author recommendations"
+    },
+    "ethics": {
+        "title": "Guide to Recommendations for Responsible AI Use and Ethics in Submission Preparation"
     },
     "calls": {
         "title": "Call for Participation",
@@ -158,6 +163,7 @@
     },
     "accepted_papers": {
         "title": "Accepted Papers",
+        "full_papers": "Full Papers",
         "full_and_short_papers": "Full and Short Papers",
         "posters": "Posters",
         "graduate_colloquium": "Graduate Colloquium",

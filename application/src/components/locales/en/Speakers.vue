@@ -6,6 +6,37 @@ import SpeakerLargeItem from "@/components/SpeakerLargeItem.vue";
     <SpeakerLargeItem>
         <template #image>
             <img
+                id="ann-blandford"
+                class="img border-radius-lg w-100 position-relative z-index-2"
+                src="/assets/img/people/annBlandford.png"
+                alt="Ann Blandford"
+            />
+        </template>
+        <template #image-shadow>
+            <div
+                class="colored-shadow"
+                style="background-image: url('/assets/img/people/annBlandford.png')"
+            ></div>
+        </template>
+        <template #name> Dr. Ann Blandford </template>
+        <template #subtitle> ACM Distinguished Speaker Program </template>
+
+        <p>
+            Ann Blandford is Professor of Human-Computer Interaction at University
+            College London (UCL). She specialises in human factors for digital health
+            technologies. She has led national projects on designing interactive medical
+            devices for usability and safety and has collaborated with clinicians,
+            engineers and industry partners on the design and evaluation of interactive
+            health technologies for use by clinicians, patients and supporting shared
+            care. She is a Fellow of the British Computer Society and a member of the
+            UK Computing Research Committee. She is a recipient of an IFIP TC13 Pioneer
+            award and a member of the ACM CHI Academy.
+        </p>
+    </SpeakerLargeItem>
+
+    <SpeakerLargeItem>
+        <template #image>
+            <img
                 id="luciana-zaina"
                 class="img border-radius-lg w-100 position-relative z-index-2"
                 src="/assets/img/people/lucianaZaina.png"
@@ -19,6 +50,7 @@ import SpeakerLargeItem from "@/components/SpeakerLargeItem.vue";
             ></div>
         </template>
         <template #name> Dr. Luciana Zaina </template>
+        <template #subtitle> Full Professor at UFSCar, Brazil · CNPq Fellow DT-2 </template>
 
         <p>
             She is a Full Professor at the Department of Computing of the Federal
@@ -54,6 +86,7 @@ import SpeakerLargeItem from "@/components/SpeakerLargeItem.vue";
             ></div>
         </template>
         <template #name> Dr. Pedro Reynolds-Cuéllar </template>
+        <template #subtitle> Research Scientist at Robotics and AI Institute (RAI) </template>
 
         <p>
             He is a Research Scientist at the Robotics and AI Institute (RAI), conducting

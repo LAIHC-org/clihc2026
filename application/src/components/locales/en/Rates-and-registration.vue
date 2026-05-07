@@ -1,142 +1,169 @@
 <script>
-	import Tr from '@/i18n/translation'
+import Tr from '@/i18n/translation'
 
-	export default {
-		setup() {
-			return { Tr }
-		}
-	}
+export default {
+    setup() {
+        const nonSbcCategories = [
+            {
+                name: 'High school, technical, and undergraduate students',
+                price: 'R$ 140.00',
+                link: 'https://vendyno.goexplosion.com/checkout/conferencia-latino-americana-de-interacao-humano-computador/Estudante%20de%20Ensino%20M%C3%A9dio%2C%20T%C3%A9cnico%20e%20Gradua%C3%A7%C3%A3o'
+            },
+            {
+                name: 'Graduate students',
+                price: 'R$ 190.00',
+                link: 'https://vendyno.goexplosion.com/checkout/conferencia-latino-americana-de-interacao-humano-computador/Estudante%20de%20P%C3%B3s-Gradua%C3%A7%C3%A3o'
+            },
+            {
+                name: 'K-12 teachers',
+                price: 'R$ 215.00',
+                link: 'https://vendyno.goexplosion.com/checkout/conferencia-latino-americana-de-interacao-humano-computador/Professores%20do%20Ensino%20M%C3%A9dio%20e%20EBTT'
+            },
+            {
+                name: 'Professionals or higher education faculty',
+                price: 'R$ 355.00',
+                link: 'https://vendyno.goexplosion.com/checkout/conferencia-latino-americana-de-interacao-humano-computador/Profissionais%20e%20Professores%20do%20Magist%C3%A9rio%20Superior'
+            }
+        ]
+
+        const sbcCategories = [
+            {
+                name: 'High school, technical, and undergraduate students',
+                price: 'R$ 115.00',
+                link: 'https://vendyno.goexplosion.com/checkout/conferencia-latino-americana-de-interacao-humano-computador/%5BMembro%20SBC%5D%20Estudante%20de%20Ensino%20M%C3%A9dio%2C%20T%C3%A9cnico%20e%20Gradua%C3%A7%C3%A3o'
+            },
+            {
+                name: 'Graduate students',
+                price: 'R$ 160.00',
+                link: 'https://vendyno.goexplosion.com/checkout/conferencia-latino-americana-de-interacao-humano-computador/%5BMembro%20SBC%5D%20Estudante%20de%20P%C3%B3s-Gradua%C3%A7%C3%A3o'
+            },
+            {
+                name: 'K-12 teachers',
+                price: 'R$ 180.00',
+                link: 'https://vendyno.goexplosion.com/checkout/conferencia-latino-americana-de-interacao-humano-computador/%5BMembro%20SBC%5D%20Professores%20do%20Ensino%20M%C3%A9dio%20e%20EBTT'
+            },
+            {
+                name: 'Professionals or higher education faculty',
+                price: 'R$ 300.00',
+                link: 'https://vendyno.goexplosion.com/checkout/conferencia-latino-americana-de-interacao-humano-computador/%5BMembro%20SBC%5D%20Profissionais%20e%20Professores%20do%20Magist%C3%A9rio%20Superior'
+            }
+        ]
+
+        return { Tr, nonSbcCategories, sbcCategories }
+    }
+}
 </script>
 
 <template>
-	<!--
-    <h2 class="">To attend the entire conference</h2>
+    <p>
+        Weaving experiences across borders, CLIHC'2026 takes place in a distributed
+        manner between the venues of Aracaju and Oaxaca. Below you will find all the
+        information needed to register at the Brazilian venue and join this journey
+        between seas and mangroves:
+    </p>
 
-	<table class="table table-striped">
-		<caption>Cost table for attending the entire conference</caption>
-		<thead>
-			<tr>
-				<th scope="col">Description</th>
-				<th scope="col">MX</th>
-				<th scope="col">USD</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>In-person for professionals</td>
-				<td>$2500</td>
-				<td>$145</td>
-			</tr>
-			<tr>
-				<td>In-person for student authors</td>
-				<td>$1400</td>
-				<td>$87</td>
-			</tr>
-			<tr>
-				<td>In-person for non-author students</td>
-				<td>$500</td>
-				<td>$30</td>
-			</tr>
-			<tr>
-				<td>Virtual for professionals</td>
-				<td>$880</td>
-				<td>$55</td>
-			</tr>
-			<tr>
-				<td>Virtual for students</td>
-				<td>$270</td>
-				<td>$15</td>
-			</tr>
-		</tbody>
-		<tfoot>
-			<tr>
-				<td span="3"><strong>Note:</strong> Gala dinner and meals are not included in the registration fee.</td>
-			</tr>
-		</tfoot>
-	</table>
+    <ul>
+        <li>
+            Registrations for CLIHC'2026 in Aracaju are handled exclusively through the
+            Vendyno Platform.
+        </li>
+        <li>Registration fees are in Brazilian Reais (BRL).</li>
+        <li>
+            International participants may register for the Brazilian venue using an
+            international credit card.
+        </li>
+    </ul>
 
-	<h2 class="">To attend Tutorials/Workshops (limited seats)</h2>
+    <h3 class="mt-5">SBC membership discount rules</h3>
 
-	<table class="table table-striped">
-		<caption>Cost table for attending Tutorials/Workshops (limited seats)</caption>
-		<thead>
-			<tr>
-				<th scope="col">Description</th>
-				<th scope="col">MX</th>
-				<th scope="col">USD</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>In-person for professionals </td>
-				<td>$690 </td>
-				<td>$40</td>
-			</tr>
-			<tr>
-				<td>In-person for students</td>
-				<td>$270</td>
-				<td>$15</td>
-			</tr>
-			<tr>
-				<td>Virtual for professionals</td>
-				<td>$345</td>
-				<td>$20</td>
-			</tr>
-			<tr>
-				<td>Virtual for students</td>
-				<td>$85</td>
-				<td>$5</td>
-			</tr>
-		</tbody>
-		<tfoot>
-			<tr>
-				<td span="3"><strong>Note:</strong> Conference registration is a prerequisite for Tutorial and Workshop registration.</td>
-			</tr>
-		</tfoot>
-	</table>
+    <p>
+        As CLIHC'2026 is supported by the Brazilian Computer Society (SBC), members are
+        eligible for a registration discount. To benefit from this discount, you must:
+    </p>
 
-	<h2 class="">About author registration</h2>
+    <ol class="list-group list-group-numbered mb-3">
+        <li class="list-group-item">
+            Register using the specific link for the SBC-linked category;
+        </li>
+        <li class="list-group-item">
+            Send a valid 2026 SBC membership card to
+            <a href="mailto:clihc.conf@gmail.com" class="uline">clihc.conf@gmail.com</a>
+            within three days after registration. The email subject must begin with:
+            <strong>"[Inscrição - CLIHC26]"</strong>.
+        </li>
+    </ol>
 
-	<ol>
-		<li>
-			For publications with at least one professional author
-			<ol type="a">
-				<li>Each paper to be presented must have at least one professional author registered either in-person or virtually.</li>
-				<li>If multiple papers are associated with the same professional author, then for each additional publication, the registered author must pay (cancel) the publication fee (880 pesos), or alternatively, another professional author must register at least in the virtual mode.</li>
-			</ol>
-		</li>
-		<li>
-			For publications where all authors are students
-			<ol type="a">
-				<li>Each paper to be presented must have at least one author registered either in-person or virtually.</li>
-			</ol>
-		</li>
-		<li>
-			About discounts
-			<ol type="a">
-				<li>Registrants between September 15 and October 15 can register for Tutorials and Workshops at no additional cost.</li>
-				<li>50% discount for in-person registration of professors who register 5 students in the in-person mode.</li>
-				<li>100% discount for in-person registration of professors who register 10 students in this mode.</li>
-				<li>50% discount for in-person registration of professors who register 10 students in the virtual mode.</li>
-				<li>100% if they register 20 students in the virtual mode.</li>
-			</ol>
-		</li>
-	</ol>
+    <div class="alert alert-danger d-flex align-items-start rounded-3 p-3 mb-4 border-0 text-white" role="alert">
+        <i class="fas fa-exclamation-triangle me-3 mt-1 fs-5 flex-shrink-0"></i>
+        <div>
+            <strong>Warning:</strong>
+            Member registrations without a valid membership card submitted within three
+            days will be cancelled.
+        </div>
+    </div>
 
-    <section class="py-5 container" id="download-soft-ui">
-        <div class="bg-gradient-dark position-relative border-radius-xl overflow-hidden">
-            <img src="/assets/img/shapes/waves-white.svg" alt="" class="position-absolute start-0 top-md-0 w-100 opacity-6">
-            <div class="container py-7 postion-relative z-index-2 position-relative">
-                <div class="row">
-                    <div class="col-md-7 mx-auto text-center">                        
-                        <a href="https://true-werewolf-eternal.ngrok-free.app/" class="btn btn-lg  bg-gradient-yellow  btn-round">
-                          {{ $t("register.register_button") }}
+    <h3 class="mt-5">Non-SBC members</h3>
+
+    <div class="row g-4 mt-1">
+        <div
+            v-for="(cat, index) in nonSbcCategories"
+            :key="'non-sbc-' + index"
+            class="col-md-6 col-lg-3"
+        >
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body text-center d-flex flex-column">
+                    <h6 class="card-title fw-bold text-dark">{{ cat.name }}</h6>
+                    <div class="mt-auto pt-3">
+                        <p class="fs-3 fw-bold text-primary text-gradient mb-3">
+                            {{ cat.price }}
+                        </p>
+                        <a
+                            :href="cat.link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn bg-gradient-yellow btn-round w-100"
+                        >
+                            Register
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-	-->
-	<p class="mt-5 text-center">Information about rates and registration will be available soon.</p>
+    </div>
+
+    <h3 class="mt-5">SBC members</h3>
+
+    <div class="row g-4 mt-1 mb-5">
+        <div
+            v-for="(cat, index) in sbcCategories"
+            :key="'sbc-' + index"
+            class="col-md-6 col-lg-3"
+        >
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body text-center d-flex flex-column">
+                    <h6 class="card-title fw-bold text-dark">{{ cat.name }}</h6>
+                    <div class="mt-auto pt-3">
+                        <p class="fs-3 fw-bold text-primary text-gradient mb-3">
+                            {{ cat.price }}
+                        </p>
+                        <a
+                            :href="cat.link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn bg-gradient-yellow btn-round w-100"
+                        >
+                            Register
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="my-4" />
+
+    <p class="text-center">
+        For any questions, please contact us at
+        <a href="mailto:clihc.conf@gmail.com" class="uline">clihc.conf@gmail.com</a>.
+    </p>
 </template>

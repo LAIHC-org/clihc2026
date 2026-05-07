@@ -19,8 +19,9 @@ export default {
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
-                <strong class="text-primary text-gradient">Fecha límite de envío:</strong>
-                <strong class="text-danger"> 14 de marzo de 2026</strong><br />
+                <strong class="text-primary text-gradient">Extensión de la fecha límite de envío:</strong>
+                <strong class="text-danger"> 28 de marzo de 2026</strong><br />
+                Extendido desde el 14 de marzo de 2026.<br />
                 <RouterLink
                     :to="Tr.i18nRoute({ name: 'graduate-colloquium', hash: '#cgc-dates' })"
                     class="uline"
@@ -180,7 +181,7 @@ export default {
 
     <h3 id="cgc-dates">Fechas importantes (CG)</h3>
     <ul>
-        <li>Envío de propuestas del CG: <strong class="text-danger">14 de marzo de 2026</strong></li>
+        <li>Extensión de la fecha límite de envío del CG: del 14 de marzo de 2026 al 28 de marzo de 2026</li>
         <li>Notificación: 30 de marzo de 2026</li>
         <li>Envío de versión final: 12 de abril de 2026</li>
         <li>Coloquio de Posgrado: Por determinar, en mayo de 2026</li>

@@ -19,8 +19,9 @@ export default {
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
-                <strong class="text-primary text-gradient">Deadline for submission:</strong>
-                <strong class="text-danger"> March 5, 2026</strong><br />
+                <strong class="text-primary text-gradient">Submission deadline extension:</strong>
+                <strong class="text-danger"> Monday, March 16, 2026</strong><br />
+                Extended from Friday, March 13, 2026.<br />
                 <RouterLink
                     :to="Tr.i18nRoute({ name: 'student-design-competition', hash: '#sdc-dates' })"
                     class="uline"
@@ -33,9 +34,9 @@ export default {
 
     <h3 id="sdc-dates">Important Dates</h3>
     <ul>
-        <li>Submission deadline: Thursday, March 5, 2026</li>
-        <li>Notification of acceptance: Friday, April 3, 2026</li>
-        <li>Camera-ready deadline: Friday, April 17, 2026</li>
+        <li>Submission deadline extension: from Friday, March 13, 2026 to Monday, March 16, 2026</li>
+        <li>Notification of acceptance: Friday, April 10, 2026</li>
+        <li>Camera-ready deadline: Friday, April 24, 2026</li>
         <li>Event: May 6-9, Brazil; May 27-29, Mexico</li>
     </ul>
     <p>Deadlines are at midnight AoE (Anywhere on Earth).</p>
@@ -66,7 +67,10 @@ export default {
     <h3>The Design Challenge: Appropriate Solutions for All</h3>
     <p>
         Teams are invited to develop design proposals linked to one or more of the 17
-        Sustainable Development Goals (SDGs) defined by the United Nations:
+        <a href="https://sdgs.un.org/goals" class="uline"
+            >Sustainable Development Goals (SDGs)</a
+        >
+        defined by the United Nations:
     </p>
     <ul>
         <li>No Poverty</li>
@@ -238,9 +242,10 @@ export default {
     <p><strong>Submission Platform</strong></p>
     <p>
         All submissions must be made through the JEMS platform (Brazilian Computer
-        Society - SBC).
+        Society - SBC):
+        <a href="https://jems3.sbc.org.br/events/538" class="uline">JEMS platform</a>
     </p>
-    <p><strong>Deadline:</strong> Thursday, March 5, 2026</p>
+    <p><strong>Deadline extension:</strong> Monday, March 16, 2026 (extended from Friday, March 13, 2026)</p>
 
     <p>The initial submission must include all of the following materials:</p>
 
@@ -250,8 +255,17 @@ export default {
         <li>Maximum length: 5 pages, including references.</li>
         <li>
             The submission format for each category will follow the Brazilian Computer
-            Society template. Authors may choose to work in one of the following
-            formats: Microsoft Word and LaTeX (recommended), or Overleaf.
+            Society template. Authors may choose to work in one of the following formats:
+            <a
+                href="https://www.sbc.org.br/wp-content/uploads/2024/07/modelosparapublicaodeartigos.zip"
+                class="uline"
+                >Microsoft Word and LaTeX (recommended)</a
+            >, or
+            <a
+                href="https://www.overleaf.com/latex/templates/sbc-conferences-template-updated-sbc-template-dot-sty-v2017/pyhttxftxjqn"
+                class="uline"
+                >Overleaf</a
+            >.
         </li>
     </ul>
 
@@ -319,8 +333,13 @@ export default {
         Any content generated with the assistance of an LLM must be explicitly
         acknowledged whenever such tools are used for purposes beyond basic editing or
         proofreading of the authors' own text. Authors are responsible for reviewing
-        and complying with the ACM Policy on Authorship and with principles of
-        academic transparency.
+        and complying with the
+        <a
+            href="https://www.acm.org/publications/policies/new-acm-policy-on-authorship"
+            class="uline"
+            >ACM Policy on Authorship</a
+        >
+        and with principles of academic transparency.
     </p>
     <p>
         As part of the submission process, teams must include an explicit declaration
@@ -404,9 +423,18 @@ export default {
     </p>
     <p>
         The camera-ready version of the paper must strictly follow the official SBC
-        Microsoft Word, LaTeX (recommended), or Overleaf, as indicated in the submission
-        instructions. Detailed guidelines for preparing the final version will be
-        provided together with the acceptance notification.
+        <a
+            href="https://www.sbc.org.br/wp-content/uploads/2024/07/modelosparapublicaodeartigos.zip"
+            class="uline"
+            >Microsoft Word and LaTeX (recommended)</a
+        >, or
+        <a
+            href="https://www.overleaf.com/latex/templates/sbc-conferences-template-updated-sbc-template-dot-sty-v2017/pyhttxftxjqn"
+            class="uline"
+            >Overleaf</a
+        >, as indicated in the submission instructions. Detailed guidelines for
+        preparing the final version will be provided together with the acceptance
+        notification.
     </p>
     <p>
         In addition, corresponding authors will receive information regarding
@@ -522,6 +550,15 @@ export default {
         Competition - CLIHC 2026, and their work will be disseminated through the
         conference's official channels.
     </p>
+
+    <h3>Inquiries and Communication</h3>
+    <p>
+        For any questions concerning participation, submission procedures, eligibility criteria, or other aspects of the Student Design Competition (SDC), please contact the SDC organizing committee at:<br>
+        <a href="mailto:clihcsdc@gmail.com" class="uline">clihcsdc@gmail.com</a><br>
+        All inquiries will be addressed by the SDC Chairs in a timely manner.<br>
+        We encourage teams and supervisors to contact us whenever clarification or additional guidance is needed.
+    </p>
+
 
     <h3 class="my-4">{{ $t("organizers.student_design_competition_title") }}</h3>
     <div class="row">

@@ -20,7 +20,7 @@ export default {
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
                 <strong class="text-primary text-gradient">Submissão de resumos:</strong>
-                <strong class="text-danger"> 2 de março, 2026</strong><br />
+                <strong class="text-danger"> 9 de março, 2026</strong><br />
                 <strong class="text-primary text-gradient">Submissão de artigos:</strong>
                 <strong class="text-danger"> 9 de março, 2026</strong><br />
                 <RouterLink
@@ -111,13 +111,13 @@ export default {
     <h3>Sistema de submissão</h3>
     <p>
         Todas as submissões de Artigos Curtos devem ser feitas pelo JEMS3 – Journal and Event Management System:
-        <a href="https://jems3.sbc.org.br/events/510" class="uline">https://jems3.sbc.org.br/events/510</a>
+        <a href="https://jems3.sbc.org.br/events/535" class="uline">https://jems3.sbc.org.br/events/535</a>
     </p>
 
     <h3 id="csp-dates">Datas importantes</h3>
     <p>Todos os prazos são Anywhere on Earth (AoE), 23:59 hrs.</p>
     <ul>
-        <li>Prazo para envio de resumos: 2 de março, 2026</li>
+        <li>Prazo para envio de resumos: 9 de março, 2026</li>
         <li>Prazo para envio de artigos: <strong class="text-danger">9 de março, 2026</strong></li>
         <li>Notificação de aceitação: 30 de março, 2026</li>
         <li>Prazo para versão final (camera ready): 12 de abril, 2026</li>

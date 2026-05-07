@@ -190,6 +190,44 @@
 												</div>
 											</RouterLink>
 										</li>
+										<li>
+											<RouterLink
+												:to="Tr.i18nRoute({ name: 'accessibility-recommendations-for-authors' })"
+												class="dropdown-item border-radius-md"
+											>
+												<div class="d-flex">
+													<div>
+														<span
+															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+														>
+															{{ $t("nav.accessibility_for_autors") }}
+														</span>
+														<span class="text-sm text-dark">
+															{{ $t("nav.accessibility_for_autors_message") }}
+														</span>
+													</div>
+												</div>
+											</RouterLink>
+										</li>
+										<li>
+											<RouterLink
+												:to="Tr.i18nRoute({ name: 'ethics-recommendations-for-authors' })"
+												class="dropdown-item border-radius-md"
+											>
+												<div class="d-flex">
+													<div>
+														<span
+															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+														>
+															{{ $t("nav.ethics_recommendations") }}
+														</span>
+														<span class="text-sm text-dark">
+															{{ $t("nav.ethics_recommendations_message") }}
+														</span>
+													</div>
+												</div>
+											</RouterLink>
+										</li>
 									</ul>
 								</li>
 								<li class="nav-item dropdown dropdown-hover mx-2">
@@ -252,6 +290,21 @@
 														<span
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
 															{{ $t("nav.program_structure") }}
+														</span>
+													</div>
+												</div>
+											</RouterLink>
+										</li>
+										<li>
+											<RouterLink :to="Tr.i18nRoute({ name: 'keynote-speakers' })" class="dropdown-item border-radius-md">
+												<div class="d-flex">
+													<div>
+														<span
+															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+															{{ $t("nav.keynotes") }}
+														</span>
+														<span class="text-sm text-dark">
+															{{ $t("nav.keynotes_message") }}
 														</span>
 													</div>
 												</div>
@@ -332,43 +385,6 @@
 										href="./video-archives">
 										Video archives
 									</a>
-								</li>
-								-->
-								<!--
-								<li class="nav-item dropdown dropdown-hover mx-2">
-									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="#"
-										id="navbarDropdown4" role="button" data-bs-toggle="dropdown"
-										aria-expanded="false">
-										Accesibility
-										<img src="/assets/img/down-arrow-dark.svg" alt="Expand menu" class="arrow ms-1">
-									</a>
-									<ul class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg"
-										aria-labelledby="navbarDropdown4">
-										<li>
-											<a class="dropdown-item border-radius-md" href="#">
-												<div class="d-flex">
-													<div>
-														<span
-															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-															Accesibility FAQ
-														</span>
-													</div>
-												</div>
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item border-radius-md" href="#">
-												<div class="d-flex">
-													<div>
-														<span
-															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-															Accessibility recommendations for authors
-														</span>
-													</div>
-												</div>
-											</a>
-										</li>
-									</ul>
 								</li>
 								-->
 							</ul>
