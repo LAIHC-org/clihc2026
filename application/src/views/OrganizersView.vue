@@ -529,11 +529,11 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt="Placeholder portrait"
+                                                <img src="/assets/img/people/dani.png" alt="Daniela Cardoso"
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;/assets/img/nophoto.png&quot;);">
+                                                style="background-image: url(&quot;/assets/img/people/dani.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
