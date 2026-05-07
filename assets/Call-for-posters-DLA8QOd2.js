@@ -1,0 +1,1 @@
+import{O as e}from"./OrganizerItem-CHsmJMRw.js";import{_ as r,c as t,o as s,T as a}from"./index-Cm9dSbi8.js";const o={components:{OrganizerItem:e},setup(){return{Tr:a}}},n={class:"mt-6 text-center"};function c(p,m,_,i,d,f){return s(),t("p",n,"A chamada para pôsteres será anunciada em breve.")}const x=r(o,[["render",c]]);export{x as default};
