@@ -22,6 +22,7 @@ const ROUTE_BREADCRUMB_CONFIG = {
   'student-design-competition': { parentKey: 'nav.for_authors', currentKey: 'nav.sdc' },
   'graduate-colloquium': { parentKey: 'nav.for_authors', currentKey: 'nav.cgc' },
   'accessibility-recommendations-for-authors': { currentKey: 'accessibility.title' },
+  'ethics-recommendations-for-authors': { parentKey: 'nav.for_authors', currentKey: 'ethics.title' },
   organizers: { currentKey: 'nav.organizers' },
   schedule: { parentKey: 'nav.program', currentKey: 'nav.schedule' },
   'program-structure': { parentKey: 'nav.program', currentKey: 'nav.program_structure' },

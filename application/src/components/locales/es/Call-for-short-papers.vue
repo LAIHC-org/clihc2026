@@ -20,7 +20,7 @@ export default {
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
                 <strong class="text-primary text-gradient">Envío de resúmenes:</strong>
-                <strong class="text-danger"> 2 de marzo, 2026</strong><br />
+                <strong class="text-danger"> 9 de marzo, 2026</strong><br />
                 <strong class="text-primary text-gradient">Envío de artículos:</strong>
                 <strong class="text-danger"> 9 de marzo, 2026</strong><br />
                 <RouterLink
@@ -112,13 +112,13 @@ export default {
     <h3>Sistema de envío</h3>
     <p>
         Todos los envíos de Artículos Cortos deben realizarse a través de JEMS3 – Journal and Event Management System:
-        <a href="https://jems3.sbc.org.br/events/510" class="uline">https://jems3.sbc.org.br/events/510</a>
+        <a href="https://jems3.sbc.org.br/events/535" class="uline">https://jems3.sbc.org.br/events/535</a>
     </p>
 
     <h3 id="csp-dates">Fechas importantes</h3>
     <p>Todas las fechas límite son Anywhere on Earth (AoE), 23:59 hrs.</p>
     <ul>
-        <li>Fecha límite para envío de resúmenes: 2 de marzo, 2026</li>
+        <li>Fecha límite para envío de resúmenes: 9 de marzo, 2026</li>
         <li>Fecha límite para envío de artículos: <strong class="text-danger">9 de marzo, 2026</strong></li>
         <li>Notificación de aceptación: 30 de marzo, 2026</li>
         <li>Fecha límite de versión final (camera ready): 12 de abril, 2026</li>

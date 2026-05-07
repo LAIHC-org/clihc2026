@@ -17,8 +17,8 @@
                     Convocatoria de trabajos (CFP)
                 </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Envío de resúmenes:</strong> 1 de marzo, 2026<br>
-            <strong class="text-primary text-gradient">Envío de artículos:</strong> 8 de marzo, 2026<br>
+            <strong class="text-primary text-gradient">Envío de resúmenes:</strong> 9 de marzo, 2026<br>
+            <strong class="text-primary text-gradient">Envío de artículos:</strong> 9 de marzo, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -28,7 +28,7 @@
                     Convocatoria de artículos cortos (CSP)
                 </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Envío de resúmenes:</strong> 2 de marzo, 2026<br>
+            <strong class="text-primary text-gradient">Envío de resúmenes:</strong> 9 de marzo, 2026<br>
             <strong class="text-primary text-gradient">Envío de artículos:</strong> 9 de marzo, 2026<br>
         </div>
         </li>
@@ -59,7 +59,8 @@
                 Competencia de diseño para estudiantes (SDC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 5 de marzo, 2026<br>
+            <strong class="text-primary text-gradient">Extensión de la fecha límite de envío:</strong> 16 de marzo de 2026<br>
+            Extendida desde el 13 de marzo de 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -69,7 +70,8 @@
                 Coloquio de graduados (GC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 14 de marzo, 2026<br>
+            <strong class="text-primary text-gradient">Extensión de la fecha límite de envío:</strong> 28 de marzo de 2026<br>
+            Extendido desde el 14 de marzo de 2026<br>
         </div>
         </li>
     </ol>    

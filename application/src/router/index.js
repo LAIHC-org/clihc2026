@@ -86,6 +86,14 @@ const router = createRouter({
           },
         },
         {
+          path: 'ethics-recommendations-for-authors',
+          name: 'ethics-recommendations-for-authors',
+          component: () => import('../views/EthicsRecommendationsForAuthorsView.vue'),
+          meta: {
+            title: "CLIHC 2026 - Ethics recommendations for authors",
+          },
+        },
+        {
           path: 'organizers',
           name: 'organizers',
           component: () => import('../views/OrganizersView.vue'), 

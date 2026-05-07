@@ -19,19 +19,21 @@
         "for_authors": "Chamadas",
         "organizers": "Organizadores",
         "cfp": "Chamada de trabalhos",
-        "cfp_message": "Prazo (resumos): 1 de março de 2026",
+        "cfp_message": "Prazos (resumos/artigos): 9 de março de 2026",
         "csp": "Chamada de artigos curtos",
-        "csp_message": "Prazo (resumos): 2 de março de 2026",
+        "csp_message": "Prazos (resumos/artigos): 9 de março de 2026",
         "cpt": "Chamada para pôsteres",
         "cpt_message": "Prazo: 5 de abril de 2026",
         "cwt": "Chamada para workshops e tutoriais",
         "cwt_message": "Prazo: 9 de março de 2026",
         "sdc": "Competição de design estudantil",
-        "sdc_message": "Prazo: 5 de março de 2026",
+        "sdc_message": "Extensão do prazo: 16 de março de 2026",
         "cgc": "Colóquio de pós-graduação",
-        "cgc_message": "Prazo: 14 de março de 2026",
+        "cgc_message": "Extensão do prazo: 28 de março de 2026",
         "accessibility_for_autors": "Recomendações de acessibilidade para autores",
         "accessibility_for_autors_message": "Ajude-nos a maximizar a experiência para todos",
+        "ethics_recommendations": "Guia ético e uso responsável de IA",
+        "ethics_recommendations_message": "Orientações éticas para a preparação de trabalhos",
         "for_attendees_title": "Para participantes",
         "for_attendees": "Para participantes",
         "getting_started_title": "Primeiros Passos",
@@ -133,6 +135,9 @@
         "accessible_slide": "Recomendações para a criação de slides acessíveis",
         "accessible_video": "Recomendações para a criação de vídeos acessíveis"
     },
+    "ethics": {
+        "title": "Guia de Recomendações para Uso Responsável de IA e Ética na Preparação de Trabalhos"
+    },
     "calls": {
         "title": "Convocatória de participação",
         "cfp": "Chamada de trabalhos",
@@ -161,6 +166,7 @@
     },
     "accepted_papers": {
         "title": "Artigos Aceitos",
+        "full_papers": "Artigos Completos",
         "full_and_short_papers": "Artigos Completos e Resumos",
         "posters": "Pôsteres",
         "graduate_colloquium": "Colóquio de pos-graduação",

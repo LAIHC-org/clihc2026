@@ -529,11 +529,11 @@ export default {
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt="Placeholder portrait"
+                                                <img src="/assets/img/people/dani.png" alt="Daniela Cardoso"
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;/assets/img/nophoto.png&quot;);">
+                                                style="background-image: url(&quot;/assets/img/people/dani.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
@@ -955,9 +955,40 @@ export default {
                         <li>{{ $t("about.upcoming") }}</li>
                     </ul>
 
-                    <h3 class="h4">{{ $t("accepted_papers.full_and_short_papers") }}</h3>
-                    <ul>
-                        <li>{{ $t("about.upcoming") }}</li>
+                    <h3 class="h4">{{ $t("accepted_papers.full_papers") }}</h3>
+                    <ul class="program-committee-list list-unstyled mt-3">
+                        <li><div class="fw-bold">Ana Cristina Bicharra Garcia</div><div class="text-muted">Universidade Federal do Estado do Rio de Janeiro, Brazil</div></li>
+                        <li><div class="fw-bold">Ana Grasielle Dionísio Corrêa</div><div class="text-muted">Universidade Presbiteriana Mackenzie, Brazil</div></li>
+                        <li><div class="fw-bold">Andre Pimenta Freire</div><div class="text-muted">Universidade Federal de Lavras, Brazil</div></li>
+                        <li><div class="fw-bold">Anna Beatriz Marques</div><div class="text-muted">Universidade Federal do Ceará, Brazil</div></li>
+                        <li><div class="fw-bold">Bruna Diirr</div><div class="text-muted">Universidade Federal do Estado do Rio de Janeiro, Brazil</div></li>
+                        <li><div class="fw-bold">Carlos H. Morimoto</div><div class="text-muted">Universidade de São Paulo, Brazil</div></li>
+                        <li><div class="fw-bold">Caroline Queiroz Santos</div><div class="text-muted">Universidade Federal dos Vales do Jequitinhonha e Mucuri, Brazil</div></li>
+                        <li><div class="fw-bold">Ingrid Teixeira Monteiro</div><div class="text-muted">Universidade Federal do Ceará, Brazil</div></li>
+                        <li><div class="fw-bold">Ismar Frango Silveira</div><div class="text-muted">Universidade Presbiteriana Mackenzie, Brazil</div></li>
+                        <li><div class="fw-bold">Kamila Rodrigues</div><div class="text-muted">Universidade de São Paulo, Brazil</div></li>
+                        <li><div class="fw-bold">Leander Cordeiro de Oliveira</div><div class="text-muted">Universidade Tecnológica Federal do Paraná, Brazil</div></li>
+                        <li><div class="fw-bold">Leandro Guedes</div><div class="text-muted">Instituto Federal de Mato Grosso do Sul, Brazil</div></li>
+                        <li><div class="fw-bold">Leticia Machado</div><div class="text-muted">Universidade Federal do Rio Grande do Sul, Brazil</div></li>
+                        <li><div class="fw-bold">Luã Marcelo Muriana</div><div class="text-muted">Universidade Estadual de Campinas, Brazil</div></li>
+                        <li><div class="fw-bold">Lucineide Rodrigues da Silva</div><div class="text-muted">Universidade Federal de Mato Grosso do Sul, Brazil</div></li>
+                        <li><div class="fw-bold">Maria Lucia Bento Villela</div><div class="text-muted">Universidade Federal de Viçosa, Brazil</div></li>
+                        <li><div class="fw-bold">María Victoria Kubo</div><div class="text-muted">Universidad Autónoma de Baja California, Mexico</div></li>
+                        <li><div class="fw-bold">Mayara Costa Figueiredo</div><div class="text-muted">Universidade Federal do Pará, Brazil</div></li>
+                        <li><div class="fw-bold">Maylon Macedo</div><div class="text-muted">IFSP, Campus Itapetininga, Brazil</div></li>
+                        <li><div class="fw-bold">Milene Silveira</div><div class="text-muted">Pontifícia Universidade Católica do Rio Grande do Sul, Brazil</div></li>
+                        <li><div class="fw-bold">Monica Perusquia Hernandez</div><div class="text-muted">Nara Institute of Science and Technology, Japan</div></li>
+                        <li><div class="fw-bold">Mónica Carreño-León</div><div class="text-muted">Universidad Autónoma de Baja California Sur, Mexico</div></li>
+                        <li><div class="fw-bold">Rodrigo Oliveira Zacarias</div><div class="text-muted">Universidade Federal Fluminense, Brazil</div></li>
+                        <li><div class="fw-bold">Sara Wolf</div><div class="text-muted">Psychological Ergonomics, University of Würzburg (JMU), Germany</div></li>
+                        <li><div class="fw-bold">Suéllen Martinelli</div><div class="text-muted">Instituto Federal de Educação, Ciência e Tecnologia de São Paulo, Brazil</div></li>
+                        <li><div class="fw-bold">Taciana Pontual Falcão</div><div class="text-muted">Universidade Federal Rural de Pernambuco, Brazil</div></li>
+                        <li><div class="fw-bold">Thais H. C. Castro</div><div class="text-muted">Universidade Federal do Amazonas, Brazil</div></li>
+                        <li><div class="fw-bold">Valéria Farinazzo Martins</div><div class="text-muted">Universidade Presbiteriana Mackenzie, Brazil</div></li>
+                        <li><div class="fw-bold">Vania Paula Almeida Neris</div><div class="text-muted">Universidade Federal de São Carlos, Brazil</div></li>
+                        <li><div class="fw-bold">Walter Nakamura</div><div class="text-muted">Universidade Tecnológica Federal do Paraná, Brazil</div></li>
+                        <li><div class="fw-bold">Willian Garcias Assuncao</div><div class="text-muted">Universidade Federal de São Carlos, Brazil</div></li>
+                        <li><div class="fw-bold">Wilson Sarmiento</div><div class="text-muted">Universidad Militar Nueva Granada, Colombia</div></li>
                     </ul>
                 <p>
                     <RouterLink :to="Tr.i18nRoute({ name: 'organizers', hash: '#top'})" class="uline">
@@ -969,3 +1000,17 @@ export default {
         </div>
     </div>
 </section></template>
+
+<style scoped>
+.program-committee-list li {
+    break-inside: avoid;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .program-committee-list {
+        column-count: 2;
+        column-gap: 2rem;
+    }
+}
+</style>

@@ -17,8 +17,8 @@
                     Chamada de trabalhos (CFP)
                 </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Submissão de resumos:</strong> 1 de março, 2026<br>
-            <strong class="text-primary text-gradient">Submissão de artigos:</strong> 8 de março, 2026<br>
+            <strong class="text-primary text-gradient">Submissão de resumos:</strong> 9 de março, 2026<br>
+            <strong class="text-primary text-gradient">Submissão de artigos:</strong> 9 de março, 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -28,7 +28,7 @@
                     Chamada de artigos curtos (CSP)
                 </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Submissão de resumos:</strong> 2 de março, 2026<br>
+            <strong class="text-primary text-gradient">Submissão de resumos:</strong> 9 de março, 2026<br>
             <strong class="text-primary text-gradient">Submissão de artigos:</strong> 9 de março, 2026<br>
         </div>
         </li>
@@ -59,7 +59,8 @@
                 Competição de design estudantil (SDC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> 5 de março, 2026<br>
+            <strong class="text-primary text-gradient">Extensão do prazo de envio:</strong> 16 de março de 2026<br>
+            Estendido a partir de 13 de março de 2026<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -69,7 +70,8 @@
                 Colóquio de pós-graduação (GC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> 14 de março, 2026<br>
+            <strong class="text-primary text-gradient">Extensão do prazo de envio:</strong> 28 de março de 2026<br>
+            Estendido a partir de 14 de março de 2026<br>
         </div>
         </li>
     </ol>    
