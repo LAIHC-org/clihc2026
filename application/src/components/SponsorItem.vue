@@ -9,7 +9,8 @@ export default {
                     value === null ||
                     value === undefined ||
                     value === "brazil" ||
-                    value === "mexico"
+                    value === "mexico" ||
+                    value === "all"
                 );
             },
         },
