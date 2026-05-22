@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as r,T as t}from"./index-DQpL1_bu.js";const o={setup(){return{Tr:t}}},a={class:"mt-5 text-center"};function c(n,p,_,i,m,d){return s(),r("p",a,"As informações sobre o programa estarão disponíveis em breve.")}const u=e(o,[["render",c]]);export{u as default};

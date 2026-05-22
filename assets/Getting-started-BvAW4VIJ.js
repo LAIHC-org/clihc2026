@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as s,T as r}from"./index-DLrI3XqS.js";const a={setup(){return{Tr:r}}},n={class:"mt-5 text-center"};function o(c,_,i,p,l,d){return e(),s("p",n,"The Getting Started guide will be available soon.")}const f=t(a,[["render",o]]);export{f as default};

@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as s,T as a}from"./index-CO7W6bcV.js";const o={setup(){return{Tr:a}}},n={class:"mt-5 text-center"};function r(c,i,_,p,l,d){return e(),s("p",n,"Information about rates and registration will be available soon.")}const u=t(o,[["render",r]]);export{u as default};
