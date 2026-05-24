@@ -10,6 +10,30 @@ export default {
     return {
       Tr
     }
+  },
+  methods: {
+    doctorateTitle(gender) {
+      if (this.$i18n.locale === 'en') {
+        return 'Dr.'
+      }
+
+      return gender === 'f' ? 'Dra.' : 'Dr.'
+    },
+    masterTitle(gender) {
+      if (this.$i18n.locale === 'en') {
+        return 'M.Sc.'
+      }
+
+      if (this.$i18n.locale === 'es') {
+        return gender === 'f' ? 'Mtra.' : 'Mtro.'
+      }
+
+      if (this.$i18n.locale === 'pt') {
+        return gender === 'f' ? 'Ma.' : 'Me.'
+      }
+
+      return 'M.Sc.'
+    }
   }
 }
 </script>
@@ -89,7 +113,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dr. Jean Clemisson Santos Rosa
+                                            {{ doctorateTitle('m') }} Jean Clemisson Santos Rosa
                                         </template>
                                         <template #institution>
                                             Centro Universitário Maurício de Nassau de Aracaju (UNINASSAU), BR
@@ -111,7 +135,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dr. Gilton José Ferreira da Silva
+                                            {{ doctorateTitle('m') }} Gilton José Ferreira da Silva
                                         </template>
                                         <template #institution>
                                             Universidade Federal de Sergipe (UFS), BR
@@ -150,7 +174,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dra. Adriana Lopes Damian
+                                            {{ doctorateTitle('f') }} Adriana Lopes Damian
                                         </template>
                                         <template #institution>
                                             Instituto de Pesquisas Eldorado, BR
@@ -171,7 +195,7 @@ export default {
                                                 style="background-image: url(&quot;/assets/img/people/liz.jpg&quot;);"></div>
                                         </template>
                                         <template #name>
-                                            Dra. Lizbeth Escobedo
+                                            {{ doctorateTitle('f') }} Lizbeth Escobedo
                                         </template>
                                         <template #institution>
                                             Dalhousie University, CA
@@ -210,7 +234,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dra. Napoliana Souza
+                                            {{ doctorateTitle('f') }} Napoliana Souza
                                         </template>
                                         <template #institution>
                                             Universidade do Estado do Amapá (UEAP), BR
@@ -232,7 +256,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dra. Laura Sanely Gaytán Lugo
+                                            {{ doctorateTitle('f') }} Laura Sanely Gaytán Lugo
                                         </template>
                                         <template #institution>
                                             Universidad de Colima (UCOL), MX
@@ -271,7 +295,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dr. Daniel Domingos Alves
+                                            {{ doctorateTitle('m') }} Daniel Domingos Alves
                                         </template>
                                         <template #institution>
                                             Instituto Federal de Mato Grosso (IFMT), BR
@@ -293,7 +317,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dr. Juan Pablo Hourcade
+                                            {{ doctorateTitle('m') }} Juan Pablo Hourcade
                                         </template>
                                         <template #institution>
                                             University of Iowa (UIOWA), US
@@ -332,7 +356,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dra. Valéria Argôlo Rosa de Queiroz
+                                            {{ doctorateTitle('f') }} Valéria Argôlo Rosa de Queiroz
                                         </template>
                                         <template #institution>
                                             Universidade Estadual do Sudoeste da Bahia (UESB), BR
@@ -354,7 +378,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dr. Mario A. Moreno Rocha
+                                            {{ doctorateTitle('m') }} Mario A. Moreno Rocha
                                         </template>
                                         <template #institution>
                                             Universidad Tecnológica de la Mixteca (UTM), MX
@@ -393,7 +417,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dr. Lidiany Cerqueira Santos 
+                                            {{ doctorateTitle('f') }} Lidiany Cerqueira Santos
                                         </template>
                                         <template #institution>
                                             Universidade Federal de Sergipe (UFS), BR
@@ -415,7 +439,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            M.Sc. Carlos Alberto Martínez-Sandoval
+                                            {{ masterTitle('m') }} Carlos Alberto Martínez-Sandoval
                                         </template>
                                         <template #institution>
                                             Universidad Tecnológica de la Mixteca (UTM), MX
@@ -454,7 +478,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dr. Roberto Pereira
+                                            {{ doctorateTitle('m') }} Roberto Pereira
                                         </template>
                                         <template #institution>
                                             UFPR, BR    
@@ -476,7 +500,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dra. Claudia López Moncada
+                                            {{ doctorateTitle('f') }} Claudia López Moncada
                                         </template>
                                         <template #institution>
                                             Universidad Técnica Federico Santa María (UTFSM), CL
@@ -515,7 +539,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dr. Diego Zabot
+                                            {{ doctorateTitle('m') }} Diego Zabot
                                         </template>
                                         <template #institution>
                                             Universidade Federal da Bahia (UFBA), BR
@@ -537,7 +561,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            MSc. Daniela Cardoso Tavares
+                                            {{ masterTitle('f') }} Daniela Cardoso Tavares
                                         </template>
                                         <template #institution>
                                             Universidade Federal do Rio de Janeiro (UFRJ), BR
@@ -576,7 +600,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            M.Sc. Sergio Santana
+                                            {{ masterTitle('m') }} Sergio Santana
                                         </template>
                                         <template #institution>
                                             Centro Universitário Maurício de Nassau de Aracaju (UNINASSAU), BR
@@ -598,7 +622,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dra. Cassia Regina D Antonio Rocha da Silva
+                                            {{ doctorateTitle('f') }} Cassia Regina D Antonio Rocha da Silva
                                         </template>
                                         <template #institution>
                                             Universidade Tiradentes (UNIT), BR
@@ -659,7 +683,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dr. Ecivaldo Matos
+                                            {{ doctorateTitle('m') }} Ecivaldo Matos
                                         </template>
                                         <template #institution>
                                             Universidade de São Paulo (USP), BR
@@ -681,7 +705,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dr. Gilson Pereira dos Santos Júnior
+                                            {{ doctorateTitle('m') }} Gilson Pereira dos Santos Júnior
                                         </template>
                                         <template #institution>
                                             Instituto Federal de Sergipe (IFS), BR
@@ -722,7 +746,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dra. Ludmilla Fernandes Oliveira Galvão
+                                            {{ doctorateTitle('f') }} Ludmilla Fernandes Oliveira Galvão
                                         </template>
                                         <template #institution>
                                             Universidade Federal de Mato Grosso, BR
@@ -762,7 +786,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            M.Sc. Miguel A. Rodríguez-Ortiz
+                                            {{ masterTitle('m') }} Miguel A. Rodríguez-Ortiz
                                         </template>
                                         <template #institution>
                                             Universidad de Colima (UCOL), MX
@@ -823,7 +847,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dr. Victor Flávio de Andrade Araújo
+                                            {{ doctorateTitle('m') }} Victor Flávio de Andrade Araújo
                                         </template>
                                         <template #institution>
                                             Universidade Tiradentes (UNIT), BR
@@ -846,7 +870,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dr. Igor Libertador Silva
+                                            {{ doctorateTitle('m') }} Igor Libertador Silva
                                         </template>
                                         <template #institution>
                                             Universidade Tiradentes (UNIT), BR
@@ -887,7 +911,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dra. Soraia S. Prietch
+                                            {{ doctorateTitle('f') }} Soraia S. Prietch
                                         </template>
                                         <template #institution>
                                             Universidade Federal de Rondonópolis, BR<br>
@@ -910,7 +934,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Dr. Pedro Reynolds-Cuellar
+                                            {{ doctorateTitle('m') }} Pedro Reynolds-Cuellar
                                         </template>
                                         <template #institution>
                                             Massachusetts Institute of Technology (MIT), US
