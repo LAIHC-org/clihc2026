@@ -14,6 +14,14 @@
                         : "https://mexico.clihc2026.laihc.org";
                 return `${base}/${Tr.currentLocale}/schedule`;
             },
+            attendeeHref(venue) {
+                const base =
+                    venue === "brazil"
+                        ? "https://brazil.clihc2026.laihc.org"
+                        : "https://mexico.clihc2026.laihc.org";
+                const path = venue === "brazil" ? "getting-started" : "lodging";
+                return `${base}/${Tr.currentLocale}/${path}`;
+            },
             venueHref(venue) {
                 return venue === "brazil"
                     ? "https://brazil.clihc2026.laihc.org"
@@ -103,18 +111,13 @@
                         <h3 class="text-gradient text-secondary text-sm">{{ $t("nav.for_attendees_title") }}</h3>
                         <ul class="flex-column ms-n3 nav">
                             <li class="nav-item">
-                                <RouterLink :to="Tr.i18nRoute({ name: 'getting-started' })" class="nav-link uline">
-                                    {{ $t("nav.getting_started") }}
-                                </RouterLink>
-                            </li>                      
-                            <li class="nav-item">
-                                <a :href="'https://brazil.clihc2026.laihc.org/' + $i18n.locale + '/registration'" class="nav-link uline">
-                                    {{ $t("nav.registration_brazil") }}
+                                <a :href="attendeeHref('brazil')" class="nav-link uline">
+                                    {{ $t("nav.attendee_info_brazil") }}
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a :href="'https://mexico.clihc2026.laihc.org/' + $i18n.locale + '/registration'" class="nav-link uline">
-                                    {{ $t("nav.registration_mexico") }}
+                                <a :href="attendeeHref('mexico')" class="nav-link uline">
+                                    {{ $t("nav.attendee_info_mexico") }}
                                 </a>
                             </li>
                         </ul>
