@@ -415,7 +415,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Ms. Carlos Alberto Martínez-Sandoval
+                                            M.Sc. Carlos Alberto Martínez-Sandoval
                                         </template>
                                         <template #institution>
                                             Universidad Tecnológica de la Mixteca (UTM), MX
@@ -576,7 +576,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Ms. Sergio Santana
+                                            M.Sc. Sergio Santana
                                         </template>
                                         <template #institution>
                                             Centro Universitário Maurício de Nassau de Aracaju (UNINASSAU), BR
@@ -762,7 +762,7 @@ export default {
                                             </div>
                                         </template>
                                         <template #name>
-                                            Ms. Miguel A. Rodríguez-Ortiz
+                                            M.Sc. Miguel A. Rodríguez-Ortiz
                                         </template>
                                         <template #institution>
                                             Universidad de Colima (UCOL), MX
@@ -940,21 +940,6 @@ export default {
                         {{ $t("organizers.program_committee_title") }}
                     </h2>
                     
-                    <h3 class="h4">{{ $t("accepted_papers.student_design_competition") }}</h3>
-                    <ul>
-                        <li>{{ $t("about.upcoming") }}</li>
-                    </ul>
-
-                    <h3 class="h4">{{ $t("accepted_papers.workshops_and_tutorials") }}</h3>
-                    <ul>
-                        <li>{{ $t("about.upcoming") }}</li>
-                    </ul>
-                    
-                    <h3 class="h4">{{ $t("accepted_papers.posters") }}</h3>
-                    <ul>
-                        <li>{{ $t("about.upcoming") }}</li>
-                    </ul>
-
                     <h3 class="h4">{{ $t("accepted_papers.full_papers") }}</h3>
                     <ul class="program-committee-list list-unstyled mt-3">
                         <li><div class="fw-bold">Ana Cristina Bicharra Garcia</div><div class="text-muted">Universidade Federal do Estado do Rio de Janeiro, Brazil</div></li>

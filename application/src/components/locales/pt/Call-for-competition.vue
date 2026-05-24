@@ -601,7 +601,7 @@ export default {
                         style="background-image: url('/assets/img/people/cams.png')"
                     ></div>
                 </template>
-                <template #name> Ms. Carlos Alberto Martínez-Sandoval </template>
+                <template #name> M.Sc. Carlos Alberto Martínez-Sandoval </template>
                 <template #institution>
                     Universidad Tecnológica de la Mixteca (UTM), MX
                 </template>
