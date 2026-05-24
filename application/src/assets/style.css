@@ -55,7 +55,19 @@ nav.scrolled .navbar-toggler:focus-visible {
 
 .bg-gradient-yellow {
     background-image: linear-gradient(310deg, #a4352d 0%, #D85A28 100%);
-    color: White;
+    color: #fff;
+}
+
+.btn.bg-gradient-yellow:hover,
+.btn.bg-gradient-yellow:focus,
+.btn.bg-gradient-yellow:active {
+    background-image: linear-gradient(310deg, #8d2c25 0%, #bf4b1d 100%);
+    color: #fff;
+}
+
+.btn.bg-gradient-yellow:focus-visible {
+    outline: 2px solid #0F273E;
+    outline-offset: 2px;
 }
 
 .text-gradient.text-primary {
