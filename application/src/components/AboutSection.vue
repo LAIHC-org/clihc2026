@@ -1,12 +1,16 @@
 <script>
+import Tr from '@/i18n/translation'
 
-	import Tr from '@/i18n/translation'
-
-	export default {
-		setup() {
-			return { Tr }
+export default {
+	methods: {
+		mexicoRegistrationHref() {
+			return `https://mexico.clihc2026.laihc.org/${Tr.currentLocale}/registration`
 		}
+	},
+	setup() {
+		return { Tr }
 	}
+}
 </script>
 
 <template>
@@ -48,7 +52,12 @@
 								</tr>
 								<tr>
 									<th scope="row">{{ $t("about.registration") }}</th>
-									<td>{{ $t("nav.pending") }}</td>
+									<td>
+										<span class="me-3"><strong>BR:</strong> {{ $t("about.closed") }}</span>
+										<a :href="mexicoRegistrationHref()" class="ulink">
+											<strong>MX:</strong> {{ $t("about.open") }}
+										</a>
+									</td>
 								</tr>
 								<tr>
 									<th scope="row">{{ $t("about.proceedings") }}</th>
