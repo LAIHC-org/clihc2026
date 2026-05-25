@@ -3,8 +3,8 @@ import Tr from '@/i18n/translation'
 
 export default {
 	methods: {
-		mexicoRegistrationHref() {
-			return `https://mexico.clihc2026.laihc.org/${Tr.currentLocale}/registration`
+		registrationHref(venue) {
+			return `https://${venue}.clihc2026.laihc.org/${Tr.currentLocale}/registration`
 		}
 	},
 	setup() {
@@ -46,15 +46,17 @@ export default {
 											"
 											class="ulink"
 										>
-											<strong>{{ $t("about.open") }}</strong>
+											<strong>{{ $t("about.closed") }}</strong>
 										</RouterLink>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row">{{ $t("about.registration") }}</th>
 									<td>
-										<span class="me-3"><strong>BR:</strong> {{ $t("about.closed") }}</span>
-										<a :href="mexicoRegistrationHref()" class="ulink">
+										<a :href="registrationHref('brazil')" class="ulink me-3">
+											<strong>BR:</strong> {{ $t("about.closed") }}
+										</a>
+										<a :href="registrationHref('mexico')" class="ulink">
 											<strong>MX:</strong> {{ $t("about.open") }}
 										</a>
 									</td>
