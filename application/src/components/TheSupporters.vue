@@ -49,7 +49,28 @@ export default {
                                 >
                             </template>
                         </SponsorItem>
-                        
+
+                        <SponsorItem venue="all">
+                            <template #image>
+                                <img
+                                    src="/assets/img/logos/sigchi.png"
+                                    alt="ACM SIGCHI"
+                                    class="img-fluid shadow rounded-3"
+                                />
+                            </template>
+                            <template #image-shadow>
+                                <div
+                                    class="colored-shadow"
+                                    style="
+                                        background-image: url('/assets/img/logos/sigchi.png');
+                                    "
+                                ></div>
+                            </template>
+                            <template #name>
+                                <a class="uline" href="https://sigchi.org/">ACM SIGCHI</a>
+                            </template>
+                        </SponsorItem>
+
                     </div>
                 </div>
                 

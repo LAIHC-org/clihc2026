@@ -159,3 +159,9 @@ h1, .h1, .h1, h2, .h2, .h2, h3, .h3, .h3, h4, .h4, .h4, h5, .h5, .h5, h6, .h6, .
     --ribbon-color-mid: #278a57;
     --ribbon-color-dark: #1f6d46;
 }
+
+.card-ribbon--all {
+    --ribbon-color: #7b5ea7;
+    --ribbon-color-mid: #6d4f98;
+    --ribbon-color-dark: #573e7a;
+}

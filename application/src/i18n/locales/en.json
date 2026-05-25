@@ -6,7 +6,8 @@
     },
     "labels": {
         "venue_brazil": "Brazil Venue",
-        "venue_mexico": "Mexico Venue"
+        "venue_mexico": "Mexico Venue",
+        "venue_all": "Global"
     },
     "nav": {
         "sitemap": "Sitemap",
