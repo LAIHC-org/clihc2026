@@ -114,4 +114,60 @@ export default {
             </p>
         </SpeakerItem>
     </div>
+
+    <div class="row">
+        <SpeakerItem venue="mexico">
+            <template #image>
+                <img
+                    src="/assets/img/people/jpOurcade.jpg"
+                    alt="Juan Pablo Hourcade"
+                    class="img-fluid shadow rounded-3"
+                />
+            </template>
+            <template #image-shadow>
+                <div
+                    class="colored-shadow"
+                    style="background-image: url('/assets/img/people/jpOurcade.jpg')"
+                ></div>
+            </template>
+            <template #name> Dr. Juan Pablo Hourcade </template>
+
+            Referente en interacción humano-computadora e infancia, con trabajo centrado
+            en tecnologías que apoyan la creatividad, el bienestar y el acceso a la
+            información.
+
+            <p class="mt-2">
+                <a :href="speakerHref('mexico', 'jp-hourcade')" class="uline">
+                    Ver biografía completa
+                </a>
+            </p>
+        </SpeakerItem>
+
+        <SpeakerItem venue="mexico">
+            <template #image>
+                <img
+                    src="/assets/img/people/odile.png"
+                    alt="Odile Juárez"
+                    class="img-fluid shadow rounded-3"
+                />
+            </template>
+            <template #image-shadow>
+                <div
+                    class="colored-shadow"
+                    style="background-image: url('/assets/img/people/odile.png')"
+                ></div>
+            </template>
+            <template #name> Mtra. Odile Juárez </template>
+
+            Emprendedora mexicana y cofundadora de Mayordomm, impulsa una visión más
+            humana de la inteligencia artificial aplicada a la organización familiar y la
+            privacidad de datos.
+
+            <p class="mt-2">
+                <a :href="speakerHref('mexico', 'odile-juarez')" class="uline">
+                    Ver biografía completa
+                </a>
+            </p>
+        </SpeakerItem>
+    </div>
 </template>

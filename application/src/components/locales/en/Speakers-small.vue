@@ -112,40 +112,58 @@ export default {
             </p>
         </SpeakerItem>
     </div>
-    <!--
+
     <div class="row">
-        <SpeakerItem>
+        <SpeakerItem venue="mexico">
             <template #image>
-                <img src="/assets/img/people/claudia.png" alt="Claudia" class="img-fluid shadow rounded-3">
+                <img
+                    src="/assets/img/people/jpOurcade.jpg"
+                    alt="Juan Pablo Hourcade"
+                    class="img-fluid shadow rounded-3"
+                />
             </template>
             <template #image-shadow>
-                <div class="colored-shadow" style="background-image: url(&quot;/assets/img/people/claudia.png&quot;);"></div>
+                <div
+                    class="colored-shadow"
+                    style="background-image: url('/assets/img/people/jpOurcade.jpg')"
+                ></div>
             </template>
-            <template #name>
-                Dr. Claudia López Moncada
-            </template>
+            <template #name> Dr. Juan Pablo Hourcade </template>
 
-            Is an academic at the Department of Informatics at UTFSM in Valparaíso, Chile. She's also a researcher at the
-            National Center for Artificial Intelligence (CENIA) and the Millennium Nucleus for Future of Artificial
-            Intelligence Research (FAIR) in Chile. With a Ph.D. from the University of Pittsburgh, her work focuses on
-            human-computer interaction (HCI) and person-centered artificial intelligence.
+            A leading scholar in human-computer interaction and childhood, focused on
+            technologies that support creativity, well-being, and access to information.
+
+            <p class="mt-2">
+                <a :href="speakerHref('mexico', 'jp-hourcade')" class="uline">
+                    Read full bio
+                </a>
+            </p>
         </SpeakerItem>
 
-        <SpeakerItem>
+        <SpeakerItem venue="mexico">
             <template #image>
-                <img src="/assets/img/people/philippe.png" alt="Philippe" class="img-fluid shadow rounded-3">
+                <img
+                    src="/assets/img/people/odile.png"
+                    alt="Odile Juárez"
+                    class="img-fluid shadow rounded-3"
+                />
             </template>
             <template #image-shadow>
-                <div class="colored-shadow" style="background-image: url(&quot;/assets/img/people/philippe.png&quot;);"></div>
+                <div
+                    class="colored-shadow"
+                    style="background-image: url('/assets/img/people/odile.png')"
+                ></div>
             </template>
-            <template #name>
-                Dr. Philippe Palanque
-            </template>
+            <template #name> M.Sc. Odile Juárez </template>
 
-            Computer Science professor at the University of Toulouse 3, specializes in Command and Control Systems,
-            including drones, multimodal military interfaces, and aviation safety. With extensive research contributions,
-            he's an ACM SIGCHI CHI Academy member and chairs the IFIP Technical Assembly.
+            Mexican entrepreneur and co-founder of Mayordomm, advancing a more human
+            vision of artificial intelligence for family organization and data privacy.
+
+            <p class="mt-2">
+                <a :href="speakerHref('mexico', 'odile-juarez')" class="uline">
+                    Read full bio
+                </a>
+            </p>
         </SpeakerItem>
     </div>
-     -->
 </template>

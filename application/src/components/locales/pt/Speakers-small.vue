@@ -113,4 +113,59 @@ export default {
             </p>
         </SpeakerItem>
     </div>
+
+    <div class="row">
+        <SpeakerItem venue="mexico">
+            <template #image>
+                <img
+                    src="/assets/img/people/jpOurcade.jpg"
+                    alt="Juan Pablo Hourcade"
+                    class="img-fluid shadow rounded-3"
+                />
+            </template>
+            <template #image-shadow>
+                <div
+                    class="colored-shadow"
+                    style="background-image: url('/assets/img/people/jpOurcade.jpg')"
+                ></div>
+            </template>
+            <template #name> Dr. Juan Pablo Hourcade </template>
+
+            Referência em interação humano-computador e infância, com atuação voltada a
+            tecnologias que apoiam a criatividade, o bem-estar e o acesso à informação.
+
+            <p class="mt-2">
+                <a :href="speakerHref('mexico', 'jp-hourcade')" class="uline">
+                    Ver biografia completa
+                </a>
+            </p>
+        </SpeakerItem>
+
+        <SpeakerItem venue="mexico">
+            <template #image>
+                <img
+                    src="/assets/img/people/odile.png"
+                    alt="Odile Juárez"
+                    class="img-fluid shadow rounded-3"
+                />
+            </template>
+            <template #image-shadow>
+                <div
+                    class="colored-shadow"
+                    style="background-image: url('/assets/img/people/odile.png')"
+                ></div>
+            </template>
+            <template #name> Ma. Odile Juárez </template>
+
+            Empreendedora mexicana e cofundadora da Mayordomm, promove uma visão mais
+            humana da inteligência artificial aplicada à organização familiar e à
+            privacidade de dados.
+
+            <p class="mt-2">
+                <a :href="speakerHref('mexico', 'odile-juarez')" class="uline">
+                    Ver biografia completa
+                </a>
+            </p>
+        </SpeakerItem>
+    </div>
 </template>
