@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2026.3.0.0] - 2026-06-03
+
+### Added
+
+- Added author accessibility recommendations in English, Spanish, and Portuguese, including downloadable reference documentation.
+- Added ethics recommendations for authors in English, Spanish, and Portuguese, with a new route and navigation entry.
+- Added keynote speaker content and photos for the Brazil and Mexico venues.
+- Added SIGCHI to the supporters section and refreshed sponsor/supporter presentation.
+
+### Changed
+
+- Replaced the local registration page with external registration links for the Brazil and Mexico venue subdomains.
+- Updated the home registration summary to show venue-specific status and mark both BR and MX registration as closed.
+- Updated call deadlines and call-table metadata across EN/ES/PT for full papers, short papers, student design competition, and graduate colloquium.
+- Reorganized attendee navigation and footer links around venue-specific program, schedule, and registration destinations.
+- Refreshed organizer and program committee presentation, including localized academic degree labels and cleaned placeholder content.
+- Standardized speaker and organizer card imagery, ribbons, and layout behavior.
+
+### Fixed
+
+- Improved primary button hover contrast for accessibility.
+- Corrected short papers and student design competition contact/deadline information across localized call pages.
+
+
 ## [2026.2.0.3] - 2026-02-23
 
 ### Changed
